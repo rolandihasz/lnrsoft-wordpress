@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Authenticator &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/tag-base/authenticator/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Wed, 27 Mar 2019 11:44:39 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>Authenticator &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to Install Google Authenticator on Ubuntu Server</title>
+		<link>https://lnrsoft.com/static/how-to-install-google-authenticator-on-ubuntu-server/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 15 Mar 2019 23:49:23 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Authenticator]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Authenticator]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5322</guid>
+
+					<description><![CDATA[Install Google Authenticator]]></description>
+										<content:encoded><![CDATA[<p>Install Google Authenticator:</p>
+<pre class="lang:c++ decode:true ">sudo apt-get install libpam0g-dev make gcc wget autoconf libtool libpng-dev automake autotools-dev pkg-config libltdl-dev m4
+cd ~
+git clone https://github.com/google/google-authenticator-libpam.git
+cd google-authenticator-libpam
+./bootstrap.sh
+./configure
+make
+sudo make install</pre>
+<p>Install qrencode:</p>
+<pre class="lang:c++ decode:true ">cd ~
+wget https://fukuchi.org/works/qrencode/qrencode-4.0.2.tar.gz
+tar -xf qrencode-4.0.2.tar.gz
+cd qrencode-4.0.2/
+./configure
+make
+sudo make install
+sudo ldconfig</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

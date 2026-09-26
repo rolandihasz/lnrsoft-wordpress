@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linux &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/category-base/linux/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Wed, 02 Apr 2025 19:36:16 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>Linux &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to login and connect to NordVPN on Ubuntu Server</title>
+		<link>https://lnrsoft.com/static/how-to-login-and-connect-to-nordvpn-on-ubuntu-server/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 07 Apr 2022 15:45:57 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[NordVPN]]></category>
+		<category><![CDATA[Ubuntu Server]]></category>
+		<guid isPermaLink="false">https://lnrsoft.com/static/?p=7470</guid>
+
+					<description><![CDATA[Installing the latest NordVPN by opening the terminal, writing the command below, and following any on-screen instructions: sh &#60;(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh) Note: If you do not have a curl package, evidenced by the fact that the above does not work, you can alternatively use this command: sh &#60;(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) Additionally, if you receive [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Installing the latest NordVPN by opening the terminal, writing the command below, and following any on-screen instructions:</p>
+<p><code>sh &lt;(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)</code></p>
+<p>Note: If you do not have a curl package, evidenced by the fact that the above does not work, you can alternatively use this command:</p>
+<p><code>sh &lt;(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)</code></p>
+<p>Additionally, if you receive the following issue:<br />
+Whoops! Permission denied accessing /run/nordvpn/nordvpnd.sock, all you need to do is write the following command:</p>
+<p><code>sudo usermod -aG nordvpn $USER</code> # and then reboot your device.</p>
+<p>After installing NordVPN Linux Client you might get the following message when you try to login &#8220;nordvpn login&#8221;:<br />
+<em>Continue in the browser</em></p>
+<p>server@server:~$ nordvpn login<br />
+Continue in the browser: https://zwyr157wwiu6eior.com/v1/users&#8230;&#8230;</p>
+<p>There is a simple solution:<br />
+nordvpn login &#8211;legacy</p>
+<p>server@server:~$ nordvpn login &#8211;legacy<br />
+Please enter your login details.<br />
+Email:</p>
+<p>or even:<br />
+nordvpn login &#8211;username username &#8211;password password</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to disable the automatic ZFS snapshots on Ubuntu 20.04 with ZFS</title>
+		<link>https://lnrsoft.com/static/how-to-disable-the-automatic-zfs-snapshots-on-ubuntu-20-04-with-zfs/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 26 Feb 2022 10:41:30 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">https://lnrsoft.com/static/?p=7465</guid>
+
+					<description><![CDATA[Disable user snapshots systemctl --user stop zsys-user-savestate.timer systemctl --user disable zsys-user-savestate.timer Disable system snapshots sudo mv /etc/apt/apt.conf.d/90_zsys_system_autosnapshot /etc/apt/apt.conf.d/90_zsys_system_autosnapshot.disabled Re-enable user snapshots systemctl --user start zsys-user-savestate.timer systemctl --user enable zsys-user-savestate.timer Re-enable system snapshots sudo mv /etc/apt/apt.conf.d/90_zsys_system_autosnapshot.disabled /etc/apt/apt.conf.d/90_zsys_system_autosnapshot]]></description>
+										<content:encoded><![CDATA[<p>Disable user snapshots</p>
+<pre class="lang:c++ decode:true " >systemctl --user stop zsys-user-savestate.timer
+systemctl --user disable zsys-user-savestate.timer</pre>
+<p>Disable system snapshots</p>
+<pre class="lang:c++ decode:true " >sudo mv /etc/apt/apt.conf.d/90_zsys_system_autosnapshot /etc/apt/apt.conf.d/90_zsys_system_autosnapshot.disabled
+</pre>
+<p>Re-enable user snapshots</p>
+<pre class="lang:c++ decode:true " >systemctl --user start zsys-user-savestate.timer
+systemctl --user enable zsys-user-savestate.timer</pre>
+<p>Re-enable system snapshots</p>
+<pre class="lang:c++ decode:true " >sudo mv /etc/apt/apt.conf.d/90_zsys_system_autosnapshot.disabled /etc/apt/apt.conf.d/90_zsys_system_autosnapshot
+</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2021 Updated! Install WordPress on Ubuntu Server with add-on features as HTTPS support, SSL certificate and HTTP2 supports</title>
+		<link>https://lnrsoft.com/static/linuxinstall-wordpress-on-ubuntu-server-with-add-on-features-as-https-support-ssl-certificate-and-http2-supports/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 07 Jun 2021 23:33:33 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[blog php]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5341</guid>
+
+					<description><![CDATA[sudo apt-get install apache2 apache2-utils sudo systemctl enable apache2 sudo systemctl start apache2 sudo apt-get install mysql-client mysql-server sudo apt-get install php7.4 php7.4-mysql libapache2-mod-php7.4 php7.4-cli php7.4-cgi php7.4-gd sudo nano /var/www/html/info.php &#60;?php phpinfo(); ?&#62; This is only for info about the server configuration and settings etc, very highly recommended to remove it after the initial test. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:c++ decode:true ">sudo apt-get install apache2 apache2-utils 
+sudo systemctl enable apache2
+sudo systemctl start apache2
+sudo apt-get install mysql-client mysql-server
+sudo apt-get install php7.4 php7.4-mysql libapache2-mod-php7.4 php7.4-cli php7.4-cgi php7.4-gd  
+sudo nano  /var/www/html/info.php</pre>
+<pre class="lang:c++ decode:true">&lt;?php 
+phpinfo();
+?&gt;</pre>
+<pre class="lang:c++ decode:true">This is only for info about the server configuration and settings etc, very highly recommended to remove it after the initial test.
+Simply:
+sudo rm -rf /var/www/html/info.php
+sudo a2enmod rewrite
+
+sudo apache2ctl configtest
+(You might get a "AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message")
+There is an easy fix: 
+sudo nano /etc/apache2/apache2.conf
+Then Just add a line like this: 
+ServerName 127.0.0.1
+This should solve the issue.
+
+
+It's time to download and deploy the latest wordpress version.
+wget -c http://wordpress.org/latest.tar.gz
+tar -xzvf latest.tar.gz
+sudo rsync -av wordpress/* /var/www/html
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
+cd /var/www/html</pre>
+<pre class="lang:c++ decode:true">mysql -u root -p</pre>
+<pre class="lang:c++ decode:true">CREATE DATABASE dbuser;
+CREATE USER 'dbuser'@'localhost' IDENTIFIED BY 'YourPassword';
+GRANT ALL PRIVILEGES ON dbuser.* TO 'dbuser'@'localhost';
+FLUSH PRIVILEGES;
+
+There are several methods to determine what is our current password strength, and we can make it stronger if required.
+I usually use these methods:
+
+SHOW VARIABLES LIKE 'validate_password%';
+SHOW VARIABLES LIKE 'default_authentication_plugin';
+
+then if I need to modify something here are some useful variable settings:
+
+SET GLOBAL validate_password.LENGTH = 8;
+SET GLOBAL validate_password.policy=2;
+SET GLOBAL validate_password.policy=MEDIUM;
+SET GLOBAL validate_password.mixed_case_count = 1;
+SET GLOBAL validate_password.number_count = 1;
+SET GLOBAL validate_password.special_char_count = 1;
+SET GLOBAL validate_password.check_user_name = 0; 
+
+</pre>
+<pre class="lang:c++ decode:true">cd /var/www/html
+sudo mv wp-config-sample.php wp-config.php
+
+In the wp-config.php we will set our own database name , username password ,and host name/address.
+
+sudo nano wp-config.php 
+
+sudo systemctl restart apache2.service 
+sudo systemctl restart mysql.service</pre>
+<p>If we carefully followed all my steps above , you should have a running wordpress page by now.<br />
+You might need to run as the wordpress uses php file extensions.<br />
+sudo rm -rf /var/www/html/index.html</p>
+<p><strong>Enable HTTPS supports:</strong></p>
+<p>Create a <em>ssl-params.conf file</em> and add the following definition below to it, then save it.</p>
+<pre class="lang:apache decode:true ">$ sudo nvim /etc/apache2/conf-available/ssl-params.conf 
+</pre>
+<pre class="lang:apache decode:true"># Cipherli.st Strong Ciphers for Apache url: https://cipherli.st/
+# Addong some Strong SSL Security on Apache2
+SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
+SSLProtocol All -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
+SSLHonorCipherOrder On
+Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+Header always set X-Frame-Options DENY
+Header always set X-Content-Type-Options nosniff
+# Requires Apache &gt;= 2.4
+SSLCompression off
+SSLUseStapling on
+SSLStaplingCache "shmcb:logs/stapling-cache(150000)"
+# Requires Apache &gt;= 2.4.11
+SSLSessionTickets Off</pre>
+<p>Next thing to do is create a backup of the original default-ssl.conf file.</p>
+<pre class="lang:apache decode:true ">$ sudo cp /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf.bak</pre>
+<p>Then modify it accordingly, we are deploying a wordpress site in this particular example we use the following adjustments.</p>
+<pre class="lang:apache decode:true ">ServerName lnrsoft.ddns.net
+ServerAlias lnrsoft.ddns.net
+
+Redirect permanent / https://lnrsoft.ddns.net/
+DocumentRoot /var/www/html
+
+Protocols h2 http:/1.1
+
+&lt;If "%{HTTP_HOST} == 'lnrsoft.ddns.net'"&gt;
+    Redirect permanent / https://lnrsoft.ddns.net/
+
+SSLEngine on
+  
+Options FollowSymLinks
+AllowOverride All
+Require all granted
+  
+SSLProtocol +TLSv1.2
+
+</pre>
+<p><strong>Enable HTTP2 supports:</strong></p>
+<pre class="lang:c++ decode:true">&lt;VirtualHost *:443&gt;
+  ServerName lnrsoft.ddns.net
+  ServerAlias lnrsoft.ddns.net
+
+  Protocols h2 http:/1.1
+
+  &lt;If "%{HTTP_HOST} == 'lnrsoft.ddns.net'"&gt;
+    Redirect permanent / https://lnrsoft.ddns.net/
+  &lt;/If&gt;
+
+  DirectoryIndex index.html index.php
+  DocumentRoot /var/www            
+
+  ErrorLog ${APACHE_LOG_DIR}/lnrsoft.ddns.net.log
+  CustomLog ${APACHE_LOG_DIR}/lnrsoft.ddns.net-access.log combined
+
+  SSLEngine On
+  SSLCertificateFile /etc/letsencrypt/live/lnrsoft.ddns.net/cert.pem
+  SSLCertificateKeyFile /etc/letsencrypt/live/lnrsoft.ddns.net/privkey.pem
+  SSLCertificateChainFile /etc/letsencrypt/live/lnrsoft.ddns.net/chain.pem
+
+  &lt;Directory /var/www&gt;
+      Options FollowSymLinks
+      AllowOverride All
+      Require all granted
+  &lt;/Directory&gt;
+
+&lt;/VirtualHost&gt;</pre>
+<p>It is also recommended adding strong ciphers for Apache to increase SSL Security on the server.<br />
+Part of my Best Practices to deploy a secure webserver, virtual personal server or database serve is to add the recommended ciphers from <a href="https://www.ssllabs.com/ssltest/">SSL Server Test</a>.</p>
+<p>How to Enable HTTP2 in Apache 2.4 on Ubuntu</p>
+<pre class="lang:c++ decode:true ">### Step 1: Upgrade Apache from PPA
+
+sudo add-apt-repository ppa:ondrej/apache2
+sudo apt update
+sudo apt upgrade
+
+### Step 2: Install the PHP FastCGI module for PHP 7.4
+
+sudo apt install php7.4-fpm 
+sudo a2enmod proxy_fcgi setenvif
+sudo a2enconf php7.4-fpm 
+sudo a2dismod php7.4 
+sudo service apache2 restart
+
+### Step 3: Change MPM from "prefork" to "event"
+
+sudo a2dismod mpm_prefork 
+sudo a2enmod mpm_event 
+sudo service apache2 restart 
+sudo service php7.4-fpm restart
+
+### Step 4: Add a line to your Virtual Host file
+
+Protocols h2 h2c http/1.1
+
+### Step 5: Enable the mod_http2 Apache module
+
+sudo a2enmod http2
+sudo service apache2 restart
+
+### Step 6: Test your Apache server for HTTP/2
+
+https://http2.pro/</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Netdata the ultimate performance monitoring tool for Linux</title>
+		<link>https://lnrsoft.com/static/netdata-the-ultimate-performance-monitoring-tool-for-linux/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 07 Nov 2019 04:22:10 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[netdata]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=6948</guid>
+
+					<description><![CDATA[Website: my-netdata.io Installation: bash &#60;(curl -Ss https://my-netdata.io/kickstart.sh)]]></description>
+										<content:encoded><![CDATA[<p>Website: <a href="https://my-netdata.io/">my-netdata.io</a></p>
+<p>Installation:</p>
+<pre class="prettyprint">bash &lt;(curl -Ss https://my-netdata.io/kickstart.sh)</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>vnStat &#8211; a brilliant open source console-based network traffic monitor for Linux</title>
+		<link>https://lnrsoft.com/static/vnstat-a-brilliant-open-source-console-based-network-traffic-monitor-for-linux/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 15 Sep 2019 18:20:03 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[networking]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=6893</guid>
+
+					<description><![CDATA[vnStat is a console-based network traffic monitor for Linux and BSD that keeps a log of network traffic for the selected interface(s). Features: Quick and simple to install and get running. Gathered statistics persists through system reboots. Can monitor multiple interfaces at the same time. Several output options. Summary, 5 minute, hourly, daily, monthly, weekly, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://humdi.net/vnstat/">vnStat</a> is a console-based network traffic monitor for Linux and BSD that keeps a log of network traffic for the selected interface(s).<br />
+Features:<br />
+Quick and simple to install and get running.<br />
+Gathered statistics persists through system reboots.<br />
+Can monitor multiple interfaces at the same time.<br />
+Several output options.<br />
+Summary, 5 minute, hourly, daily, monthly, weekly, yearly, top days.<br />
+Optional png image output (using libgd).<br />
+Data retention duration is fully user configurable on the fly.<br />
+Months can be configured to follow billing period.<br />
+Light, minimal resource usage.<br />
+Same low cpu usage regardless of traffic.<br />
+Can be used without root permissions.<br />
+Online color configuration editor.<br />
+ <a href="https://humdi.net/vnstat/">humdi.net/vnstat/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Hardware Probe Tool for Linux</title>
+		<link>https://lnrsoft.com/static/hardware-probe-tool-for-linux/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 15 Sep 2019 17:11:39 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Hardware Probe Tool]]></category>
+		<category><![CDATA[HW Probe]]></category>
+		<category><![CDATA[linux]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=6891</guid>
+
+					<description><![CDATA[This project really deserves a post, just came across with it and will definitively use it. The HW PROBE project aim to collect hardware details of Linux-powered computers over the world and help Linux users and developers to collaboratively debug hardware related issues. [wp-svg-icons icon=&#8221;github-3&#8243; wrap=&#8221;i&#8221;] github.com/linuxhw/hw-probe There are other very useful tools on their [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This project really deserves a post, just came across with it and will definitively use it. The <a href="https://linux-hardware.org/">HW PROBE</a> project aim to collect hardware details of Linux-powered computers over the world and help Linux users and developers to collaboratively debug hardware related issues.<br />
+[wp-svg-icons icon=&#8221;github-3&#8243; wrap=&#8221;i&#8221;] <a href="https://github.com/linuxhw/hw-probe">github.com/linuxhw/hw-probe</a></p>
+<p>There are other very useful tools on their main git repository, if you need to collect more specific hardware details, these tools will come very useful.<br />
+[wp-svg-icons icon=&#8221;github-3&#8243; wrap=&#8221;i&#8221;] <a href="https://github.com/linuxhw">github.com/linuxhw</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Install Oracle Java 12 on Ubuntu</title>
+		<link>https://lnrsoft.com/static/install-oracle-java-12-on-ubuntu/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 04 May 2019 11:01:37 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Java(TM) SE Runtime Environment]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<category><![CDATA[Ubuntu Server]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5439</guid>
+
+					<description><![CDATA[You need to add the PPA. (Surce: “Linux Uprising” team) Install: sudo add-apt-repository ppa:linuxuprising/java sudo apt-get update sudo apt-get install oracle-java12-installer sudo apt-get install oracle-java12-set-default For multiple java versions, install [or uninstall] oracle-java12-set-default package to set [or not] Java 12 as default. Verify: post@lnrsoft:$ java --version java 12.0.1 2019-04-16 Java(TM) SE Runtime Environment (build 12.0.1+12) [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You need to add the PPA. (Surce: <a href="https://launchpad.net/~linuxuprising/+archive/ubuntu/java">“Linux Uprising” team</a>)<br />
+Install:</p>
+<pre class="lang:c++ decode:true ">sudo add-apt-repository ppa:linuxuprising/java
+sudo apt-get update
+sudo apt-get install oracle-java12-installer
+sudo apt-get install oracle-java12-set-default 
+</pre>
+<p>For multiple java versions, install [or uninstall] oracle-java12-set-default package to set [or not] Java 12 as default.<br />
+Verify:</p>
+<pre class="lang:c++ decode:true ">post@lnrsoft:$ java --version
+java 12.0.1 2019-04-16
+Java(TM) SE Runtime Environment (build 12.0.1+12)
+Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing)</pre>
+<p>Remove it: &#8230; use the following command if you need to uninstall it:</p>
+<pre class="lang:c++ decode:true ">sudo apt-get remove oracle-java13-installer
+</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Install Google Authenticator on Ubuntu Server</title>
+		<link>https://lnrsoft.com/static/how-to-install-google-authenticator-on-ubuntu-server/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 15 Mar 2019 23:49:23 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Authenticator]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Authenticator]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5322</guid>
+
+					<description><![CDATA[Install Google Authenticator]]></description>
+										<content:encoded><![CDATA[<p>Install Google Authenticator:</p>
+<pre class="lang:c++ decode:true ">sudo apt-get install libpam0g-dev make gcc wget autoconf libtool libpng-dev automake autotools-dev pkg-config libltdl-dev m4
+cd ~
+git clone https://github.com/google/google-authenticator-libpam.git
+cd google-authenticator-libpam
+./bootstrap.sh
+./configure
+make
+sudo make install</pre>
+<p>Install qrencode:</p>
+<pre class="lang:c++ decode:true ">cd ~
+wget https://fukuchi.org/works/qrencode/qrencode-4.0.2.tar.gz
+tar -xf qrencode-4.0.2.tar.gz
+cd qrencode-4.0.2/
+./configure
+make
+sudo make install
+sudo ldconfig</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[Linux] Enable universe, multiverse and restricted repositories on Ubuntu</title>
+		<link>https://lnrsoft.com/static/linux-enable-universe-multiverse-and-restricted-ubuntu-repositories-from-command-line/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 05 Sep 2018 08:06:59 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[multiverse]]></category>
+		<category><![CDATA[restricted]]></category>
+		<category><![CDATA[Ubuntu repositories]]></category>
+		<category><![CDATA[Ubuntu Server]]></category>
+		<category><![CDATA[universe]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=4572</guid>
+
+					<description><![CDATA[Use the following terminal commands to enable universe, multiverse and restricted repositories on your Ubuntu system. It works well on the latest Ubuntu Server 18.04 LTS sudo add-apt-repository main sudo add-apt-repository universe sudo add-apt-repository restricted sudo add-apt-repository multiverse sudo apt update]]></description>
+										<content:encoded><![CDATA[<p>Use the following terminal commands to enable universe, multiverse and restricted repositories on your Ubuntu system. It works well on the latest Ubuntu Server 18.04 LTS</p>
+<pre class="lang:c++ decode:true " >sudo add-apt-repository main
+sudo add-apt-repository universe
+sudo add-apt-repository restricted
+sudo add-apt-repository multiverse
+sudo apt update</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to temporarily disable IPv6 on Ubuntu? You need to diagnose a communication issue or track down a network problem?</title>
+		<link>https://lnrsoft.com/static/disable-ipv6-on-ubuntu/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 27 Jun 2018 17:09:09 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Disable IPv6]]></category>
+		<category><![CDATA[IPv6]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=4458</guid>
+
+					<description><![CDATA[IPv6 provides solution of the IPv4 address exhaustion as it’s offering a much larger addressing space. However, there are few instances in which IPv6 is casing network problems. Some hardware doesn&#8217;t utilize it or take any advantages of IPv6 communications protocol. There are instances in which the temporary and easy solution is to (permanently) disable [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>IPv6 provides solution of the IPv4 address exhaustion as it’s offering a much larger addressing space.<br />
+However, there are few instances in which IPv6 is casing network problems.<br />
+Some hardware doesn&#8217;t utilize it or take any advantages of IPv6 communications protocol. There are instances in which the temporary and easy solution is to (permanently) disable it. It can be easily re-enabled when it needed again.</p>
+<p>In case you need to disable it, either only for troubleshooting or permanently, you can use the following terminal commands.</p>
+<p>First of all, let’s verify the current status of your IPv6 communications protocol.</p>
+<pre class="lang:c++ decode:true">$ cat /proc/sys/net/ipv6/conf/all/disable_ipv6</pre>
+<p>If this command returns 0 that means IPv6 is enabled in your system.</p>
+<pre class="lang:c++ decode:true">$ sudo vim /etc/sysctl.d/99-sysctl.conf</pre>
+<p>Scroll down to the end of the file and insert these three lines below.</p>
+<pre class="lang:c++ decode:true">net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1</pre>
+<p>Save and quit your editor, then reboot your system.</p>
+<p>Verifying the status of IPv6.</p>
+<pre class="lang:c++ decode:true">$ cat /proc/sys/net/ipv6/conf/all/disable_ipv6</pre>
+<p>This command should return 1 meaning you successfully disabled IPv6 communications protocol.</p>
+<p>To re-enable IPv6 just simple delete or comment out those 3 lines above.</p>
+<p>You can use</p>
+<pre class="lang:c++ decode:true">sudo sysctl -p</pre>
+<p>to read values from file, it should return:</p>
+<pre class="lang:c++ decode:true">net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1</pre>
+<p>There are some additional commands if this method does not work.</p>
+<p>Disable the network manager</p>
+<pre class="lang:c++ decode:true">$ sudo service network-manager stop
+</pre>
+<p>Get the IP address from the server using:</p>
+<pre class="lang:c++ decode:true">$ sudo dhclient enp2s1
+</pre>
+<p>List of IP address</p>
+<pre class="lang:c++ decode:true">$ ip address show dev enp2s1
+</pre>
+<p>Removing all IP information from an interface (enp2s1 in my case)</p>
+<pre class="lang:c++ decode:true">$ sudo ip addr flush
+$ sudo ip addr flush dev enp2s1</pre>
+<p>Assign the first ip addresses like this:</p>
+<pre class="lang:c++ decode:true">$ sudo ip addr add 192.168.1.123/24 dev enp2s1
+</pre>
+<p>You can repeat for other IP addresses.<br />
+You can add the default route using:</p>
+<pre class="lang:c++ decode:true">$ sudo route add default gw internet gateway ip address
+</pre>
+<p>List of network devices:</p>
+<pre class="lang:c++ decode:true">$ sudo lshw -short -class network
+</pre>
+<p>Restart the networking.service</p>
+<pre class="lang:c++ decode:true">$ sudo systemctl restart networking.service</pre>
+<p>or</p>
+<pre class="lang:c++ decode:true">$ sudo /etc/init.d/networking restart
+</pre>
+<p><a href="http://ipv6-test.com/">Ipv6 test</a> is a free online service to diagnose connection problems: <a href="http://ipv6-test.com/">http://ipv6-test.com/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] How to install gcc-7 on Ubuntu LTS 16.04</title>
+		<link>https://lnrsoft.com/static/how-to-install-gcc-7-on-ubuntu-lts-16-04/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2017 16:02:35 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[g++]]></category>
+		<category><![CDATA[g++-7]]></category>
+		<category><![CDATA[gcc]]></category>
+		<category><![CDATA[gcc-7]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3870</guid>
+
+					<description><![CDATA[sudo apt-get update &#38;&#38; \ sudo apt-get install build-essential software-properties-common -y &#38;&#38; \ sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y &#38;&#38; \ sudo apt-get update &#38;&#38; \ sudo apt-get install gcc-snapshot -y &#38;&#38; \ sudo apt-get update &#38;&#38; \ sudo apt-get install gcc-7 g++-7 -y &#38;&#38; \ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60 --slave /usr/bin/g++ g++ /usr/bin/g++-7 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:c++ decode:true " >sudo apt-get update &amp;&amp; \
+sudo apt-get install build-essential software-properties-common -y &amp;&amp; \
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y &amp;&amp; \
+sudo apt-get update &amp;&amp; \
+sudo apt-get install gcc-snapshot -y &amp;&amp; \
+sudo apt-get update &amp;&amp; \
+sudo apt-get install gcc-7 g++-7 -y &amp;&amp; \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60 --slave /usr/bin/g++ g++ /usr/bin/g++-7 &amp;&amp; \
+sudo apt-get install gcc-4.8 g++-4.8 -y &amp;&amp; \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8;</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[Linux]Ubuntu LTS  default kernel</title>
+		<link>https://lnrsoft.com/static/linuxubuntu-lts-default-kernel/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 24 Oct 2017 03:22:56 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[kernel]]></category>
+		<category><![CDATA[linux]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3726</guid>
+
+					<description><![CDATA[LTS Enablement Stacks The Ubuntu LTS enablement (also called HWE or Hardware Enablement) stacks provide newer kernel and X support for existing Ubuntu LTS releases. These enablement stacks can be installed manually but are also available when installing with Ubuntu LTS point release media. These newer enablement stacks are meant for desktop and server and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>LTS Enablement Stacks<br />
+The Ubuntu LTS enablement (also called HWE or Hardware Enablement) stacks provide newer kernel and X support for existing Ubuntu LTS releases. These enablement stacks can be installed manually but are also available when installing with Ubuntu LTS point release media. These newer enablement stacks are meant for desktop and server and even recommended for cloud or virtual images.</p>
+<p>Ubuntu 16.04 LTS &#8211; Xenial Xerus<br />
+The 16.04.2 and newer point releases will ship with an updated kernel and X stack by default for the desktop. Server installations will default to the GA kernel and provide the enablement kernel as optional.</p>
+<p>The 16.04 HWE Stacks will follow a new Rolling Update Model as documented at the following location:</p>
+<p><a href="https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack">https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack</a></p>
+<p>It is highly recommended to read the above documentation before executing the following commands, as the HWE model has changed in 16.04.</p>
+<p>Installing the HWE stack is simple:</p>
+<p>DESKTOP</p>
+<pre class="lang:c++ decode:true">sudo apt-get install --install-recommends linux-generic-hwe-16.04 xserver-xorg-hwe-16.04</pre>
+<p>SERVER</p>
+<pre class="lang:c++ decode:true ">sudo apt-get install --install-recommends linux-generic-hwe-16.04</pre>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[Linux] Required packages to fix (Missing GL/gl.h) error</title>
+		<link>https://lnrsoft.com/static/linux-required-packages-to-fix-missing-gl-gl-h-error/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 18 Jan 2017 16:50:45 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[freeglut3-dev]]></category>
+		<category><![CDATA[GL/gl.h]]></category>
+		<category><![CDATA[libglu1-mesa-dev]]></category>
+		<category><![CDATA[mesa-common-dev]]></category>
+		<category><![CDATA[Missing GL/gl.h]]></category>
+		<category><![CDATA[Missing GL/gl.h error]]></category>
+		<category><![CDATA[Qt]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3761</guid>
+
+					<description><![CDATA[The following additional packages required on Ubuntu in order to be able successfully compile qt projects without (Missing GL/gl.h) error message. sudo apt install mesa-common-dev libglu1-mesa-dev freeglut3-dev]]></description>
+										<content:encoded><![CDATA[<p>The following additional packages required on Ubuntu in order to be able successfully compile qt projects without (Missing GL/gl.h) error message.</p>
+<pre class="lang:c++ decode:true " >sudo apt install mesa-common-dev libglu1-mesa-dev freeglut3-dev</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

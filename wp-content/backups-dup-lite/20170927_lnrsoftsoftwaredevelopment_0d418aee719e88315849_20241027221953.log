@@ -1,0 +1,81 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 27 October 2024 10:20 PM
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.11.1
+WORDPRESS:	6.6.2
+PHP INFO:	8.3.10 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: [300] not allowed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 16MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20170927_lnrsoftsoftwaredevelopment_0d418aee719e88315849_20241027221953_database.sql
+SQL FILE SIZE: 17.57MB (18423529)
+SQL FILE TIME: 2024-10-27 22:20:43
+SQL RUNTIME: 0.94 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/sites/29a/d/d4125f3cc8/public_html
+ARCHIVE FILE: 20170927_lnrsoftsoftwaredevelopment_0d418aee719e88315849_20241027221953_archive.zip
+FILTERS: *ON*
+DIRS:
+	/home/sites/29a/d/d4125f3cc8/public_html/files
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/plugins/astra-sites/.wordpress-org
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/plugins/astra-widgets/assets/fonts
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/themes/astra/inc/customizer/extend-custom-controls/build
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/themes/hestia/assets/img
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/themes/rufous/resources/customizer
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/uploads/2023/11
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/uploads/ast-block-templates-json
+	/home/sites/29a/d/d4125f3cc8/public_html/wp-content/uploads/webuploads
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	232.88MB
+STATS:	Dirs 2,448 | Files 13,411
+SQL ADDED: 20170927_lnrsoftsoftwaredevelopment_0d418aee719e88315849_20241027221953_database.sql
+ZipArchive Object
+(
+    [lastId] => 15858
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 15859
+    [filename] => /home/sites/29a/d/d4125f3cc8/public_html/wp-content/backups-dup-lite/tmp/20170927_lnrsoftsoftwaredevelopment_0d418aee719e88315849_20241027221953_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 15858
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 102.5MB
+ARCHIVE RUNTIME: 21.55 sec.
+MEMORY STACK: 20.09MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 17.57MB
+INSTALLER FILE: 73.49KB
+ARCHIVE FILE: 104.55MB 
+EXPECTED FILE/DIRECTORY COUNT: 15,859
+ACTUAL FILE/DIRECTORY COUNT: 15,858
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 25.28 sec.
+PEAK PHP MEMORY USED: 22.09MB
+DONE PROCESSING => 20170927_lnrsoftsoftwaredevelopment 27 October 2024 10:21 PM
+

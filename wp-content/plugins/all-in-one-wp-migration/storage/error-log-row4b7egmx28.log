@@ -1,0 +1,3 @@
+Sep 26 2026 21:53:19
+{"type":8192,"message":"Creation of dynamic property SBTT_FrontEndController::$pluginBase is deprecated","file":"\/var\/www\/html\/wordpress\/wp-content\/plugins\/scroll-back-to-top\/framework\/JmsController.php","line":86}
+

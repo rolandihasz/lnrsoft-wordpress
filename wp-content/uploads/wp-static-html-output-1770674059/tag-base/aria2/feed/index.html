@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>aria2 &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/tag-base/aria2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Wed, 06 Mar 2024 05:04:56 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>aria2 &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>The best command line download utility [ aria2 ]</title>
+		<link>https://lnrsoft.com/static/the-best-command-line-download-utility-aria2/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 10 Jun 2022 12:56:00 +0000</pubDate>
+				<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[aria2]]></category>
+		<category><![CDATA[command line]]></category>
+		<category><![CDATA[download utility]]></category>
+		<guid isPermaLink="false">https://lnrsoft.com/static/?p=7510</guid>
+
+					<description><![CDATA[Yes, this is a good idea to drop a post about. What is my personally favourite told to download files on any terminal/command line. There is no doubt about it always go with aria2, ok there are very rare cases I need to use wget. aria2 is the best too you can have, it can [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Yes, this is a good idea to drop a post about. What is my personally favourite told to download files on any terminal/command line.<br />
+There is no doubt about it always go with aria2, ok there are very rare cases I need to use wget.</p>
+<p>aria2 is the best too you can have, it can download everything, you name it (even magnet links faster than any client).<br />
+Anyway, we are not here about to talk about downloading any illegal copyrighted torrent files, I’m just saying it can, and does it fast.<br />
+I strongly recommend you reading its <a href="https://aria2.github.io/manual/en/html/aria2c.html">documentation</a> before you say it&#8217;s useless.</p>
+<p>Just an example let&#8217;s say you want to download a t0rr3nt file. Probably 99% you will end up with an error message, it&#8217;s all because you don&#8217;t know the command.<br />
+Ok here is the right one [the magnet link goes between those &#8220;&#8221;]:<br />
+aria2c  &#8220;magnet:?xt=urn:btih:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#8221;<br />
+This will work, but if you ever attempt such things, do not forget about encryption! Encrypt the whole payload using ARC4.</p>
+<ul>
+<li>HTTP/FTP/SFTP Options</li>
+<li>HTTP Specific Options</li>
+<li>FTP/SFTP Specific Options</li>
+<li>Metalink Specific Options</li>
+<li>RPC Options</li>
+<li>URI, MAGNET, TORRENT_FILE, METALINK_FILE</li>
+<li>Resuming Download</li>
+<li>Event Hook</li>
+</ul>
+<p><a href="https://aria2.github.io/">aria2</a> is the download utility I am using on command line.<br />
+<a href="https://www.openhub.net/p/aria2?ref=Partner+Badge">aria2 On Black Duck Open Hub </a></p>
+<p>for example, on my mac I have created aria2.conf file under /Users/yourusername/.aria2/aria2.conf and added the following line.<br />
+file-allocation=trunc instead of file-allocation=none.</p>
+<p>You can add many useful things. Soon, I will add a list in my next post.</p>
+<p>Using trunc seemingly allocates disk space very quickly, but what it actually does is that it sets file length metadata in file system, and does not allocate disk space at all. This means that it does not help avoiding fragmentation.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

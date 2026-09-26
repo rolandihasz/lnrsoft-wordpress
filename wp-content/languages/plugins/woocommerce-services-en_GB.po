@@ -1,0 +1,975 @@
+# Translation of Plugins - WooCommerce Tax (formerly WooCommerce Shipping &amp; Tax) - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - WooCommerce Tax (formerly WooCommerce Shipping &amp; Tax) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-11 21:21:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - WooCommerce Tax (formerly WooCommerce Shipping &amp; Tax) - Stable (latest release)\n"
+
+#: classes/class-wc-rest-connect-address-normalization-controller.php:34
+msgid "Unable to normalize the address. The form data could not be read."
+msgstr "Unable to normalise the address. The form data could not be read."
+
+#: classes/class-wc-connect-nux.php:513
+msgid "Finish connecting"
+msgstr "Finish connecting"
+
+#: classes/class-wc-connect-nux.php:511
+msgid "Finish connecting your WordPress.com account"
+msgstr "Finish connecting your WordPress.com account"
+
+#. translators: %s: list of features, potentially comma separated
+#: classes/class-wc-connect-nux.php:507
+msgid "Your site is connected to WordPress.com, but no WordPress.com account is linked to it yet. Sign in to finish connecting and unlock %s."
+msgstr "Your site is connected to WordPress.com, but no WordPress.com account is linked to it yet. Sign in to finish connecting and unlock %s."
+
+#: classes/class-wc-connect-help-view.php:394
+msgid "File not found."
+msgstr "File not found."
+
+#: classes/class-wc-connect-help-view.php:382
+msgid "Invalid file name."
+msgstr "Invalid file name."
+
+#: classes/class-wc-connect-help-view.php:375
+msgid "You do not have permission to download this file."
+msgstr "You do not have permission to download this file."
+
+#: classes/class-wc-connect-taxjar-integration.php:218
+msgid "The woocommerce_apply_taxjar_nexus_addresses_workaround filter has been removed. Use the woocommerce_taxjar_nexus_address filter instead."
+msgstr "The woocommerce_apply_taxjar_nexus_addresses_workaround filter has been removed. Use the woocommerce_taxjar_nexus_address filter instead."
+
+#: classes/class-wc-connect-nux.php:627
+msgid "WooCommerce Tax requires Terms of Service acceptance"
+msgstr "WooCommerce Tax requires Terms of Service acceptance"
+
+#: classes/class-wc-connect-nux.php:622
+msgid "The Jetpack connection owner needs to accept the Terms of Service to activate WooCommerce Tax features."
+msgstr "The Jetpack connection owner needs to accept the Terms of Service to activate WooCommerce Tax features."
+
+#. translators: %s: display name of the Jetpack connection owner
+#: classes/class-wc-connect-nux.php:620
+msgid "The Jetpack connection owner (%s) needs to accept the Terms of Service to activate WooCommerce Tax features."
+msgstr "The Jetpack connection owner (%s) needs to accept the Terms of Service to activate WooCommerce Tax features."
+
+#: src/StoreApi/Extensions/StoreNoticesExtension.php:94
+msgid "WC Services store notices"
+msgstr "WC Services store notices"
+
+#: classes/class-wc-connect-taxjar-integration.php:158
+msgid "Tax"
+msgstr "Tax"
+
+#: classes/class-wc-connect-help-view.php:296
+msgid "WooCommerce Tax Status"
+msgstr "WooCommerce Tax Status"
+
+#: classes/class-wc-connect-help-view.php:258
+msgctxt "The WooCommerce Tax brandname"
+msgid "WooCommerce Tax"
+msgstr "WooCommerce Tax"
+
+#: woocommerce-services.php:2132
+msgid "WooCommerce Tax (previously WooCommerce Shipping & Tax)"
+msgstr "WooCommerce Tax (previously WooCommerce Shipping & Tax)"
+
+#: classes/class-wc-connect-nux.php:461 classes/class-wc-connect-nux.php:591
+msgid "Connect your site to activate WooCommerce Tax"
+msgstr "Connect your site to activate WooCommerce Tax"
+
+#: classes/class-wc-connect-debug-tools.php:25
+msgid "Test your WooCommerce Tax connection"
+msgstr "Test your WooCommerce Tax connection"
+
+#. Description of the plugin
+#: woocommerce-services.php woocommerce-services.php:2144
+msgid "Automated tax calculation for WooCommerce."
+msgstr "Automated tax calculation for WooCommerce."
+
+#. Plugin Name of the plugin
+#: woocommerce-services.php classes/class-wc-connect-privacy.php:36
+#: classes/class-wc-connect-settings-pages.php:142
+#: woocommerce-services.php:2140
+msgid "WooCommerce Tax"
+msgstr "WooCommerce Tax"
+
+#: classes/class-wc-connect-custom-surcharge.php:114
+msgid "Retail Delivery Fee"
+msgstr "Retail Delivery Fee"
+
+#: classes/class-wc-rest-connect-migration-flag-controller.php:82
+msgid "Unable to update migration flag. The flag could not be updated."
+msgstr "Unable to update migration flag. The flag could not be updated."
+
+#: classes/class-wc-rest-connect-migration-flag-controller.php:77
+msgid "Migration flag updated successfully."
+msgstr "Migration flag updated successfully."
+
+#: classes/class-wc-rest-connect-migration-flag-controller.php:63
+msgid "Migration flag is the same, no changes needed."
+msgstr "Migration flag is the same, no changes needed."
+
+#: classes/class-wc-rest-connect-migration-flag-controller.php:56
+msgid "Invalid migration state. Can not update migration state."
+msgstr "Invalid migration state. Can not update migration state."
+
+#: classes/class-wc-rest-connect-migration-flag-controller.php:47
+msgid "WooCommerce Shipping has taken over the migration process."
+msgstr "WooCommerce Shipping has taken over the migration process."
+
+#: classes/class-wc-connect-payment-methods-store.php:114
+msgid "Expected but did not receive add_payment_method_url in response body."
+msgstr "Expected but did not receive add_payment_method_url in response body."
+
+#: classes/class-wc-connect-payment-methods-store.php:110
+msgid "Expected but did not receive payment_methods in response body."
+msgstr "Expected but did not receive payment_methods in response body."
+
+#: classes/class-wc-connect-payment-methods-store.php:106
+msgid "Expected but did not receive object for response body."
+msgstr "Expected but did not receive object for response body."
+
+#: woocommerce-services.php:2345
+msgid "WC Shipping and WC Tax plugins are already active. Please deactivate WooCommerce Tax."
+msgstr "WC Shipping and WC Tax plugins are already active. Please deactivate WooCommerce Tax."
+
+#: classes/class-wc-connect-settings-pages.php:87
+msgid "Note: WooCommerce Tax is configured to work in offline mode. This site will not be able to obtain payment methods from WooCommerce Tax production servers."
+msgstr "Note: WooCommerce Tax is configured to work in offline mode. This site will not be able to obtain payment methods from WooCommerce Tax production servers."
+
+#: classes/class-wc-connect-settings-pages.php:85
+msgid "Note: Your site is connected but WooCommerce Tax is configured to work in offline mode. Please disable offline mode."
+msgstr "Note: Your site is connected but WooCommerce Tax is configured to work in offline mode. Please disable offline mode."
+
+#: classes/class-wc-connect-nux.php:658
+msgid "By clicking \"%1$s\", you agree to our <a href=\"%2$s\">Terms of Service</a> and have read our <a href=\"%3$s\">Privacy Policy</a>."
+msgstr "By clicking \"%1$s\", you agree to our <a href=\"%2$s\">Terms of Service</a> and have read our <a href=\"%3$s\">Privacy Policy</a>."
+
+#: classes/class-wc-connect-help-view.php:95
+msgid "This site was identified as a staging site"
+msgstr "This site was identified as a staging site"
+
+#: classes/class-wc-connect-help-view.php:90
+msgid "Not connected to WordPress.com"
+msgstr "Not connected to WordPress.com"
+
+#: classes/class-wc-connect-help-view.php:85
+msgid "This site is working in offline mode. This mode is activated when running the site on a local machine or if developer mode is enabled"
+msgstr "This site is working in offline mode. This mode is activated when running the site on a local machine or if developer mode is enabled"
+
+#. translators: 1: full state and country name, 2: anchor opening with tax rate
+#. link, 3: anchor closer, 4: anchor opening with tax nexus link, 5: anchor
+#. closer
+#: classes/class-wc-connect-taxjar-integration.php:351
+msgid "Your tax rates are now automatically calculated for %1$s. Automated taxes uses your store address as your \"tax nexus\". If you want to charge tax for any other state, you can add a %2$stax rate%3$s for that state in addition to using automated taxes. %4$sLearn more about Tax Nexus here%5$s."
+msgstr "Your tax rates are now automatically calculated for %1$s. Automated taxes uses your store address as your \"tax nexus\". If you want to charge tax for any other state, you can add a %2$stax rate%3$s for that state in addition to using automated taxes. %4$sLearn more about Tax Nexus here%5$s."
+
+#. translators: 1: full state and country name, 2: anchor opening with tax rate
+#. link, 3: anchor closer, 4: anchor opening with tax nexus link, 5: anchor
+#. closer
+#: classes/class-wc-connect-taxjar-integration.php:347
+msgid "Your tax rates and settings will be automatically configured for %1$s. Automated taxes uses your store address as your \"tax nexus\". If you want to charge tax for any other state, you can add a %2$stax rate%3$s for that state in addition to using automated taxes. %4$sLearn more about Tax Nexus here%5$s."
+msgstr "Your tax rates and settings will be automatically configured for %1$s. Automated taxes uses your store address as your \"tax nexus\". If you want to charge tax for any other state, you can add a %2$stax rate%3$s for that state in addition to using automated taxes. %4$sLearn more about Tax Nexus here%5$s."
+
+#: classes/class-wc-connect-taxjar-integration.php:286
+msgid "Automated taxes take over from the WooCommerce core tax settings. This means that \"Display prices\" will be set to Excluding tax and tax will be Calculated using Customer shipping address. %1$sLearn more about Automated taxes here.%2$s"
+msgstr "Automated taxes take over from the WooCommerce core tax settings. This means that \"Display prices\" will be set to Excluding tax and tax will be Calculated using Customer shipping address. %1$sLearn more about Automated taxes here.%2$s"
+
+#: classes/class-wc-connect-taxjar-integration.php:525
+msgctxt "%s - ZIP/Postal code checkout field label"
+msgid "%s is not formatted correctly."
+msgstr "%s is not formatted correctly."
+
+#: classes/class-wc-connect-taxjar-integration.php:291
+msgid "Your existing tax rates will be backed-up to a CSV that you can download %1$shere%2$s."
+msgstr "Your existing tax rates will be backed-up to a CSV that you can download %1$shere%2$s."
+
+#: classes/class-wc-connect-taxjar-integration.php:288
+msgid "Your previous tax rates were backed up and can be downloaded %1$shere%2$s."
+msgstr "Your previous tax rates were backed up and can be downloaded %1$shere%2$s."
+
+#: classes/class-wc-connect-debug-tools.php:145
+msgid "Successfully deleted %1$d transients from the database."
+msgstr "Successfully deleted %1$d transients from the database."
+
+#: classes/class-wc-connect-debug-tools.php:50
+msgid "Deletes the all the transients in your database that represent cached Tax Rates responses"
+msgstr "Deletes the all the transients in your database that represent cached Tax Rates responses"
+
+#: classes/class-wc-connect-debug-tools.php:49
+msgid "Delete cached Tax transients"
+msgstr "Delete cached Tax transients"
+
+#: classes/class-wc-connect-debug-tools.php:48
+msgid "Delete WooCommerce Tax cached tax rate responses"
+msgstr "Delete WooCommerce Tax cached tax rate responses"
+
+#: classes/class-wc-connect-debug-tools.php:126
+msgid "Successfully deleted %1$d rows from the database."
+msgstr "Successfully deleted %1$d rows from the database."
+
+#: classes/class-wc-connect-debug-tools.php:109
+msgid "No \"CA\" tax rates were found."
+msgstr "No \"CA\" tax rates were found."
+
+#: classes/class-wc-connect-debug-tools.php:84
+msgid "ERROR: The \"CA\" tax rate deletion process was cancelled because the existing tax rates could not be backed up."
+msgstr "ERROR: The \"CA\" tax rate deletion process was cancelled because the existing tax rates could not be backed up."
+
+#: classes/class-wc-connect-debug-tools.php:38
+msgid "Additional information."
+msgstr "Additional information."
+
+#: classes/class-wc-connect-debug-tools.php:38
+msgid "A backup CSV of all existing tax rates will be made before the deletion process runs."
+msgstr "A backup CSV of all existing tax rates will be made before the deletion process runs."
+
+#: classes/class-wc-connect-debug-tools.php:38
+msgid "This option will delete ALL of your \"CA\" tax rates where the tax name ends with \" Tax\" (case insensitive)."
+msgstr "This option will delete ALL of your \"CA\" tax rates where the tax name ends with \" Tax\" (case insensitive)."
+
+#: classes/class-wc-connect-debug-tools.php:38
+msgid "Note:"
+msgstr "Note:"
+
+#: classes/class-wc-connect-debug-tools.php:37
+msgid "Delete CA tax rates"
+msgstr "Delete CA tax rates"
+
+#: classes/class-wc-connect-debug-tools.php:36
+msgid "Delete California tax rates"
+msgstr "Delete California tax rates"
+
+#: classes/class-wc-connect-taxjar-integration.php:290
+msgid "Enabling this option overrides any tax rates you have manually added."
+msgstr "Enabling this option overrides any tax rates you have manually added."
+
+#: classes/class-wc-connect-help-view.php:362
+msgid "Automated taxes are enabled"
+msgstr "Automated taxes are enabled"
+
+#: classes/class-wc-connect-help-view.php:355
+msgid "The automated taxes functionality is disabled. Enable the \"Automated taxes\" setting on the WooCommerce settings page"
+msgstr "The automated taxes functionality is disabled. Enable the \"Automated taxes\" setting on the WooCommerce settings page"
+
+#: classes/class-wc-connect-help-view.php:347
+msgid "The core WooCommerce taxes functionality is disabled. Please ensure the \"Enable tax rates and calculations\" setting is turned \"on\" in the WooCommerce settings page"
+msgstr "The core WooCommerce taxes functionality is disabled. Please ensure the \"Enable tax rates and calculations\" setting is turned \"on\" in the WooCommerce settings page"
+
+#: classes/class-wc-connect-help-view.php:339
+msgid "TaxJar extension detected. Automated taxes functionality is disabled"
+msgstr "TaxJar extension detected. Automated taxes functionality is disabled"
+
+#: classes/class-wc-connect-help-view.php:331
+msgid "Your store's country (%s) is not supported. Automated taxes functionality is disabled"
+msgstr "Your store's country (%s) is not supported. Automated taxes functionality is disabled"
+
+#: classes/class-wc-rest-connect-packages-controller.php:139
+msgid "At least one of the new predefined packages has the same name as existing packages."
+msgstr "At least one of the new predefined packages has the same name as existing packages."
+
+#: classes/class-wc-rest-connect-packages-controller.php:118
+msgid "The new predefined package names are not unique."
+msgstr "The new predefined package names are not unique."
+
+#: classes/class-wc-rest-connect-packages-controller.php:91
+msgid "At least one of the new custom packages has the same name as existing packages."
+msgstr "At least one of the new custom packages has the same name as existing packages."
+
+#: classes/class-wc-rest-connect-packages-controller.php:77
+msgid "The new custom package names are not unique."
+msgstr "The new custom package names are not unique."
+
+#: classes/class-wc-connect-note-dhl-live-rates-available.php:46
+msgid "Go to shipping zones"
+msgstr "Go to shipping zones"
+
+#: classes/class-wc-connect-note-dhl-live-rates-available.php:40
+msgid "Add DHL Express as a shipping method to selected shipping zones to display live rates at checkout."
+msgstr "Add DHL Express as a shipping method to selected shipping zones to display live rates at checkout."
+
+#: classes/class-wc-connect-note-dhl-live-rates-available.php:39
+msgid "DHL Express live rates are now available"
+msgstr "DHL Express live rates are now available"
+
+#. Translators: %1$s: State name, %2$s: Country name
+#: classes/class-wc-connect-shipping-method.php:289
+msgid "State %1$s is invalid for %2$s."
+msgstr "State %1$s is invalid for %2$s."
+
+#. Translators: %1$s: Localized label for Zip/postal code, %2$s: submitted
+#. zip/postal code, %3$s: Country name
+#: classes/class-wc-connect-shipping-method.php:252
+msgid "%1$s %2$s is invalid for %3$s."
+msgstr "%1$s %2$s is invalid for %3$s."
+
+#. Translators: %1$s: Localized label for Zip/postal code, %2$s: Country name
+#. Translators: %1$s: Localized label for province/region/state, %2$s: Country
+#. name
+#: classes/class-wc-connect-shipping-method.php:238
+#: classes/class-wc-connect-shipping-method.php:275
+msgid "A %1$s is required for %2$s."
+msgstr "A %1$s is required for %2$s."
+
+#: classes/class-wc-connect-shipping-method.php:225
+msgid "A country is required"
+msgstr "A country is required"
+
+#: classes/class-wc-rest-connect-subscription-activate-controller.php:28
+msgid "The subscription is already active."
+msgstr "The subscription is already active."
+
+#: classes/class-wc-connect-functions.php:40
+msgid "WooCommerce Helper auth is missing"
+msgstr "WooCommerce Helper auth is missing"
+
+#: classes/class-wc-connect-nux.php:210
+msgid "WooCommerce Shipping now supports DHL labels for international shipments. Purchase and print discounted labels from DHL and USPS right here."
+msgstr "WooCommerce Shipping now supports DHL labels for international shipments. Purchase and print discounted labels from DHL and USPS right here."
+
+#: classes/class-wc-connect-nux.php:209
+msgid "Discounted DHL Shipping Labels"
+msgstr "Discounted DHL Shipping Labels"
+
+#: classes/class-wc-connect-settings-pages.php:57
+msgid "WooCommerce Shipping"
+msgstr "WooCommerce Shipping"
+
+#: classes/class-wc-connect-settings-pages.php:33
+msgctxt "The WooCommerce Shipping brandname"
+msgid "WooCommerce Shipping"
+msgstr "WooCommerce Shipping"
+
+#: classes/class-wc-connect-taxjar-integration.php:517
+msgid "ZIP/Postal code"
+msgstr "ZIP/Postal code"
+
+#. translators: %s WC download URL link.
+#: woocommerce-services.php:726
+msgid "WooCommerce Tax requires the WooCommerce plugin to be installed and active. You can download %s here."
+msgstr "WooCommerce Tax requires the WooCommerce plugin to be installed and active. You can download %s here."
+
+#: woocommerce-services.php:1935
+msgid "Shipment Tracking"
+msgstr "Shipment Tracking"
+
+#: woocommerce-services.php:1979
+msgid "Packing Log:"
+msgstr "Packing Log:"
+
+#: woocommerce-services.php:1966
+msgid "Chosen Rate:"
+msgstr "Chosen Rate:"
+
+#: woocommerce-services.php:1962
+msgid "Shipping Method ID:"
+msgstr "Shipping Method ID:"
+
+#: woocommerce-services.php:1958
+msgid "Shipping Method Name:"
+msgstr "Shipping Method Name:"
+
+#: woocommerce-services.php:1942
+msgid "Shipping Debug"
+msgstr "Shipping Debug"
+
+#: classes/class-wc-connect-error-notice.php:121
+msgid "<strong>\"%2$s\" is missing weight, length, width, or height.</strong><br />Shipping rates cannot be calculated. <a href=\"%1$s\">Enter dimensions and weight for %2$s</a> so your customers can purchase this item."
+msgstr "<strong>\"%2$s\" is missing weight, length, width, or height.</strong><br />Shipping rates cannot be calculated. <a href=\"%1$s\">Enter dimensions and weight for %2$s</a> so your customers can purchase this item."
+
+#: classes/class-wc-connect-api-client.php:635
+msgid "Unable to send request to WooCommerce Tax server. The timestamp generated for the signature is too old."
+msgstr "Unable to send request to WooCommerce Tax server. The timestamp generated for the signature is too old."
+
+#: classes/class-wc-connect-api-client.php:574
+msgid "Unable to send request to WooCommerce Tax server. WordPress.com token is malformed."
+msgstr "Unable to send request to WooCommerce Tax server. WordPress.com token is malformed."
+
+#: classes/class-wc-connect-api-client.php:567
+msgid "Unable to send request to WooCommerce Tax server. WordPress.com token is missing"
+msgstr "Unable to send request to WooCommerce Tax server. WordPress.com token is missing"
+
+#. translators: %1$s: error code, %2$s: error message, %3$d: HTTP response code
+#: classes/class-wc-connect-api-client-live.php:113
+msgid "Error: The WooCommerce Tax server returned: %1$s %2$s ( %3$d )"
+msgstr "Error: The WooCommerce Tax server returned: %1$s %2$s ( %3$d )"
+
+#: classes/class-wc-connect-api-client-live.php:94
+msgid "Error: The WooCommerce Tax server returned ( %d ) and an empty response body."
+msgstr "Error: The WooCommerce Tax server returned ( %d ) and an empty response body."
+
+#: classes/class-wc-connect-api-client-live.php:73
+msgid "Error: The WooCommerce Tax server returned HTTP code: %d"
+msgstr "Error: The WooCommerce Tax server returned HTTP code: %d"
+
+#: classes/class-wc-connect-api-client-live.php:39
+msgid "Unable to encode body for request to WooCommerce Tax server."
+msgstr "Unable to encode body for request to WooCommerce Tax server."
+
+#: classes/class-wc-connect-api-client-live.php:23
+msgid "Unable to send request to WooCommerce Tax server. Body must be an array."
+msgstr "Unable to send request to WooCommerce Tax server. Body must be an array."
+
+#: classes/class-wc-connect-api-client.php:162
+msgid "No shipping rate could be calculated. No items in the package are shippable."
+msgstr "No shipping rate could be calculated. No items in the package are shippable."
+
+#: classes/class-wc-connect-api-client.php:114
+msgid "Product ( ID: %d ) is missing a dimension value. Shipping rates cannot be calculated."
+msgstr "Product ( ID: %d ) is missing a dimension value. Shipping rates cannot be calculated."
+
+#: classes/class-wc-connect-api-client.php:99
+msgid "Product ( ID: %d ) did not include a weight. Shipping rates cannot be calculated."
+msgstr "Product ( ID: %d ) did not include a weight. Shipping rates cannot be calculated."
+
+#: classes/class-wc-connect-api-client.php:66
+msgid "Invalid WooCommerce Tax service slug provided"
+msgstr "Invalid WooCommerce Tax service slug provided"
+
+#: classes/class-wc-connect-shipping-method.php:556
+msgid "Packing log:"
+msgstr "Packing log:"
+
+#. translators: 1: name of shipping service, 2: shipping rate (price)
+#: classes/class-wc-connect-shipping-method.php:549
+msgid "Received rate: %1$s (%2$s)"
+msgstr "Received rate: %1$s (%2$s)"
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:182
+msgid "Data resource description."
+msgstr "Data resource description."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:176
+msgid "Data resource ID."
+msgstr "Data resource ID."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:109
+msgid "List of supported currencies."
+msgstr "List of supported currencies."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:105
+msgid "List of supported states in a given country."
+msgstr "List of supported states in a given country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:101
+msgid "List of supported continents, countries, and states."
+msgstr "List of supported continents, countries, and states."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:83
+msgid "Sorry, you cannot view this resource."
+msgstr "Sorry, you cannot view this resource."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-controller.php:69
+msgid "Sorry, you cannot list resources."
+msgstr "Sorry, you cannot list resources."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:278
+msgid "The unit weights are defined in for this country."
+msgstr "The unit weights are defined in for this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:272
+msgid "Thousands separator for displayed prices in this country."
+msgstr "Thousands separator for displayed prices in this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:263
+msgid "Full name of state."
+msgstr "Full name of state."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:257
+msgid "State code."
+msgstr "State code."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:247
+msgid "List of states in this country."
+msgstr "List of states in this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:241
+msgid "Number of decimal points shown in displayed prices for this country."
+msgstr "Number of decimal points shown in displayed prices for this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:235
+msgid "Full name of country."
+msgstr "Full name of country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:229
+msgid "The unit lengths are defined in for this country."
+msgstr "The unit lengths are defined in for this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:223
+msgid "Decimal separator for displayed prices for this country."
+msgstr "Decimal separator for displayed prices for this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:217
+msgid "Currency symbol position for this country."
+msgstr "Currency symbol position for this country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:211
+msgid "Default ISO4127 alpha-3 currency code for the country."
+msgstr "Default ISO4127 alpha-3 currency code for the country."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:205
+msgid "ISO3166 alpha-2 country code."
+msgstr "ISO3166 alpha-2 country code."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:195
+msgid "List of countries on this continent."
+msgstr "List of countries on this continent."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:189
+msgid "Full name of continent."
+msgstr "Full name of continent."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:118
+msgid "There are no locations matching these parameters."
+msgstr "There are no locations matching these parameters."
+
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:78
+#: classes/wc-api-dev/class-wc-rest-dev-data-continents-controller.php:183
+msgid "2 character continent code."
+msgstr "2 character continent code."
+
+#: classes/class-wc-connect-taxjar-integration.php:527
+msgctxt "%s - ZIP/Postal code checkout field label"
+msgid "Invalid %s entered."
+msgstr "Invalid %s entered."
+
+#: classes/class-wc-connect-taxjar-integration.php:523
+msgctxt "%s - ZIP/Postal code checkout field label"
+msgid "%s does not match the selected state."
+msgstr "%s does not match the selected state."
+
+#: classes/class-wc-connect-privacy.php:96
+msgid "Shipping label tracking number"
+msgstr "Shipping label tracking number"
+
+#: classes/class-wc-connect-privacy.php:92
+msgid "Shipping label service"
+msgstr "Shipping label service"
+
+#: classes/class-wc-connect-privacy.php:71
+msgid "Warning: Erasing personal data will cause the ability to reprint or refund WooCommerce Tax shipping labels to be lost on the affected orders."
+msgstr "Warning: Erasing personal data will cause the ability to reprint or refund WooCommerce Tax shipping labels to be lost on the affected orders."
+
+#: classes/class-wc-connect-privacy.php:40
+msgid "By using this extension, you may be storing personal data or sharing data with external services. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr "By using this extension, you may be storing personal data or sharing data with external services. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+
+#: classes/class-wc-connect-account-settings.php:33
+msgid "There was a problem updating your saved credit cards."
+msgstr "There was a problem updating your saved credit cards."
+
+#: classes/class-wc-connect-label-reports.php:246
+msgid "No labels found for this period"
+msgstr "No labels found for this period"
+
+#: classes/class-wc-connect-label-reports.php:232
+msgid "Total"
+msgstr "Total"
+
+#: classes/class-wc-connect-label-reports.php:191
+msgid "Refund"
+msgstr "Refund"
+
+#: classes/class-wc-connect-label-reports.php:185
+msgid "Price"
+msgstr "Price"
+
+#: classes/class-wc-connect-label-reports.php:182
+msgid "Order"
+msgstr "Order"
+
+#: classes/class-wc-connect-label-reports.php:179
+msgid "Time"
+msgstr "Time"
+
+#: classes/class-wc-connect-label-reports.php:165
+msgid "Requested"
+msgstr "Requested"
+
+#: classes/class-wc-connect-label-reports.php:128
+msgid "Last 7 days"
+msgstr "Last 7 days"
+
+#: classes/class-wc-connect-label-reports.php:127
+msgid "This month"
+msgstr "This month"
+
+#: classes/class-wc-connect-label-reports.php:126
+msgid "Last month"
+msgstr "Last month"
+
+#: classes/class-wc-connect-label-reports.php:125
+msgid "Year"
+msgstr "Year"
+
+#: classes/class-wc-connect-label-reports.php:29
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: classes/class-wc-connect-paypal-ec.php:322
+msgid "Enter your email address at which to accept payments. You'll need to link your own account in order to perform anything other than \"sale\" transactions."
+msgstr "Enter your email address at which to accept payments. You'll need to link your own account in order to perform anything other than \"sale\" transactions."
+
+#: classes/class-wc-connect-paypal-ec.php:318
+msgid "Payment Email"
+msgstr "Payment Email"
+
+#: classes/class-wc-connect-paypal-ec.php:300
+msgid "To authenticate payments with WooCommerce Tax, <a href=\"%s\">click here</a>."
+msgstr "To authenticate payments with WooCommerce Tax, <a href=\"%s\">click here</a>."
+
+#: classes/class-wc-connect-paypal-ec.php:280
+msgid "Payments will be authenticated by WooCommerce Tax and directed to the following email address. To disable this feature and link a PayPal account, <a href=\"%s\">click here</a>."
+msgstr "Payments will be authenticated by WooCommerce Tax and directed to the following email address. To disable this feature and link a PayPal account, <a href=\"%s\">click here</a>."
+
+#: classes/class-wc-connect-paypal-ec.php:270
+msgid "%s (Note that \"authorizing payment only\" requires linking a PayPal account.)"
+msgstr "%s (Note that \"authorising payment only\" requires linking a PayPal account.)"
+
+#: classes/class-wc-connect-paypal-ec.php:216
+msgid "Link account"
+msgstr "Link account"
+
+#: classes/class-wc-connect-paypal-ec.php:215
+msgid "Link a new or existing PayPal account to make sure future orders are marked “Processing” instead of “On hold”, and so refunds can be issued without leaving WooCommerce."
+msgstr "Link a new or existing PayPal account to make sure future orders are marked “Processing” instead of “On hold”, and so refunds can be issued without leaving WooCommerce."
+
+#: classes/class-wc-connect-paypal-ec.php:214
+msgid "Link your PayPal account"
+msgstr "Link your PayPal account"
+
+#: classes/class-wc-connect-paypal-ec.php:137
+msgid "To issue refunds via PayPal Checkout, you will need to <a href=\"%s\">link a PayPal account</a> with the email address that received this payment."
+msgstr "To issue refunds via PayPal Checkout, you will need to <a href=\"%s\">link a PayPal account</a> with the email address that received this payment."
+
+#: classes/class-wc-connect-paypal-ec.php:134
+msgid "Link a PayPal account"
+msgstr "Link a PayPal account"
+
+#: woocommerce-services.php:1650
+msgid "Tracking number"
+msgstr "Tracking number"
+
+#: woocommerce-services.php:1649
+msgid "Provider"
+msgstr "Provider"
+
+#: woocommerce-services.php:2136
+msgid "Hosted services for WooCommerce: automated tax calculation, shipping label printing, and smoother payment setup."
+msgstr "Hosted services for WooCommerce: automated tax calculation, shipping label printing, and smoother payment setup."
+
+#: classes/class-wc-connect-functions.php:181
+msgid "Tax Class"
+msgstr "Tax Class"
+
+#: classes/class-wc-connect-functions.php:180
+msgid "Shipping"
+msgstr "Shipping"
+
+#: classes/class-wc-connect-functions.php:179
+msgid "Compound"
+msgstr "Compound"
+
+#: classes/class-wc-connect-functions.php:178
+msgid "Priority"
+msgstr "Priority"
+
+#: classes/class-wc-connect-functions.php:177
+msgid "Tax Name"
+msgstr "Tax Name"
+
+#: classes/class-wc-connect-functions.php:176
+msgid "Rate %"
+msgstr "Rate %"
+
+#: classes/class-wc-connect-functions.php:174
+msgid "ZIP/Postcode"
+msgstr "ZIP/Postcode"
+
+#: classes/class-wc-connect-functions.php:173
+msgid "State Code"
+msgstr "State Code"
+
+#: classes/class-wc-connect-functions.php:172
+msgid "Country Code"
+msgstr "Country Code"
+
+#: classes/class-wc-connect-taxjar-integration.php:313
+msgid "Enable automated taxes"
+msgstr "Enable automated taxes"
+
+#: classes/class-wc-connect-taxjar-integration.php:312
+msgid "Disable automated taxes"
+msgstr "Disable automated taxes"
+
+#: classes/class-wc-connect-taxjar-integration.php:304
+msgid "Automated taxes"
+msgstr "Automated taxes"
+
+#: classes/class-wc-connect-nux.php:549
+msgid "Setup complete."
+msgstr "Setup complete."
+
+#. translators: %s: list of features, potentially comma separated
+#: classes/class-wc-connect-nux.php:544
+msgid "You can now enjoy %s."
+msgstr "You can now enjoy %s."
+
+#. translators: %s: list of features, potentially comma separated
+#: classes/class-wc-connect-nux.php:458 classes/class-wc-connect-nux.php:586
+msgid "WooCommerce Tax is almost ready to go! Once you connect your site to WordPress.com you'll have access to %s."
+msgstr "WooCommerce Tax is almost ready to go! Once you connect your site to WordPress.com you'll have access to %s."
+
+#: classes/class-wc-connect-nux.php:363
+msgid "automated tax calculation"
+msgstr "Automated tax calculation"
+
+#: classes/class-wc-connect-nux.php:361
+msgid "smoother payment setup"
+msgstr "Smoother payment setup"
+
+#: classes/class-wc-connect-nux.php:359
+msgid "automated tax calculation and smoother payment setup"
+msgstr "Automated tax calculation and smoother payment setup"
+
+#: classes/class-wc-connect-paypal-ec.php:326
+msgid "Required"
+msgstr "Required"
+
+#: classes/class-wc-rest-connect-services-controller.php:40
+msgid "Service schemas were not loaded"
+msgstr "Service schemas were not loaded"
+
+#: classes/class-wc-rest-connect-tos-controller.php:29
+msgid "Bad request"
+msgstr "Bad request"
+
+#: classes/class-wc-rest-connect-shipping-label-controller.php:38
+msgid "Order not found"
+msgstr "Order not found"
+
+#: classes/class-wc-connect-nux.php:551
+msgid "Got it, thanks!"
+msgstr "Got it, thanks!"
+
+#: classes/class-wc-connect-nux.php:177
+msgid "When you're ready, purchase and print discounted labels from %s right here."
+msgstr "When you're ready, purchase and print discounted labels from %s right here."
+
+#: classes/class-wc-connect-nux.php:176
+msgid "Discounted Shipping Labels"
+msgstr "Discounted Shipping Labels"
+
+#. translators: %d: Deleted Product ID
+#: classes/class-wc-connect-utils.php:33
+msgid "#%d - [Deleted product]"
+msgstr "#%d - [Deleted product]"
+
+#. translators: %1$d: Product ID, %2$s: Product Name
+#: classes/class-wc-connect-utils.php:37
+msgid "#%1$d - %2$s"
+msgstr "#%1$d - %2$s"
+
+#. translators: %s Support url
+#: woocommerce-services.php:2049
+msgid "<a href=\"%s\">Support</a>"
+msgstr "<a href=\"%s\">Support</a>"
+
+#: classes/class-wc-connect-help-view.php:100
+msgid "Connected to WordPress.com"
+msgstr "Connected to WordPress.com"
+
+#: woocommerce-services.php:1477 woocommerce-services.php:1480
+msgid "Shipping Labels"
+msgstr "Shipping Labels"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: woocommerce-services.php
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#: woocommerce-services.php:2002 woocommerce-services.php:2030
+msgid "Phone"
+msgstr "Phone"
+
+#: classes/class-wc-connect-nux.php:463 classes/class-wc-connect-nux.php:593
+msgid "Connect"
+msgstr "Connect"
+
+#: classes/class-wc-connect-label-reports.php:188
+msgid "Service"
+msgstr "Service"
+
+#: woocommerce-services.php:1638 woocommerce-services.php:1645
+msgid "Tracking"
+msgstr "Tracking"
+
+#: classes/class-wc-connect-functions.php:175
+msgid "City"
+msgstr "City"
+
+#: classes/class-wc-rest-connect-shipping-label-print-controller.php:27
+msgid "Invalid PDF request."
+msgstr "Invalid PDF request."
+
+#: classes/class-wc-connect-shipping-method.php:503
+#: classes/class-wc-rest-connect-shipping-label-controller.php:135
+msgid "Unknown package"
+msgstr "Unknown package"
+
+#: classes/class-wc-connect-shipping-method.php:505
+#: classes/class-wc-rest-connect-shipping-label-controller.php:131
+msgid "Individual packaging"
+msgstr "Individual packaging"
+
+#: classes/class-wc-rest-connect-services-controller.php:92
+msgid "Unable to update service settings. Validation failed. %s"
+msgstr "Unable to update service settings. Validation failed. %s"
+
+#: classes/class-wc-rest-connect-services-controller.php:79
+msgid "Unable to update service settings. The form data could not be read."
+msgstr "Unable to update service settings. The form data could not be read."
+
+#: classes/class-wc-rest-connect-services-controller.php:67
+msgid "Unable to update service settings. Form data is missing service ID."
+msgstr "Unable to update service settings. Form data is missing service ID."
+
+#: classes/class-wc-rest-connect-self-help-controller.php:24
+msgid "Unable to update settings. The form data could not be read."
+msgstr "Unable to update settings. The form data could not be read."
+
+#: classes/class-wc-rest-connect-account-settings-controller.php:60
+msgid "Unable to update settings. %s"
+msgstr "Unable to update settings. %s"
+
+#: classes/class-wc-connect-shipping-method.php:536
+msgid "Packaging"
+msgstr "Packaging"
+
+#: woocommerce-services.php:2256
+msgid "Section not loading? Visit the <a href=\"%s\">status page</a> for troubleshooting steps."
+msgstr "Section not loading? Visit the <a href=\"%s\">status page</a> for troubleshooting steps."
+
+#: woocommerce-services.php:1937
+msgid "Shipping Label"
+msgstr "Shipping Label"
+
+#: classes/class-wc-connect-service-settings-store.php:664
+msgid "yd"
+msgstr "yd"
+
+#: classes/class-wc-connect-service-settings-store.php:662
+msgid "in"
+msgstr "in"
+
+#: classes/class-wc-connect-service-settings-store.php:660
+msgid "mm"
+msgstr "mm"
+
+#: classes/class-wc-connect-service-settings-store.php:658
+msgid "cm"
+msgstr "cm"
+
+#: classes/class-wc-connect-service-settings-store.php:656
+msgid "m"
+msgstr "m"
+
+#: classes/class-wc-connect-service-settings-store.php:654
+msgid "oz"
+msgstr "oz"
+
+#: classes/class-wc-connect-service-settings-store.php:652
+msgid "lbs"
+msgstr "lbs"
+
+#: classes/class-wc-connect-service-settings-store.php:650
+msgid "g"
+msgstr "g"
+
+#: classes/class-wc-connect-service-settings-store.php:648
+msgid "kg"
+msgstr "kg"
+
+#: classes/class-wc-connect-service-settings-store.php:496
+msgid "An invalid service ID was received."
+msgstr "An invalid service ID was received."
+
+#: classes/class-wc-connect-service-settings-store.php:491
+msgid "An invalid service instance was received."
+msgstr "An invalid service instance was received."
+
+#: classes/class-wc-connect-service-settings-store.php:407
+msgid "Rest of the World"
+msgstr "Rest of the World"
+
+#: classes/class-wc-connect-service-settings-store.php:403
+msgctxt "A service with an unknown title and unknown method_title"
+msgid "Unknown"
+msgstr "Unknown"
+
+#: classes/class-wc-connect-help-view.php:229
+msgid "Log is empty"
+msgstr "Log is empty"
+
+#: classes/class-wc-connect-help-view.php:168
+msgid "%s Shipping Zone"
+msgstr "%s Shipping Zone"
+
+#: classes/class-wc-connect-help-view.php:164
+msgid "The most recent rate request failed"
+msgstr "The most recent rate request failed"
+
+#: classes/class-wc-connect-help-view.php:161
+msgid "The most recent rate request was successful"
+msgstr "The most recent rate request was successful"
+
+#: classes/class-wc-connect-help-view.php:158
+msgid "No rate requests have yet been made for this service"
+msgstr "No rate requests have yet been made for this service"
+
+#: classes/class-wc-connect-help-view.php:155
+msgid "Setup for this service has not yet been completed"
+msgstr "Setup for this service has not yet been completed"
+
+#. Author of the plugin
+#: woocommerce-services.php
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: classes/class-wc-connect-help-view.php:75
+msgid "WooCommerce %s is configured correctly"
+msgstr "WooCommerce %s is configured correctly"
+
+#: classes/class-wc-connect-help-view.php:69
+msgid "Please set Base Location in WooCommerce Settings > General"
+msgstr "Please set Base Location in WooCommerce Settings > General"
+
+#: classes/class-wc-connect-help-view.php:61
+msgid "WooCommerce %1$s or higher is required (You are running %2$s)"
+msgstr "WooCommerce %1$s or higher is required (You are running %2$s)"
+
+#: classes/class-wc-connect-error-notice.php:138 woocommerce-services.php:2309
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: classes/class-wc-connect-debug-tools.php:64
+msgid "ERROR: Your site has a problem connecting to the WooCommerce Tax API. Please make sure your WordPress.com connection is working."
+msgstr "ERROR: Your site has a problem connecting to the WooCommerce Tax API. Please make sure your WordPress.com connection is working."
+
+#: classes/class-wc-connect-debug-tools.php:61
+msgid "Your site is successfully communicating to the WooCommerce Tax API."
+msgstr "Your site is successfully communicating to the WooCommerce Tax API."
+
+#: classes/class-wc-connect-debug-tools.php:27
+msgid "This will test your WooCommerce Tax connection to ensure everything is working correctly"
+msgstr "This will test your WooCommerce Tax connection to ensure everything is working correctly"
+
+#: classes/class-wc-connect-debug-tools.php:26
+msgid "Test Connection"
+msgstr "Test Connection"

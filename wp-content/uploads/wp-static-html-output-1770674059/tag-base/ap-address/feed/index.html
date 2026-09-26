@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ap address &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/tag-base/ap-address/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Sun, 26 May 2019 17:24:35 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>ap address &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>[PHP] How to return IP address of a host / domain</title>
+		<link>https://lnrsoft.com/static/php-how-to-return-ip-address-of-a-host-server/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 26 May 2019 09:26:11 +0000</pubDate>
+				<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[ap address]]></category>
+		<category><![CDATA[ip]]></category>
+		<category><![CDATA[php]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5753</guid>
+
+					<description><![CDATA[Here is a quick solution written in php that you can use to determine the current IP address of a given webhost/domain. &#60;?php echo GetClientIP(true); function GetClientIP($validate = False) { $ipkeys = array( 'REMOTE_ADDR', 'HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'HTTP_X_CLUSTER_CLIENT_IP' ); $ip = array(); foreach ($ipkeys as $keyword) { if (isset($_SERVER[$keyword])) { if ($validate) { [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Here is a quick solution written in php that you can use to determine the current IP address of a given webhost/domain.</p>
+<pre class="lang:php decode:true">&lt;?php
+echo GetClientIP(true);
+
+function GetClientIP($validate = False)
+{
+    $ipkeys = array(
+        'REMOTE_ADDR',
+        'HTTP_CLIENT_IP',
+        'HTTP_X_FORWARDED_FOR',
+        'HTTP_X_FORWARDED',
+        'HTTP_FORWARDED_FOR',
+        'HTTP_FORWARDED',
+        'HTTP_X_CLUSTER_CLIENT_IP'
+    );
+    
+    $ip = array();
+    foreach ($ipkeys as $keyword)
+    {
+        if (isset($_SERVER[$keyword]))
+        {
+            if ($validate)
+            {
+                if (ValidatePublicIP($_SERVER[$keyword]))
+                {
+                    $ip[] = $_SERVER[$keyword];
+                }
+            }
+            else
+            {
+                $ip[] = $_SERVER[$keyword];
+            }
+        }
+    }
+    
+    $ip = (empty($ip) ? 'Unknown' : implode(", ", $ip));
+    return $ip;
+}
+
+function ValidatePublicIP($ip)
+{
+    if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

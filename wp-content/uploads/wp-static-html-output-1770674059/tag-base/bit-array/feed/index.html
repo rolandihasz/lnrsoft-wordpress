@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bit array &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/tag-base/bit-array/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Tue, 10 Aug 2021 18:39:06 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>bit array &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>[C++] An Interesting Bit Array Example</title>
+		<link>https://lnrsoft.com/static/c-bit-array-example/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 24 Nov 2017 02:15:35 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[bit array]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3243</guid>
+
+					<description><![CDATA[Here is an interesting bit array task and its solution in C++ that I thought it&#8217;s worth to share with you. You are given four integers values: N, A, B, and C. You need to use them in order to create the sequence called bitArray with the following pseudo-code: Task: calculate the number of distinct integer in the bitArray [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Here is an interesting bit array task and its solution in C++ that I thought it&#8217;s worth to share with you.<br />
+You are given four integers values: <span style="color: #189e1e;"><em><span style="color: #4a8e01;">N, A, B,</span></em> </span>and<span style="color: #4a8e01;"><em> C</em></span>. You need to use them in order to create the sequence called <span style="color: #4a8e01;"><em>bitArray</em></span> with the following pseudo-code:<br />
+<span style="font-size: 16px;"><a href="https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray.png"><img decoding="async" class="size-full wp-image-3628 alignnone" src="https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray.png" alt="" width="459" height="104" srcset="https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray.png 459w, https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray-200x45.png 200w, https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray-300x68.png 300w" sizes="(max-width: 459px) 100vw, 459px" /></a><br />
+</span>Task: calculate the number of distinct integer<span style="font-size: 16px;"><span style="font-size: 16px;"> in the <span style="color: #4a8e01;"><em>bitArray</em></span> sequence.<b><i></i></b></span></span></p>
+<div>
+<div class="challenge_input_format">
+<div class="msB challenge_input_format_title">
+<div class="challenge_input_format">
+<div class="msB challenge_input_format_title">
+<p><u>Solution</u><br />
+Input: four<span style="font-size: 16px;"> space separated integers on a single line, <span style="color: #4a8e01;"><em>N</em></span></span><span style="color: #4a8e01;"><em><span id="MathJax-Element-1-Frame" class="MathJax_SVG" style="font-size: 16px;"></span><span style="font-size: 16px;">, A</span><span style="font-size: 16px;">, B</span></em></span><span style="font-size: 16px;"><span style="color: #4a8e01;"><em>, </em></span>and <span style="color: #189e1e;"><span style="color: #4a8e01;"><em>C</em></span> </span></span><span id="MathJax-Element-4-Frame" class="MathJax_SVG" style="font-size: 16px;"></span><span style="font-size: 16px;"> respectively.<br />
+Where<span style="color: #4a8e01;"><em> N = 32, A = 16, B = 16, C = 16</em></span>.<br />
+<span style="font-size: 16px;">Output: </span></span><span style="font-size: 16px;">one integer that denotes the number of distinct integer in the <span style="color: #4a8e01;"><em>bitArray</em></span> sequence equals</span><span style="color: #189e1e;"><em> <span style="color: #4a8e01;">7</span> </em></span><span style="font-size: 16px;">as we set </span><span style="color: #189e1e;"><em style="font-size: 16px;"><span style="color: #4a8e01;">N, A, B, C</span> </em></span><span style="font-size: 16px;">values.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="challenge_output_format">
+<div class="msB challenge_output_format_title">If you&#8217;d like to read the input from the console simply comment out line 57 and 62 and toggle comment selection on line 58, 59, 60 and 61.<span style="font-size: 16px;"><u><br />
+Input read from the console:</u><br />
+four space separated integers on a single line, <span style="color: #4a8e01;"><em>N<span id="MathJax-Element-1-Frame" class="MathJax_SVG" style="font-size: 16px;"></span>, A, B,</em></span> and <span style="color: #4a8e01;"><em>C</em></span> <span id="MathJax-Element-4-Frame" class="MathJax_SVG" style="font-size: 16px;"></span> respectively.<br />
+</span><u>Output print to the console:</u><strong> </strong><span style="font-size: 16px;"><span style="font-size: 16px;"><span style="font-size: 16px;"><span style="font-size: 16px;"><br />
+One integer that denotes the number of distinct integer in the sequence called <span style="color: #189e1e;"><em><span style="color: #4a8e01;">bitArray</span></em></span><em>.</em></span></span></span></span></div>
+<div class="msB challenge_output_format_title">
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="cpp_bit_array.cpp">#include &lt;algorithm&gt;
+#include &lt;iostream&gt;
+
+constexpr unsigned exp = 31; // exponent
+constexpr unsigned twoToExp = 1u &lt;&lt; exp;
+
+int solve_b_even(unsigned int n, int a, int b, int c)
+{
+    if (b == 0) {
+        if (a == c) {
+            return 1;
+        }
+        return 2;
+    }
+    if (a == 0 &amp;&amp; c == 0) {
+        return 1;
+    }
+    int a1_minus_a0 = (b - 1) * a + c;
+    int numr = exp - __builtin_popcount((a1_minus_a0 &amp; -a1_minus_a0) - 1);
+    int denomr = __builtin_popcount((b &amp; -b) - 1);
+    unsigned int m = numr / denomr + (numr % denomr == 0 ? 1 : 2);
+    return std::min(m, n);
+}
+
+int solve_b_odd(unsigned int n, int a, int b, int c)
+{
+    if (b == 1) {
+        return c == 0 ? 1 : std::min(n, twoToExp / (c &amp; -c));
+    }
+    if (a == 0 &amp;&amp; c == 0) {
+        return 1;
+    }
+    unsigned int m = 1;
+    int b_minus_1 = b - 1;
+    int a1_minus_a0 = b_minus_1 * a + c;
+    int b_to_m = b;
+    int mask = (twoToExp * (b_minus_1 &amp; -b_minus_1) /
+            (a1_minus_a0 &amp; -a1_minus_a0)) -
+           1;
+    while (m &lt; n &amp;&amp; (b_to_m &amp; mask) != 1) {
+        b_to_m = b_to_m * b_to_m;
+        m = m * 2;
+    }
+    return std::min(m, n);
+}
+
+int solve(unsigned int n, int a, int b, int c)
+{
+    if (b % 2 == 0) {
+        return solve_b_even(n, a, b, c);
+    }
+    return solve_b_odd(n, a, b, c);
+}
+
+int main()
+{
+    // int n, a, b, c;
+    int n = 32;
+    int a = 16;
+    int b = 16;
+    int c = 16;
+    // std::cin &gt;&gt; n &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    std::cout &lt;&lt; solve(n, a, b, c);
+    return 0;
+}</pre>
+</div>
+<div></div>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="input">$ clang++ cpp_bit_array.cpp -o cpp_bit_array -Wall -Wextra -std=c++1z -pedantic
+$ 7</pre>
+<p><span style="font-size: 16px;">The number of distinct integer  in the sequence  will be <span style="color: #4a8e01;">536870912 </span>when we change the previously set integer values to:</span></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="input">int n = -90000000;
+int a = 160514480;
+int b = 526178425;
+int c = 1833883134;
+
+$ clang++ cpp_bit_array.cpp -o cpp_bit_array -Wall -Wextra -std=c++1z -pedantic
+$ 536870912</pre>
+<p><a href="https://wandbox.org/permlink/60ulVR8TP70FBQaH" target="_blank" rel="noopener">Use Wandbox online C++ compiler</a></p>
+</div>
+</div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,3449 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>C++ &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/category-base/c/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Mon, 03 Jul 2023 17:32:51 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>C++ &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>MSYS2</title>
+		<link>https://lnrsoft.com/static/msys2/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 20 May 2023 10:25:19 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">https://lnrsoft.com/static/?p=7595</guid>
+
+					<description><![CDATA[MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software. [wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;] Download the installer • Run the installer. • Enter your desired Installation Folder. • MSYS2 is ready! • You are ready to use MSYS2 terminal for the UCRT64 environment. • [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.</p>
+<p>[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;] <a href="https://github.com/msys2/msys2-installer/releases/download/2023-03-18/msys2-x86_64-20230318.exe">Download the installer</a></p>
+<p>• Run the installer.<br />
+• Enter your desired Installation Folder.<br />
+• MSYS2 is ready!<br />
+• You are ready to use MSYS2 terminal for the UCRT64 environment.<br />
+• It&#8217;s time to install some tools. Run the following command:</p>
+<pre class="lang:c++ decode:true ">pacman -S mingw-w64-ucrt-x86_64-gcc</pre>
+<p>• When it&#8217;s complete you can call gcc to verify your installation.</p>
+<pre class="lang:c++ decode:true ">gcc --version</pre>
+<p>gcc.exe (Rev10, Built by MSYS2 project) 12.2.0<br />
+Copyright (C) 2022 Free Software Foundation, Inc.<br />
+This is free software; see the source for copying conditions. There is NO<br />
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p>
+<p>• To update all packages run the following command:</p>
+<pre class="lang:c++ decode:true ">pacman -Suy</pre>
+<p>• Pruning the package cache</p>
+<pre class="lang:c++ decode:true ">paccache -r</pre>
+<p>• Finding a package (for example vim)</p>
+<pre class="lang:c++ decode:true ">pacman -Ss vim</pre>
+<p>• Installing a package</p>
+<pre class="lang:c++ decode:true ">pacman -S vim</pre>
+<p>• Uninstalling a package</p>
+<pre class="lang:c++ decode:true ">pacman -U vim</pre>
+<p>• Finding dependencies of a package</p>
+<pre class="lang:c++ decode:true ">pactree vim</pre>
+<p>It consists of a command line terminal called mintty, bash, version control systems like git and subversion, tools like tar and awk and even build systems like autotools, all based on a modified version of Cygwin. Despite some of these central parts being based on Cygwin, the main focus of MSYS2 is to provide a build environment for native Windows software and the Cygwin-using parts are kept at a minimum. MSYS2 provides up-to-date native builds for GCC, mingw-w64, CPython, CMake, Meson, OpenSSL, FFmpeg, Rust, Ruby, just to name a few.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Valgrind 3.16.0 for MacOS Mojave 10.14.6</title>
+		<link>https://lnrsoft.com/static/valgrind-3-16-0-for-macos-mojave-1-14-6/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2020 12:55:53 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Static Code Analyzers]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[OSX]]></category>
+		<category><![CDATA[Qt]]></category>
+		<category><![CDATA[Valgrind]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=7212</guid>
+
+					<description><![CDATA[After many unstable versions and unsuccessful tries found a working but still experimental solution for MacOS Mojave 1.14.6 using homebrew. This solution also working with Qt5.14.1 using QtCreator 4.11.2 on Mojave 10.14.6. My conclusion after carry out some analysis on some of my cross platform projects, simple and more complicated once. This solution works on [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>After many unstable versions and unsuccessful tries found a working but still experimental solution for MacOS Mojave 1.14.6 using homebrew. This solution also working with Qt5.14.1 using QtCreator 4.11.2 on Mojave 10.14.6.</p>
+<p>My conclusion after carry out some analysis on some of my cross platform projects, simple and more complicated once. This solution works on simple projects, however as the complexity increases the results are totally unpredictable.</p>
+<p>I&#8217;d like to emphasise that after comparing my results, I still NOT recommend to rely on results running Valgrind on MacOS, found fairly high number of critical errors and false positives. My results based on comparing the two following development environments:</p>
+<p>&#8211; MacOS Mojave 10.14.6, Valgrind 3.16.0, Qt5, gcc, clang<br />
+&#8211; Ubuntu 18.04, Valgrind 3.16.0, Qt5, gcc, clang</p>
+<pre class="lang:c++ decode:true">brew install --HEAD https://raw.githubusercontent.com/sowson/valgrind/master/valgrind.rb</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sourcetrail a cross-platform source explorer for C/C++ and Java*</title>
+		<link>https://lnrsoft.com/static/sourcetrail-is-free-for-non-commercial-use/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 18:20:10 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[C/C++]]></category>
+		<category><![CDATA[cross-platform source explorer]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[Sourcetrail]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5386</guid>
+
+					<description><![CDATA[Sourcetrail a cross-platform source explorer, great and powerful tool to have it. I personally recommend it for any junior or senior developers. A cross-platform source explorer for C/C++ and Java* deserves a blog post to reach more developers as well as serious commercial customers. [wp-svg-icons icon=&#8221;play&#8221; wrap=&#8221;i&#8221;][video_popup url=&#8221;https://youtu.be/Cfu6f0uyzc8&#8243; text=&#8221;  Watch Sourcetrail on Youtube&#8221; auto=&#8221;&#8221;] * [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.sourcetrail.com/">Sourcetrail</a> a cross-platform source explorer, great and powerful tool to have it.<br />
+I personally recommend it for any junior or senior developers. A cross-platform source explorer for C/C++ and Java* deserves a blog post to reach more developers as well as serious commercial customers.</p>
+<p style="text-align: center;">[wp-svg-icons icon=&#8221;play&#8221; wrap=&#8221;i&#8221;][video_popup url=&#8221;https://youtu.be/Cfu6f0uyzc8&#8243; text=&#8221;  Watch Sourcetrail on Youtube&#8221; auto=&#8221;&#8221;]</p>
+<p><em>* Free for non-commercial use</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SQLite &#8211; How to use fundamental functions in C++</title>
+		<link>https://lnrsoft.com/static/sqlite-ops-incpp/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 19 Nov 2018 05:07:45 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[C++17]]></category>
+		<category><![CDATA[SQLite]]></category>
+		<category><![CDATA[sqlite3]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=4142</guid>
+
+					<description><![CDATA[SQLite operations in C++ This tutorial aimed to demonstrate how to use SQLite database operations such as CREATE, INSERT, UPDATE, SELECT and DELETE in C++. Since the appearance first smartphone and other mobile devices SQLite become most widely deployed and used database engine in the world. Precise numbers are difficult to obtain but SQLite is [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><strong>SQLite operations in C++</strong><br />
+This tutorial aimed to demonstrate how to use SQLite database operations such as CREATE, INSERT, UPDATE, SELECT and DELETE in C++. Since the appearance first smartphone and other mobile devices SQLite become most widely deployed and used database engine in the world. Precise numbers are difficult to obtain but SQLite is likely used more than all other database engines combined. We can find SQLite in every Android device, iPhone and iOS device, Mac, Windows10, Firefox, Chrome, Safari, Skype, Dropbox, TurboTax, QuickBooks, PHP, Python, television sets, set-top cable boxes and many automotive multimedia systems.</p>
+<p>It&#8217;s an open-source SQL database engine. You can download the source code or precompiled binaries depending your requirements. You might also need to add [-lsqlite3] and [-std=c++17] to successfully compile, create an executable file. Each of the following source code available on my git repository.</p>
+<p><a href="https://github.com/lnrsoft/sqlite3_cpp_basics_updated.git">github.com/lnrsoft/sqlite3_cpp_basics_updated</a></p>
+<p>Use this link <a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//local_db-sqlite/?tmstv=1770672717" rel="nofollow" id="download-link-4551" data-redirect="false" >
+	local_db.sqlite	(1454 downloads	)
+</a>
+ if you would like to download the local_db.sqlite file that I used in this tutorial.</p>
+<p><strong>Step 1 – The first thing we need to do is to create the actual database file that we will use in this article. I called sqltdemo.db in our case.</strong></p>
+<pre class="lang:c++ decode:true">
+#include <iostream>
+#include <sqlite3.h>
+#include <string>
+
+
+int main() {
+    sqlite3* db;
+    auto op = sqlite3_open("local_db.sqlite", &amp;db);
+    auto cl = sqlite3_close(db);
+    if(op) {
+	std::cerr &lt;&lt; "SQLite ERROR: " &lt;&lt; sqlite3_errmsg(db) &lt;&lt; std::endl;
+	return (0);
+    } else {
+	std::cout &lt;&lt; "SQLite local db has been opened successfully."
+	          &lt;&lt; std::endl;
+    }
+    if(cl) {
+	std::cerr &lt;&lt; "SQLite ERROR: " &lt;&lt; sqlite3_errmsg(db) &lt;&lt; std::endl;
+	return (0);
+    } else {
+	std::cout &lt;&lt; "SQLite local db has been closed successfully."
+	          &lt;&lt; std::endl;
+    }
+}
+</pre>
+<p>Compile and run our source code to create the local_db.sqlite with the following command. Here we link our code with the sqlite3 library that will create our db file.</p>
+<pre class="lang:c++ decode:true">$ clang++ 01_openDB.cpp -Wall -Wextra -lsqlite3 -std=c++17
+$ ./a.out
+SQLite local db has been opened successfully.
+SQLite local db has been closed successfully.</pre>
+<p>Verify our result:</p>
+<pre class="lang:c++ decode:true">$ ls -la
+-rw-r--r--   1 rolandihasz staff   605 Mar  1 21:05 01_openDB.cpp
+-rw-r--r--   1 rolandihasz staff 21606 Mar  1 21:06 local_db.sqlite
+-rwxr-xr-x   1 rolandihasz staff  8660 Mar  1 21:06 a.out
+</pre>
+<p><strong>Step 2 &#8211; CREATE TABLE</strong></p>
+<pre class="lang:c++ decode:true ">
+#include <iostream>
+#include <sqlite3.h>
+#include <string>
+
+static int callback(void *NotUsed, int argc, char **argv, char **azColName)
+{
+    int i;
+    for(i = 0; i &lt; argc; i++) {
+        std::cerr &lt;&lt; azColName[i] &lt;&lt; argv[i] &lt;&lt; argv[i] &lt;&lt; "NULL";
+    }
+    std::cout &lt;&lt; std::endl;
+    return 0;
+}
+
+int main()
+{
+    sqlite3 *db;
+    char *zErrMsg = nullptr;
+    const char *sql;
+    auto rc = sqlite3_open("local_db.sqlite", &amp;db);
+    if(rc) {
+        std::cerr &lt;&lt; "Failed open database: " &lt;&lt; sqlite3_errmsg(db)
+                  &lt;&lt; std::endl;
+        return (0);
+    }
+    else {
+        std::cerr &lt;&lt; "Database successfully opened" &lt;&lt; std::endl;
+    }
+    sql = "CREATE TABLE CANDIDATE("
+          "ID INT PRIMARY KEY     NOT NULL,"
+          "NAME           TEXT    NOT NULL,"
+          "AGE            INT     NOT NULL,"
+          "ROLE           TEXT    NOT NULL,"
+          "SALARY         TEXT    NOT NULL);";
+    rc = sqlite3_exec(db, sql, callback, nullptr, &amp;zErrMsg);
+    if(rc != SQLITE_OK) {
+        std::cerr &lt;&lt; "SQL error: " &lt;&lt; zErrMsg &lt;&lt; std::endl;
+        sqlite3_free(&amp;zErrMsg);
+    }
+    else {
+        std::cerr &lt;&lt; "Table successfully created" &lt;&lt; std::endl;
+    }
+    sqlite3_close(db);
+    return 0;
+}
+
+</pre>
+<p>Compile and run.</p>
+<pre class="lang:c++ decode:true">$ clang++ 02_sqlite3_create_table.cpp -Wall -Wextra -lsqlite3 -std=c++17
+$ ./a.out
+Database successfully opened
+Table successfully created</pre>
+<p><strong>Step 3 &#8211; INSERT INTO our CANDIDATE TABLE</strong></p>
+<pre class="lang:c++ decode:true"> 
+#include <iostream>
+#include <sqlite3.h>
+#include <string>
+
+static int callback(void *NotUsed, int argc, char **argv, char **azColName)
+{
+    int i;
+    for(i = 0; i &lt; argc; i++) {
+        std::cerr &lt;&lt; azColName[i] &lt;&lt; argv[i] &lt;&lt; argv[i] &lt;&lt; "NULL";
+    }
+    std::cout &lt;&lt; std::endl;
+    return 0;
+}
+int main()
+{
+    sqlite3 *db;
+    char *zErrMsg = nullptr;
+    int rc;
+    const char *sql;
+    rc = sqlite3_open("local_db.sqlite", &amp;db);
+    if(rc) {
+        std::cerr &lt;&lt; "Failed open database: " &lt;&lt; sqlite3_errmsg(db)
+                  &lt;&lt; std::endl;
+        return (0);
+    }
+    else {
+        std::cerr &lt;&lt; "Database successfully opened" &lt;&lt; std::endl;
+    }
+    sql = "INSERT INTO CANDIDATE (ID,NAME,AGE,ROLE,SALARY) "
+          "VALUES (1, 'Daniel', 29, 'CCO', 130000 ); "
+          "INSERT INTO CANDIDATE (ID,NAME,AGE,ROLE,SALARY) "
+          "VALUES (2, 'Roland', 35, 'CTO', 175000 ); "
+          "INSERT INTO CANDIDATE (ID,NAME,AGE,ROLE,SALARY)"
+          "VALUES (3, 'Leslie', 33, 'CEO', 200000 );";
+    rc = sqlite3_exec(db, sql, callback, nullptr, &amp;zErrMsg);
+    if(rc != SQLITE_OK) {
+        std::cerr &lt;&lt; "SQL error: " &lt;&lt; zErrMsg &lt;&lt; std::endl;
+        sqlite3_free(zErrMsg);
+    }
+    else {
+        std::cerr &lt;&lt; "Records created successfully" &lt;&lt; std::endl;
+    }
+    sqlite3_close(db);
+    return 0;
+}
+
+</pre>
+<p>Compile and run.</p>
+<pre class="lang:c++ decode:true">$ clang++ 03_sqlite3_insert.cpp -Wall -Wextra -lsqlite3 -std=c++17
+$ ./a.out
+Database successfully opened
+Records created successfully</pre>
+<p><strong>Step 4 &#8211; Fetch and display records from the company CANDIDATE TABLE. In this scenario we use a callback function that obtains results from SELECT statement.</strong></p>
+<pre class="lang:c++ decode:true ">//callback function declaration
+typedef int (*sqlite3_callback)(
+   void*,    /* Data provided in the 4th argument of sqlite3_exec() */
+   int,      /* The number of columns in row */
+   char**,   /* An array of strings representing fields in the row */
+   char**    /* An array of strings representing column names */
+);</pre>
+<pre class="lang:c++ decode:true">
+#include <iostream>
+#include <sqlite3.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
+
+static int callback(void *data, int argc, char **argv, char **azColName)
+{
+    fprintf(stderr, "\nCallback function call: ", &amp;data);
+    for(auto i = 0; i &lt; argc; i++) {
+        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+    return 0;
+}
+
+int main()
+{
+    sqlite3 *db;
+    char *zErrMsg = nullptr;
+    int rc;
+    const char *sql;
+    const char *data = "Callback function call";
+    rc = sqlite3_open("local_db.sqlite", &amp;db);
+    if(rc) {
+        std::cerr &lt;&lt; "Failed open database: " &lt;&lt; sqlite3_errmsg(db)
+                  &lt;&lt; std::endl;
+        return (0);
+    }
+    else {
+        std::cerr &lt;&lt; "Database successfully opened" &lt;&lt; std::endl;
+    }
+    sql = "SELECT * from CANDIDATE";
+    rc = sqlite3_exec(db, sql, callback, &amp;data, &amp;zErrMsg);
+    if(rc != SQLITE_OK) {
+        std::cerr &lt;&lt; "SQL error: " &lt;&lt; zErrMsg &lt;&lt; std::endl;
+        sqlite3_free(zErrMsg);
+    }
+    else {
+        std::cout &lt;&lt; "\nExecution completed successfully" &lt;&lt; std::endl;
+    }
+    sqlite3_close(db);
+    return 0;
+}
+
+</pre>
+<p>Compile and run.</p>
+<pre class="lang:c++ decode:true ">$ clang++ 04_sqlite3_select_operation.cpp -Wall -Wextra -lsqlite3 -std=c++17
+$ ./a.out
+Database successfully opened
+
+Callback function call: ID = 1
+NAME = Daniel
+AGE = 29
+ROLE = CCO
+SALARY = 130000
+
+Callback function call: ID = 2
+NAME = Roland
+AGE = 35
+ROLE = CTO
+SALARY = 175000
+
+Callback function call: ID = 3
+NAME = Leslie
+AGE = 33
+ROLE = CEO
+SALARY = 200000
+
+Execution completed successfully</pre>
+<p><strong>Step 5 &#8211; Using UPDATE statement to update any records in our CANDIDATE table.</strong></p>
+<pre class="lang:c++ decode:true">
+#include <iostream>
+#include <sqlite3.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
+static int callback(void *data, int argc, char **argv, char **azColName)
+{
+    fprintf(stderr, "\nCallback function call: ", &amp;data);
+    for(auto i = 0; i &lt; argc; i++) {
+        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+    return 0;
+}
+
+int main()
+{
+    sqlite3 *db;
+    char *zErrMsg = nullptr;
+    int rc;
+    const char *sql;
+    const char *data = "Callback function call";
+    rc = sqlite3_open("local_db.sqlite", &amp;db);
+    if(rc) {
+        std::cerr &lt;&lt; "Failed open database: " &lt;&lt; sqlite3_errmsg(db)
+                  &lt;&lt; std::endl;
+        return (0);
+    }
+    else {
+        std::cout &lt;&lt; "Database successfully opened" &lt;&lt; std::endl;
+    }
+    sql = "UPDATE CANDIDATE set SALARY = 150000 where ID=1; "
+          "SELECT * from CANDIDATE";
+    rc = sqlite3_exec(db, sql, callback, &amp;data, &amp;zErrMsg);
+    if(rc != SQLITE_OK) {
+        std::cerr &lt;&lt; "SQL error: " &lt;&lt; zErrMsg &lt;&lt; std::endl;
+        sqlite3_free(zErrMsg);
+    }
+    else {
+        std::cout &lt;&lt; "Execution completed successfully" &lt;&lt; std::endl;
+    }
+    sqlite3_close(db);
+    return 0;
+}
+
+</pre>
+<p>Compile and run.</p>
+<pre class="lang:c++ decode:true">$ clang++ 05_sqlite3_update_operation.cpp -Wall -Wextra -lsqlite3 -std=c++17
+$ ./a.out
+Database successfully opened
+
+Callback function call: ID = 1
+
+NAME = Daniel
+AGE = 29
+ROLE = CCO
+SALARY = 150000
+
+Callback function call: ID = 2
+NAME = Roland
+AGE = 35
+ROLE = CTO
+SALARY = 175000
+
+Callback function call: ID = 3
+NAME = Leslie
+AGE = 33
+ROLE = CEO
+SALARY = 200000
+
+Execution completed successfully</pre>
+<p><strong>Step 6 &#8211; DELETE statement can delete any records from the CANDIDATE table.</strong></p>
+<pre class="lang:c++ decode:true">
+#include <iostream>
+#include <sqlite3.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
+static int callback(void *data, int argc, char **argv, char **azColName)
+{
+    fprintf(stderr, "\nCallback function call: ", &amp;data);
+    for(auto i = 0; i &lt; argc; i++) {
+        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+    return 0;
+}
+
+int main()
+{
+    sqlite3 *db;
+    char *zErrMsg = nullptr;
+    int rc;
+    const char *sql;
+    const char *data = "Callback function call";
+    rc = sqlite3_open("local_db.sqlite", &amp;db);
+    if(rc) {
+        std::cerr &lt;&lt; "Failed open database: " &lt;&lt; sqlite3_errmsg(db)
+                  &lt;&lt; std::endl;
+        return (0);
+    }
+    else {
+        std::cerr &lt;&lt; "Database successfully opened" &lt;&lt; std::endl;
+    }
+    sql = "DELETE from CANDIDATE where ID=2; "
+          "SELECT * from CANDIDATE";
+    rc = sqlite3_exec(db, sql, callback, &amp;data, &amp;zErrMsg);
+    if(rc != SQLITE_OK) {
+        std::cerr &lt;&lt; "SQL error: " &lt;&lt; zErrMsg &lt;&lt; std::endl;
+        sqlite3_free(zErrMsg);
+    }
+    else {
+        std::cout &lt;&lt; "\nExecution completed successfully" &lt;&lt; std::endl;
+    }
+    sqlite3_close(db);
+    return 0;
+}
+
+</pre>
+<p>Compile and run.</p>
+<pre class="lang:c++ decode:true ">$ clang++ 06_sqlite3_delete_operation.cpp -Wall -Wextra -lsqlite3 -std=c++17
+$ ./a.out
+Database successfully opened
+
+Callback function call: ID = 1
+NAME = Daniel
+AGE = 29
+ROLE = CCO
+SALARY = 150000
+
+Callback function call: ID = 3
+NAME = Leslie
+AGE = 33
+ROLE = CEO
+SALARY = 200000
+
+Execution completed successfully</pre>
+<p>I recommend you to check the official SQLite documentation at sqlite.org for more advance SQLite features and options and support. For further info about using sql with c++ you might found it useful to read me previous post of  <a href="http://185.143.45.180/mysql-db-connection-test-tool/">a simple Qt tool to test QSqlDatabase access connection to a MySQL database.</a> I created this simple Qt command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection. The QSqlDatabase class provides an interface for accessing a database through a connection where an instance of QSqlDatabase represents the connection. The connection provides access to the database via one of the supported database drivers, which are derived from QSqlDriver.</p>
+<p>Alternatively, we can subclass your own database driver from QSqlDriver. My next post will be an article how to write your own database driver in Qt for Unix, OSX and Windows platforms.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] Working with Protocol Buffer</title>
+		<link>https://lnrsoft.com/static/working-with-protocol-buffer/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 27 May 2018 13:38:45 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Protocol Buffer]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3866</guid>
+
+					<description><![CDATA[The following tutorial provides a basic C++ programmer&#8217;s introduction to working with protocol buffers.]]></description>
+										<content:encoded><![CDATA[<p>The following tutorial provides <a href="https://developers.google.com/protocol-buffers/docs/cpptutorial">a basic C++ programmer&#8217;s introduction to working with protocol buffers.</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] Helgrind &#8211; the thread error detector</title>
+		<link>https://lnrsoft.com/static/helgrind-the-thread-error-detector/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 27 Apr 2018 12:06:54 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Static Code Analyzers]]></category>
+		<category><![CDATA[Helgrind]]></category>
+		<category><![CDATA[Valgrind]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3864</guid>
+
+					<description><![CDATA[Helgrind is a Valgrind tool for detecting synchronisation errors in C, C++ and Fortran programs that use the POSIX pthreads threading primitives. To use this tool, you must specify --tool=helgrind on the Valgrind command line.]]></description>
+										<content:encoded><![CDATA[<p><a href="http://valgrind.org/docs/manual/hg-manual.html">Helgrind</a> is a Valgrind tool for detecting synchronisation errors in C, C++ and Fortran programs that use the POSIX pthreads threading primitives. To use this tool, you must specify <code>--tool=helgrind </code> on the Valgrind command line.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] MemorySanitizer</title>
+		<link>https://lnrsoft.com/static/memorysanitizer/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 27 Mar 2018 03:32:18 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[MemorySanitizer]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3857</guid>
+
+					<description><![CDATA[MemorySanitizer is a detector of uninitialized memory reads in C/C++ programs. Uninitialized values occur when stack- or heap-allocated memory is read before it is written. MSan detects cases where such values affect program execution. At this time, MemorySanitizer supports Linux x86_64 only. To use MemorySanitizer, compile and link your program with -fsanitize=memory -fPIE -pie. To [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>MemorySanitizer is a detector of uninitialized memory reads in C/C++ programs. Uninitialized values occur when stack- or heap-allocated memory is read before it is written. MSan detects cases where such values affect program execution.<br />
+<span style="color: #800000;">At this time, MemorySanitizer supports Linux x86_64 only.</span><br />
+To use MemorySanitizer, compile and link your program with -fsanitize=memory -fPIE -pie. To get any stack traces, add -fno-omit-frame-pointer.</p>
+<pre class="lang:c++ decode:true ">#include &lt;stdio.h&gt;
+
+int main(int argc, char** argv) {
+  int* a = new int[10];
+  a[5] = 0;
+  if (a[argc])
+    printf("xx\n");
+  return 0;
+}</pre>
+<pre class="lang:c++ decode:true " >$ clang++  -fsanitize=memory -fPIE -pie -fno-omit-frame-pointer -g -O2 umr.cpp 
+$ ./a.out 
+==32154==WARNING: MemorySanitizer: use-of-uninitialized-value
+    #0 0x5650c17c9bb1  (/home/lnrsoft/a.out+0x89bb1)
+    #1 0x7fc3c6ba382f  (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+    #2 0x5650c175a478  (/home/lnrsoft/a.out+0x1a478)
+
+SUMMARY: MemorySanitizer: use-of-uninitialized-value (/home/lnrsoft/a.out+0x89bb1) 
+Exiting
+</pre>
+<p>Origins tracking</p>
+<pre class="lang:c++ decode:true " >$ clang++ -fsanitize=memory -fsanitize-memory-track-origins -fPIE -pie -fno-omit-frame-pointer -g -O2 umr.cpp 
+$ ./a.out 
+==32080==WARNING: MemorySanitizer: use-of-uninitialized-value
+    #0 0x558203e37c26  (/home/lnrsoft/a.out+0x89c26)
+    #1 0x7f3b148c782f  (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+    #2 0x558203dc84a8  (/home/lnrsoft/a.out+0x1a4a8)
+
+  Uninitialized value was created by a heap allocation
+    #0 0x558203e359b0  (/home/lnrsoft/a.out+0x879b0)
+    #1 0x558203e37b83  (/home/lnrsoft/a.out+0x89b83)
+    #2 0x7f3b148c782f  (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+
+SUMMARY: MemorySanitizer: use-of-uninitialized-value (/home/lnrsoft/a.out+0x89c26) 
+Exiting</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] AddressSanitizer</title>
+		<link>https://lnrsoft.com/static/3854/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 27 Feb 2018 03:23:55 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[AddressSanitizer]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3854</guid>
+
+					<description><![CDATA[AddressSanitizer is a memory error detector for C/C++. It finds: -Use after free (dangling pointer dereference) -Heap buffer overflow -Stack buffer overflow -Global buffer overflow -Use after return -Use after scope -Initialization order bugs -Memory leaks In order to use AddressSanitizer we will need to compile and link your program using clang with the -fsanitize=address [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>AddressSanitizer is a memory error detector for C/C++. It finds:</p>
+<p>-Use after free (dangling pointer dereference)<br />
+-Heap buffer overflow<br />
+-Stack buffer overflow<br />
+-Global buffer overflow<br />
+-Use after return<br />
+-Use after scope<br />
+-Initialization order bugs<br />
+-Memory leaks</p>
+<p>In order to use AddressSanitizer we will need to compile and link your program using clang with the -fsanitize=address switch. To get a reasonable performance add -O1 or higher.</p>
+<pre class="lang:c++ decode:true ">#include &lt;stdlib.h&gt;
+int main() {
+  char *x = (char*)malloc(10 * sizeof(char*));
+  free(x);
+  return x[5];
+}</pre>
+<pre class="lang:c++ decode:true ">$ clang++ -fsanitize=address -O1 -fno-omit-frame-pointer -g use-after-free.cpp
+$ ./a.out
+=================================================================
+==36988==ERROR: AddressSanitizer: heap-use-after-free on address 0x607000000095 at pc 0x0001020bfef4 bp 0x7ffeedb409a0 sp 0x7ffeedb40998
+READ of size 1 at 0x607000000095 thread T0
+    #0 0x1020bfef3 in main use-after-free.cpp:5
+    #1 0x7fff7e800114 in start (libdyld.dylib:x86_64+0x1114)
+
+0x607000000095 is located 5 bytes inside of 80-byte region [0x607000000090,0x6070000000e0)
+freed by thread T0 here:
+    #0 0x10211d066 in wrap_free (libclang_rt.asan_osx_dynamic.dylib:x86_64h+0x59066)
+    #1 0x1020bfeba in main use-after-free.cpp:4
+    #2 0x7fff7e800114 in start (libdyld.dylib:x86_64+0x1114)
+
+previously allocated by thread T0 here:
+    #0 0x10211ce9c in wrap_malloc (libclang_rt.asan_osx_dynamic.dylib:x86_64h+0x58e9c)
+    #1 0x1020bfeaf in main use-after-free.cpp:3
+    #2 0x7fff7e800114 in start (libdyld.dylib:x86_64+0x1114)
+
+SUMMARY: AddressSanitizer: heap-use-after-free use-after-free.cpp:5 in main
+Shadow bytes around the buggy address:
+  0x1c0dffffffc0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x1c0dffffffd0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x1c0dffffffe0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x1c0dfffffff0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x1c0e00000000: fa fa fa fa 00 00 00 00 00 00 00 00 03 fa fa fa
+=&gt;0x1c0e00000010: fa fa[fd]fd fd fd fd fd fd fd fd fd fa fa fa fa
+  0x1c0e00000020: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x1c0e00000030: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x1c0e00000040: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x1c0e00000050: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x1c0e00000060: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==36988==ABORTING
+Abort trap: 6
+</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] ThreadSanitizer</title>
+		<link>https://lnrsoft.com/static/threadsanitizer/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 03:15:33 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[clang]]></category>
+		<category><![CDATA[ThreadSanitizer]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3852</guid>
+
+					<description><![CDATA[ThreadSanitizer is a data race detector for C/C++. Data races are one of the most common and hardest to debug types of bugs in concurrent systems. Here is an example of a data race that can lead to crashes and memory corruptions: #include &#60;pthread.h&#62; #include &#60;stdio.h&#62; int Global; void *Thread1(void *x) { Global++; return NULL; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>ThreadSanitizer is a data race detector for C/C++. Data races are one of the most common and hardest to debug types of bugs in concurrent systems.<br />
+Here is an example of a data race that can lead to crashes and memory corruptions:</p>
+<pre class="lang:c++ decode:true ">#include &lt;pthread.h&gt;
+#include &lt;stdio.h&gt;
+
+int Global;
+
+void *Thread1(void *x) {
+  Global++;
+  return NULL;
+}
+
+void *Thread2(void *x) {
+  Global--;
+  return NULL;
+}
+
+int main() {
+  pthread_t t[2];
+  pthread_create(&amp;t[0], NULL, Thread1, NULL);
+  pthread_create(&amp;t[1], NULL, Thread2, NULL);
+  pthread_join(t[0], NULL);
+  pthread_join(t[1], NULL);
+}</pre>
+<pre class="lang:c++ decode:true  ">$ clang++ simple_race.cpp -fsanitize=thread -fPIE -pie -g
+$ ./a.out
+
+==================
+WARNING: ThreadSanitizer: data race (pid=36804)
+  Write of size 4 at 0x0001062b7068 by thread T2:
+  * #0 Thread2(void*) simple_race.cpp:12 (a.out:x86_64+0x100000d8a)
+
+  Previous write of size 4 at 0x0001062b7068 by thread T1:
+  * #0 Thread1(void*) simple_race.cpp:7 (a.out:x86_64+0x100000d2a)
+
+  Issue is caused by frames marked with "*".
+
+  Location is global 'Global' at 0x0001062b7068 (a.out+0x000100001068)
+
+  Thread T2 (tid=817154, running) created by main thread at:
+    #0 pthread_create &lt;null&gt;:1600736 (libclang_rt.tsan_osx_dynamic.dylib:x86_64h+0x2a34d)
+    #1 main simple_race.cpp:19 (a.out:x86_64+0x100000e07)
+
+  Thread T1 (tid=817153, finished) created by main thread at:
+    #0 pthread_create &lt;null&gt;:1600736 (libclang_rt.tsan_osx_dynamic.dylib:x86_64h+0x2a34d)
+    #1 main simple_race.cpp:18 (a.out:x86_64+0x100000de8)
+
+SUMMARY: ThreadSanitizer: data race simple_race.cpp:12 in Thread2(void*)
+==================
+ThreadSanitizer: reported 1 warnings
+Abort trap: 6</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] How to install gcc-7 on Ubuntu LTS 16.04</title>
+		<link>https://lnrsoft.com/static/how-to-install-gcc-7-on-ubuntu-lts-16-04/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2017 16:02:35 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[g++]]></category>
+		<category><![CDATA[g++-7]]></category>
+		<category><![CDATA[gcc]]></category>
+		<category><![CDATA[gcc-7]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3870</guid>
+
+					<description><![CDATA[sudo apt-get update &#38;&#38; \ sudo apt-get install build-essential software-properties-common -y &#38;&#38; \ sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y &#38;&#38; \ sudo apt-get update &#38;&#38; \ sudo apt-get install gcc-snapshot -y &#38;&#38; \ sudo apt-get update &#38;&#38; \ sudo apt-get install gcc-7 g++-7 -y &#38;&#38; \ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60 --slave /usr/bin/g++ g++ /usr/bin/g++-7 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:c++ decode:true " >sudo apt-get update &amp;&amp; \
+sudo apt-get install build-essential software-properties-common -y &amp;&amp; \
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y &amp;&amp; \
+sudo apt-get update &amp;&amp; \
+sudo apt-get install gcc-snapshot -y &amp;&amp; \
+sudo apt-get update &amp;&amp; \
+sudo apt-get install gcc-7 g++-7 -y &amp;&amp; \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60 --slave /usr/bin/g++ g++ /usr/bin/g++-7 &amp;&amp; \
+sudo apt-get install gcc-4.8 g++-4.8 -y &amp;&amp; \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8;</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] Return absolute_path using boost::filesystem</title>
+		<link>https://lnrsoft.com/static/c-return-absolute_path-using-boostfilesystem/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 07 Dec 2017 20:32:46 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[absolute path]]></category>
+		<category><![CDATA[boost]]></category>
+		<category><![CDATA[boost::filesystem]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3295</guid>
+
+					<description><![CDATA[Return absolute_path using boost::filesystem #include &#60;boost/filesystem.hpp&#62; #include &#60;iostream&#62; void info(const boost::filesystem::path &#38;relative_path) { using namespace boost::filesystem; std::cout &#60;&#60; "rel path: " &#60;&#60; relative_path &#60;&#60; '\n'; std::cout &#60;&#60; "cwd: " &#60;&#60; current_path() &#60;&#60; '\n'; // current working directory const path absolute_path = absolute(relative_path); std::cout &#60;&#60; "absolute: " &#60;&#60; absolute_path &#60;&#60; '\n' &#60;&#60; "root dir: " &#60;&#60; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Return absolute_path using boost::filesystem</p>
+<pre class="lang:c++ decode:true ">#include &lt;boost/filesystem.hpp&gt;
+#include &lt;iostream&gt;
+
+void info(const boost::filesystem::path &amp;relative_path) {
+    using namespace boost::filesystem;
+
+    std::cout &lt;&lt; "rel path: " &lt;&lt; relative_path &lt;&lt; '\n';
+    std::cout &lt;&lt; "cwd: " &lt;&lt; current_path() &lt;&lt; '\n'; // current working directory
+
+    const path absolute_path = absolute(relative_path);
+    std::cout &lt;&lt; "absolute: " &lt;&lt; absolute_path &lt;&lt; '\n'
+              &lt;&lt; "root dir: " &lt;&lt; absolute_path.root_directory() &lt;&lt; '\n'
+              &lt;&lt; "root path: " &lt;&lt; absolute_path.root_path() &lt;&lt; '\n'
+              &lt;&lt; "parent dir: " &lt;&lt; absolute_path.parent_path() &lt;&lt; '\n'
+              &lt;&lt; "file name: " &lt;&lt; absolute_path.filename() &lt;&lt; '\n'
+              &lt;&lt; "-----------------------------------------------\n";
+}
+
+int main() {
+
+    info("main.cpp"); // relative path
+
+    boost::filesystem::path data_dir = "data/out/text";
+    boost::filesystem::create_directories(data_dir);
+
+    info(data_dir / "result.txt"); // relative path
+
+    boost::filesystem::current_path(data_dir); // change cwd
+    info("result.txt"); // relative path
+}</pre>
+<p><span style="color: #ff0000;">Note:</span><br />
+You&#8217;ll need to add the boost libraries to the linking phase with the -L flag and the names of the libraries with the -l flag. This is different from the compilation phase where only the -I include path is needed. For example in my case:</p>
+<pre class="lang:c++ decode:true">$ clang++ ab_path.cpp -o ab_path -Wall -Wextra -std=c++1z -pedantic -L /usr/local/Cellar/boost/1.66.0/lib -lboost_system -lboost_filesystem
+</pre>
+<p>boost::filesystem tutorials<br />
+<a href="https://meetingcpp.com/blog/items/handling-files-using-boost-filesystem.html">https://meetingcpp.com/blog/items/handling-files-using-boost-filesystem.html</a><br />
+<a href="http://www.boost.org/doc/libs/1_55_0/libs/filesystem/doc/tutorial.html">http://www.boost.org/doc/libs/1_55_0/libs/filesystem/doc/tutorial.html</a><br />
+<a href="http://www.boost.org/doc/libs/1_44_0/libs/filesystem/v3/doc/tutorial.html">http://www.boost.org/doc/libs/1_44_0/libs/filesystem/v3/doc/tutorial.html</a><br />
+<a href="http://www.boost.org/doc/libs/1_51_0/libs/filesystem/doc/reference.html#Absolute-path">http://www.boost.org/doc/libs/1_51_0/libs/filesystem/doc/reference.html#Absolute-path</a><br />
+<a href="http://www.boost.org/doc/libs/1_53_0/libs/filesystem/doc/reference.html">http://www.boost.org/doc/libs/1_53_0/libs/filesystem/doc/reference.html</a><br />
+<a href="http://www.boost.org/doc/libs/1_55_0/libs/filesystem/doc/reference.html#copy_file">http://www.boost.org/doc/libs/1_55_0/libs/filesystem/doc/reference.html#copy_file</a><br />
+<a href="http://wiki.lihebi.com/boost.html">http://wiki.lihebi.com/boost.html</a></p>
+<p><a href="http://185.143.45.180/wp-content/uploads/2017/11/BOOST.pdf">The Boost C++ Libraries </a><br />
+<a href="http://185.143.45.180/wp-content/uploads/2017/11/AdvCLibs.key.pdf">AdvC++Libs.key</a><br />
+<a href="http://185.143.45.180/wp-content/uploads/2017/11/boost-graph-library.pdf">boost-graph-library</a><br />
+<a href="http://185.143.45.180/wp-content/uploads/2017/11/asio_doc.pdf">asio_doc</a><br />
+<a href="http://185.143.45.180/wp-content/uploads/2017/11/dima-boost-intro.pdf">dima-boost-intro</a><br />
+<a href="http://185.143.45.180/wp-content/uploads/2017/11/Boost_for_KDE_Developers-Volker_Krause.pdf">Boost_for_KDE_Developers-Volker_Krause</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] An Interesting Bit Array Example</title>
+		<link>https://lnrsoft.com/static/c-bit-array-example/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 24 Nov 2017 02:15:35 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[bit array]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3243</guid>
+
+					<description><![CDATA[Here is an interesting bit array task and its solution in C++ that I thought it&#8217;s worth to share with you. You are given four integers values: N, A, B, and C. You need to use them in order to create the sequence called bitArray with the following pseudo-code: Task: calculate the number of distinct integer in the bitArray [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Here is an interesting bit array task and its solution in C++ that I thought it&#8217;s worth to share with you.<br />
+You are given four integers values: <span style="color: #189e1e;"><em><span style="color: #4a8e01;">N, A, B,</span></em> </span>and<span style="color: #4a8e01;"><em> C</em></span>. You need to use them in order to create the sequence called <span style="color: #4a8e01;"><em>bitArray</em></span> with the following pseudo-code:<br />
+<span style="font-size: 16px;"><a href="https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray.png"><img decoding="async" class="size-full wp-image-3628 alignnone" src="https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray.png" alt="" width="459" height="104" srcset="https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray.png 459w, https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray-200x45.png 200w, https://lnrsoft.com/static/wp-content/uploads/2017/11/bitarray-300x68.png 300w" sizes="(max-width: 459px) 100vw, 459px" /></a><br />
+</span>Task: calculate the number of distinct integer<span style="font-size: 16px;"><span style="font-size: 16px;"> in the <span style="color: #4a8e01;"><em>bitArray</em></span> sequence.<b><i></i></b></span></span></p>
+<div>
+<div class="challenge_input_format">
+<div class="msB challenge_input_format_title">
+<div class="challenge_input_format">
+<div class="msB challenge_input_format_title">
+<p><u>Solution</u><br />
+Input: four<span style="font-size: 16px;"> space separated integers on a single line, <span style="color: #4a8e01;"><em>N</em></span></span><span style="color: #4a8e01;"><em><span id="MathJax-Element-1-Frame" class="MathJax_SVG" style="font-size: 16px;"></span><span style="font-size: 16px;">, A</span><span style="font-size: 16px;">, B</span></em></span><span style="font-size: 16px;"><span style="color: #4a8e01;"><em>, </em></span>and <span style="color: #189e1e;"><span style="color: #4a8e01;"><em>C</em></span> </span></span><span id="MathJax-Element-4-Frame" class="MathJax_SVG" style="font-size: 16px;"></span><span style="font-size: 16px;"> respectively.<br />
+Where<span style="color: #4a8e01;"><em> N = 32, A = 16, B = 16, C = 16</em></span>.<br />
+<span style="font-size: 16px;">Output: </span></span><span style="font-size: 16px;">one integer that denotes the number of distinct integer in the <span style="color: #4a8e01;"><em>bitArray</em></span> sequence equals</span><span style="color: #189e1e;"><em> <span style="color: #4a8e01;">7</span> </em></span><span style="font-size: 16px;">as we set </span><span style="color: #189e1e;"><em style="font-size: 16px;"><span style="color: #4a8e01;">N, A, B, C</span> </em></span><span style="font-size: 16px;">values.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="challenge_output_format">
+<div class="msB challenge_output_format_title">If you&#8217;d like to read the input from the console simply comment out line 57 and 62 and toggle comment selection on line 58, 59, 60 and 61.<span style="font-size: 16px;"><u><br />
+Input read from the console:</u><br />
+four space separated integers on a single line, <span style="color: #4a8e01;"><em>N<span id="MathJax-Element-1-Frame" class="MathJax_SVG" style="font-size: 16px;"></span>, A, B,</em></span> and <span style="color: #4a8e01;"><em>C</em></span> <span id="MathJax-Element-4-Frame" class="MathJax_SVG" style="font-size: 16px;"></span> respectively.<br />
+</span><u>Output print to the console:</u><strong> </strong><span style="font-size: 16px;"><span style="font-size: 16px;"><span style="font-size: 16px;"><span style="font-size: 16px;"><br />
+One integer that denotes the number of distinct integer in the sequence called <span style="color: #189e1e;"><em><span style="color: #4a8e01;">bitArray</span></em></span><em>.</em></span></span></span></span></div>
+<div class="msB challenge_output_format_title">
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="cpp_bit_array.cpp">#include &lt;algorithm&gt;
+#include &lt;iostream&gt;
+
+constexpr unsigned exp = 31; // exponent
+constexpr unsigned twoToExp = 1u &lt;&lt; exp;
+
+int solve_b_even(unsigned int n, int a, int b, int c)
+{
+    if (b == 0) {
+        if (a == c) {
+            return 1;
+        }
+        return 2;
+    }
+    if (a == 0 &amp;&amp; c == 0) {
+        return 1;
+    }
+    int a1_minus_a0 = (b - 1) * a + c;
+    int numr = exp - __builtin_popcount((a1_minus_a0 &amp; -a1_minus_a0) - 1);
+    int denomr = __builtin_popcount((b &amp; -b) - 1);
+    unsigned int m = numr / denomr + (numr % denomr == 0 ? 1 : 2);
+    return std::min(m, n);
+}
+
+int solve_b_odd(unsigned int n, int a, int b, int c)
+{
+    if (b == 1) {
+        return c == 0 ? 1 : std::min(n, twoToExp / (c &amp; -c));
+    }
+    if (a == 0 &amp;&amp; c == 0) {
+        return 1;
+    }
+    unsigned int m = 1;
+    int b_minus_1 = b - 1;
+    int a1_minus_a0 = b_minus_1 * a + c;
+    int b_to_m = b;
+    int mask = (twoToExp * (b_minus_1 &amp; -b_minus_1) /
+            (a1_minus_a0 &amp; -a1_minus_a0)) -
+           1;
+    while (m &lt; n &amp;&amp; (b_to_m &amp; mask) != 1) {
+        b_to_m = b_to_m * b_to_m;
+        m = m * 2;
+    }
+    return std::min(m, n);
+}
+
+int solve(unsigned int n, int a, int b, int c)
+{
+    if (b % 2 == 0) {
+        return solve_b_even(n, a, b, c);
+    }
+    return solve_b_odd(n, a, b, c);
+}
+
+int main()
+{
+    // int n, a, b, c;
+    int n = 32;
+    int a = 16;
+    int b = 16;
+    int c = 16;
+    // std::cin &gt;&gt; n &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    std::cout &lt;&lt; solve(n, a, b, c);
+    return 0;
+}</pre>
+</div>
+<div></div>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="input">$ clang++ cpp_bit_array.cpp -o cpp_bit_array -Wall -Wextra -std=c++1z -pedantic
+$ 7</pre>
+<p><span style="font-size: 16px;">The number of distinct integer  in the sequence  will be <span style="color: #4a8e01;">536870912 </span>when we change the previously set integer values to:</span></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="input">int n = -90000000;
+int a = 160514480;
+int b = 526178425;
+int c = 1833883134;
+
+$ clang++ cpp_bit_array.cpp -o cpp_bit_array -Wall -Wextra -std=c++1z -pedantic
+$ 536870912</pre>
+<p><a href="https://wandbox.org/permlink/60ulVR8TP70FBQaH" target="_blank" rel="noopener">Use Wandbox online C++ compiler</a></p>
+</div>
+</div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] cxx_status and support in Clang</title>
+		<link>https://lnrsoft.com/static/current-c-implementation-status-and-support-in-clang/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 14 Nov 2017 13:12:57 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[-std=c++11]]></category>
+		<category><![CDATA[-std=c++14]]></category>
+		<category><![CDATA[-std=c++17]]></category>
+		<category><![CDATA[clang]]></category>
+		<category><![CDATA[cxx_status]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3185</guid>
+
+					<description><![CDATA[Here is the list of current C++ implementation status and support in Clang as per Aug 2017. You can find the complete list of features and minimum Clang version with support on the source page: https://clang.llvm.org/cxx_status.html C++11 implementation status Clang 3.3 and later implement all of the ISO C++ 2011 standard. By default, Clang builds C++ code according [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Here is the list of current C++ implementation status and support in Clang as per Aug 2017.<br />
+You can find the complete list of features and minimum Clang version with support on the source page: <a href="https://clang.llvm.org/cxx_status.html">https://clang.llvm.org/cxx_status.html</a></p>
+<p id="cxx11">C++11 implementation status<br />
+Clang 3.3 and later implement all of the <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=50372">ISO C++ 2011 standard</a>. By default, Clang builds C++ code according to the C++98 standard, with many C++11 features accepted as extensions. You can use Clang in C++11 mode with the -std=c++11 option. Clang&#8217;s C++11 mode can be used with <a href="http://libcxx.llvm.org/">libc++</a> or with gcc&#8217;s libstdc++.</p>
+<p id="cxx14">C++14 implementation status<br />
+Clang 3.4 and later implement all of the <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=64029">ISO C++ 2014 standard</a>.</p>
+<p>You can use Clang in C++14 mode with the -std=c++14 option (use -std=c++1y in Clang 3.4 and earlier).</p>
+<p id="cxx17">C++17 implementation status<br />
+Clang 5 and later implement all the features of the C++ 2017 Draft International Standard.<br />
+You can use Clang in C++17 mode with the -std=c++17 option (use -std=c++1z in Clang 4 and earlier).</p>
+<p id="cxx20">C++2a implementation status<br />
+Clang has experimental support for some proposed features of the C++ standard following C++17, provisionally named C++2a. Note that support for these features may change or be removed without notice, as the draft C++2a standard evolves.<br />
+You can use Clang in C++2a mode with the -std=c++2a option.</p>
+<p>More technical specifications and standing documents on the source page: <a href="https://clang.llvm.org/cxx_status.html">https://clang.llvm.org/cxx_status.html</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>List of command of the built in GDB-compatibility in LLDB debugger</title>
+		<link>https://lnrsoft.com/static/list-of-command-of-the-built-in-gdb-compatibility-in-lldb-debugger/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 14 Nov 2017 12:22:45 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Debugger]]></category>
+		<category><![CDATA[GDB]]></category>
+		<category><![CDATA[LLDB]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3174</guid>
+
+					<description><![CDATA[GDB commands with the LLDB counterparts. The built in GDB-compatibility aliases in LLDB are also listed. GDB to LLDB command map]]></description>
+										<content:encoded><![CDATA[<p>GDB commands with the LLDB counterparts. The built in GDB-compatibility aliases in LLDB are also listed.</p>
+<p><a href="https://lldb.llvm.org/lldb-gdb.html">GDB to LLDB command map</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CMAKE BUILD TYPES AND HOW TO SPECIFY COMPILERS AND COMPILER FLAGS</title>
+		<link>https://lnrsoft.com/static/how-to-specify-compilers-and-compiler-flags/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 08 Sep 2017 22:59:16 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[-DCMAKE_CXX_FLAGS_RELWITHDEBINFO="-O3 -g"]]></category>
+		<category><![CDATA[CC=gcc]]></category>
+		<category><![CDATA[CMake]]></category>
+		<category><![CDATA[CMAKE_BUILD_TYPE]]></category>
+		<category><![CDATA[CMAKE_CXX_FLAGS]]></category>
+		<category><![CDATA[CXX=g++]]></category>
+		<category><![CDATA[DCMAKE_BUILD_TYPE]]></category>
+		<category><![CDATA[DCMAKE_C_FLAGS_RELWITHDEBINFO="-O3 -g"]]></category>
+		<category><![CDATA[DCMAKE_CXX_FLAGS]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2792</guid>
+
+					<description><![CDATA[CMake has a CMAKE_BUILD_TYPE option for predefined build types. The build type affects optimization and whether the result of the build is debuggable. Those used by MySQL are RelWithDebInfo or Debug. RelWithDebInfo (optimizations are on, debug info is generated) is used in MySQL by default. Debug (optimizations are off, debug info is generated) is used [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>CMake has a CMAKE_BUILD_TYPE option for predefined build types. The build type affects optimization and whether the result of the build is debuggable. Those used by MySQL are RelWithDebInfo or Debug.<br />
+RelWithDebInfo (optimizations are on, debug info is generated) is used in MySQL by default.<br />
+Debug (optimizations are off, debug info is generated) is used if the WITH_DEBUG option is set.</p>
+<p>CMAKE_BUILD_TYPE is not set when custom compile flags are used</p>
+<p><span style="font-size: 16px;">To define which C and C++ compilers to use, you can define the CC </span><span style="font-size: 16px;">and CXX </span><span style="font-size: 16px;">environment variables. For example:</span></p>
+<pre class="toolbar:0 minimize:false lang:default decode:true ">shell&gt; CC=gcc
+shell&gt; CXX=g++
+shell&gt; export CC CXX</pre>
+<p>To specify your own C and C++ compiler flags, for flags that do not affect optimization, use the CMAKE_C_FLAGS and CMAKE_CXX_FLAGS CMake options:</p>
+<pre class="toolbar:0 minimize:false lang:default decode:true">cmake .. -DCMAKE_C_FLAGS=your_c_flags \
+  -DCMAKE_CXX_FLAGS=your_c++_flags</pre>
+<p>When providing your own compiler flags, you might want to specify CMAKE_BUILD_TYPE as well.<br />
+For example, to create a 32-bit release build on a 64-bit Linux machine, do this:</p>
+<pre class="toolbar:0 minimize:false lang:default decode:true">cmake .. -DCMAKE_C_FLAGS=-m32 \
+  -DCMAKE_CXX_FLAGS=-m32 \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo</pre>
+<p>If you set flags that affect optimization (-Onumber), you must set the CMAKE_C_FLAGS_build_type and/or CMAKE_CXX_FLAGS_build_type options, where build_type  corresponds to the CMAKE_BUILD_TYPE value.</p>
+<p>To specify a different optimization for the default build type (RelWithDebInfo) set the CMAKE_C_FLAGS_RELWITHDEBINFO and CMAKE_CXX_FLAGS_RELWITHDEBINFO options.<br />
+For example, to compile on Linux with -O3 and with debug symbols, do this:</p>
+<pre class="toolbar:0 minimize:false lang:default decode:true">cmake .. -DCMAKE_C_FLAGS_RELWITHDEBINFO="-O3 -g" \
+  -DCMAKE_CXX_FLAGS_RELWITHDEBINFO="-O3 -g"</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SPECIFY ADDITIONAL COMPILER OPTIONS IN QTCREATOR OR SIMPLE ADD THEM TO QMAKE</title>
+		<link>https://lnrsoft.com/static/specify-additional-compiler-options-in-qtcreator-or-simple-add-them-to-qmake/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 07 Sep 2017 23:10:46 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[C++ Support in Clang]]></category>
+		<category><![CDATA[C++03]]></category>
+		<category><![CDATA[C++11]]></category>
+		<category><![CDATA[C++14]]></category>
+		<category><![CDATA[C++17]]></category>
+		<category><![CDATA[C++98]]></category>
+		<category><![CDATA[QMAKE_CXX]]></category>
+		<category><![CDATA[QMAKE_CXXFLAGS]]></category>
+		<category><![CDATA[Specify additional compiler options in QtCreator]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2797</guid>
+
+					<description><![CDATA[List of build-specific variants to specify your Qt project. QMAKE_CC = gcc QMAKE_LEX = flex QMAKE_LEXFLAGS = QMAKE_YACC = byacc QMAKE_YACCFLAGS = -d QMAKE_CFLAGS = QMAKE_CFLAGS_DEPS = -M QMAKE_CFLAGS_WARN_ON = -Wall QMAKE_CFLAGS_WARN_OFF = -w QMAKE_CFLAGS_RELEASE = -O2 QMAKE_CFLAGS_DEBUG = -g QMAKE_CFLAGS_YACC = -Wno-unused -Wno-parentheses QMAKE_CXX = g++ QMAKE_CXXFLAGS = $$QMAKE_CFLAGS QMAKE_CXXFLAGS_DEPS = $$QMAKE_CFLAGS_DEPS QMAKE_CXXFLAGS_WARN_ON = [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>List of build-specific variants to specify your Qt project.</p>
+<pre class="toolbar:0 minimize:false tab-convert:true tab-size:3 lang:sh decode:true ">QMAKE_CC                      = gcc
+QMAKE_LEX                     = flex
+QMAKE_LEXFLAGS                =
+QMAKE_YACC                    = byacc
+QMAKE_YACCFLAGS               = -d
+QMAKE_CFLAGS                  =
+QMAKE_CFLAGS_DEPS             = -M
+QMAKE_CFLAGS_WARN_ON          = -Wall
+QMAKE_CFLAGS_WARN_OFF         = -w
+QMAKE_CFLAGS_RELEASE          = -O2
+QMAKE_CFLAGS_DEBUG            = -g
+QMAKE_CFLAGS_YACC             = -Wno-unused -Wno-parentheses
+QMAKE_CXX                     = g++
+QMAKE_CXXFLAGS                = $$QMAKE_CFLAGS
+QMAKE_CXXFLAGS_DEPS           = $$QMAKE_CFLAGS_DEPS
+QMAKE_CXXFLAGS_WARN_ON        = $$QMAKE_CFLAGS_WARN_ON
+QMAKE_CXXFLAGS_WARN_OFF       = $$QMAKE_CFLAGS_WARN_OFF
+QMAKE_CXXFLAGS_RELEASE        = $$QMAKE_CFLAGS_RELEASE
+QMAKE_CXXFLAGS_DEBUG          = $$QMAKE_CFLAGS_DEBUG
+QMAKE_CXXFLAGS_YACC           = $$QMAKE_CFLAGS_YACC
+QMAKE_CXXFLAGS_THREAD         = $$QMAKE_CFLAGS_THREAD
+QMAKE_CXXFLAGS_RTTI_ON        = -frtti
+QMAKE_CXXFLAGS_RTTI_OFF       = -fno-rtti
+QMAKE_CXXFLAGS_EXCEPTIONS_ON  = -fexceptions -mthreads
+QMAKE_CXXFLAGS_EXCEPTIONS_OFF = -fno-exceptions</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>QSqlDatabase connection testing tool</title>
+		<link>https://lnrsoft.com/static/qsqldatabase-connect-testool/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 28 Aug 2017 11:17:45 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[MySQL DB connection test tool]]></category>
+		<category><![CDATA[QSqlDatabase]]></category>
+		<category><![CDATA[Qt]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2588</guid>
+
+					<description><![CDATA[QSqlDatabase connection access A simple command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection. The QSqlDatabase class provides an interface for accessing a database through a connection. An instance of QSqlDatabase represents the connection. The connection provides access to the database via [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h6>QSqlDatabase connection access</h6>
+<p>A simple command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection. The QSqlDatabase class provides an interface for accessing a database through a connection. An instance of QSqlDatabase represents the connection. The connection provides access to the database via one of the supported database drivers (MySQL in our case), which are derived from QSqlDriver. Alternatively, we can subclass your own database driver from QSqlDriver. I&#8217;ll post an another article about how to write your own database driver in Qt for Unix, OSX and Windows platforms. It&#8217;s recommend to write your own database driver especially when you planning to deploy your application in different platforms. It&#8217;s simply because there could be surprises especially on client deploying your application that using one of the supported database drivers due to missing dependencies or environmental variables.</p>
+<p>Software prerequisites:<br />
+Remote MySQL server version: 5.7 or above<br />
+Qt version: Qt_5_7_1 or above<br />
+OpenSSL 1.0.x or above the for SSL feature</p>
+<p>How to use it:<br />
+1. I simply run the mysql_conn_test_database.sql SQL script file to create a test database on the remote server.<br />
+2. Set the hostname or IP, port number, username and password. You migth need to create a new database user for this purpose.<br />
+[You will need to create SSL certificates for the database server and client in order to test SSL Feature on the MySQL Server.]<br />
+3. If everthing is set just simple build and run the project in your QtCreator.</p>
+<p>If everything goes well you will recieve the following feedback from your terminal:</p>
+<p><a href="https://lnrsoft.com/static/wp-content/uploads/2017/08/app_output_double.png"><img fetchpriority="high" decoding="async" class="aligncenter" src="https://lnrsoft.com/static/wp-content/uploads/2017/08/app_output_double-300x172.png" alt="" width="300" height="172" /></a><br />
+QSqlDatabase connection test tool was created and written by Roland Ihasz and it is licensed under the GNU General Public License (GPL) Version 2 or above.</p>
+<p>Check out on [wp-svg-icons icon=&#8221;github-2&#8243; wrap=&#8221;I&#8221;] GitHub. [wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;] <a href="https://github.com/lnrsoft/QSqlDatabase-connection-test-tool">https://github.com/lnrsoft/QSqlDatabase-connection-test-tool</a></p>
+<p>[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;] <a href="https://github.com/lnrsoft/QSqlDatabase-connection-test-tool/raw/master/mysql_db_connection_test.pro">mysql_db_connection_test.pro</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true " title="mysql_db_connection_test.pro"># (c)  Roland Ihasz - https://github.com/lnrsoft   
+
+QT += core
+QT -= gui
+QT += sql
+QT += sql widgets
+
+CONFIG += c++11
+CONFIG += console       
+#CONFIG -= console      
+CONFIG -= app_bundle
+
+TEMPLATE = app
+
+TARGET = mysql_db_connection_test
+
+SOURCES += main.cpp
+
+QTPLUGIN += sqldrivers
+
+QMAKE_CXXFLAGS += -std=c++11</pre>
+<p>[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;] <a href="https://raw.githubusercontent.com/lnrsoft/QSqlDatabase-connection-test-tool/master/main.cpp">main.cpp</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="main.cpp">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include &lt;QSqlDatabase&gt;
+#include &lt;QApplication&gt;
+#include &lt;QSqlRecord&gt;
+#include &lt;QSqlError&gt;
+#include &lt;QSqlQuery&gt;
+#include &lt;QDebug&gt;
+#include &lt;QtCore&gt;
+#include &lt;QtSql&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication a(argc, argv);
+    {
+        QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+        db.setHostName("192.168.1.100");        // your host or ip name
+        db.setPort(3306);                       // port number
+        db.setDatabaseName("mysql_conn_test");  // db name
+        db.setUserName("username");             // db username
+        db.setPassword("password");             // db password
+        //----------Additional-SSL-Feature-for-secure-database-connection----------
+        //  db.setConnectOptions(
+        //    "SSL_KEY=/Users/lnrsoft/repository/mysql_db_conn_test/client-key.pem;"
+        //    "SSL_CERT=/Users/lnrsoft/repository/mysql_db_conn_test/client-cert.pem;"
+        //    "SSL_CA=/Users/lnrsoft/repository/mysql_db_conn_test/ca-cert.pem;"
+        //    "SSL_CIPHER=DHE-RSA-AES256-SHA;");
+        //----------Additional-SSL-Feature-for-secure-database-connection----------
+        if(!db.open()) {
+            qDebug() &lt;&lt; "\nDATABASE CONNECTION UNSUCCESSFUL."
+                     &lt;&lt; "\nlastError: " &lt;&lt; db.lastError().text() &lt;&lt;"\n";
+            return 0;
+        }
+        if(db.open()) {
+            qDebug() &lt;&lt; "\nSUCCESSFULLY CONNECTED TO THE DATABASE SERVER.";
+            QSqlQuery query(
+                "SELECT "
+                "dataTable.ID, "
+                "dataTable.x1, "
+                "dataTable.y1, "
+                "dataTable.z1, "
+                "dataTable.t "
+                "FROM mysql_conn_test.dataTable");
+            QSqlRecord rec1 = query.record();
+            QSqlRecord rec2 = query.record();
+            QSqlRecord rec3 = query.record();
+            QSqlRecord rec4 = query.record();
+            QSqlRecord rec5 = query.record();
+            qDebug() &lt;&lt; "NUMBER OF ROWS: " &lt;&lt; query.size();   // Return number of rows
+            int productCode1 = rec1.indexOf("ID");
+            int productCode2 = rec2.indexOf("x1");
+            int productCode3 = rec3.indexOf("y1");
+            int productCode4 = rec4.indexOf("z1");
+            int productCode5 = rec5.indexOf("t");
+            qDebug() &lt;&lt; "====================================================================================";
+            while(query.next()) {
+                qDebug() &lt;&lt; "ROW NUMBER"
+                         &lt;&lt; query.value(productCode1).toString() &lt;&lt; ""
+                         &lt;&lt; query.value(productCode2).toString() &lt;&lt; ""
+                         &lt;&lt; query.value(productCode3).toString() &lt;&lt; ""
+                         &lt;&lt; query.value(productCode4).toString() &lt;&lt; ""
+                         &lt;&lt; query.value(productCode5).toString();
+            }
+            qDebug() &lt;&lt; "====================================================================================";
+            qDebug() &lt;&lt; "COMPLETE...";
+            return 0;
+        }
+    }
+}
+
+</pre>
+<p>[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;] <a href="https://raw.githubusercontent.com/lnrsoft/QSqlDatabase-connection-test-tool/master/mysql_conn_test_database.sql">mysql_conn_test_database.sql</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true" title="mysql_conn_test_database.sql">/*	(c)  Roland Ihasz - https://github.com/lnrsoft	*/
+
+DROP DATABASE IF EXISTS `mysql_conn_test`;
+
+CREATE DATABASE IF NOT EXISTS `mysql_conn_test` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `mysql_conn_test`;
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+DROP TABLE IF EXISTS `dataTable`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `dataTable` (
+  `ID` int(1) NOT NULL,
+  `x1` double NOT NULL,
+  `y1` double NOT NULL,
+  `z1` double NOT NULL,
+  `t` int(16) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+LOCK TABLES `dataTable` WRITE;
+/*!40000 ALTER TABLE `dataTable` DISABLE KEYS */;
+INSERT INTO `dataTable` VALUES (1,0.3352925219759345,0.336742962207645,0.3117983819916844,2),(2,0.3351856799423695,0.334428142439574,0.3127960397861898,5),(3,0.3592007360234857,0.314406356215476,0.3792905477248132,9);
+/*!40000 ALTER TABLE `dataTable` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+</pre>
+<p>Alternatively, use the following shorter source code to check the connection without any sql query.<br />
+[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;] <a href="https://gist.github.com/lnrsoft/86f3fd09a11062eb03143e34f3c71ecb/raw/9e94e395a025835b94c1bc0a311808b2dc03bb24/QSqlDatabase_tool_light.cpp">QSqlDatabase connection test tool without query</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true " title="QSqlDatabase connection test tool without query">// (c)  Roland Ihasz - https://github.com/lnrsoft   
+
+#include &lt;QCoreApplication&gt;
+#include &lt;QSqlDatabase&gt;
+#include &lt;QSqlError&gt;
+#include &lt;QSqlQuery&gt;
+#include &lt;QDebug&gt;
+#include &lt;QDebug&gt;
+#include &lt;QtCore&gt;
+#include &lt;QtSql&gt;
+
+int main(int argc, char* argv[])
+{
+    QCoreApplication a(argc, argv);
+    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+    db.setHostName("192.168.1.100");        // host or ip name
+    db.setPort(3306);                       // port number
+    db.setDatabaseName("mysql_conn_test");  // db name
+    db.setUserName("username");             // db username
+    db.setPassword("password");             // db password
+    if(!db.open()) {
+        qDebug() &lt;&lt; "\nDATABASE CONNECTION UNSUCCESSFUL."
+                 &lt;&lt; "\nlastError: " &lt;&lt; db.lastError().text() &lt;&lt;"\n";
+        return 0;
+    }
+    if(db.open()) {
+        qDebug() &lt;&lt; "\nSUCCESSFULLY CONNECTED TO THE DATABASE SERVER.\n";
+        return 0;
+    }
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>C++ BEST PRACTICES BY JASON TURNER</title>
+		<link>https://lnrsoft.com/static/c-best-practices-by-jason-turner/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 28 Aug 2017 10:00:57 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ best practices]]></category>
+		<category><![CDATA[Free ebook]]></category>
+		<category><![CDATA[Jason Turner]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2638</guid>
+
+					<description><![CDATA[Nice effort to put this free ebook together by Jason Turner available on GitBook. The book has inspired an O&#8217;Reilly video: Learning C++ Best Practices also an impressive work. I recommend to visit Jason&#8217;s website if you haven&#8217;t done it yet, there are lot more interesting articles about C++. [wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;] http://articles.emptycrate.com]]></description>
+										<content:encoded><![CDATA[<p>Nice effort to put this free ebook together by Jason Turner available on <a href="https://www.gitbook.com/book/lefticus/cpp-best-practices/details">GitBook</a>. The book has inspired an O&#8217;Reilly video: <a href="http://shop.oreilly.com/product/0636920049814.do">Learning C++ Best Practices</a> also an impressive work.</p>
+<p>I recommend to visit Jason&#8217;s website if you haven&#8217;t done it yet, there are lot more interesting articles about C++.</p>
+<p><span style="color: #008000;">[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;]</span> <a href="http://articles.emptycrate.com">http://articles.emptycrate.com</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[SOLVED] QSQLDATABASE: QMYSQL DRIVER NOT LOADED ON OSX AND LINUX</title>
+		<link>https://lnrsoft.com/static/solved-qsqldatabase-qmysql-driver-not-loaded-on-osx-and-linux/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 28 Aug 2017 01:50:37 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[/opt/local/lib/mysql55/mysql]]></category>
+		<category><![CDATA[libmysqlclient]]></category>
+		<category><![CDATA[libmysqlclient.18.dylib]]></category>
+		<category><![CDATA[MySQL Qt Bug]]></category>
+		<category><![CDATA[QMYSQL driver not loaded]]></category>
+		<category><![CDATA[QSqlDatabase: QMYSQL driver not loaded]]></category>
+		<category><![CDATA[Qt MySQL bug fix]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<category><![CDATA[SOLVED QMYSQL driver not loaded]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2501</guid>
+
+					<description><![CDATA[After spending a quite a bit of time to find the solution of this often-occurring QMYSQL driver not loaded problem mainly after installing Qt installation in a new software environment, So I thought I am going to share my best practice to fix this issue. I wasn&#8217;t able to establish database connection even if I [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>After spending a quite a bit of time to find the solution of this often-occurring<br />
+QMYSQL driver not loaded problem mainly after installing Qt installation in a new software environment, So I thought I am going to share my best practice to fix this issue.<br />
+I wasn&#8217;t able to establish database connection even if I received the list of available drivers:</p>
+<p><span class="line">QSqlDatabase: available drivers: QSQLITE QMYSQL QMYSQL3 QODBC QPSQL</span><br />
+<span class="line"> QSqlDatabase: QMYSQL driver not loaded</span></p>
+<p>The following simple method helps to fix the problem.<br />
+On OSX system just simple install or re-install mysql using the flowing command. I usually prefer Homebrew as it fulfils most my requirements and using MacPort when I really no other options available.</p>
+<pre class="toolbar:0 minimize:false lang:default decode:true ">$ brew install mysql</pre>
+<p>then place the following <a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//libmysqlclient-18-dylib-zip/?tmstv=1770672717" rel="nofollow" id="download-link-3540" data-redirect="false" >
+	libmysqlclient.18.dylib.zip	(1927 downloads	)
+</a>
+ file to the path below:</p>
+<pre class="toolbar:0 minimize:false lang:default decode:true">/opt/local/lib/mysql55/mysql/</pre>
+<pre class="toolbar:0 minimize:false lang:default decode:true">/opt/local/lib/mysql55/mysql/libmysqlclient.18.dylib</pre>
+<p>On different Linux distributions I usually apt install or yum install the MySQL package basically the only thing I need to make sure that place the <a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//libmysqlclient-18-dylib-zip/?tmstv=1770672717" rel="nofollow" id="download-link-3540" data-redirect="false" >
+	libmysqlclient.18.dylib.zip	(1927 downloads	)
+</a>
+ file to the following path:</p>
+<pre class="toolbar:0 minimize:false lang:default decode:true">/opt/local/lib/mysql55/mysql/</pre>
+<p>This method solves the QMYSQL driver not loaded issue and allows me to establish database connection, it might work on Windows system as well, however I had not opportunity to try before.<br />
+Please, let me know if this method also working for you by <a href="http://185.143.45.180/contact-us/">dropping a line</a>.</p>
+<p>Download: <a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//libmysqlclient-18-dylib-zip/?tmstv=1770672717" rel="nofollow" id="download-link-3540" data-redirect="false" >
+	libmysqlclient.18.dylib.zip	(1927 downloads	)
+</a>
+</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>HOW TO RETURN A STRING EQUIVALENT OF THE NUMBER N USING QT.</title>
+		<link>https://lnrsoft.com/static/how-to-return-a-string-equivalent-of-the-number-n-using-qt/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 27 Aug 2017 21:43:49 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[precision]]></category>
+		<category><![CDATA[QString::number]]></category>
+		<category><![CDATA[Qt]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2675</guid>
+
+					<description><![CDATA[QString QString::number(double n, char format = &#8216;g&#8217;, int precision = 6) returns a string equivalent of the number n, formatted according to the specified format and precision. Let’s see the following example. There are 3 double values x, y, z. We want to return the result of the following equation: (x / z) * (5.961 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>QString QString::number(double n, char format = &#8216;g&#8217;, int precision = 6) returns a string equivalent of the number n, formatted according to the specified format and precision.</p>
+<p>Let’s see the following example.<br />
+There are 3 double values x, y, z.<br />
+We want to return the result of the following equation:<br />
+(x / z) * (5.961 / y)<br />
+We also want to ask the user to set the desired precision of the result.</p>
+<p>Here is how I do with Qt.<br />
+[wp-svg-icons icon=&#8221;github&#8221; wrap=&#8221;I&#8221;] You can also <a href="https://github.com/lnrsoft/return_a_string_equivalent_of_the_number_n" target="_blank" rel="nofollow noopener">Fork the complete qt project from my GitHub.</a><br />
+* note = there are many ways to solve this issue, much simpler, but this time I want to demonstrate how we do in Qt.</p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true " title="Click To Expand Code">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include &lt;QCoreApplication&gt;
+#include &lt;iostream&gt;
+#include &lt;QDebug&gt;
+
+int main(int argc, char* argv[])
+{
+    QCoreApplication a(argc, argv);
+    double x = 1.190;
+    double z = 6.634;
+    double y = 3.398;
+    int precision;
+    double result = (x / z) * (5.961 / y);
+    std::cout &lt;&lt; "\nEnter the required precision of the result: ";
+    std::cin &gt;&gt; precision;
+    QString resultstring = QString::number(result, 'g', precision);
+    std::cout &lt;&lt; "\n1.In this case the output is a double value."
+              &lt;&lt; std::endl;
+    std::cout &lt;&lt; "The result by the compiler default setting is: "
+              &lt;&lt; result &lt;&lt; "\n" &lt;&lt; std::endl;
+    std::cout &lt;&lt; "2. Using the QString::number member function."
+              &lt;&lt; std::endl;
+    std::cout &lt;&lt; "The result when we set the precision to "
+              &lt;&lt; precision &lt;&lt; " is: " &lt;&lt; qPrintable(resultstring)
+              &lt;&lt; "\n" &lt;&lt; std::endl;
+    /*
+     *  using qPrintable to remove qoutes from the output
+    */
+    return 0;
+}
+</pre>
+<p>Argument Formats<br />
+In member functions where an argument format can be specified (e.g., arg(), number()), the argument format can be one of the following:</p>
+<p>Format            Meaning</p>
+<p>e                      format as [-]9.9e[+|-]999</p>
+<p>E                      format as [-]9.9E[+|-]999</p>
+<p>f                       format as [-]9.9</p>
+<p>g                      use e or f format, whichever is the most concise</p>
+<p>G                     use E or f format, whichever is the most concise</p>
+<p>A precision is also specified with the argument format. For the &#8216;e&#8217;, &#8216;E&#8217;, and &#8216;f&#8217; formats, the precision represents the number of digits after the decimal point. For the &#8216;g&#8217; and &#8216;G&#8217; formats, the precision represents the maximum number of significant digits (trailing zeroes are omitted).</p>
+<p>How to return a string equivalent of the number n using Qt was written by Roland Ihasz&gt;, you can modify or distribute. You can do anything you want with this software, just don&#8217;t say you wrote it.</p>
+<p>More info on [wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;i&#8221;]  <a href="http://doc.qt.io/qt-5/qstring.html#QString">doc.qt.io</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Accessing Inherited Functions – HackerRank Challenge Solved in C++</title>
+		<link>https://lnrsoft.com/static/accessing-inherited-functions-hackerrank-challenge-solved-in-c/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 23 Aug 2017 22:31:19 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[./a.out]]></category>
+		<category><![CDATA[g++ -Wall -Wextra -std=c++14 main.cpp]]></category>
+		<category><![CDATA[HackerRank Challenge]]></category>
+		<category><![CDATA[Inheritance]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2724</guid>
+
+					<description><![CDATA[Accessing Inherited Functions &#8211; HackerRank Challenge Solved in C++ // (c) Roland Ihasz - https://github.com/lnrsoft #include&#60;iostream&#62; using namespace std; class A { // func multiplies the value passed as a parameter by 2 public: A() { callA = 0; } private: int callA; void inc() { callA++; } protected: void func(int&#38; a) { a = [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.hackerrank.com/challenges/accessing-inherited-functions/problem">Accessing Inherited Functions &#8211; HackerRank Challenge Solved in C++</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true " title="Accessing Inherited Functions">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include&lt;iostream&gt;
+
+using namespace std;
+
+class A {   // func multiplies the value passed as a parameter by 2
+public:
+    A()
+    {
+        callA = 0;
+    }
+private:
+    int callA;
+    void inc()
+    {
+        callA++;
+    }
+
+protected:
+    void func(int&amp; a)
+    {
+        a = a * 2;
+        inc();
+    }
+public:
+    int getA()
+    {
+        return callA;
+    }
+};
+
+class B {   // func multiplies the value passed as a parameter by 3
+public:
+    B()
+    {
+        callB = 0;
+    }
+private:
+    int callB;
+    void inc()
+    {
+        callB++;
+    }
+protected:
+    void func(int&amp; a)
+    {
+        a = a * 3;
+        inc();
+    }
+public:
+    int getB()
+    {
+        return callB;
+    }
+};
+
+class C {   //  func multiplies the value passed as a parameter by 5
+public:
+    C()
+    {
+        callC = 0;
+    }
+private:
+    int callC;
+    void inc()
+    {
+        callC++;
+    }
+protected:
+    void func(int&amp; a)
+    {
+        a = a * 5;
+        inc();
+    }
+public:
+    int getC()
+    {
+        return callC;
+    }
+};
+
+class D : public A, public B, public C {
+    int val;
+public:
+    //Initially val is 1
+    D()
+    {
+        val = 1;
+    }
+
+    //Implement this function
+    void update_val(int&amp; new_val)
+    {
+        while(val &lt; new_val) {
+            if(new_val % (val * 2) == 0) {
+                this-&gt;A::func(val);
+            }
+            else if(new_val % (val * 3) == 0) {
+                this-&gt;B::func(val);
+            }
+            else if(new_val % (val * 5) == 0) {
+                this-&gt;C::func(val);
+            }
+        }
+    }
+    //For Checking Purpose
+    void check(int); //Do not delete this line.
+};
+
+void D::check(int new_val)
+{
+    update_val(new_val);
+    cout &lt;&lt; "Value = " &lt;&lt; val &lt;&lt; endl &lt;&lt; "A's func called " &lt;&lt; getA() &lt;&lt; " times " &lt;&lt; endl &lt;&lt;
+         "B's func called " &lt;&lt; getB() &lt;&lt; " times" &lt;&lt; endl &lt;&lt; "C's func called " &lt;&lt; getC() &lt;&lt; " times" &lt;&lt;
+         endl;
+}
+
+
+int main()
+{
+    D d;
+    int new_val;
+    cin &gt;&gt; new_val;
+    d.check(new_val);
+}</pre>
+<p>You and run the code from your terminal using the following commands:</p>
+<pre class="toolbar:0 minimize:false lang:sh decode:true ">$ g++ -Wall -Wextra -std=c++14 main.cpp
+$ ./a.out</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Multi Level Inheritance – HackerRank Challenge Solved in C++</title>
+		<link>https://lnrsoft.com/static/multi-level-inheritance-hackerrank-challenge-solved-in-c/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 23 Aug 2017 07:40:15 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Multiple Inheritance]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2707</guid>
+
+					<description><![CDATA[Multi Level Inheritance &#8211; HackerRank Challenge Solved in C++ // (c) Roland Ihasz - https://github.com/lnrsoft #include &#60;cmath&#62; #include &#60;cstdio&#62; #include &#60;vector&#62; #include &#60;iostream&#62; #include &#60;algorithm&#62; using namespace std; class Triangle { public: void triangle() { cout &#60;&#60; "I am a triangle\n"; } }; class Isosceles { public: void isosceles() { cout&#60;&#60;"I am an isosceles triangle\n"; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.hackerrank.com/challenges/multi-level-inheritance-cpp/problem">Multi Level Inheritance &#8211; HackerRank Challenge Solved in C++</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true " title="Click To Expand Code">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include &lt;cmath&gt;
+#include &lt;cstdio&gt;
+#include &lt;vector&gt;
+#include &lt;iostream&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+class Triangle {
+public:
+    void triangle()
+    {
+        cout &lt;&lt; "I am a triangle\n";
+    }
+};
+
+class Isosceles {
+public:
+    void isosceles()
+    {
+        cout&lt;&lt;"I am an isosceles triangle\n";
+    }
+};
+
+class Equilateral : public Isosceles, public Triangle  {
+public:
+    void equilateral()
+    {
+        cout&lt;&lt;"I am an equilateral triangle\n";
+    }
+
+};
+
+int main()
+{
+    Equilateral eqr;
+    eqr.equilateral();
+    eqr.isosceles();
+    eqr.triangle();
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Variable Sized Arrays &#8211; HackerRank Challenge Solved in C++</title>
+		<link>https://lnrsoft.com/static/variable-sized-arrays-hackerrank-challenge-solved-in-c/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 23 Aug 2017 07:12:30 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[C++ Vector]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<category><![CDATA[Variable Sized Arrays]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2700</guid>
+
+					<description><![CDATA[Variable Sized Arrays &#8211; HackerRank Challenge Solved in C++ // (c) Roland Ihasz - https://github.com/lnrsoft #include &#60;vector&#62; #include &#60;iostream&#62; int main() { int n, size, value; unsigned long q, i, j; std::cin &#62;&#62; n &#62;&#62; q; std::vector&#60;std::vector&#60;int&#62;&#62; two_dimensional_vector; for(int z = 0; z &#60; n; ++z) { std::cin &#62;&#62; size; std::vector&#60;int&#62; line_array; for(int y = [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.hackerrank.com/challenges/variable-sized-arrays/problem">Variable Sized Arrays &#8211; HackerRank Challenge Solved in C++</a></p>
+<pre class="toolbar:0 minimize:false lang:default decode:true " title="Variable Sized Arrays">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include &lt;vector&gt;
+#include &lt;iostream&gt;
+
+int main()
+{
+    int n, size, value;
+    unsigned long q, i, j;
+    std::cin &gt;&gt; n &gt;&gt; q;
+    std::vector&lt;std::vector&lt;int&gt;&gt; two_dimensional_vector;
+    for(int z = 0; z &lt; n; ++z) {
+        std::cin &gt;&gt; size;
+        std::vector&lt;int&gt; line_array;
+        for(int y = 0; y &lt; size; ++y) {
+            std::cin &gt;&gt; value;
+            line_array.push_back(value);
+        }
+        two_dimensional_vector.push_back(line_array);
+    }
+    for(unsigned long k = 0; k &lt; q; ++k) {
+        std::cin &gt;&gt; j &gt;&gt; i;
+        std::cout &lt;&lt; two_dimensional_vector[j][i] &lt;&lt; std::endl;
+    }
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Set STL – HackerRank Challenge Solved in C++</title>
+		<link>https://lnrsoft.com/static/set-stl-hackerrank-challenge-solved-in-c/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 23 Aug 2017 03:59:15 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ STL]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<category><![CDATA[set STL]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2710</guid>
+
+					<description><![CDATA[Set &#8211; STL &#8211; HackerRank Challenge Solved in C++ // (c) Roland Ihasz - https://github.com/lnrsoft #include &#60;set&#62; #include &#60;cmath&#62; #include &#60;cstdio&#62; #include &#60;vector&#62; #include &#60;iostream&#62; #include &#60;algorithm&#62; int main() { int q; std::cin &#62;&#62; q; std::set &#60;long long int&#62; set_stl; for(int i = 0; i &#60; q; ++i) { int y; long long int x; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.hackerrank.com/challenges/cpp-sets/problem">Set &#8211; STL &#8211; HackerRank Challenge Solved in C++</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true " title="Set - STL">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include &lt;set&gt;
+#include &lt;cmath&gt;
+#include &lt;cstdio&gt;
+#include &lt;vector&gt;
+#include &lt;iostream&gt;
+#include &lt;algorithm&gt;
+
+int main()
+{
+    int q;
+    std::cin &gt;&gt; q;
+    std::set &lt;long long int&gt; set_stl;
+    for(int i = 0; i &lt; q; ++i) {
+        int y;
+        long long int x;
+        std::cin &gt;&gt; y &gt;&gt; x;
+        if(y == 1) {
+            set_stl.insert(x);
+        }
+        else if(y == 2) {
+            set_stl.erase(x);
+        }
+        else {
+            if(set_stl.end() == set_stl.find(x)) {
+                std::cout &lt;&lt; "No" &lt;&lt; std::endl;
+            }
+            else {
+                std::cout &lt;&lt; "Yes" &lt;&lt; std::endl;
+            }
+        }
+    }
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>HackerRank C++ Virtual Functions Challenge</title>
+		<link>https://lnrsoft.com/static/hackerrank-c-virtual-functions-challenge/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 13 Aug 2017 03:13:20 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[HackerRank Challenge]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<category><![CDATA[Virtual Function]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2608</guid>
+
+					<description><![CDATA[[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;] HackerRank C++ Virtual Function Challenge // (c) Roland Ihasz - https://github.com/lnrsoft #include &#60;algorithm&#62; #include &#60;cmath&#62; #include &#60;cstdio&#62; #include &#60;iostream&#62; #include &#60;vector&#62; class Person { public: std::string name; int age; Person() {} virtual void getdata() {} virtual void putdata() {} virtual ~Person() {} }; class Professor : virtual public Person { public: int [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;] <a href="https://www.hackerrank.com/challenges/virtual-functions/problem">HackerRank C++ Virtual Function Challenge<br />
+</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true">// (c)  Roland Ihasz - https://github.com/lnrsoft                                     
+#include &lt;algorithm&gt;
+#include &lt;cmath&gt;
+#include &lt;cstdio&gt;
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+class Person {
+  public:
+    std::string name;
+    int age;
+    Person() {}
+    virtual void getdata() {}
+    virtual void putdata() {}
+    virtual ~Person() {}
+};
+
+class Professor : virtual public Person {
+  public:
+    int id;
+    int publications;
+    static int cur_id;
+
+    Professor() {}
+
+    virtual void getdata() {
+        cur_id++;
+        std::cin &gt;&gt; this-&gt;name;
+        std::cin &gt;&gt; this-&gt;age;
+        std::cin &gt;&gt; this-&gt;publications;
+        id = cur_id;
+    }
+    virtual void putdata() {
+        std::cout &lt;&lt; name &lt;&lt; " " &lt;&lt; age &lt;&lt; " " &lt;&lt; publications &lt;&lt; " " &lt;&lt; id
+                  &lt;&lt; std::endl;
+    }
+
+    virtual ~Professor() {}
+};
+
+int Professor::cur_id = 0;
+
+class Student : public Person {
+  public:
+    int id;
+    int marks[6];
+    int sum = 0;
+    static int cur_id;
+
+    Student() {}
+
+    void getdata() {
+        cur_id++;
+        std::cin &gt;&gt; this-&gt;name;
+        std::cin &gt;&gt; this-&gt;age;
+        for(unsigned long j = 0; j &lt; 6; j++) {
+            std::cin &gt;&gt; this-&gt;marks[j];
+            sum += marks[j];
+            id = cur_id;
+        }
+    }
+    virtual void putdata() {
+        std::cout &lt;&lt; name &lt;&lt; " " &lt;&lt; age &lt;&lt; " " &lt;&lt; sum &lt;&lt; " " &lt;&lt; id &lt;&lt; std::endl;
+    }
+    virtual ~Student() {}
+};
+
+int Student::cur_id = 0;
+
+int main() {
+    int n, val;
+    std::cin &gt;&gt; n;  // The number of objects that is going to be created.
+    Person *per[n];
+    for(int i = 0; i &lt; n; i++) {
+        std::cin &gt;&gt; val;
+        if(val == 1) {
+            // If val is 1 current object is of type Professor
+            per[i] = new Professor;
+        } else {
+            per[i] = new Student;  // Else the current object is of type Student
+        }
+        per[i]-&gt;getdata();  // Get the data from the user.
+    }
+    for(int i = 0; i &lt; n; i++) {
+        per[i]-&gt;putdata();  // Print the required output for each object.
+    }
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>HackerRank Challenge &#8211; Find out the area of a rectangle using C++ inheritance</title>
+		<link>https://lnrsoft.com/static/hackerrank-challenge-solving-the-rectangle-area-using-c-inheritance/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 12 Aug 2017 14:30:44 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[HackerRank Challenge]]></category>
+		<category><![CDATA[Inheritance]]></category>
+		<category><![CDATA[Multiple Inheritance]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2563</guid>
+
+					<description><![CDATA[[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;] Rectangle Area HackerRank Challenge // (c) Roland Ihasz - https://github.com/lnrsoft #include &#60;iostream&#62; class Rectangle { public: int width; int height; void display() { std::cout &#60;&#60; width &#60;&#60; " " &#60;&#60; height &#60;&#60; std::endl; } }; class RectangleArea : public Rectangle { public: void read_input() { std::cin &#62;&#62; this-&#62;width; std::cin &#62;&#62; this-&#62;height; } [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>[wp-svg-icons icon=&#8221;new-tab&#8221; wrap=&#8221;I&#8221;] <a href="https://www.hackerrank.com/challenges/rectangle-area/problem">Rectangle Area HackerRank Challenge</a></p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true">// (c)  Roland Ihasz - https://github.com/lnrsoft
+
+#include &lt;iostream&gt;
+
+class Rectangle {
+  public:
+    int width;
+    int height;
+    void display() {
+        std::cout &lt;&lt; width &lt;&lt; " " &lt;&lt; height &lt;&lt; std::endl;
+    }
+};
+
+class RectangleArea : public Rectangle {
+  public:
+    void read_input() {
+        std::cin &gt;&gt; this-&gt;width;
+        std::cin &gt;&gt; this-&gt;height;
+    }
+
+    void display() {
+        std::cout &lt;&lt; width * height &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    RectangleArea r_area;
+    r_area.read_input();
+    r_area.Rectangle::display();
+    r_area.display();
+    return 0;
+}</pre>
+<p>..and a bit longer version.</p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true ">// (c)  Roland Ihasz - https://github.com/lnrsoft                                  
+#include &lt;iostream&gt;
+
+class Rectangle {
+  public:
+    int height;
+    int width;
+
+    Rectangle() {}
+    Rectangle(int h, int w) {
+        height = h;
+        width = w;
+    }
+    void read_input() {
+        std::cin &gt;&gt; height &gt;&gt; width;
+    }
+    void display();
+};
+
+void Rectangle::display() {
+    std::cout &lt;&lt; height &lt;&lt; " " &lt;&lt; width &lt;&lt; std::endl;
+}
+
+class RectangleArea : public Rectangle {
+  public:
+    // Derived default constructor
+    RectangleArea() {}
+    // Derived parameterized constructor
+    RectangleArea(int h, int w) : Rectangle(h, w) {
+        height = h;
+        width = w;
+    }
+    void display() {
+        std::cout &lt;&lt; (height * width) &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    RectangleArea r_area;
+    r_area.read_input();
+    r_area.Rectangle::display();
+    r_area.display();
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to display an image on a QtWidget</title>
+		<link>https://lnrsoft.com/static/how-to-displaydisplay-an-image-on-a-qtwidget/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 12 Aug 2017 11:30:48 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[QLabel]]></category>
+		<category><![CDATA[QPixmap]]></category>
+		<category><![CDATA[Qt Creator]]></category>
+		<category><![CDATA[QWidget]]></category>
+		<category><![CDATA[Roland Ihasz]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2517</guid>
+
+					<description><![CDATA[There is a simple method to insert images such as a png file using QPixmap. I personally prefer to use a QLabel to show simple images on QWidget, particularry if there is no any other fancy requirements. Basically you can locate the QLabel anywhere on your QWidget. You will find the pixelmap option at the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lnrsoft.com/static/wp-content/uploads/2017/08/pixmap-2.png"><img decoding="async" class="aligncenter" src="https://lnrsoft.com/static/wp-content/uploads/2017/08/pixmap-2.png" alt="" width="600" height="261" /></a><br />
+There is a simple method to insert images such as a png file using QPixmap. I personally prefer to use a QLabel to show simple images on QWidget, particularry if there is no any other fancy requirements.<br />
+Basically you can locate the QLabel anywhere on your QWidget. You will find the pixelmap option at the text option section in your Qt Creator, right below the textFormat. When you click on the Value section you’ll find a small arrow pointing down.<br />
+Simple click on it, then choose your png file.</p>
+<p>If you just simple want to display an image to the QWidget, I found the following option works well. You just need to insert the path of the image file right after the</p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true">ui-&gt;setupUi(this);</pre>
+<p>member function in your main parent widget, then insert the following source code.</p>
+<pre class="toolbar:0 minimize:false lang:c++ decode:true">QPixmap png_img("/Users/lnrsoft/software_development/repository/test_app/queq.png");
+ui-&gt;label-&gt;setPixmap(png_img);
+</pre>
+<p>If you know other method to display an image on a QtWidget Please, let me know by <a href="https://lnrsoft.com/static/?page_id=452">dropping a line,</a> I can add it to this post if it is relevant and you agree to do.</p>
+<p><a href="https://lnrsoft.com/static/wp-content/uploads/2017/08/pixmap.png"><img loading="lazy" decoding="async" class="aligncenter" src="https://lnrsoft.com/static/wp-content/uploads/2017/08/pixmap-183x300.png" alt="" width="183" height="300" /></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>C++ Standards Support in GCC</title>
+		<link>https://lnrsoft.com/static/c-standards-support-in-gcc/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 09 May 2017 13:29:36 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1625</guid>
+
+					<description><![CDATA[GNU has announced the stable release of GNU Compiler Collection 7 (GCC 7), which has been marked with the release of GCC 7.1. This month, the 30-year anniversary of GCC 1.0 will also be celebrated. C++ Standards Support in GCCThis page is a brief summary of some of the huge number of improvements in GCC [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>GNU has announced the stable release of GNU Compiler Collection 7 (GCC 7), which has been marked with the release of GCC 7.1. This month, the 30-year anniversary of GCC 1.0 will also be celebrated.</p>
+<p><center><a href="https://gcc.gnu.org/projects/cxx-status.html#cxx1z" target="_blank" rel="noopener noreferrer">C++ Standards Support in GCC</a></center>This page is a brief summary of some of the huge number of improvements in GCC 7. For more information, see the Porting to GCC 7 page and the full GCC documentation.</p>
+<p><a href="https://gcc.gnu.org/gcc-7/changes.html">Changes</a><br />
+<a href="https://gcc.gnu.org/onlinedocs/gcc-7.1.0/gcc.pdf">gcc_7.1.0.pdf</a><br />
+<a href="https://gcc.gnu.org/gcc-7/">gcc.gnu.org/gcc-7</a><br />
+<a href="https://gcc.gnu.org/onlinedocs/">Onlinedocs</a><br />
+<a href="https://gcc.gnu.org/gcc-7/porting_to.html">Porting to GCC 7</a><br />
+<a href="ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/">List of GNU GCC Releases</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Qt Creator plugins</title>
+		<link>https://lnrsoft.com/static/qt-creator-plugins/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 30 Apr 2017 03:30:08 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Static Code Analyzers]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1590</guid>
+
+					<description><![CDATA[Just reIf you just started to familiar yourself with Qt&#8217;s IDE, this is my advice. After a long time of daily usage became my favorite developing IDE, as it is covering almost every part of the work I do on a daily basis. However there are three (3rd party) plugins am always adding to my [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Just reIf you just started to familiar yourself with Qt&#8217;s IDE, this is my advice. After a long time of daily usage became my favorite developing IDE, as it is covering almost every part of the work I do on a daily basis. However there are three (3rd party) plugins am always adding to my Qt Creator IDE wherever I work on-site or in the office they are very useful. Especially CppCheck but gtest and the DB viewing tool can coming handy.<br />
+<a href="https://sourceforge.net/p/qtc-cppcheck/" target="_blank" rel="noopener noreferrer">Qt Creator CppCheck integration plugin</a><br />
+<a href="https://sourceforge.net/p/qtc-gtest/" target="_blank" rel="noopener noreferrer">Qt Creator Google C++ Testing Framework integration plugin</a><br />
+<a href="https://sourceforge.net/p/qtc-dbviewer/" target="_blank" rel="noopener noreferrer">Qt Creator SQL database viewer plugin</a></p>
+<p>All of the plugins mentioned above developed by <a href="https://sourceforge.net/u/onemoregres/profile/">Gres</a>.</p>
+<p>Bottom line: a good and comfortable development enviromet setup if playing a key role of utilizing your almost always limited time and result an efficient way of your daily developing work.<br />
+Valgrind (adding memory and function profiler feature to Qt Creator), sometimes preferring GDB instead of LLDB especially project on OSX.<br />
+I also use <a href="http://www.stack.nl/~dimitri/doxygen/" target="_blank" rel="noopener noreferrer">Doxygen</a> for generating documentation from annotated C++ sources.<br />
+You can enable/disable plugins, I strongly recommend to enable this very convenient plugging, it is much more helpful compare to my previously used tool. It recognizes notes: TODO, BUG, FIXME, NOTE, HACK by default.</p>
+<p>Very simply to use. Here is one of my projects TODO list just started.</p>
+<p style="text-align: center;"><a href="https://lnrsoft.com/static/wp-content/uploads/2017/04/QTODO.png"><img loading="lazy" decoding="async" class="zoooom aligncenter wp-image-1601 size-thumbnail" style="border: 1px solid #b5b5b5;" src="https://lnrsoft.com/static/wp-content/uploads/2017/04/QTODO-150x150.png" alt="Click image to zoom in" width="150" height="150" srcset="https://lnrsoft.com/static/wp-content/uploads/2017/04/QTODO-150x150.png 150w, https://lnrsoft.com/static/wp-content/uploads/2017/04/QTODO-100x100.png 100w" sizes="auto, (max-width: 150px) 100vw, 150px" /></a>Click image to zoom in [wp-svg-icons icon=&#8221;zoom-in&#8221; wrap=&#8221;i&#8221;]</p>
+<table id="myTable" style="border-inherit: inherit;"></table>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sort My List</title>
+		<link>https://lnrsoft.com/static/sort-my-list-2/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 29 Apr 2017 23:35:09 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Static Code Analyzers]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1585</guid>
+
+					<description><![CDATA[Sort My List an easy to use very handy online tool where You can sort or clean your list in a variety of ways. This simple online tool could help you remove, add, separate data without using other other softwares sorting features. There are limitations in this online tool, and I won&#8217;t recommend on large [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="http://sortmylist.com/" target="_blank" rel="noopener noreferrer">Sort My List</a> an easy to use very handy online tool where You can sort or clean your list in a variety of ways. This simple online tool could help you remove, add, separate data without using other other softwares sorting features. There are limitations in this online tool, and I won&#8217;t recommend on large datasets, however in many cases could be very handy, removing unwanted whitespaces or any characters.<br />
+Find out more: <a href="http://sortmylist.com/" target="_blank" rel="noopener noreferrer">sortmylist.com</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Free Online Tools For Developers  &#8211; freeformatter.com</title>
+		<link>https://lnrsoft.com/static/free-online-tools-for-developers-freeformatter-com/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 29 Apr 2017 23:29:57 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1570</guid>
+
+					<description><![CDATA[Keeping the bookmark of www.freeformatter.com can be a lifesaver in urgent cases, online tools include several formatters, validators, string escapers, encoders and decoders, message digesters, web resources and more. Find out more on: FreeFormatter.com]]></description>
+										<content:encoded><![CDATA[<p>Keeping the bookmark of <a href="http://www.freeformatter.com/" target="_blank" rel="noopener noreferrer">www.freeformatter.com</a> can be a lifesaver in urgent cases, online tools include several formatters, validators, string escapers, encoders and decoders, message digesters, web resources and more.<br />
+Find out more on: <a href="http://www.freeformatter.com/" target="_blank" rel="noopener noreferrer">FreeFormatter.com</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Qt 5.9 Beta Released</title>
+		<link>https://lnrsoft.com/static/qt-5-9-beta-released/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 28 Apr 2017 17:05:56 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[C++ Libraries]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1556</guid>
+
+					<description><![CDATA[Qt 5.9 Beta has been Released. You can read more about the new features in Tuukka Turunen&#8217;s recent post on Qt Blog.]]></description>
+										<content:encoded><![CDATA[<p>Qt 5.9 Beta has been Released. You can read more about the new features in Tuukka Turunen&#8217;s recent post on <a href="http://blog.qt.io/blog/author/tuturune/">Qt Blog.</a><br />
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Code Sample: Earthquake Detector in C++</title>
+		<link>https://lnrsoft.com/static/code-sample-earthquake-detector-in-c/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 13 Apr 2017 22:39:06 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1459</guid>
+
+					<description><![CDATA[[wp-svg-icons icon=&#8221;globe&#8221; wrap=&#8221;i&#8221;] Earthquake detector in C++]]></description>
+										<content:encoded><![CDATA[<p>[wp-svg-icons icon=&#8221;globe&#8221; wrap=&#8221;i&#8221;]<a href="https://github.com/intel-iot-devkit/how-to-code-samples/blob/master/earthquake-detector/cpp/README.md"> Earthquake detector in C++</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What is Code Modernization?</title>
+		<link>https://lnrsoft.com/static/what-is-code-modernization/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 13 Apr 2017 22:31:54 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1456</guid>
+
+					<description><![CDATA[[wp-svg-icons icon=&#8221;globe&#8221; wrap=&#8221;i&#8221;] Modern code]]></description>
+										<content:encoded><![CDATA[<p>[wp-svg-icons icon=&#8221;globe&#8221; wrap=&#8221;i&#8221;]<a href="https://software.intel.com/en-us/modern-code/overview"> Modern code</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canonical Livepatch Service &#8211; Apply critical kernel patches without rebooting.</title>
+		<link>https://lnrsoft.com/static/canonical-livepatch-service-apply-critical-kernel-patches-without-rebooting/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 13 Apr 2017 16:20:32 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1447</guid>
+
+					<description><![CDATA[[wp-svg-icons icon=&#8221;globe&#8221; wrap=&#8221;i&#8221;] Canonical Livepatch Service.Canonical Livepatch portal [wp-svg-icons icon=&#8221;play&#8221; wrap=&#8221;i&#8221;][video_popup url=&#8221;https://www.youtube.com/embed/9hvqFfwE4u0&#8243; text=&#8221;  Watch on Youtube&#8221; auto=&#8221;&#8221;]]]></description>
+										<content:encoded><![CDATA[<p>[wp-svg-icons icon=&#8221;globe&#8221; wrap=&#8221;i&#8221;]<a href="https://www.ubuntu.com/server/livepatch"> Canonical Livepatch Service.</a><a href="https://www.ubuntu.com/server/livepatch" target="_blank" rel="noopener">Canonical Livepatch portal</a></p>
+<p>[wp-svg-icons icon=&#8221;play&#8221; wrap=&#8221;i&#8221;][video_popup url=&#8221;https://www.youtube.com/embed/9hvqFfwE4u0&#8243; text=&#8221;  Watch on Youtube&#8221; auto=&#8221;&#8221;]</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cheerp</title>
+		<link>https://lnrsoft.com/static/cheerp/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 16 Feb 2017 02:57:23 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1245</guid>
+
+					<description><![CDATA[Cheerp is a C++ compiler for the Web, based and integrated into the LLVM/clang infrastructure. With Cheerp you can write Web applications in pure C++ code, or port existing C++ code to the Web. Your C++ code is fully optimized by the LLVM system and it&#8217;s compiled into JavaScript code that runs on the browser.]]></description>
+										<content:encoded><![CDATA[<p>Cheerp is a C++ compiler for the Web, based and integrated into the LLVM/clang infrastructure.</p>
+<p>With Cheerp you can write Web applications in pure C++ code, or port existing C++ code to the Web. Your C++ code is fully optimized by the LLVM system and it&#8217;s compiled into JavaScript code that runs on the browser.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Conan C/C++ Package Manager</title>
+		<link>https://lnrsoft.com/static/conan-cc-package-manager/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 16 Feb 2017 02:52:33 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1240</guid>
+
+					<description><![CDATA[Conan is a portable package manager, intended for C and C++ developers, but it is able to manage builds from source, dependencies, and precompiled binaries for any language.]]></description>
+										<content:encoded><![CDATA[<p>Conan is a portable package manager, intended for C and C++ developers, but it is able to manage builds from source, dependencies, and precompiled binaries for any language.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>POCO C++ Libraries</title>
+		<link>https://lnrsoft.com/static/poco-c-libraries/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 16 Feb 2017 02:44:43 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1236</guid>
+
+					<description><![CDATA[Modern, powerful open source C++ class libraries for building network- and internet-based applications that run on desktop, server, mobile and embedded systems.]]></description>
+										<content:encoded><![CDATA[<p>Modern, powerful open source C++ class libraries for building network- and internet-based applications that run on desktop, server, mobile and embedded systems.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>htop and glances interactive process viewers for Linux Servers.</title>
+		<link>https://lnrsoft.com/static/htop-an-interactive-process-viewer-for-linux-servers/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 19 Nov 2016 23:25:59 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=984</guid>
+
+					<description><![CDATA[This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses. I am using this brilliant app for monitoring my servers and Raspberry Pi. Download I recommend use PyPi: pip install Glances Glances &#8211; &#8220;An Eye on your system&#8221; Glances is a cross-platform [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.<br />
+I am using this brilliant app for monitoring my servers and Raspberry Pi.<a href="http://hisham.hm/htop/index.php?page=main" target="_blank" rel="noopener noreferrer"> Download</a></p>
+<p>I recommend use <a href="https://pypi.org/project/Glances/">PyPi</a>: <!--?prettify linenums=true?--></p>
+<pre class="prettyprint">pip install Glances</pre>
+<p>Glances &#8211; &#8220;An Eye on your system&#8221;<br />
+Glances is a cross-platform system monitoring tool. Written in Python, Glances will run on almost any platform : GNU/Linux, FreeBSD, OS X and Windows.<br />
+Install:</p>
+<pre class="lang:sh decode:true ">$ wget -O- http://bit.ly/glances | /bin/bash
+</pre>
+<p>You can enable many useful plugins using the following command.</p>
+<pre class="show-lang:2 lang:sh decode:true">$ sudo pip install glances[action,browser,cloud,cpuinfo,chart,docker,export,folders,gpu,ip,raid,snmp,web,wifi]</pre>
+<p>or with python3</p>
+<pre class="show-lang:2 lang:sh decode:true ">$ sudo pip3 install glances[action,browser,cloud,cpuinfo,chart,docker,export,folders,gpu,ip,raid,snmp,web,wifi]</pre>
+<p class="p1"><span class="s1">Configuration file options:</span></p>
+<p><a href="https://lnrsoft.com/static/wp-content/uploads/2016/11/glances_config.png"><img loading="lazy" decoding="async" class="aligncenter wp-image-3738 size-full" src="https://lnrsoft.com/static/wp-content/uploads/2016/11/glances_config.png" alt="" width="756" height="276" srcset="https://lnrsoft.com/static/wp-content/uploads/2016/11/glances_config.png 756w, https://lnrsoft.com/static/wp-content/uploads/2016/11/glances_config-200x73.png 200w, https://lnrsoft.com/static/wp-content/uploads/2016/11/glances_config-300x110.png 300w" sizes="auto, (max-width: 756px) 100vw, 756px" /></a><br />
+Ncdu is also a brilliant command line disk usage analyzer with an ncurses interface.<br />
+<a href="https://dev.yorhel.nl/ncdu" target="_blank" rel="noopener noreferrer">dev.yorhel.nl/ncdu</a></p>
+<pre class="lang:sh decode:true">$ sudo apt-get install ncdu</pre>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>C++ Rvalue References Explained</title>
+		<link>https://lnrsoft.com/static/c-rvalue-references-explained/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 19 Nov 2016 01:26:16 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=981</guid>
+
+					<description><![CDATA[C++ Rvalue References Explained by Thomas Becker]]></description>
+										<content:encoded><![CDATA[<p><a href="http://thbecker.net/articles/rvalue_references/section_01.html" target="_blank" rel="noopener noreferrer">C++ Rvalue References Explained by Thomas Becker</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>C++11/C++14 rvalue and lvalue</title>
+		<link>https://lnrsoft.com/static/c11c14-rvalue-and-lvalue/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 16 Nov 2016 03:12:56 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=978</guid>
+
+					<description><![CDATA[There is a great article on this site about the rvalue and lvalue features. Great Blog&#8230; Source: blog.smartbear.com]]></description>
+										<content:encoded><![CDATA[<p>There is a great article on this site about the rvalue and lvalue features.<a href="http://blog.smartbear.com/development/c11-tutorial-explaining-the-ever-elusive-lvalues-and-rvalues/" target="_blank" rel="noopener noreferrer"> Great Blog&#8230;</a><br />
+Source: <a href="http://blog.smartbear.com/development/c11-tutorial-explaining-the-ever-elusive-lvalues-and-rvalues/">blog.smartbear.com </a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>gprof &#8211; GNU Profiler</title>
+		<link>https://lnrsoft.com/static/gprof-gnu-profiler/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 13 Nov 2016 21:26:53 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=969</guid>
+
+					<description><![CDATA[gprof &#8211; A GNU Profiler For Performance Analysis Of Programs source: linoxide.com]]></description>
+										<content:encoded><![CDATA[<p><a href="http://linoxide.com/tools/gprof-performance-analysis-programs/">gprof &#8211; A GNU Profiler For Performance Analysis Of Programs</a><br />
+source: linoxide.com</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Easily Remove Old Kernels in Ubuntu 16.04</title>
+		<link>https://lnrsoft.com/static/how-to-easily-remove-old-kernels-in-ubuntu-16-04/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 11 Nov 2016 21:56:07 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=967</guid>
+
+					<description><![CDATA[How to Easily Remove Old Kernels in Ubuntu 16.04 (source: http://ubuntuhandbook.org )]]></description>
+										<content:encoded><![CDATA[<p><a href="http://ubuntuhandbook.org/index.php/2016/05/remove-old-kernels-ubuntu-16-04/" target="_blank" rel="noopener noreferrer">How to Easily Remove Old Kernels in Ubuntu 16.04</a><br />
+(source: <a href="http://ubuntuhandbook.org/index.php/2016/05/remove-old-kernels-ubuntu-16-04/">http://ubuntuhandbook.org</a> )</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Install PostgreSQL and phpPgAdmin on Ubuntu 16.04</title>
+		<link>https://lnrsoft.com/static/how-to-install-postgresql-and-phppgadmin-on-ubuntu-16-04/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2016 00:08:27 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=964</guid>
+
+					<description><![CDATA[How to Install PostgreSQL and phpPgAdmin on Ubuntu 16.04]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.howtoforge.com/tutorial/ubuntu-postgresql-installation/" target="_blank" rel="noopener noreferrer">How to Install PostgreSQL and phpPgAdmin on Ubuntu 16.04</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Perfect Server &#8211; Ubuntu 16.10 (Yakkety Yak) with Apache, PHP, MySQL, PureFTPD, BIND, Postfix, Dovecot and ISPConfig 3.1</title>
+		<link>https://lnrsoft.com/static/the-perfect-server-ubuntu-16-10-yakkety-yak-with-apache-php-mysql-pureftpd-bind-postfix-dovecot-and-ispconfig-3-1/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 08 Nov 2016 21:06:23 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=962</guid>
+
+					<description><![CDATA[(source): The Perfect Server &#8211; Ubuntu 16.10 (Yakkety Yak) with Apache, PHP, MySQL, PureFTPD, BIND, Postfix, Dovecot and ISPConfig 3.1]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.howtoforge.com/tutorial/ubuntu-perfect-server-with-apache-php-myqsl-pureftpd-bind-postfix-doveot-and-ispconfig">(source): The Perfect Server &#8211; Ubuntu 16.10 (Yakkety Yak) with Apache, PHP, MySQL, PureFTPD, BIND, Postfix, Dovecot and ISPConfig 3.1</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[PDF] Jenkins The Definitive Guide &#8211; Continuous Integration</title>
+		<link>https://lnrsoft.com/static/some-recent-user-manuals-documentations-that-always-coming-handy/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 03 Nov 2016 00:04:02 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Jenkins]]></category>
+		<category><![CDATA[pdf]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=955</guid>
+
+					<description><![CDATA[[PDF] Jenkins The Definitive Guide - Continuous Integration]]></description>
+										<content:encoded><![CDATA[<p>Continuous Integration is a key element of modern software development best practices. You can learn how to automate your build, integration, release and deployment process with Jenkins from this free ebook.</p>
+<figure id="attachment_1097" aria-describedby="caption-attachment-1097" style="width: 212px" class="wp-caption aligncenter"><a href="https://lnrsoft.com/static/wp-content/uploads/2016/11/jenkins-the-definitive-guide.jpg"><img loading="lazy" decoding="async" class="wp-image-1097 size-medium" src="https://lnrsoft.com/static/wp-content/uploads/2016/11/jenkins-the-definitive-guide-212x300.jpg" alt="jenkins-the-definitive-guide" width="212" height="300" srcset="https://lnrsoft.com/static/wp-content/uploads/2016/11/jenkins-the-definitive-guide-212x300.jpg 212w, https://lnrsoft.com/static/wp-content/uploads/2016/11/jenkins-the-definitive-guide-200x283.jpg 200w, https://lnrsoft.com/static/wp-content/uploads/2016/11/jenkins-the-definitive-guide-768x1086.jpg 768w, https://lnrsoft.com/static/wp-content/uploads/2016/11/jenkins-the-definitive-guide.jpg 724w" sizes="auto, (max-width: 212px) 100vw, 212px" /></a><figcaption id="caption-attachment-1097" class="wp-caption-text">jenkins-the-definitive-guide</figcaption></figure>
+<p><center><span style="color: #0000ff;"><a style="color: #0000ff;" href="http://www.eclipse.org/hudson/the-hudson-book/book-hudson.pdf" target="_blank" rel="noopener noreferrer">Download pdf eBook</a></span></center>You can get more information about CI on <a href="http://www.eclipse.org/hudson/" target="_blank" rel="noopener noreferrer">Eclipse</a> Hudson website where you can read <a href="http://www.eclipse.org/hudson/the-hudson-book/book-hudson.pdf" target="_blank" rel="noopener noreferrer">The Hudson Book</a> for free in online, PDF, EPUB formats.</p>
+<p><span style="color: #ff0000;"><em>*Request(Please report broken links) Dear Reader, if any of the external links in this post are broken please inform me using the contact us form. Thank you. </em></span></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>There is a masterpiece C++ tutorial on the tutorialspoint.com</title>
+		<link>https://lnrsoft.com/static/there-is-a-masterpiece-c-tutorial-on-the-tutorialspoint-com/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 25 Oct 2016 01:37:07 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=949</guid>
+
+					<description><![CDATA[A short and very well written simple and easy tutorial and starting point to learn C++. www.tutorialspoint.com/cplusplus]]></description>
+										<content:encoded><![CDATA[<p>A short and very well written simple and easy tutorial and starting point to learn C++.</p>
+<p><a href="https://www.tutorialspoint.com/cplusplus/" target="_blank" rel="noopener noreferrer">www.tutorialspoint.com/cplusplus</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Reset mysql root password on unix without needing old password. Raw</title>
+		<link>https://lnrsoft.com/static/reset-mysql-root-password-on-unix-without-needing-old-password-raw/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 24 Oct 2016 03:18:59 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=946</guid>
+
+					<description><![CDATA[#!/bin/bash MYSQL_ROOT_PASSWORD=$1 if [ -z "$MYSQL_ROOT_PASSWORD" ]; then echo 'Missing required $1 (password).' exit 1 fi # check if mysql is running now. mysqlrunning=$(service mysqld status &#124; grep 'running') if [ ! -z "$mysqlrunning" ]; then echo "stopping mysql" service mysqld stop fi echo "starting with skip grants" mysqld_safe --skip-grant-tables &#62;/dev/null 2&#62;&#38;1 &#38; sleep 10 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:sh decode:true">#!/bin/bash
+
+MYSQL_ROOT_PASSWORD=$1
+
+if [ -z "$MYSQL_ROOT_PASSWORD" ]; then
+    echo 'Missing required $1 (password).'
+    exit 1
+fi
+
+# check if mysql is running now.
+mysqlrunning=$(service mysqld status | grep 'running')
+
+if [ ! -z "$mysqlrunning" ]; then
+    echo "stopping mysql"
+    service mysqld stop
+fi
+
+echo "starting with skip grants"
+mysqld_safe --skip-grant-tables &gt;/dev/null 2&gt;&amp;1 &amp;
+
+sleep 10
+
+# Get pid to kill later.
+PID_FILE=$(echo 'show variables like "pid_file"' | mysql --defaults-file=/dev/null -N -u root | awk '{print $2}')
+PID=$(cat $PID_FILE)
+
+echo "resetting pw"
+mysql --defaults-file=/dev/null -u root mysql &lt;&lt; EOF
+UPDATE user set authentication_string=password('$MYSQL_ROOT_PASSWORD') WHERE user='root';  
+FLUSH PRIVILEGES;
+EOF
+
+sleep 10
+
+echo "stopping mysql"
+kill $PID
+
+# restart mysql if was running before.
+if [ ! -z "$mysqlrunning" ]; then
+    echo "starting mysql as normal"
+    sleep 5
+    service mysqld start
+fi</pre>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Switch PHP version on Ubuntu Server</title>
+		<link>https://lnrsoft.com/static/switch-php-version-ubuntu-server/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 19 Sep 2016 20:57:48 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=798</guid>
+
+					<description><![CDATA[Here is an example tho to switch from php5.6 to php7.1 just run the following command: $ sudo a2dismod php5.6 ; sudo a2enmod php7.0 ; sudo service apache2 restart]]></description>
+										<content:encoded><![CDATA[<p>Here is an example tho to switch from php5.6 to php7.1 just run the following command:</p>
+<pre class="lang:sh decode:true  ">$ sudo a2dismod php5.6 ; sudo a2enmod php7.0 ; sudo service apache2 restart</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Learn C++ programming with online courses for kids and teens.</title>
+		<link>https://lnrsoft.com/static/learn-c-programming-online-courses-kids-teens/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 18 Sep 2016 20:12:15 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=764</guid>
+
+					<description><![CDATA[This is an amazing page with online courses for kids and teens. I would definitely recommend it, your kids will love it. www.techrocket.com]]></description>
+										<content:encoded><![CDATA[<p>This is an amazing page with online courses for kids and teens. I would definitely recommend it, your kids will love it.<br />
+<a href="https://www.techrocket.com/code/c++-courses" target="_blank" rel="noopener noreferrer">www.techrocket.com</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Elements of Modern C++ Style</title>
+		<link>https://lnrsoft.com/static/elements-of-modern-c-style/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 07 Sep 2016 22:35:41 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=578</guid>
+
+					<description><![CDATA[Elements of Modern C++ Style “C++11 feels like a new language.” – Bjarne Stroustrup]]></description>
+										<content:encoded><![CDATA[<p><a href="https://herbsutter.com/elements-of-modern-c-style/" target="_blank" rel="noopener noreferrer">Elements of Modern C++ Style</a></p>
+<p>“C++11 feels like a new language.” – Bjarne Stroustrup</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The latest C++ compiler support [updated]</title>
+		<link>https://lnrsoft.com/static/the-latest-c-compiler-support-updated/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 21:21:41 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=557</guid>
+
+					<description><![CDATA[cppreference.com]]></description>
+										<content:encoded><![CDATA[<p><a href="http://en.cppreference.com/w/cpp/compiler_support" target="_blank">cppreference.com</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The best software development blogs</title>
+		<link>https://lnrsoft.com/static/the-best-software-development-blogs/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 20:51:58 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=548</guid>
+
+					<description><![CDATA[01. The Toptal Engineering Blog 02.  Coding Horror 03.  A List Apart 04.  Signal v. Noise 05.  StackExchange Blog 06.  MartinFowler.com 07.  CodeBetter 08.  Scott Computer Zen 09.  Stevey’s Blog Rants 10.  The Berkun Blog]]></description>
+										<content:encoded><![CDATA[<p>01. <a href="http://www.toptal.com/blog"> The Toptal Engineering Blog</a><br />
+02. <a href="http://blog.codinghorror.com/"> Coding Horror</a><br />
+03. <a href="http://alistapart.com/"> A List Apart</a><br />
+04. <a href="https://signalvnoise.com/"> Signal v. Noise</a><br />
+05. <a href="http://blog.stackexchange.com/"> StackExchange Blog</a><br />
+06. <a href="http://martinfowler.com/"> MartinFowler.com</a><br />
+07. <a href="http://codebetter.com/"> CodeBetter</a><br />
+08. <a href="http://www.hanselman.com/blog/"> Scott Computer Zen</a><br />
+09. <a href="http://steve-yegge.blogspot.com/"> Stevey’s Blog Rants</a><br />
+10. <a href="http://scottberkun.com/blog/"> The Berkun Blog</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Internet of Everything (IoE)</title>
+		<link>https://lnrsoft.com/static/the-internet-of-everything-ioe/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 20:33:22 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=544</guid>
+
+					<description><![CDATA[What is the Internet of Everything? It is built on four pillars: people, process, data, and things whereas IOT builds on one pillar: things. Source: The Internet of Everything (IoE)]]></description>
+										<content:encoded><![CDATA[<blockquote><p>What is the Internet of Everything? It is built on four pillars: people, process, data, and things whereas IOT builds on one pillar: things.</p></blockquote>
+<p>Source: <em><a href="https://www.bbvaopenmind.com/en/the-internet-of-everything-ioe/">The Internet of Everything (IoE)</a></em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>No OpenGL at all? No problem.</title>
+		<link>https://lnrsoft.com/static/no-opengl-at-all-no-problem/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 20:24:57 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=542</guid>
+
+					<description><![CDATA[The Qt Quick Graphics Stack in Qt 5.8]]></description>
+										<content:encoded><![CDATA[<p><a href="http://blog.qt.io/blog/2016/08/15/the-qt-quick-graphics-stack-in-qt-5-8/" target="_blank">The Qt Quick Graphics Stack in Qt 5.8</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Facebook Engineers Crash Data Centers in Real-World Stress Test</title>
+		<link>https://lnrsoft.com/static/facebook-engineers-crash-data-centers-in-real-world-stress-test/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 01:12:40 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=483</guid>
+
+					<description><![CDATA[After dodging disasters from Hurricane Sandy, Facebook instigates its own outages as part of Project Storm Source: Facebook Engineers Crash Data Centers in Real-World Stress Test]]></description>
+										<content:encoded><![CDATA[<blockquote><p>After dodging disasters from Hurricane Sandy, Facebook instigates its own outages as part of Project Storm</p></blockquote>
+<p>Source: <em><a href="http://spectrum.ieee.org/view-from-the-valley/computing/it/facebook-engineers-crash-data-centers-in-realworld-stress-test#.V84X7szg5ig.wordpress">Facebook Engineers Crash Data Centers in Real-World Stress Test</a></em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CLion 2016.2 &#8211; A cross-platform IDE for C and C++</title>
+		<link>https://lnrsoft.com/static/clion-2016-2-a-cross-platform-ide-for-c-and-c/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 05 Sep 2016 18:55:40 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=425</guid>
+
+					<description><![CDATA[CLion 2016.2]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.jetbrains.com/clion/" target="_blank" rel="noopener">CLion 2016.2</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The 2016 Top Programming Languages</title>
+		<link>https://lnrsoft.com/static/the-2016-top-programming-languages/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 03 Sep 2016 13:49:45 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=422</guid>
+
+					<description><![CDATA[C is No. 1, but big data is still the big winner Source: The 2016 Top Programming Languages]]></description>
+										<content:encoded><![CDATA[<blockquote><p>C is No. 1, but big data is still the big winner</p></blockquote>
+<p>Source: <em><a href="http://spectrum.ieee.org/computing/software/the-2016-top-programming-languages#.V8rU1HUpyNU.wordpress">The 2016 Top Programming Languages</a></em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>QtCon Call for Papers</title>
+		<link>https://lnrsoft.com/static/qtcon-call-for-papers/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 04 Jun 2016 01:22:38 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=411</guid>
+
+					<description><![CDATA[Join us at QtCon and present your idea to the Qt developers. Submit idea]]></description>
+										<content:encoded><![CDATA[<p>Join us at QtCon and present your idea to the Qt developers. <a href="https://qtcon.org/cfp" target="_blank">Submit idea</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Programmer Competency Matrix</title>
+		<link>https://lnrsoft.com/static/programmer-competency-matrix/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 26 May 2016 21:26:51 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=372</guid>
+
+					<description><![CDATA[Programmer Competency Matrix Source: sijinjoseph.com]]></description>
+										<content:encoded><![CDATA[<p><a href="http://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix</a><br />
+Source: <a href="http://sijinjoseph.com/">sijinjoseph.com</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Software Engineering Video Tutorials</title>
+		<link>https://lnrsoft.com/static/software-engineering-video-tutorials/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 25 May 2016 16:54:39 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=370</guid>
+
+					<description><![CDATA[ProgrammingKnowledge YouTube Channel to Learn Programming. You can find different Software Engineering, Development Video Tutorials on this YouTube Channel and develop your skills. There are a lot of interesting topics, different languages Java, C, Python, Qt and a lots of other tutorials. Also available on Pinterest (it&#8217;s worth to follow this guy).]]></description>
+										<content:encoded><![CDATA[<p>ProgrammingKnowledge <a href="https://www.youtube.com/user/ProgrammingKnowledge">YouTube Channel</a> to Learn Programming. You can find different Software Engineering, Development Video Tutorials on this YouTube Channel and develop your skills. There are a lot of interesting topics, different languages Java, C, Python, Qt and a lots of other tutorials.<br />
+Also available on <a href="https://de.pinterest.com/yogeshpatel18/programmingknowledge/">Pinterest</a> (it&#8217;s worth to follow this guy).</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Silicon C++ Web Framework</title>
+		<link>https://lnrsoft.com/static/the-silicon-c-web-framework/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 25 May 2016 16:30:52 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=365</guid>
+
+					<description><![CDATA[Recently had an opportunity to try and use The Silicon C++ Web Framework to create a fast Web API with C++, I am very impressed. Truly great job guys to put this together, keep up the good work. The Silicon C++ Web Framework]]></description>
+										<content:encoded><![CDATA[<p>Recently had an opportunity to try and use The Silicon C++ Web Framework to create a fast Web API with C++, I am very impressed. Truly great job guys to put this together, keep up the good work. <a href="http://siliconframework.org/">The Silicon C++ Web Framework</a></p>
+<p><script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SQLite C/C++ Tutorial</title>
+		<link>https://lnrsoft.com/static/sqlite-cc-tutorial/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 25 May 2016 16:27:55 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=360</guid>
+
+					<description><![CDATA[A very clear presentation of a SQLite C/C++ Tutorial. Sourse: Tutorials Point]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm">A very clear presentation of a SQLite C/C++ Tutorial. </a><br />
+Sourse: <a href="http://www.tutorialspoint.com/">Tutorials Point</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>OpenCV Template Matching</title>
+		<link>https://lnrsoft.com/static/opencv-template-matching/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 19 Dec 2015 10:04:13 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[OpenCV]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=353</guid>
+
+					<description><![CDATA[Recently had an opportunity to use OpenCV Template Matching on my latest project. I thought I drop a note here on my blog about it. Brilliant technique. OpenCV Template Matching]]></description>
+										<content:encoded><![CDATA[<p>Recently had an opportunity to use OpenCV Template Matching on my latest project. I thought I drop a note here on my blog about it. Brilliant technique.<br />
+<a href="http://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html" target="_blank" rel="noopener"><u>OpenCV Template Matching</u></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Concurrency in C++11</title>
+		<link>https://lnrsoft.com/static/concurrency-in-c11/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 06 Dec 2015 17:44:08 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=350</guid>
+
+					<description><![CDATA[Concurrency in C++11]]></description>
+										<content:encoded><![CDATA[<p><u><a href="https://www.classes.cs.uchicago.edu/archive/2013/spring/12300-1/labs/lab6/">Concurrency in C++11</a></u></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Multi-Threaded Terminology</title>
+		<link>https://lnrsoft.com/static/multi-threaded-programming-terminology/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 06 Dec 2015 17:43:18 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=348</guid>
+
+					<description><![CDATA[Multi-Threaded Programming &#8211; Terminology]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.bogotobogo.com/cplusplus/multithreaded.php"><u>Multi-Threaded Programming &#8211; Terminology</u></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>An interesting presentation by Herb Sutter</title>
+		<link>https://lnrsoft.com/static/an-interesting-presentation-by-herb-sutter/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 05 Dec 2015 18:33:39 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Herb Sutter]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=346</guid>
+
+					<description><![CDATA[An interesting presentation by Herb Sutter]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.youtube.com/embed/xnqTKD8uD64">An interesting presentation by <u>Herb Sutter</u></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Optimizing C++</title>
+		<link>https://lnrsoft.com/static/optimizingcpp/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2015 05:57:28 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Optimizing C++]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=319</guid>
+
+					<description><![CDATA[This free ebook is for intermediate C++ programmers who want to improve the performance of the software they develop. This book contains guidelines and advices on how to write efficient software using the C++ language. Software correctness and maintainability are taken into account, but are not the primary concerns of the guidelines. PDF version Online [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This free ebook is for intermediate C++ programmers who want to improve the performance of the software they develop. This book contains guidelines and advices on how to write efficient software using the C++ language. Software correctness and maintainability are taken into account, but are not the primary concerns of the guidelines.<br />
+<a href="https://upload.wikimedia.org/wikipedia/commons/7/7d/OptimizingCpp.pdf"><u>PDF version</u></a><br />
+<a href="https://en.wikibooks.org/wiki/Optimizing_C%2B%2B/Introduction"><u>Online version</u></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Differences between c++11 vs c++14 standards</title>
+		<link>https://lnrsoft.com/static/differences-between-c11-vs-c14-standards/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2015 21:46:36 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=284</guid>
+
+					<description><![CDATA[I thought I repost two worth reading summarizing article about c++11 and c++14 in my blog. There is a nice article about the top 10 c++11 features written by Marius Bancila. I actually quite agree with this article, so if you are interested you can take a look (codeproject.com/Articles/570638/Ten-Cplusplus-Features-Every-Cplusplus-Developer). There is also a good article [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I thought I repost two worth reading summarizing article about c++11 and c++14 in my blog.<br />
+There is a nice article about the top 10 c++11 features written by Marius Bancila.<br />
+I actually quite agree with this article, so if you are interested you can take a look (<a href="http://www.codeproject.com/Articles/570638/Ten-Cplusplus-Features-Every-Cplusplus-Developer" target="_blank">codeproject.com/Articles/570638/Ten-Cplusplus-Features-Every-Cplusplus-Developer</a>).<br />
+There is also a good article about some of the c++14 standards written by Mark Nelson, if you are interested you can take also look (<a href="http://www.drdobbs.com/cpp/the-c14-standard-what-you-need-to-know/240169034" target="_blank">drdobbs.com/cpp/the-c14-standard-what-you-need-to-know</a>).<br />
+Finally, there is a c++14 Language Features list on the <a href="https://gcc.gnu.org/projects/cxx1y.html" target="_blank">C++1y/C++14 Support in GCC</a> link.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bjarne Stroustrup announces C++ Core Guidelines</title>
+		<link>https://lnrsoft.com/static/bjarne-stroustrup-announces-c-core-guidelines/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 24 Sep 2015 01:28:43 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Static Code Analyzers]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=1494</guid>
+
+					<description><![CDATA[This morning in his opening keynote at CppCon, Bjarne Stroustrup announced the C++ Core Guidelines (github.com/isocpp/CppCoreGuidelines), the start of a new open source project on GitHub to build modern authoritative guidelines for writing C++ code. The guidelines are designed to be modern, machine-enforceable wherever possible, and open to contributions and forking so that organizations can [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This morning in his opening keynote at CppCon, Bjarne Stroustrup announced the C++ Core Guidelines (<a href="https://github.com/isocpp/CppCoreGuidelines" target="_blank" rel="noopener noreferrer">github.com/isocpp/CppCoreGuidelines</a>), the start of a new open source project on GitHub to build modern authoritative guidelines for writing C++ code.</p>
+<p>The guidelines are designed to be modern, machine-enforceable wherever possible, and open to contributions and forking so that organizations can easily incorporate them into their own corporate coding guidelines.</p>
+<p>Read more on the source site: [<a href="https://isocpp.org/blog/2015/09/bjarne-stroustrup-announces-cpp-core-guidelines" target="_blank" rel="noopener noreferrer">https://isocpp.org</a>]</p>
+<p>In addition you might find very useful to read Bjarne Stroustrup&#8217;s C++ Style and Technique FAQ [Updated Modified February 13, 2016]</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[C++] Store different types in a single vector</title>
+		<link>https://lnrsoft.com/static/c-store-different-types-in-a-single-vector/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 06 Sep 2015 16:41:41 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://185.143.45.180//?p=269</guid>
+
+					<description><![CDATA[// This source code written by Roland Ihasz #include &#60;iostream&#62; #include &#60;vector&#62; #include &#60;string&#62; class User_data { public: User_data(int i, std::string fn, std::string sn, std::string d, double w) : id(i), fname(fn), sname(sn), dob(d), weight(w) { } int id; std::string fname; std::string sname; std::string dob; double weight; }; int main() { std::vector&#60;User_data&#62; single_vector; int n, id_number; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:c++ decode:true ">// This source code written by Roland Ihasz 
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+
+class User_data
+{
+public:
+	User_data(int i, std::string fn, std::string sn, std::string d, double w)
+		: id(i), fname(fn), sname(sn), dob(d), weight(w) { }
+
+	int id;
+	std::string fname;
+	std::string sname;
+	std::string dob;
+	double weight;
+};
+
+int main()
+{
+	std::vector&lt;User_data&gt; single_vector;
+	int n, id_number;
+	std::string firtsname;
+	std::string surname;
+	std::string dateofbirth;
+	double weight;
+	std::cout &lt;&lt; "How many records you want to create?: ";
+	std::cin &gt;&gt; n;
+	for(auto j = 0; j &lt; n; ++j)
+	{
+		std::cout &lt;&lt; "Record Number: " &lt;&lt; j + 1 &lt;&lt; std::endl;
+		std::cout &lt;&lt; "ID: ";
+		std::cin &gt;&gt; id_number;
+		std::cout &lt;&lt; "Firts Name: ";
+		std::cin &gt;&gt; firtsname;
+		std::cout &lt;&lt; "Surname: ";
+		std::cin &gt;&gt; surname;
+		std::cout &lt;&lt; "Date of Birth (MM/DD/YYYY): ";
+		std::cin &gt;&gt; dateofbirth;
+		std::cout &lt;&lt; "Weight: ";
+		std::cin &gt;&gt; weight;
+		std::cout &lt;&lt; std::endl;
+		single_vector.push_back(User_data(id_number, firtsname, surname, dateofbirth, weight));
+	}
+	std::cout &lt;&lt; "Listing..." &lt;&lt; std::endl;
+	for(unsigned int i = 0; i &lt; single_vector.size(); ++i)
+	{
+		std::cout &lt;&lt; single_vector[i].id &lt;&lt; " " &lt;&lt; single_vector[i].fname &lt;&lt; " "
+			  &lt;&lt; single_vector[i].sname &lt;&lt; " " &lt;&lt; single_vector[i].dob &lt;&lt; " "
+			  &lt;&lt; single_vector[i].weight &lt;&lt; std::endl;
+	}
+	return 0;
+}</pre>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Number Factorizer in C++</title>
+		<link>https://lnrsoft.com/static/number-factorizer/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 31 May 2014 16:37:16 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=188</guid>
+
+					<description><![CDATA[// This source code written by Roland Ihasz #include &#60;iostream&#62; #include &#60;vector&#62; #include &#60;iomanip&#62; // std::setprecision using namespace std; int main() { long double n; vector &#60;long double&#62; factorial; long double result = 1; cout &#60;&#60; "Enter a number to factorize: "; cin &#62;&#62; n; if (n == 1 &#124;&#124; n &#60; 1) { cout [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:c++ decode:true ">// This source code written by Roland Ihasz
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;iomanip&gt;      // std::setprecision
+
+using namespace std;
+
+int main()
+{
+    
+    long double n;
+    vector &lt;long double&gt; factorial;
+    long double result = 1;
+    cout &lt;&lt; "Enter a number to factorize: ";
+    cin &gt;&gt; n;
+    if (n == 1 || n &lt; 1)
+    {
+        cout &lt;&lt; n &lt;&lt; "! = " &lt;&lt; 1 &lt;&lt; endl;
+    }
+    if (n &gt; 1)
+    {
+        for (long double i  = 0; i &lt; n; i++)
+        {
+            result *=n-i;
+            factorial.push_back(result);
+        }
+        cout &lt;&lt; n &lt;&lt; "! = " &lt;&lt; setprecision(64) &lt;&lt; factorial[n-2] &lt;&lt;  endl;
+    }
+    return 0;
+}</pre>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>C++ program to generate Fibonacci series</title>
+		<link>https://lnrsoft.com/static/c-program-to-generate-fibonacci-series/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 24 Mar 2014 19:54:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=5</guid>
+
+					<description><![CDATA[Here is my C++ program to generate Fibonacci series. The Fibonacci sequence is a sequence Fn of natural numbers defined recursively. // This source code written by Roland Ihasz #include &#60;iostream&#62; #include &#60;vector&#62; #include &#60;fstream&#62; #include &#60;limits.h&#62; using namespace std; int main() { vector&#60;double&#62; fibo; fibo.push_back(0); fibo.push_back(1); cout &#60;&#60; fibo[0] &#60;&#60; " "; for (int [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Here is my C++ program to generate Fibonacci series.<br />
+The <b>Fibonacci sequence</b> is a sequence F<sub>n</sub> of natural numbers defined recursively.</p>
+<pre class="lang:c++ decode:true ">// This source code written by Roland Ihasz 
+
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;fstream&gt;
+#include &lt;limits.h&gt;
+
+using namespace std;
+
+int main()
+{
+    vector&lt;double&gt; fibo;
+
+    fibo.push_back(0);
+    fibo.push_back(1);
+
+    cout &lt;&lt; fibo[0] &lt;&lt; " ";
+
+    for (int i=1; i&lt;INT_MAX; i++)
+    {
+        int ii = i-1;
+        double n = fibo[i] + (fibo[ii]);
+        fibo.push_back(n);
+        if (n &lt; INT_MAX)
+        {
+            cout &lt;&lt; int(n) &lt;&lt; " "  ;
+        }
+        else
+            return 0;
+    }
+    return 0;
+}</pre>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to install java 1.6.31 JRE on Ubuntu (64bit)</title>
+		<link>https://lnrsoft.com/static/how-to-install-java-1-6-31-jre-on-ubuntu-64bit/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 09 Apr 2012 12:46:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=12</guid>
+
+					<description><![CDATA[lnrsoft@lnrsoft:$cd /opt lnrsoft@lnrsoft:/opt$sudo mkdir java lnrsoft@lnrsoft:/opt$cd java lnrsoft@lnrsoft:/opt/java$sudo mkdir 64 lnrsoft@lnrsoft:/opt/java$sudo mv ~/Desktop/jre-6u31-linux-x64.bin /opt/java/64 lnrsoft@lnrsoft:/opt/java$sudo chmod 755 /opt/java/64/jre-6u31-linux-x64.bin lnrsoft@lnrsoft/opt/java:$cd /opt/java/64 lnrsoft@lnrsoft:/opt/java/64$sudo ./jre-6u31-linux-x64.bin Agree the license agreement lnrsoft@lnrsoft:/opt/java/64$sudo update-alternatives &#8211;install &#8220;/usr/bin/java&#8221; &#8220;java&#8221; &#8220;/opt/java/64/jre1.6.0_31/bin/java&#8221; 1 lnrsoft@lnrsoft:/opt/java/64$sudo update-alternatives &#8211;set java /opt/java/64/jre1.6.0_31/bin/java Install the Firefox plugin lnrsoft@lnrsoft:/opt/java/64$mkdir ~/.mozilla/plugins lnrsoft@lnrsoft:/opt/java/64$sudo apt-get remove icedtea6-plugin lnrsoft@lnrsoft:/opt/java/64$rm ~/.mozilla/plugins/libjavaplugin_oji.so lnrsoft@lnrsoft:/opt/java/64$rm ~/.mozilla/plugins/libnpjp2.so lnrsoft@lnrsoft:/opt/java/64$ln -s /opt/java/64/jre1.6.0_31/lib/amd64/libnpjp2.so [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>lnrsoft@lnrsoft:$cd /opt<br />
+lnrsoft@lnrsoft:/opt$sudo mkdir java<br />
+lnrsoft@lnrsoft:/opt$cd java<br />
+lnrsoft@lnrsoft:/opt/java$sudo mkdir 64<br />
+lnrsoft@lnrsoft:/opt/java$sudo mv ~/Desktop/jre-6u31-linux-x64.bin /opt/java/64<br />
+lnrsoft@lnrsoft:/opt/java$sudo chmod 755 /opt/java/64/jre-6u31-linux-x64.bin<br />
+lnrsoft@lnrsoft/opt/java:$cd /opt/java/64<br />
+lnrsoft@lnrsoft:/opt/java/64$sudo ./jre-6u31-linux-x64.bin</p>
+<p>Agree the license agreement</p>
+<p>lnrsoft@lnrsoft:/opt/java/64$sudo update-alternatives &#8211;install &#8220;/usr/bin/java&#8221; &#8220;java&#8221; &#8220;/opt/java/64/jre1.6.0_31/bin/java&#8221; 1<br />
+lnrsoft@lnrsoft:/opt/java/64$sudo update-alternatives &#8211;set java /opt/java/64/jre1.6.0_31/bin/java</p>
+<p>Install the Firefox plugin</p>
+<p>lnrsoft@lnrsoft:/opt/java/64$mkdir ~/.mozilla/plugins<br />
+lnrsoft@lnrsoft:/opt/java/64$sudo apt-get remove icedtea6-plugin<br />
+lnrsoft@lnrsoft:/opt/java/64$rm ~/.mozilla/plugins/libjavaplugin_oji.so<br />
+lnrsoft@lnrsoft:/opt/java/64$rm ~/.mozilla/plugins/libnpjp2.so<br />
+lnrsoft@lnrsoft:/opt/java/64$ln -s /opt/java/64/jre1.6.0_31/lib/amd64/libnpjp2.so ~/.mozilla/plugins/</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Start up and shut down manually Oracle 11g on ubuntu</title>
+		<link>https://lnrsoft.com/static/start-up-and-shut-down-manually-oracle-11g-on-ubuntu/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Wed, 20 Oct 2010 20:04:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=23</guid>
+
+					<description><![CDATA[Start up lnrsoft@lnrsoft:$cd /home/LnRSoft/Oracle/app/lnr/product/11.1.0/db_1/bin lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$ ./lsnrctl start Services Summary&#8230; Service &#8220;lnr&#8221; has 1 instance(s). Instance &#8220;lnr&#8221;, status. The command completed successfully lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$./sqlplus / as sysdba SQL*Plus: Release 11.1.0.6.0 &#8211; Production on Wed Oct 20 21:10:07 2010 Copyright (c) 1982, 2007, Oracle. All rights reserved. Connected to an idle instance. SQL&#62; SQL&#62;startup; ORACLE instance started. Total [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p style="text-align: center;">Start up</p>
+<p>lnrsoft@lnrsoft:$cd /home/LnRSoft/Oracle/app/lnr/product/11.1.0/db_1/bin<br />
+lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$ ./lsnrctl start<br />
+Services Summary&#8230;<br />
+Service &#8220;lnr&#8221; has 1 instance(s).<br />
+Instance &#8220;lnr&#8221;, status.<br />
+The command completed successfully</p>
+<p>lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$./sqlplus / as sysdba<br />
+SQL*Plus: Release 11.1.0.6.0 &#8211; Production on Wed Oct 20 21:10:07 2010<br />
+Copyright (c) 1982, 2007, Oracle. All rights reserved.<br />
+Connected to an idle instance.<br />
+SQL&gt;<br />
+SQL&gt;startup;<br />
+ORACLE instance started.<br />
+Total System Global Area 841162752 bytes<br />
+Fixed Size 1303160 bytes<br />
+Variable Size 444599688 bytes<br />
+Database Buffers 390070272 bytes<br />
+Redo Buffers 5189632 bytes<br />
+Database mounted.<br />
+Database opened.<br />
+SQL&gt; exit;</p>
+<p>lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$ ./emctl start dbconsole<br />
+Oracle Enterprise Manager 11g Database Control Release 11.1.0.6.0<br />
+Copyright (c) 1996, 2007 Oracle Corporation. All rights reserved.<br />
+https://lnr-server:1158/em/console/aboutApplication<br />
+Starting Oracle Enterprise Manager 11g Database Control &#8230;&#8230;&#8230;&#8230; started.</p>
+<p style="text-align: center;">Shut down</p>
+<p>lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$ ./emctl stop dbconsole<br />
+Stopping Oracle Enterprise Manager 11g Database Control &#8230; Stopped.<br />
+lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$./sqlplus / as sysdba<br />
+SQL*Plus: Release 11.1.0.6.0 &#8211; Production on Wed Oct 20 21:58:12 2010<br />
+Copyright (c) 1982, 2007, Oracle. All rights reserved.<br />
+Connected to an idle instance.<br />
+SQL&gt;<br />
+SQL&gt;shutdown immediate;<br />
+Database closed.<br />
+Database dismounted.<br />
+ORACLE instance shut down.<br />
+SQL&gt; exit;</p>
+<p>Disconnected from Oracle Database 11g Enterprise Edition Release 11.1.0.6.0 &#8211; Production<br />
+With the Partitioning, OLAP, Data Mining and Real Application Testing options<br />
+lnrsoft@lnrsoft:~/Oracle/app/lnr/product/11.1.0/db_1/bin$ ./lsnrctl stop</p>
+<p>The command completed successfully</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>RemoteOperationException: ERROR: Invalid username and/or password</title>
+		<link>https://lnrsoft.com/static/remoteoperationexception-error-invalid-username-andor-password/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 17 Oct 2010 11:44:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=24</guid>
+
+					<description><![CDATA[For Host Credentials Setup &#8211; NOT connected to a Domain: username = user_name password = pass_word For Host Credentials Setup &#8211; connected to a Domain: username = domainuser_name password = pass_word For Database Credentials Setup: username = database_user_name password = database_user_password For Enterprise Manager logon Screen prompt username = sysman password = sysman_password For Database [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><strong>For Host Credentials Setup &#8211; NOT connected to a Domain:</strong><br />
+username = user_name<br />
+password = pass_word</p>
+<p><strong>For Host Credentials Setup &#8211; connected to a Domain:</strong><br />
+username = domainuser_name<br />
+password = pass_word</p>
+<p><strong>For Database Credentials Setup:</strong><br />
+username = database_user_name<br />
+password = database_user_password</p>
+<p><strong>For Enterprise Manager logon Screen prompt</strong><br />
+username = sysman<br />
+password = sysman_password</p>
+<p><strong>For Database logon Screen prompt</strong><br />
+username = sys (or any database_user_name)<br />
+password = sys_password (or any database_user_password)</p>
+<p><strong>Set the logon as batch job from local security policy</strong><br />
+1. Go to Control Panel, Administrative Tools.<br />
+2. Click on Local Security Policy.<br />
+3. Local Policies, User Rights Assignment.<br />
+4. Double click, &#8216;Log on as a batch job&#8217;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to install java 1.6.22 JRE on ubuntu</title>
+		<link>https://lnrsoft.com/static/how-to-install-java-1-6-22-jre-on-ubuntu/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 11 Oct 2010 22:59:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=25</guid>
+
+					<description><![CDATA[$ cd /opt $ sudo mkdir java $ cd java $ sudo mkdir 32 $ sudo mv ~/Desktop/jre-6u22-linux-i586.bin /opt/java/32 $ sudo chmod 755 /opt/java/32/jre-6u22-linux-i586.bin $ cd /opt/java/32 $ sudo ./jre-6u22-linux-i586.bin Agree the license agreement $ sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/32/jre1.6.0_22/bin/java" 1 $ sudo update-alternatives --set java /opt/java/32/jre1.6.0_22/bin/java Install the Firefox plugin $ mkdir ~/.mozilla/plugins [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><code>$ cd /opt</code><br />
+<code>$ sudo mkdir java</code><br />
+<code>$ cd java</code><br />
+<code>$ sudo mkdir 32</code><br />
+<code>$ sudo mv ~/Desktop/jre-6u22-linux-i586.bin /opt/java/32</code><br />
+<code>$ sudo chmod 755 /opt/java/32/jre-6u22-linux-i586.bin</code><br />
+<code>$ cd /opt/java/32</code><br />
+<code>$ sudo ./jre-6u22-linux-i586.bin</code></p>
+<p>Agree the license agreement</p>
+<p><code>$ sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/32/jre1.6.0_22/bin/java" 1</code><br />
+<code>$ sudo update-alternatives --set java /opt/java/32/jre1.6.0_22/bin/java</code></p>
+<p>Install the Firefox plugin</p>
+<p><code>$ mkdir ~/.mozilla/plugins</code><br />
+<code>$ sudo apt-get remove icedtea6-plugin</code><br />
+<code>$ rm ~/.mozilla/plugins/libjavaplugin_oji.so</code><br />
+<code>$ rm ~/.mozilla/plugins/libnpjp2.so</code><br />
+<code>$ ln -s /opt/java/32/jre1.6.0_22/lib/i386/libnpjp2.so ~/.mozilla/plugins/</code></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>[SOLVED] Could not install Google Earth on Linux</title>
+		<link>https://lnrsoft.com/static/solved-could-not-install-google-earth-on-linux/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 09 Oct 2010 12:52:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=26</guid>
+
+					<description><![CDATA[$ ./GoogleEarthLinux.bin Verifying archive integrity&#8230; All good. Uncompressing Google Earth for GNU/Linux 5.2.1.1588&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. setup.data/setup.xml:1: parser error : Document is empty ^ setup.data/setup.xml:1: parser error : Start tag expected, &#8216;< ' not found ^ Couldn't load 'setup.data/setup.xml' Solution: $ ./GoogleEarthLinux.bin &#8211;target /tmp/ge $ cd /tmp/ge/setup.data/bin/Linux/x86/ $ mv setup.gtk setup.gtk2 $ cd /tmp/ge $ ./setup.sh]]></description>
+										<content:encoded><![CDATA[<p><code>$ ./GoogleEarthLinux.bin</code><br />
+Verifying archive integrity&#8230; All good.<br />
+ Uncompressing Google Earth for GNU/Linux 5.2.1.1588&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..<br />
+ setup.data/setup.xml:1: parser error : Document is empty<br />
+^<br />
+ setup.data/setup.xml:1: parser error : Start tag expected, &#8216;< ' not found
+^
+ Couldn't load 'setup.data/setup.xml'
+
+Solution:
+<code>$ ./GoogleEarthLinux.bin &#8211;target /tmp/ge</code><br />
+<code>$ cd /tmp/ge/setup.data/bin/Linux/x86/</code><br />
+<code>$ mv setup.gtk setup.gtk2</code><br />
+<code>$ cd /tmp/ge</code><br />
+<code>$ ./setup.sh</code></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to set up ORACLE_SID and ORACLE_HOME on ubuntu</title>
+		<link>https://lnrsoft.com/static/how-to-set-up-oracle_sid-and-oracle_home-on-ubuntu/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sun, 29 Aug 2010 09:04:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=29</guid>
+
+					<description><![CDATA[1. step Open the .profile hidden file which is located in /yourname/home/.profile 2. step add the following lines to end of the .profile file export ORACLE_HOME=Oracle/app/yourname/product/11.1.0/db_1/bin export ORACLE_SID=lnr 3. step save the changes , restart your computer 4. step you can check your environment variable $ echo $ORACLE_SID $ echo $ORACLE_HOME Path : Oracle/app/yourname/product/11.1.0/db_1/bin]]></description>
+										<content:encoded><![CDATA[<p>1. step Open the .profile hidden file which is located in<strong> /yourname/home/</strong>.profile</p>
+<p>2. step add the following lines to end of the .profile file</p>
+<pre class="lang:c++ decode:true">export ORACLE_HOME=Oracle/app/yourname/product/11.1.0/db_1/bin
+export ORACLE_SID=lnr</pre>
+<p>3. step save the changes , restart your computer</p>
+<p>4. step you can check your environment variable</p>
+<pre class="lang:c++ decode:true  ">$ echo $ORACLE_SID
+$ echo $ORACLE_HOME</pre>
+<p>Path : Oracle/app/<strong>yourname</strong>/product/11.1.0/db_1/bin</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>UnsatisfiedLinkError exception loading native library: njni11</title>
+		<link>https://lnrsoft.com/static/unsatisfiedlinkerror-exception-loading-native-library-njni11/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Sat, 28 Aug 2010 18:45:00 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[DB Design & Dev]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Oracle 11g]]></category>
+		<category><![CDATA[Oracle SQL]]></category>
+		<guid isPermaLink="false">http://rolandihasz.com/?p=30</guid>
+
+					<description><![CDATA[Installing Oracle 11g on Linux [Oracle Net Services configuration failed.] $./netca Error message: UnsatisfiedLinkError exception loading native library: njni11 java.lang.UnsatisfiedLinkError: jniGetOracleHome at oracle.net.common.NetGetEnv.jniGetOracleHome(Native Method) at oracle.net.common.NetGetEnv.getOracleHome(Unknown Source) at oracle.net.ca.NetCA.main(Unknown Source) Oracle Net Services configuration failed. The exit code is -1 Solution: sudo apt-get install build-essential libaio1 gawk ksh]]></description>
+										<content:encoded><![CDATA[<p>Installing Oracle 11g on Linux<br />
+[Oracle Net Services configuration failed.]</p>
+<p><code>$./netca</code><br />
+Error message:<br />
+UnsatisfiedLinkError exception loading native library: njni11</p>
+<p>java.lang.UnsatisfiedLinkError: jniGetOracleHome<br />
+at oracle.net.common.NetGetEnv.jniGetOracleHome(Native Method)<br />
+at oracle.net.common.NetGetEnv.getOracleHome(Unknown Source)<br />
+at oracle.net.ca.NetCA.main(Unknown Source)<br />
+Oracle Net Services configuration failed. The exit code is -1</p>
+<p>Solution:<br />
+<code>sudo apt-get install build-essential libaio1 gawk ksh</code></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LnRSoft Unit Conversions</title>
+		<link>https://lnrsoft.com/static/lnrsoft-unit-conversions/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Thu, 09 Jul 2009 02:51:07 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3622</guid>
+
+					<description><![CDATA[&#160; Download:]]></description>
+										<content:encoded><![CDATA[<p>&nbsp;</p>
+<p class="top" style="text-align: left;"><a href="https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions.png"><img loading="lazy" decoding="async" class="aligncenter wp-image-3613 size-medium" src="https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions-300x226.png" alt="" width="300" height="226" srcset="https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions-300x226.png 300w, https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions-150x113.png 150w, https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions-200x151.png 200w, https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions-768x580.png 768w, https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoftUnitConversions.png 820w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></p>
+<p>Download:<br />
+<a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//lnrsoft_unit_conversions-jar/?tmstv=1770672718" rel="nofollow" id="download-link-3598" data-redirect="false" >
+	LnRSoft_Unit_Conversions.jar	(1226 downloads	)
+</a>
+</p>
+<a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//lnrsoft_unit_conversions-zip/?tmstv=1770672718" rel="nofollow" id="download-link-3528" data-redirect="false" >
+	LnRSoft_Unit_Conversions.zip	(1582 downloads	)
+</a>
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LnRSoft Temperature Conversions [Windows]</title>
+		<link>https://lnrsoft.com/static/lnrsoft-temperature-conversions-windows/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 09 Mar 2009 02:48:44 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=3619</guid>
+
+					<description><![CDATA[Download:]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoft-Temperature-Conversions.png"><img loading="lazy" decoding="async" class="aligncenter wp-image-3617 size-medium" src="https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoft-Temperature-Conversions-300x187.png" alt="" width="300" height="187" srcset="https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoft-Temperature-Conversions-300x187.png 300w, https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoft-Temperature-Conversions-200x125.png 200w, https://lnrsoft.com/static/wp-content/uploads/2017/12/LnRSoft-Temperature-Conversions.png 635w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a><br />
+Download:<br />
+<a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//lnrsoft_temperature_conversions-exe/?tmstv=1770672718" rel="nofollow" id="download-link-3596" data-redirect="false" >
+	LnRSoft_Temperature_Conversions.exe	(1524 downloads	)
+</a>
+<br />
+</br><br />
+<a  data-e-Disable-Page-Transition="true" class="download-link" title="" href="https://lnrsoft.com/static/download//lnrsoft_temperature_conversions-zip/?tmstv=1770672718" rel="nofollow" id="download-link-3526" data-redirect="false" >
+	LnRSoft_Temperature_Conversions.zip	(1501 downloads	)
+</a>
+</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Multiple Inheritance</title>
+		<link>https://lnrsoft.com/static/multiple-inheritance/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Fri, 12 Sep 2008 11:22:12 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[Bjarne Stroustrup quotes]]></category>
+		<category><![CDATA[Multiple Inheritance]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=2555</guid>
+
+					<description><![CDATA[&#8220;Multiple Inheritance (object-oriented programming) was widely supposed to be very difficult to implement efficiently. For example, in a summary of C++ in his book on objective C Brd.Cox actually claimed that adding Multiple inheritance to C++ was impossible. Thus, multiple inheritance seemed more of a challenge. Since I had considered multiple inheritance as early as [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://lnrsoft.com/static/wp-content/uploads/2008/07/Multiple-Inheritance.png"><img loading="lazy" decoding="async" class="aligncenter size-thumbnail wp-image-2558" src="https://lnrsoft.com/static/wp-content/uploads/2008/07/Multiple-Inheritance-150x150.png" alt="" width="150" height="150" srcset="https://lnrsoft.com/static/wp-content/uploads/2008/07/Multiple-Inheritance-150x150.png 150w, https://lnrsoft.com/static/wp-content/uploads/2008/07/Multiple-Inheritance-100x100.png 100w" sizes="auto, (max-width: 150px) 100vw, 150px" /></a></p>
+<blockquote><p>&#8220;Multiple Inheritance (object-oriented programming) was widely supposed to be very difficult to implement efficiently. For example, in a summary of C++ in his book on objective C Brd.Cox actually claimed that adding Multiple inheritance to C++ was impossible. Thus, multiple inheritance seemed more of a challenge. Since I had considered multiple inheritance as early as 1982 and found a simple and efficient implementation technique in 1984. I couldn&#8217;t resist the challenge. I suspect this to be the only case in which fashion affected the sequence of events.&#8221; —  Bjarne Stroustrup</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

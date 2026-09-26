@@ -1,0 +1,563 @@
+# Translation of Plugins - Headers Security Advanced &amp; HSTS WP - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Headers Security Advanced &amp; HSTS WP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-08-19 17:54:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Headers Security Advanced &amp; HSTS WP - Stable (latest release)\n"
+
+#: loader.php:141 pro/loader.php:141
+msgid "Single-source delivery (no duplicates)"
+msgstr "Single-source delivery (no duplicates)"
+
+#: loader.php:140 pro/loader.php:140
+msgid "Per-header on/off control"
+msgstr "Per-header on/off control"
+
+#: headers-security-advanced-hsts-wp.php:1191
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#: headers-security-advanced-hsts-wp.php:1189
+msgid "Open settings"
+msgstr "Open settings"
+
+#: loader.php:220 pro/loader.php:220
+msgid "Purchase Shield, download the ZIP from your order confirmation, go to Plugins → Add New → Upload Plugin → replace the existing plugin. Then enter your license key in the License tab. All your settings are preserved."
+msgstr "Purchase Shield, download the ZIP from your order confirmation, go to Plugins → Add New → Upload Plugin → replace the existing plugin. Then enter your license key in the License tab. All your settings are preserved."
+
+#: loader.php:220 pro/loader.php:220
+msgid "How do I install Shield?"
+msgstr "How do I install Shield?"
+
+#: loader.php:219 pro/loader.php:219
+msgid "Your site stays fully protected. All headers keep working. You lose Shield features (dashboard, advisor, alerts, analytics) and revert to the free version. Nothing breaks."
+msgstr "Your site stays fully protected. All headers keep working. You lose Shield features (dashboard, advisor, alerts, analytics) and revert to the free version. Nothing breaks."
+
+#: loader.php:219 pro/loader.php:219
+msgid "What happens when Shield license expires?"
+msgstr "What happens when Shield license expires?"
+
+#: loader.php:218 pro/loader.php:218
+msgid "I see \"Duplicate header\" warnings"
+msgstr "I see \"Duplicate header\" warnings"
+
+#: loader.php:217 pro/loader.php:217
+msgid "Usually means CSP is not configured or using only the default. Configure all headers in Settings. Check each header section and enable the ones that show as missing."
+msgstr "Usually means CSP is not configured or using only the default. Configure all headers in Settings. Check each header section and enable the ones that show as missing."
+
+#: loader.php:217 pro/loader.php:217
+msgid "SecurityHeaders.com shows a bad grade"
+msgstr "SecurityHeaders.com shows a bad grade"
+
+#: loader.php:216 pro/loader.php:216
+msgid "The nosniff value prevents browsers from guessing file types. Stops MIME-confusion attacks where text files get executed as scripts."
+msgstr "The nosniff value prevents browsers from guessing file types. Stops MIME-confusion attacks where text files get executed as scripts."
+
+#: loader.php:216 pro/loader.php:216
+msgid "What does X-Content-Type-Options do?"
+msgstr "What does X-Content-Type-Options do?"
+
+#: loader.php:215 pro/loader.php:215
+msgid "Controls browser APIs: camera, microphone, geolocation, payment, USB. Setting them to () disables access, preventing malicious scripts from using sensitive device features."
+msgstr "Controls browser APIs: camera, microphone, geolocation, payment, USB. Setting them to () disables access, preventing malicious scripts from using sensitive device features."
+
+#: loader.php:215 pro/loader.php:215
+msgid "What does Permissions-Policy do?"
+msgstr "What does Permissions-Policy do?"
+
+#: loader.php:214 pro/loader.php:214
+msgid "Controls iframe embedding. SAMEORIGIN allows only your domain to frame your pages. Prevents clickjacking attacks where malicious sites embed your site in hidden iframes."
+msgstr "Controls iframe embedding. SAMEORIGIN allows only your domain to frame your pages. Prevents clickjacking attacks where malicious sites embed your site in hidden iframes."
+
+#: loader.php:214 pro/loader.php:214
+msgid "What does X-Frame-Options do?"
+msgstr "What does X-Frame-Options do?"
+
+#: loader.php:213 pro/loader.php:213
+msgid "Your server sends the CSP with Content-Security-Policy-Report-Only instead of Content-Security-Policy. The browser checks the policy but blocks nothing — only reports violations. Perfect for testing."
+msgstr "Your server sends the CSP with Content-Security-Policy-Report-Only instead of Content-Security-Policy. The browser checks the policy but blocks nothing — only reports violations. Perfect for testing."
+
+#: loader.php:213 pro/loader.php:213
+msgid "What is Report-Only mode?"
+msgstr "What is Report-Only mode?"
+
+#: loader.php:212 pro/loader.php:212
+msgid "WordPress sites load resources from many sources: theme, plugins, Google Fonts, analytics, CDNs. CSP must list every legitimate source. Miss one and something breaks."
+msgstr "WordPress sites load resources from many sources: theme, plugins, Google Fonts, analytics, CDNs. CSP must list every legitimate source. Miss one and something breaks."
+
+#: loader.php:212 pro/loader.php:212
+msgid "Why is CSP hard to configure?"
+msgstr "Why is CSP hard to configure?"
+
+#: loader.php:211 pro/loader.php:211
+msgid "Content Security Policy tells browsers which resources can load on your page. Anything not listed is blocked. It is the strongest protection against XSS attacks."
+msgstr "Content Security Policy tells browsers which resources can load on your page. Anything not listed is blocked. It is the strongest protection against XSS attacks."
+
+#: loader.php:211 pro/loader.php:211
+msgid "What is CSP?"
+msgstr "What is CSP?"
+
+#: loader.php:210 pro/loader.php:210
+msgid "Disable HSTS in plugin settings. Clear browser cache: Chrome chrome://net-internals/#hsts → search domain → Delete. If on preload list, submit removal at hstspreload.org (takes months)."
+msgstr "Disable HSTS in plugin settings. Clear browser cache: Chrome chrome://net-internals/#hsts → search domain → Delete. If on preload list, submit removal at hstspreload.org (takes months)."
+
+#: loader.php:210 pro/loader.php:210
+msgid "How do I undo HSTS?"
+msgstr "How do I undo HSTS?"
+
+#: loader.php:209 pro/loader.php:209
+msgid "Only if your entire domain (including all subdomains) works over HTTPS. Preload is hardcoded in browsers and difficult to undo. Removal takes months. Test thoroughly first."
+msgstr "Only if your entire domain (including all subdomains) works over HTTPS. Preload is hardcoded in browsers and difficult to undo. Removal takes months. Test thoroughly first."
+
+#: loader.php:209 pro/loader.php:209
+msgid "Should I enable HSTS Preload?"
+msgstr "Should I enable HSTS Preload?"
+
+#: loader.php:208 pro/loader.php:208
+msgid "Minimum for preload: 31536000 (1 year). Recommended: 63072000 (2 years). Start with 86400 (1 day) to test, then increase."
+msgstr "Minimum for preload: 31536000 (1 year). Recommended: 63072000 (2 years). Start with 86400 (1 day) to test, then increase."
+
+#: loader.php:208 pro/loader.php:208
+msgid "What max-age should I use?"
+msgstr "What max-age should I use?"
+
+#: loader.php:207 pro/loader.php:207
+msgid "HTTP Strict Transport Security tells browsers to always use HTTPS. Even if someone types http://, the browser upgrades to https:// automatically. Prevents protocol downgrade attacks."
+msgstr "HTTP Strict Transport Security tells browsers to always use HTTPS. Even if someone types http://, the browser upgrades to https:// automatically. Prevents protocol downgrade attacks."
+
+#: loader.php:207 pro/loader.php:207
+msgid "What is HSTS?"
+msgstr "What is HSTS?"
+
+#: loader.php:206 pro/loader.php:206
+msgid "Can it conflict with other security plugins?"
+msgstr "Can it conflict with other security plugins?"
+
+#: loader.php:205 pro/loader.php:205
+msgid "WordPress 4.7 and above. Uses only WordPress core APIs with no external dependencies."
+msgstr "WordPress 4.7 and above. Uses only WordPress core APIs with no external dependencies."
+
+#: loader.php:205 pro/loader.php:205
+msgid "What WordPress version is required?"
+msgstr "What WordPress version is required?"
+
+#: loader.php:204 pro/loader.php:204
+msgid "Yes. Cloudflare passes through headers set by WordPress. Some headers like HSTS can also be set in Cloudflare dashboard — avoid setting them in both places to prevent duplicates."
+msgstr "Yes. Cloudflare passes through headers set by WordPress. Some headers like HSTS can also be set in Cloudflare dashboard — avoid setting them in both places to prevent duplicates."
+
+#: loader.php:204 pro/loader.php:204
+msgid "Does it work with Cloudflare?"
+msgstr "Does it work with Cloudflare?"
+
+#: loader.php:203 pro/loader.php:203
+msgid "Does it work with caching plugins?"
+msgstr "Does it work with caching plugins?"
+
+#: loader.php:202 pro/loader.php:202
+msgid "Does it work with Nginx, LiteSpeed, or IIS?"
+msgstr "Does it work with Nginx, LiteSpeed, or IIS?"
+
+#: loader.php:201 pro/loader.php:201
+msgid "Yes. Every security header, every configuration option, every protection this plugin offers today will remain completely free. No features will ever be moved behind a paywall. Shield is a separate set of brand-new tools built on top. Revenue from Shield funds free updates for all users."
+msgstr "Yes. Every security header, every configuration option, every protection this plugin offers today will remain completely free. No features will ever be moved behind a paywall. Shield is a separate set of brand-new tools built on top. Revenue from Shield funds free updates for all users."
+
+#: loader.php:201 pro/loader.php:201
+msgid "Is the free version really free forever?"
+msgstr "Is the free version really free forever?"
+
+#: loader.php:200 pro/loader.php:200
+msgid "Will this plugin slow down my site?"
+msgstr "Will this plugin slow down my site?"
+
+#: loader.php:199 pro/loader.php:199
+msgid "Adds HTTP security headers to your WordPress site: HSTS, CSP, Permissions Policy, X-Frame-Options, and more. These headers tell browsers how to protect visitors from attacks like XSS, clickjacking, and protocol downgrades."
+msgstr "Adds HTTP security headers to your WordPress site: HSTS, CSP, Permissions Policy, X-Frame-Options, and more. These headers tell browsers how to protect visitors from attacks like XSS, clickjacking, and protocol downgrades."
+
+#: loader.php:199 pro/loader.php:199
+msgid "What does this plugin do?"
+msgstr "What does this plugin do?"
+
+#: loader.php:193 pro/loader.php:193
+msgid "Troubleshooting"
+msgstr "Troubleshooting"
+
+#: loader.php:193 pro/loader.php:193
+msgid "Headers"
+msgstr "Headers"
+
+#: loader.php:193 pro/loader.php:193
+msgid "General"
+msgstr "General"
+
+#: loader.php:193 pro/loader.php:193
+msgid "All"
+msgstr "All"
+
+#: loader.php:190 pro/loader.php:190
+msgid "Search FAQ..."
+msgstr "Search FAQ..."
+
+#: loader.php:182 pro/loader.php:182
+msgid "Support"
+msgstr "Support"
+
+#: loader.php:172 pro/loader.php:172
+msgid "$29/site? With 4+ sites you save"
+msgstr "$29/site? With 4+ sites you save"
+
+#: headers-security-advanced-hsts-wp.php:347
+msgid "%1$sHeaders Security Advanced & HSTS WP%2$s adds 10+ security headers to protect your WordPress site from phishing, data theft, clickjacking, XSS, and protocol downgrade attacks. Easy to configure, compatible with all servers and caching plugins."
+msgstr "%1$sHeaders Security Advanced & HSTS WP%2$s adds 10+ security headers to protect your WordPress site from phishing, data theft, clickjacking, XSS, and protocol downgrade attacks. Easy to configure, compatible with all servers and caching plugins."
+
+#: loader.php:147 pro/loader.php:147
+msgid "1 site"
+msgstr "1 site"
+
+#: loader.php:136 pro/loader.php:136
+msgid "10+ security headers"
+msgstr "10+ security headers"
+
+#: headers-security-advanced-hsts-wp.php:357
+msgid "Active Sites"
+msgstr "Active Sites"
+
+#: loader.php:163 pro/loader.php:163
+msgid "BEST VALUE"
+msgstr "BEST VALUE"
+
+#: loader.php:151 pro/loader.php:151
+msgid "All Free features, plus:"
+msgstr "All Free features, plus:"
+
+#: loader.php:179 pro/loader.php:179
+msgid "by %1$sAndrea Ferro%2$s"
+msgstr "by %1$sAndrea Ferro%2$s"
+
+#: loader.php:142 pro/loader.php:142
+msgid "Community support"
+msgstr "Community support"
+
+#: loader.php:138 pro/loader.php:138
+msgid "CSP / Permissions Policy"
+msgstr "CSP / Permissions Policy"
+
+#: loader.php:113 pro/loader.php:113
+msgid "CSP configuration guide with recommended tools, best practices, real-time violation analytics to monitor what browsers are blocking on your site."
+msgstr "CSP configuration guide with recommended tools, best practices, real-time violation analytics to monitor what browsers are blocking on your site."
+
+#: loader.php:155 pro/loader.php:155
+msgid "CSP Guide & Analytics"
+msgstr "CSP Guide & Analytics"
+
+#: loader.php:78 pro/loader.php:78
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: loader.php:156 pro/loader.php:156
+msgid "Email & webhook alerts"
+msgstr "Email & webhook alerts"
+
+#: loader.php:118 pro/loader.php:118
+msgid "Email alerts and webhook notifications to Slack, Discord, Microsoft Teams, or any custom endpoint. Get alerted when your security score drops, a header is removed, or critical issues are found."
+msgstr "Email alerts and webhook notifications to Slack, Discord, Microsoft Teams, or any custom endpoint. Get alerted when your security score drops, a header is removed, or critical issues are found."
+
+#: loader.php:168 pro/loader.php:168
+msgid "Everything in Shield"
+msgstr "Everything in Shield"
+
+#: loader.php:126 pro/loader.php:126
+msgid "Every feature this plugin has offered since day one remains completely free — no limits, no paywalls, no \"lite\" restrictions. That will never change. Shield is a separate set of brand-new advanced tools (automated scanning, real-time alerts) built for professionals who want deeper monitoring."
+msgstr "Every feature this plugin has offered since day one remains completely free — no limits, no paywalls, no \"lite\" restrictions. That will never change. Shield is a separate set of brand-new advanced tools (automated scanning, real-time alerts) built for professionals who want deeper monitoring."
+
+#: loader.php:157 pro/loader.php:157
+msgid "Export / Import settings"
+msgstr "Export / Import settings"
+
+#: loader.php:82 pro/loader.php:82
+msgid "FAQ"
+msgstr "FAQ"
+
+#: loader.php:132 pro/loader.php:132
+msgid "Forever"
+msgstr "Forever"
+
+#: loader.php:132 pro/loader.php:132
+msgid "Free"
+msgstr "Free"
+
+#: loader.php:134 pro/loader.php:134
+msgid "Free forever"
+msgstr "Free forever"
+
+#: loader.php:124 pro/loader.php:124
+msgid "Free forever. Shield for those who want more."
+msgstr "Free forever. Shield for those who want more."
+
+#: loader.php:81 pro/loader.php:81
+msgid "Free vs Shield"
+msgstr "Free vs Shield"
+
+#: loader.php:160 pro/loader.php:160
+msgid "Get Shield"
+msgstr "Get Shield"
+
+#: loader.php:174 pro/loader.php:174
+msgid "Get Unlimited"
+msgstr "Get Unlimited"
+
+#: loader.php:137 pro/loader.php:137
+msgid "HSTS Preload"
+msgstr "HSTS Preload"
+
+#: loader.php:170 pro/loader.php:170
+msgid "Ideal for agencies"
+msgstr "Ideal for agencies"
+
+#: headers-security-advanced-hsts-wp.php:377
+msgid "I create projects available to everyone for free and I like to create simple but functional projects. Every feature this plugin offers today will remain completely free, forever. That is a promise I intend to keep."
+msgstr "I create projects available to everyone for free and I like to create simple but functional projects. Every feature this plugin offers today will remain completely free, forever. That is a promise I intend to keep."
+
+#: loader.php:149 loader.php:166 pro/loader.php:149 pro/loader.php:166
+msgid "month"
+msgstr "month"
+
+#: loader.php:80 loader.php:118 pro/loader.php:80 pro/loader.php:118
+msgid "Notifications"
+msgstr "Notifications"
+
+#: loader.php:154 pro/loader.php:154
+msgid "PDF Security Report (before/after)"
+msgstr "PDF Security Report (before/after)"
+
+#: loader.php:149 pro/loader.php:149
+msgid "per year"
+msgstr "per year"
+
+#: loader.php:166 pro/loader.php:166
+msgid "per year, unlimited sites"
+msgstr "per year, unlimited sites"
+
+#: headers-security-advanced-hsts-wp.php:381
+msgid "Maintaining a plugin trusted by 100,000+ sites takes constant work: security patches, WordPress updates, new browser standards, support. To fund this effort, I built %1$sShield%2$s — a set of brand-new advanced tools for professionals who need more. Nothing existing moves behind a paywall. Your support through Shield directly funds free updates for everyone."
+msgstr "Maintaining a plugin trusted by 100,000+ sites takes constant work: security patches, WordPress updates, new browser standards, support. To fund this effort, I built %1$sShield%2$s — a set of brand-new advanced tools for professionals who need more. Nothing existing moves behind a paywall. Your support through Shield directly funds free updates for everyone."
+
+#: loader.php:171 pro/loader.php:171
+msgid "Priority support"
+msgstr "Priority support"
+
+#: loader.php:127 pro/loader.php:127
+msgid "Revenue from Shield goes directly into maintaining and improving the free plugin for everyone."
+msgstr "Revenue from Shield goes directly into maintaining and improving the free plugin for everyone."
+
+#: loader.php:181 pro/loader.php:181
+msgid "Review"
+msgstr "Review"
+
+#: loader.php:153 pro/loader.php:153
+msgid "Score Trend chart (week/month/year)"
+msgstr "Score Trend chart (week/month/year)"
+
+#: loader.php:152 pro/loader.php:152
+msgid "Security Dashboard & Advisor"
+msgstr "Security Dashboard & Advisor"
+
+#: headers-security-advanced-hsts-wp.php:352
+msgid "Security Headers"
+msgstr "Security Headers"
+
+#: loader.php:108 pro/loader.php:108
+msgid "Security score (A-F), AI-powered recommendations, header status for all 10 security headers, automated scanning, and scan history."
+msgstr "Security score (A-F), AI-powered recommendations, header status for all 10 security headers, automated scanning, and scan history."
+
+#: headers-security-advanced-hsts-wp.php:362
+msgid "Top Grade"
+msgstr "Top Grade"
+
+#: loader.php:169 pro/loader.php:169
+msgid "Unlimited site activations"
+msgstr "Unlimited site activations"
+
+#: loader.php:44 pro/loader.php:44
+msgid "Unlock Shield"
+msgstr "Unlock Shield"
+
+#: loader.php:158 pro/loader.php:158
+msgid "Weekly automated scans"
+msgstr "Weekly automated scans"
+
+#: loader.php:139 pro/loader.php:139
+msgid "X-Frame / X-Content-Type"
+msgstr "X-Frame / X-Content-Type"
+
+#: loader.php:46 pro/loader.php:46
+msgid "Download Shield, replace the plugin ZIP, and enter your license key."
+msgstr "Download Shield, replace the plugin ZIP, and enter your licence key."
+
+#: loader.php:200 pro/loader.php:200
+msgid "No. Headers add less than 1KB to each response. The plugin uses WordPress native hooks and adds no database queries at page load for visitors."
+msgstr "No. Headers add less than 1KB to each response. The plugin uses WordPress native hooks and adds no database queries at page load for visitors."
+
+#. Plugin URI of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "https://openheaders.org"
+msgstr "https://openheaders.org"
+
+#: headers-security-advanced-hsts-wp.php:550
+msgid "CSP Report URI"
+msgstr "CSP Report URI"
+
+#: headers-security-advanced-hsts-wp.php:554
+msgid "Enter your custom URL (Sentry, URIports, Datadog, and Report URI) for CSP violation reports."
+msgstr "Enter your custom URL (Sentry, URIports, Datadog, and Report URI) for CSP violation reports."
+
+#: headers-security-advanced-hsts-wp.php:341
+msgid "The security of your website is our priority! 🛸"
+msgstr "The security of your website is our priority! 🛸"
+
+#: headers-security-advanced-hsts-wp.php:420
+msgid "Permissions Policy"
+msgstr "Permissions Policy"
+
+#: headers-security-advanced-hsts-wp.php:566
+msgid "Permissions Policy Contents"
+msgstr "Permissions Policy Contents"
+
+#: headers-security-advanced-hsts-wp.php:572
+msgid "The HTTP Permissions-Policy header provides a mechanism to allow and deny the use of browser features in a document or within any <iframe> elements in the document."
+msgstr "The HTTP Permissions-Policy header provides a mechanism to allow and deny the use of browser features in a document or within any <iframe> elements in the document."
+
+#: headers-security-advanced-hsts-wp.php:601
+msgid "The X-Frame-Options HTTP response header can be used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites."
+msgstr "The X-Frame-Options HTTP response header can be used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites."
+
+#: headers-security-advanced-hsts-wp.php:595
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#. Author of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "🐙 Andrea Ferro"
+msgstr "🐙 Andrea Ferro"
+
+#: headers-security-advanced-hsts-wp.php:419
+msgid "Content Security Policy (CSP)"
+msgstr "Content Security Policy (CSP)"
+
+#: headers-security-advanced-hsts-wp.php:526
+msgid "CSP Header Contents"
+msgstr "CSP Header Contents"
+
+#: headers-security-advanced-hsts-wp.php:532
+msgid "HTTP Content-Security-Policy header controls website resources, reducing XSS risk by specifying allowed server origins and script endpoints."
+msgstr "HTTP Content-Security-Policy header controls website resources, reducing XSS risk by specifying allowed server origins and script endpoints."
+
+#: headers-security-advanced-hsts-wp.php:1227
+msgid "%1$sThe Headers Security Advanced & HSTS WP%2$s project implements HTTP response headers that your site can use to increase the security of your website. The plug-in will automatically set up all Best Practices (you don’t have to think about anything). You will also be able to change the headers simply in the plugin settings."
+msgstr "%1$sThe Headers Security Advanced & HSTS WP%2$s project implements HTTP response headers that your site can use to increase the security of your website. The plug-in will automatically set up all Best Practices (you don’t have to think about anything). You will also be able to change the headers simply in the plugin settings."
+
+#: headers-security-advanced-hsts-wp.php:1222
+msgid "Congratulations, you are safe!"
+msgstr "Congratulations, you are safe!"
+
+#: headers-security-advanced-hsts-wp.php:510
+msgid "Enabling preload further helps prevent any potential man-in-the-middle attacks, thus improving connection security as far as it concerns HSTS. Please note that even if this flag is enabled, your website still needs to be manually submitted to the list. Please also note that inclusion in the preload list has permanent consequences and is not easy to undo, so you should only enable this flag and submit your website after making sure that all of the resources and services within your domain (and its subdomains, if includeSubDomains is also enabled) are indeed accessible and functional via HTTPS. %1$sLearn more%2$s."
+msgstr "Enabling preload further helps prevent any potential man-in-the-middle attacks, thus improving connection security as far as it concerns HSTS. Please note that even if this flag is enabled, your website still needs to be manually submitted to the list. Please also note that inclusion in the preload list has permanent consequences and is not easy to undo, so you should only enable this flag and submit your website after making sure that all of the resources and services within your domain (and its subdomains, if includeSubDomains is also enabled) are indeed accessible and functional via HTTPS. %1$sLearn more%2$s."
+
+#: headers-security-advanced-hsts-wp.php:1250
+msgid "Security is a right, not a privilege. Plugin version %s."
+msgstr "Security is a right, not a privilege. Plugin version %s."
+
+#: headers-security-advanced-hsts-wp.php:386
+#: headers-security-advanced-hsts-wp.php:1239
+msgid "Buy me a coffee"
+msgstr "Buy me a coffee"
+
+#: headers-security-advanced-hsts-wp.php:387
+#: headers-security-advanced-hsts-wp.php:1242
+msgid "Donate via PayPal"
+msgstr "Donate via PayPal"
+
+#: headers-security-advanced-hsts-wp.php:446
+msgid "It is advisable to set \"max-age\" to a high value, such as a full year (31536000 seconds). This ensures that browsers continue to store security information for a long period of time, which helps protect users from man-in-the-middle attacks. However, it is important to keep in mind that setting the value too high could cause problems if you need to change your site's SSL configuration in the future. Therefore, it is important to carefully consider your usage and security needs before setting the value."
+msgstr "It is advisable to set \"max-age\" to a high value, such as a full year (31536000 seconds). This ensures that browsers continue to store security information for a long period of time, which helps protect users from man-in-the-middle attacks. However, it is important to keep in mind that setting the value too high could cause problems if you need to change your site's SSL configuration in the future. Therefore, it is important to carefully consider your usage and security needs before setting the value."
+
+#: headers-security-advanced-hsts-wp.php:418
+msgid "Strict Transport Security (HSTS)"
+msgstr "Strict Transport Security (HSTS)"
+
+#: headers-security-advanced-hsts-wp.php:464
+msgid "The \"includeSubDomains\" flag specifies that the effect of the header should also be applied to subdomains of the domain. When this directive is present, all requests to any subdomains of your domain are automatically redirected to the HTTPS protocol, providing enhanced security for the website and the users who visit it."
+msgstr "The \"includeSubDomains\" flag specifies that the effect of the header should also be applied to subdomains of the domain. When this directive is present, all requests to any subdomains of your domain are automatically redirected to the HTTPS protocol, providing enhanced security for the website and the users who visit it."
+
+#: headers-security-advanced-hsts-wp.php:495
+msgid "The \"preload\" flag allows the website to be included in the %1$sHSTS preload list%2$s, which instructs browsers to always use HTTPS connection for the site and its subdomains, without ever making insecure HTTP requests."
+msgstr "The \"preload\" flag allows the website to be included in the %1$sHSTS preload list%2$s, which instructs browsers to always use HTTPS connection for the site and its subdomains, without ever making insecure HTTP requests."
+
+#: headers-security-advanced-hsts-wp.php:435
+msgid "The Max-Age parameter specifies the period of time (in seconds) for which the browser should store the HSTS information. During this time period, the browser will always use HTTPS to communicate with the website, even if the visitor has entered \"http\" or an HTTP link in the address bar. This helps protect the website and its visitors from man-in-the-middle (MITM) attacks and other security threats."
+msgstr "The Max-Age parameter specifies the period of time (in seconds) for which the browser should store the HSTS information. During this time period, the browser will always use HTTPS to communicate with the website, even if the visitor has entered \"http\" or an HTTP link in the address bar. This helps protect the website and its visitors from man-in-the-middle (MITM) attacks and other security threats."
+
+#: headers-security-advanced-hsts-wp.php:475
+msgid "We recommend enabling the \"includeSubDomains\" option in the HSTS header to ensure that all subsections of your site (subdomains) are only loaded via HTTPS. However, before enabling this flag, it is important to ensure that all subdomains, resources and web services working under your domain are available via HTTPS and that there are no compatibility issues with any external services used by your site."
+msgstr "We recommend enabling the \"includeSubDomains\" option in the HSTS header to ensure that all subsections of your site (subdomains) are only loaded via HTTPS. However, before enabling this flag, it is important to ensure that all subdomains, resources and web services working under your domain are available via HTTPS and that there are no compatibility issues with any external services used by your site."
+
+#: headers-security-advanced-hsts-wp.php:401
+msgid "%1$sHelp me decide what the next features of this plugin will be!%2$s Take part in a nerdy survey!"
+msgstr "%1$sHelp me decide what the next features of this plugin will be!%2$s Take part in a nerdy survey!"
+
+#: headers-security-advanced-hsts-wp.php:394
+msgid "%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?%2$s Don't worry, I've got it covered!"
+msgstr "%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?%2$s Don't worry, I've got it covered!"
+
+#: headers-security-advanced-hsts-wp.php:330
+msgid "%1$sYour website is finally safe! 🚀%2$s Implement enhanced security headers, HSTS preload for optimum website protection."
+msgstr "%1$sYour website is finally safe! 🚀%2$s Implement enhanced security headers, HSTS preload for optimum website protection."
+
+#: headers-security-advanced-hsts-wp.php:457
+msgid "Include Subdomains: "
+msgstr "Include Subdomains: "
+
+#: headers-security-advanced-hsts-wp.php:429
+msgid "Max-Age: "
+msgstr "Max-Age: "
+
+#: headers-security-advanced-hsts-wp.php:487
+msgid "Preload: "
+msgstr "Preload: "
+
+#: headers-security-advanced-hsts-wp.php:416
+msgid "Quick selection:"
+msgstr "Quick selection:"
+
+#. Plugin Name of the plugin
+#: headers-security-advanced-hsts-wp.php
+#: headers-security-advanced-hsts-wp.php:305
+#: headers-security-advanced-hsts-wp.php:306
+#: headers-security-advanced-hsts-wp.php:1187
+#: headers-security-advanced-hsts-wp.php:1213
+msgid "Headers Security Advanced & HSTS WP"
+msgstr "Headers Security Advanced & HSTS WP"
+
+#. Author URI of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "https://www.linkedin.com/in/andrea-ferro-55046186/"
+msgstr "https://www.linkedin.com/in/andrea-ferro-55046186/"
+
+#. Description of the plugin
+#: headers-security-advanced-hsts-wp.php
+msgid "Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin uses advanced security rules that provide huge levels of protection and it is important that your site uses it. This step is important to submit your website and/or domain to an approved HSTS list. Google officially compiles this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. You can forward your site to the official HSTS preload directory. Cross Site Request Forgery (CSRF) is a common attack with the installation of Headers Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress site."
+msgstr "Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin uses advanced security rules that provide huge levels of protection and it is important that your site uses it. This step is important to submit your website and/or domain to an approved HSTS list. Google officially compiles this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. You can forward your site to the official HSTS preload directory. Cross Site Request Forgery (CSRF) is a common attack with the installation of Headers Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress site."
+
+#: loader.php:77 pro/loader.php:77
+msgid "Settings"
+msgstr "Settings"
+
+#: headers-security-advanced-hsts-wp.php:326
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."

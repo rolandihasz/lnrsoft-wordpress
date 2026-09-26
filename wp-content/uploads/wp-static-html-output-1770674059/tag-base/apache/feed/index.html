@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>apache &#8211; LnRSoft</title>
+	<atom:link href="https://lnrsoft.com/static/tag-base/apache/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lnrsoft.com/static/</link>
+	<description>&#34;Promoting passion for software development&#34;</description>
+	<lastBuildDate>Mon, 06 Jun 2022 14:49:52 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://lnrsoft.com/static/wp-content/uploads/2017/04/lnrsoft_favicon-100x100.jpg</url>
+	<title>apache &#8211; LnRSoft</title>
+	<link>https://lnrsoft.com/static/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>2021 Updated! Install WordPress on Ubuntu Server with add-on features as HTTPS support, SSL certificate and HTTP2 supports</title>
+		<link>https://lnrsoft.com/static/linuxinstall-wordpress-on-ubuntu-server-with-add-on-features-as-https-support-ssl-certificate-and-http2-supports/</link>
+		
+		<dc:creator><![CDATA[lnrsoft]]></dc:creator>
+		<pubDate>Mon, 07 Jun 2021 23:33:33 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Software Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[blog php]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://185.143.45.180/?p=5341</guid>
+
+					<description><![CDATA[sudo apt-get install apache2 apache2-utils sudo systemctl enable apache2 sudo systemctl start apache2 sudo apt-get install mysql-client mysql-server sudo apt-get install php7.4 php7.4-mysql libapache2-mod-php7.4 php7.4-cli php7.4-cgi php7.4-gd sudo nano /var/www/html/info.php &#60;?php phpinfo(); ?&#62; This is only for info about the server configuration and settings etc, very highly recommended to remove it after the initial test. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<pre class="lang:c++ decode:true ">sudo apt-get install apache2 apache2-utils 
+sudo systemctl enable apache2
+sudo systemctl start apache2
+sudo apt-get install mysql-client mysql-server
+sudo apt-get install php7.4 php7.4-mysql libapache2-mod-php7.4 php7.4-cli php7.4-cgi php7.4-gd  
+sudo nano  /var/www/html/info.php</pre>
+<pre class="lang:c++ decode:true">&lt;?php 
+phpinfo();
+?&gt;</pre>
+<pre class="lang:c++ decode:true">This is only for info about the server configuration and settings etc, very highly recommended to remove it after the initial test.
+Simply:
+sudo rm -rf /var/www/html/info.php
+sudo a2enmod rewrite
+
+sudo apache2ctl configtest
+(You might get a "AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message")
+There is an easy fix: 
+sudo nano /etc/apache2/apache2.conf
+Then Just add a line like this: 
+ServerName 127.0.0.1
+This should solve the issue.
+
+
+It's time to download and deploy the latest wordpress version.
+wget -c http://wordpress.org/latest.tar.gz
+tar -xzvf latest.tar.gz
+sudo rsync -av wordpress/* /var/www/html
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
+cd /var/www/html</pre>
+<pre class="lang:c++ decode:true">mysql -u root -p</pre>
+<pre class="lang:c++ decode:true">CREATE DATABASE dbuser;
+CREATE USER 'dbuser'@'localhost' IDENTIFIED BY 'YourPassword';
+GRANT ALL PRIVILEGES ON dbuser.* TO 'dbuser'@'localhost';
+FLUSH PRIVILEGES;
+
+There are several methods to determine what is our current password strength, and we can make it stronger if required.
+I usually use these methods:
+
+SHOW VARIABLES LIKE 'validate_password%';
+SHOW VARIABLES LIKE 'default_authentication_plugin';
+
+then if I need to modify something here are some useful variable settings:
+
+SET GLOBAL validate_password.LENGTH = 8;
+SET GLOBAL validate_password.policy=2;
+SET GLOBAL validate_password.policy=MEDIUM;
+SET GLOBAL validate_password.mixed_case_count = 1;
+SET GLOBAL validate_password.number_count = 1;
+SET GLOBAL validate_password.special_char_count = 1;
+SET GLOBAL validate_password.check_user_name = 0; 
+
+</pre>
+<pre class="lang:c++ decode:true">cd /var/www/html
+sudo mv wp-config-sample.php wp-config.php
+
+In the wp-config.php we will set our own database name , username password ,and host name/address.
+
+sudo nano wp-config.php 
+
+sudo systemctl restart apache2.service 
+sudo systemctl restart mysql.service</pre>
+<p>If we carefully followed all my steps above , you should have a running wordpress page by now.<br />
+You might need to run as the wordpress uses php file extensions.<br />
+sudo rm -rf /var/www/html/index.html</p>
+<p><strong>Enable HTTPS supports:</strong></p>
+<p>Create a <em>ssl-params.conf file</em> and add the following definition below to it, then save it.</p>
+<pre class="lang:apache decode:true ">$ sudo nvim /etc/apache2/conf-available/ssl-params.conf 
+</pre>
+<pre class="lang:apache decode:true"># Cipherli.st Strong Ciphers for Apache url: https://cipherli.st/
+# Addong some Strong SSL Security on Apache2
+SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
+SSLProtocol All -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
+SSLHonorCipherOrder On
+Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+Header always set X-Frame-Options DENY
+Header always set X-Content-Type-Options nosniff
+# Requires Apache &gt;= 2.4
+SSLCompression off
+SSLUseStapling on
+SSLStaplingCache "shmcb:logs/stapling-cache(150000)"
+# Requires Apache &gt;= 2.4.11
+SSLSessionTickets Off</pre>
+<p>Next thing to do is create a backup of the original default-ssl.conf file.</p>
+<pre class="lang:apache decode:true ">$ sudo cp /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf.bak</pre>
+<p>Then modify it accordingly, we are deploying a wordpress site in this particular example we use the following adjustments.</p>
+<pre class="lang:apache decode:true ">ServerName lnrsoft.ddns.net
+ServerAlias lnrsoft.ddns.net
+
+Redirect permanent / https://lnrsoft.ddns.net/
+DocumentRoot /var/www/html
+
+Protocols h2 http:/1.1
+
+&lt;If "%{HTTP_HOST} == 'lnrsoft.ddns.net'"&gt;
+    Redirect permanent / https://lnrsoft.ddns.net/
+
+SSLEngine on
+  
+Options FollowSymLinks
+AllowOverride All
+Require all granted
+  
+SSLProtocol +TLSv1.2
+
+</pre>
+<p><strong>Enable HTTP2 supports:</strong></p>
+<pre class="lang:c++ decode:true">&lt;VirtualHost *:443&gt;
+  ServerName lnrsoft.ddns.net
+  ServerAlias lnrsoft.ddns.net
+
+  Protocols h2 http:/1.1
+
+  &lt;If "%{HTTP_HOST} == 'lnrsoft.ddns.net'"&gt;
+    Redirect permanent / https://lnrsoft.ddns.net/
+  &lt;/If&gt;
+
+  DirectoryIndex index.html index.php
+  DocumentRoot /var/www            
+
+  ErrorLog ${APACHE_LOG_DIR}/lnrsoft.ddns.net.log
+  CustomLog ${APACHE_LOG_DIR}/lnrsoft.ddns.net-access.log combined
+
+  SSLEngine On
+  SSLCertificateFile /etc/letsencrypt/live/lnrsoft.ddns.net/cert.pem
+  SSLCertificateKeyFile /etc/letsencrypt/live/lnrsoft.ddns.net/privkey.pem
+  SSLCertificateChainFile /etc/letsencrypt/live/lnrsoft.ddns.net/chain.pem
+
+  &lt;Directory /var/www&gt;
+      Options FollowSymLinks
+      AllowOverride All
+      Require all granted
+  &lt;/Directory&gt;
+
+&lt;/VirtualHost&gt;</pre>
+<p>It is also recommended adding strong ciphers for Apache to increase SSL Security on the server.<br />
+Part of my Best Practices to deploy a secure webserver, virtual personal server or database serve is to add the recommended ciphers from <a href="https://www.ssllabs.com/ssltest/">SSL Server Test</a>.</p>
+<p>How to Enable HTTP2 in Apache 2.4 on Ubuntu</p>
+<pre class="lang:c++ decode:true ">### Step 1: Upgrade Apache from PPA
+
+sudo add-apt-repository ppa:ondrej/apache2
+sudo apt update
+sudo apt upgrade
+
+### Step 2: Install the PHP FastCGI module for PHP 7.4
+
+sudo apt install php7.4-fpm 
+sudo a2enmod proxy_fcgi setenvif
+sudo a2enconf php7.4-fpm 
+sudo a2dismod php7.4 
+sudo service apache2 restart
+
+### Step 3: Change MPM from "prefork" to "event"
+
+sudo a2dismod mpm_prefork 
+sudo a2enmod mpm_event 
+sudo service apache2 restart 
+sudo service php7.4-fpm restart
+
+### Step 4: Add a line to your Virtual Host file
+
+Protocols h2 h2c http/1.1
+
+### Step 5: Enable the mod_http2 Apache module
+
+sudo a2enmod http2
+sudo service apache2 restart
+
+### Step 6: Test your Apache server for HTTP/2
+
+https://http2.pro/</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

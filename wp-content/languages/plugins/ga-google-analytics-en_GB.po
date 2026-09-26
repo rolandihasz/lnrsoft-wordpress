@@ -1,0 +1,556 @@
+# Translation of Plugins - GA Google Analytics – Connect Google Analytics to WordPress - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - GA Google Analytics – Connect Google Analytics to WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-08-10 16:28:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - GA Google Analytics – Connect Google Analytics to WordPress - Stable (latest release)\n"
+
+#: ga-google-analytics.php:315
+msgid "☀️ Summer Sale!"
+msgstr "☀️ Summer Sale!"
+
+#: ga-google-analytics.php:241
+msgid "WordPress Admin Area"
+msgstr "WordPress Admin Area"
+
+#: ga-google-analytics.php:216
+msgid "and try again."
+msgstr "and try again."
+
+#: ga-google-analytics.php:214
+msgid "Pro version of GA Google Analytics currently active. Free and Pro versions cannot be activated at the same time. "
+msgstr "Pro version of GA Google Analytics currently active. Free and Pro versions cannot be activated at the same time. "
+
+#: ga-google-analytics.php:214
+msgid "Warning:"
+msgstr "Warning:"
+
+#: inc/settings-display.php:180
+msgid "for GA4, or added to"
+msgstr "for GA4, or added to"
+
+#: inc/settings-display.php:156
+msgid "Enable support for Force SSL"
+msgstr "Enable support for Force SSL"
+
+#: ga-google-analytics.php:316
+msgid "Take 35% OFF any of our"
+msgstr "Take 35% OFF any of our"
+
+#: inc/settings-display.php:190
+msgid "Optional code added to the GA tracking snippet. This is useful for things like creating multiple trackers and user opt-out. Note: you can use"
+msgstr "Optional code added to the GA tracking snippet. This is useful for things like creating multiple trackers and user opt-out. Note: you can use"
+
+#: inc/settings-display.php:80
+msgid "Select \"GA4\" for the plugin setting, \"Tracking Method\""
+msgstr "Select \"GA4\" for the plugin setting, \"Tracking Method\""
+
+#: inc/settings-display.php:79
+msgid "Add your Google tracking (measurement) ID to the plugin setting, \"GA Tracking ID\""
+msgstr "Add your Google tracking (measurement) ID to the plugin setting, \"GA Tracking ID\""
+
+#: inc/settings-display.php:78
+msgid "Toggle open the \"Plugin Settings\" panel on this page (below)"
+msgstr "Toggle open the \"Plugin Settings\" panel on this page (below)"
+
+#: inc/settings-display.php:77
+msgid "During account creation, you&rsquo;ll get a tracking (measurement) ID"
+msgstr "During account creation, you&rsquo;ll get a tracking (measurement) ID"
+
+#: inc/settings-display.php:76
+msgid "to create your GA account"
+msgstr "to create your GA account"
+
+#: inc/settings-display.php:76
+msgid "this guide"
+msgstr "this guide"
+
+#: inc/settings-display.php:76
+msgid "Follow"
+msgstr "Follow"
+
+#: inc/settings-display.php:73
+msgid "How to add Google Analytics 4 to your site:"
+msgstr "How to add Google Analytics 4 to your site:"
+
+#: ga-google-analytics.php:571
+msgid "Legacy Tracking"
+msgstr "Legacy Tracking"
+
+#: ga-google-analytics.php:563
+msgid "Google Analytics 4 (default)"
+msgstr "Google Analytics 4 (default)"
+
+#: ga-google-analytics.php:563
+msgid "GA4"
+msgstr "GA4"
+
+#: inc/support-panel.php:129
+msgid "Please Donate"
+msgstr "Please Donate"
+
+#: ga-google-analytics.php:391
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#: ga-google-analytics.php:320
+msgid "Apply code"
+msgstr "Apply code"
+
+#: ga-google-analytics.php:320
+msgid "at checkout. Sale ends 9/20/2026."
+msgstr "at checkout. Sale ends 2026-09-20."
+
+#: ga-google-analytics.php:317
+msgid "Pro WordPress plugins"
+msgstr "Pro WordPress plugins"
+
+#: inc/support-panel.php:132
+msgid "Make a donation&nbsp;&raquo;"
+msgstr "Make a donation&nbsp;&raquo;"
+
+#: inc/support-panel.php:77
+msgid "Donate via PayPal, credit card, or cryptocurrency"
+msgstr "Donate via PayPal, credit card, or cryptocurrency"
+
+#: inc/support-panel.php:76
+msgid "Plugin Planet: Pro WordPress Plugins"
+msgstr "Plugin Planet: Pro WordPress Plugins"
+
+#: inc/settings-display.php:261
+msgid "WP Resources"
+msgstr "WP Resources"
+
+#: inc/settings-display.php:115
+msgid "Note: the Tracking ID also may be referred to as Tag ID, Measurement ID, or Property ID. Supported ID formats include AW-XXXXXXXXX, G-XXXXXXXXX, GT-XXXXXXXXX, and UA-XXXXXXXXX. Google Tag Manager (GTM-XXXXXXXXX) currently is not supported."
+msgstr "Note: the Tracking ID also may be referred to as Tag ID, Measurement ID, or Property ID. Supported ID formats include AW-XXXXXXXXX, G-XXXXXXXXX, GT-XXXXXXXXX, and UA-XXXXXXXXX. Google Tag Manager (GTM-XXXXXXXXX) currently is not supported."
+
+#: inc/settings-display.php:113
+msgid "Enter your Google Tracking ID."
+msgstr "Enter your Google Tracking ID."
+
+#: inc/settings-display.php:202
+msgid "or footer, depending on the previous setting, Tracking Code Location."
+msgstr "or footer, depending on the previous setting, Tracking Code Location."
+
+#: inc/settings-display.php:201
+msgid "Optional markup added to"
+msgstr "Optional markup added to"
+
+#: inc/settings-display.php:181
+msgid "for Universal Analytics."
+msgstr "for Universal Analytics."
+
+#: inc/settings-display.php:179
+msgid "Optional code added to"
+msgstr "Optional code added to"
+
+#: inc/settings-display.php:114
+msgid "Show info"
+msgstr "Show info"
+
+#: inc/settings-display.php:32
+msgid "tracking snippet to your site. Log in to your Google account to view your stats."
+msgstr "tracking snippet to your site. Log in to your Google account to view your stats."
+
+#: inc/settings-display.php:31
+msgid "GA"
+msgstr "GA"
+
+#: inc/settings-display.php:30
+msgid "This plugin adds the"
+msgstr "This plugin adds the"
+
+#: ga-google-analytics.php:535 ga-google-analytics.php:538
+msgid "(via"
+msgstr "(via"
+
+#: ga-google-analytics.php:186
+msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr "★★★★★ rating&nbsp;&raquo;"
+
+#: ga-google-analytics.php:182
+msgid "Like this plugin? Give it a"
+msgstr "Like this plugin? Give it a"
+
+#: inc/settings-display.php:192
+msgid "to get the current user ID and login name."
+msgstr "to get the current user ID and login name."
+
+#: ga-google-analytics.php:478
+msgid "(for Google Tag Manager), which is not supported. Please try again with a supported tracking code."
+msgstr "(for Google Tag Manager), which is not supported. Please try again with a supported tracking code."
+
+#: ga-google-analytics.php:477
+msgid "Error: your tracking code begins with"
+msgstr "Error: your tracking code begins with"
+
+#: inc/settings-display.php:218
+msgid "Enable tracking in WP Admin Area (adds tracking code only; to view stats log into your Google account)"
+msgstr "Enable tracking in WP Admin Area (adds tracking code only; to view stats log into your Google account)"
+
+#: inc/settings-display.php:231
+msgid "For advanced features, check out"
+msgstr "For advanced features, check out"
+
+#: inc/settings-display.php:229
+msgid "More Options"
+msgstr "More Options"
+
+#: inc/settings-display.php:54
+msgid "PRO Version"
+msgstr "PRO Version"
+
+#: inc/settings-display.php:54 inc/settings-display.php:232
+msgid "GA Google Analytics Pro"
+msgstr "GA Google Analytics Pro"
+
+#: inc/settings-display.php:53
+msgid "Check out the"
+msgstr "Check out the"
+
+#: ga-google-analytics.php:158
+msgid "Homepage"
+msgstr "Homepage"
+
+#: ga-google-analytics.php:139
+msgid "Go&nbsp;Pro"
+msgstr "Go&nbsp;Pro"
+
+#: ga-google-analytics.php:138
+msgid "Get GA Pro!"
+msgstr "Get GA Pro!"
+
+#: inc/settings-display.php:210
+msgid "Display Custom Code"
+msgstr "Display Custom Code"
+
+#: inc/settings-display.php:207
+msgid "Custom Code Location"
+msgstr "Custom Code Location"
+
+#: inc/settings-display.php:197
+msgid "Custom Code"
+msgstr "Custom Code"
+
+#: inc/settings-display.php:165
+msgid "Tracking Code Location"
+msgstr "Tracking Code Location"
+
+#: ga-google-analytics.php:318 inc/settings-display.php:191
+msgid "and"
+msgstr "and"
+
+#: ga-google-analytics.php:129
+msgid "Settings"
+msgstr "Settings"
+
+#: ga-google-analytics.php:567
+msgid "Universal Analytics"
+msgstr "Universal Analytics"
+
+#: inc/settings-display.php:21
+msgid "Overview"
+msgstr "Overview"
+
+#. Author URI of the plugin
+#: ga-google-analytics.php
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+
+#. Author of the plugin
+#: ga-google-analytics.php
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#. Description of the plugin
+#: ga-google-analytics.php
+msgid "Adds your Google Analytics Tracking Code to your WordPress site."
+msgstr "Adds your Google Analytics Tracking Code to your WordPress site."
+
+#. Plugin URI of the plugin
+#: ga-google-analytics.php
+msgid "https://perishablepress.com/google-analytics-plugin/"
+msgstr "https://perishablepress.com/google-analytics-plugin/"
+
+#: inc/support-panel.php:89
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+
+#: inc/support-panel.php:87
+msgid "and is greatly appreciated."
+msgstr "and is greatly appreciated."
+
+#: inc/support-panel.php:86
+msgid "Your generous support helps to ensure future development of"
+msgstr "Your generous support helps to ensure future development of"
+
+#: inc/support-panel.php:85
+msgid "or by making a"
+msgstr "or by making a"
+
+#: inc/support-panel.php:84
+msgid "Please show support by purchasing one of my"
+msgstr "Please show support by purchasing one of my"
+
+#: inc/support-panel.php:83
+msgid "Thank you for using"
+msgstr "Thank you for using"
+
+#: inc/support-panel.php:81
+msgid "donation"
+msgstr "donation"
+
+#: inc/support-panel.php:80
+msgid "plugins"
+msgstr "plugins"
+
+#: ga-google-analytics.php:319 inc/support-panel.php:79
+msgid "books"
+msgstr "books"
+
+#: inc/support-panel.php:75
+msgid "Perishable Press Books"
+msgstr "Perishable Press Books"
+
+#: inc/settings-display.php:281
+msgid "Obsessive Web Development"
+msgstr "Obsessive Web Development"
+
+#: inc/settings-display.php:280
+msgid "@"
+msgstr "@"
+
+#: inc/settings-display.php:279
+msgid "Jeff Starr on X (Twitter)"
+msgstr "Jeff Starr on X (Twitter)"
+
+#: inc/settings-display.php:278
+msgid "by"
+msgstr "by"
+
+#: inc/settings-display.php:251
+msgid "Click the link to restore the default plugin options."
+msgstr "Click the link to restore the default plugin options."
+
+#: inc/settings-display.php:247
+msgid "Restore Defaults"
+msgstr "Restore Defaults"
+
+#: inc/settings-display.php:239
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: inc/settings-display.php:225
+msgid "Disable tracking of Admin-level users"
+msgstr "Disable tracking of Admin-level users"
+
+#: inc/settings-display.php:222
+msgid "Admin Users"
+msgstr "Admin Users"
+
+#: inc/settings-display.php:215
+msgid "Admin Area"
+msgstr "Admin Area"
+
+#: inc/settings-display.php:211
+msgid "the tracking code)"
+msgstr "the tracking code)"
+
+#: inc/settings-display.php:211
+msgid "after"
+msgstr "after"
+
+#: inc/settings-display.php:211
+msgid "the GA tracking code (leave unchecked to display"
+msgstr "the GA tracking code (leave unchecked to display"
+
+#: inc/settings-display.php:210
+msgid "before"
+msgstr "before"
+
+#: inc/settings-display.php:186
+msgid "Custom GA Code"
+msgstr "Custom GA Code"
+
+#: inc/settings-display.php:175
+msgid "Custom Tracker Objects"
+msgstr "Custom Tracker Objects"
+
+#: inc/settings-display.php:170
+msgid "If in doubt, go with the head option."
+msgstr "If in doubt, go with the head option."
+
+#: inc/settings-display.php:169
+msgid "Tip: Google recommends including the tracking code in the page head, but including it in the footer can benefit page performance."
+msgstr "Tip: Google recommends including the tracking code in the page head, but including it in the footer can benefit page performance."
+
+#: inc/settings-display.php:153
+msgid "Force SSL"
+msgstr "Force SSL"
+
+#: inc/settings-display.php:141
+msgid "Enhanced Link Attribution"
+msgstr "Enhanced Link Attribution"
+
+#: inc/settings-display.php:137
+msgid "Link Attribution"
+msgstr "Link Attribution"
+
+#: inc/settings-display.php:132 inc/settings-display.php:140
+#: inc/settings-display.php:148
+msgid "Enable support for"
+msgstr "Enable support for"
+
+#: inc/settings-display.php:129 inc/settings-display.php:133
+msgid "Display Advertising"
+msgstr "Display Advertising"
+
+#: inc/settings-display.php:120
+msgid "Tracking Method"
+msgstr "Tracking Method"
+
+#: inc/settings-display.php:109
+msgid "GA Tracking ID"
+msgstr "GA Tracking ID"
+
+#: inc/settings-display.php:89
+msgid "To check that the GA tacking code is included properly, examine the source code of your web pages. Learn more at the"
+msgstr "To check that the GA tacking code is included properly, examine the source code of your web pages. Learn more at the"
+
+#: inc/settings-display.php:88
+msgid "Google Analytics account"
+msgstr "Google Analytics account"
+
+#: inc/settings-display.php:87
+msgid "Note that it can take 24-48 hours after adding the tracking code before any analytical data appears in your"
+msgstr "Note that it can take 24-48 hours after adding the tracking code before any analytical data appears in your"
+
+#: inc/settings-display.php:84
+msgid "Save changes and done. After 24-48 hours, you can log into your Google Analytics account to view your stats."
+msgstr "Save changes and done. After 24-48 hours, you can log into your Google Analytics account to view your stats."
+
+#: inc/settings-display.php:81
+msgid "Configure any other plugin settings as desired (optional)"
+msgstr "Configure any other plugin settings as desired (optional)"
+
+#: inc/support-panel.php:85
+msgid "or"
+msgstr "or"
+
+#: inc/settings-display.php:44
+msgid "give it a 5-star rating"
+msgstr "give it a 5-star rating"
+
+#: inc/settings-display.php:43
+msgid "THANK YOU for your support!"
+msgstr "THANK YOU for your support!"
+
+#: inc/settings-display.php:42
+msgid "If you like this plugin, please"
+msgstr "If you like this plugin, please"
+
+#: ga-google-analytics.php:157 inc/settings-display.php:38
+#: inc/settings-display.php:277
+msgid "Plugin Homepage"
+msgstr "Plugin Homepage"
+
+#: inc/settings-display.php:37 inc/settings-display.php:101
+msgid "Plugin Settings"
+msgstr "Plugin Settings"
+
+#: inc/settings-display.php:36 inc/settings-display.php:67
+msgid "How to Use"
+msgstr "How to Use"
+
+#: inc/settings-display.php:9
+msgid "Toggle all panels"
+msgstr "Toggle all panels"
+
+#: ga-google-analytics.php:635
+msgid "Restore default plugin options"
+msgstr "Restore default plugin options"
+
+#: ga-google-analytics.php:567 ga-google-analytics.php:571
+msgid "deprecated"
+msgstr "deprecated"
+
+#: ga-google-analytics.php:538
+msgid "Include tracking code in page footer"
+msgstr "Include tracking code in page footer"
+
+#: ga-google-analytics.php:536 ga-google-analytics.php:539
+msgid ")"
+msgstr ")"
+
+#: ga-google-analytics.php:535
+msgid "Include tracking code in page head"
+msgstr "Include tracking code in page head"
+
+#: ga-google-analytics.php:431 ga-google-analytics.php:437
+msgid "Cheatin&rsquo; huh?"
+msgstr "Cheatin&rsquo; huh?"
+
+#: ga-google-analytics.php:303
+msgid "No changes made to options."
+msgstr "No changes made to options."
+
+#: ga-google-analytics.php:299
+msgid "Default options restored."
+msgstr "Default options restored."
+
+#: ga-google-analytics.php:241
+msgid "to upgrade WordPress and try again."
+msgstr "to upgrade WordPress and try again."
+
+#: ga-google-analytics.php:216
+msgid "WP Admin Area"
+msgstr "WP Admin Area"
+
+#: ga-google-analytics.php:216 ga-google-analytics.php:240
+msgid "Please return to the"
+msgstr "Please return to the"
+
+#: ga-google-analytics.php:239
+msgid " or higher, and has been deactivated. "
+msgstr " or higher, and has been deactivated. "
+
+#: ga-google-analytics.php:238
+msgid "requires WordPress "
+msgstr "requires WordPress "
+
+#: ga-google-analytics.php:164
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: ga-google-analytics.php:163
+msgid "Click here to rate and review this plugin at WordPress.org"
+msgstr "Click here to rate and review this plugin at WordPress.org"
+
+#: ga-google-analytics.php:118
+msgid "Are you sure you want to restore all default options?"
+msgstr "Are you sure you want to restore all default options?"
+
+#: ga-google-analytics.php:89 inc/settings-display.php:31
+#: inc/support-panel.php:7
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#. Plugin Name of the plugin
+#: ga-google-analytics.php ga-google-analytics.php:88
+msgid "GA Google Analytics"
+msgstr "GA Google Analytics"
+
+#: inc/settings-display.php:145 inc/settings-display.php:149
+msgid "IP Anonymization"
+msgstr "IP Anonymisation"
+
+#: inc/settings-display.php:90
+msgid "Google Analytics Help Center"
+msgstr "Google Analytics Help Centre"

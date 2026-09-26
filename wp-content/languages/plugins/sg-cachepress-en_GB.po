@@ -1,0 +1,666 @@
+# Translation of Plugins - SG Optimizer - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - SG Optimizer - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-22 07:30:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - SG Optimizer - Development (trunk)\n"
+
+#: views/sg-cache.php:5
+msgid "SG Optimizer is a plugin that allows you to use the major performance optimisations for WordPress, which <a href=\"https://www.siteground.com/wordpress-hosting.htm\" target=\"_blank\">SiteGround hosting</a> is providing on its servers."
+msgstr "SG Optimiser is a plugin that allows you to use the major performance optimisations for WordPress, which <a href=\"https://www.siteground.com/wordpress-hosting.htm\" target=\"_blank\">SiteGround hosting</a> is providing on its servers."
+
+#: views/sg-cache.php:4
+msgid "SG Optimizer by SiteGround"
+msgstr "SG Optimiser by SiteGround"
+
+#: views/php-check.php:27
+msgid "You are running"
+msgstr "You are running"
+
+#: views/php-check.php:19
+msgid "This tool will allow you to check if your website is compatible with the recommended by SiteGround PHP version and switch to it with a click. It is highly advisable to keep your WordPress running on the recommended PHP for best security and performance. Note that if you have a Multisite, changing the PHP version will affect all sites in your network."
+msgstr "This tool will allow you to check if your website is compatible with the recommended by SiteGround PHP version and switch to it with a click. It is highly advisable to keep your WordPress running on the recommended PHP for best security and performance. Note that if you have a Multisite, changing the PHP version will affect all sites in your network."
+
+#: views/performance-tool.php:265 views/performance-tool.php:267
+msgid "Leverage browser cache"
+msgstr "Leverage browser cache"
+
+#. translators: URL to the configuration page.
+#: views/performance-tool.php:248
+msgid "Enable SSL from the <a href=\"%s\">HTTPS Config page</a> in order to benefit from the HTTP2 protocol improvements!"
+msgstr "Enable SSL from the <a href=\"%s\">HTTPS Config page</a> in order to benefit from the HTTP2 protocol improvements!"
+
+#: views/performance-tool.php:241 views/performance-tool.php:244
+msgid "HTTP2 &amp; SSL"
+msgstr "HTTP2 &amp; SSL"
+
+#. translators: URL to the configuration page.
+#: views/performance-tool.php:232
+msgid "Switch to the <a href=\"%s\">latest PHP version</a> to get the best out of your site’s performance."
+msgstr "Switch to the <a href=\"%s\">latest PHP version</a> to get the best out of your site’s performance."
+
+#: views/performance-tool.php:225 views/performance-tool.php:228
+msgid "Latest PHP version"
+msgstr "Latest PHP version"
+
+#. translators: URL to the configuration page.
+#: views/performance-tool.php:216
+msgid "Enable Dynamic Caching from the <a href=\"%s\">SuperCacher Config page</a> to improve your site performance."
+msgstr "Enable Dynamic Caching from the <a href=\"%s\">SuperCacher Config page</a> to improve your site performance."
+
+#: views/performance-tool.php:199
+msgid "Optimization Checks"
+msgstr "Optimisation Checks"
+
+#: views/performance-tool.php:194
+msgid "Repeat Test"
+msgstr "Repeat Test"
+
+#. translators: Formatted time of the scan.
+#: views/performance-tool.php:136
+msgid "Last Scan: %s"
+msgstr "Last Scan: %s"
+
+#: views/performance-tool.php:125 views/performance-tool.php:186
+msgid "Browser Cache: Disabled"
+msgstr "Browser Cache: Disabled"
+
+#: views/performance-tool.php:123 views/performance-tool.php:184
+msgid "Browser Cache: Enabled"
+msgstr "Browser Cache: Enabled"
+
+#: views/performance-tool.php:116 views/performance-tool.php:177
+msgid "Gzip: Disabled"
+msgstr "Gzip: Disabled"
+
+#: views/performance-tool.php:114 views/performance-tool.php:175
+msgid "Gzip: Enabled"
+msgstr "Gzip: Enabled"
+
+#. translators: PHP version.
+#: views/performance-tool.php:108 views/performance-tool.php:169
+msgid "PHP version: %1$s"
+msgstr "PHP version: %1$s"
+
+#: views/performance-tool.php:101 views/performance-tool.php:162
+msgid "Dynamic Cache: Disabled"
+msgstr "Dynamic Cache: Disabled"
+
+#: views/performance-tool.php:99 views/performance-tool.php:160
+msgid "Dynamic Cache: Enabled"
+msgstr "Dynamic Cache: Enabled"
+
+#. translators: URL and formatted time.
+#: views/performance-tool.php:93 views/performance-tool.php:154
+msgid "Fastest Page: %1$s %2$.2fs"
+msgstr "Fastest Page: %1$s %2$.2fs"
+
+#. translators: URL and formatted time.
+#: views/performance-tool.php:87 views/performance-tool.php:148
+msgid "Slowest Page: %1$s %2$.2fs"
+msgstr "Slowest Page: %1$s %2$.2fs"
+
+#. translators: Formatted average time of the scan.
+#: views/performance-tool.php:81 views/performance-tool.php:142
+msgid "Average Load Time: %.2fs"
+msgstr "Average Load Time: %.2fs"
+
+#. translators: Formatted time of the scan.
+#: views/performance-tool.php:75
+msgid "Current Scan: %s"
+msgstr "Current Scan: %s"
+
+#: views/performance-tool.php:62
+msgid "Loading Times"
+msgstr "Loading Times"
+
+#: views/performance-tool.php:58
+msgid "Scan Results"
+msgstr "Scan Results"
+
+#: views/performance-tool.php:52
+msgid "Analyze Site"
+msgstr "Analyse Site"
+
+#: views/performance-tool.php:47
+msgid "Add the URLs you want to perform your tests on. Up to 10."
+msgstr "Add the URLs you want to perform your tests on. Up to 10."
+
+#: views/performance-tool.php:45
+msgid "URLs To Test"
+msgstr "URLs To Test"
+
+#: views/performance-tool.php:42
+msgid "Test as logged user"
+msgstr "Test as logged user"
+
+#: views/performance-tool.php:39
+msgid "Test as non–logged user"
+msgstr "Test as non–logged user"
+
+#: views/performance-tool.php:36
+msgid "Advanced Options"
+msgstr "Advanced Options"
+
+#: views/performance-tool.php:32
+msgid "Advanced Scan"
+msgstr "Advanced Scan"
+
+#: views/performance-tool.php:29
+msgid "Default Scan"
+msgstr "Default Scan"
+
+#: views/performance-tool.php:26
+msgid "Scan Options"
+msgstr "Scan Options"
+
+#: views/performance-tool.php:21
+msgid "The Default Scan will run through the typical WordPress pages in a way that your visitors will most likely visit your site. The Advanced Scan will allow you to select the particular pages you want to test as well as whether you want to test to be performed as logged user or not."
+msgstr "The Default Scan will run through the typical WordPress pages in a way that your visitors will most likely visit your site. The Advanced Scan will allow you to select the particular pages you want to test as well as whether you want to test to be performed as a logged-in user or not."
+
+#: views/performance-tool.php:19
+msgid "This tool will make a quick performance test of your most popular pages and provide you with information regarding their processing time. In the Optimization Checks section, you can see the status of important improvements and enable some with a single click."
+msgstr "This tool will make a quick performance test of your most popular pages and provide you with information regarding their processing time. In the Optimisation Checks section, you can see the status of important improvements and enable some with a single click."
+
+#: views/performance-tool.php:17
+msgid "Site Performance Test"
+msgstr "Site Performance Test"
+
+#: views/network-settings.php:37
+msgid "Default Settings for New Sites"
+msgstr "Default Settings for New Sites"
+
+#: views/network-settings.php:31
+msgid "Leverage Browser Cache"
+msgstr "Leverage Browser Cache"
+
+#: views/network-settings.php:26 views/performance-tool.php:257
+#: views/performance-tool.php:259
+msgid "Gzip Compression"
+msgstr "Gzip Compression"
+
+#: views/network-settings.php:22
+msgid "Global settings for your Multisite Network"
+msgstr "Global settings for your Multisite Network"
+
+#: views/network-settings.php:17
+msgid "On this page, you can configure four cache options. The first two - Gzip Compression and Leverage Browser Cache affect your entire network and their state in this config show the current actual state of all sites in your network. The other two cache options - Dynamic Cache and AutoFlush can be used to configure the default setting for each newly created website.  Note, that you can always disable or enable Dynamic Cache and AutoFlush per site and those are simply defaults for newly added ones."
+msgstr "On this page, you can configure four cache options. The first two - Gzip Compression and Leverage Browser Cache affect your entire network and their state in this config show the current actual state of all sites in your network. The other two cache options - Dynamic Cache and AutoFlush can be used to configure the default setting for each newly created website.  Note, that you can always disable or enable Dynamic Cache and AutoFlush per site and those are simply defaults for newly added ones."
+
+#: views/network-settings.php:16
+msgid "SG Optimizer Multisite Cache Config"
+msgstr "SG Optimiser Multisite Cache Config"
+
+#: views/network-log.php:12
+msgid "Actions"
+msgstr "Actions"
+
+#: views/network-log.php:9
+msgid "Here, you can see a log for the last ten changes made to your SG Optimizer configuration either by you, or the users you have granted permissions to modify the configuration."
+msgstr "Here, you can see a log of the last ten changes made to your SG Optimiser configuration either by you or the users you have granted permissions to modify the configuration."
+
+#: views/network-log.php:8
+msgid "SG Optimizer Multisite Log "
+msgstr "SG Optimiser Multisite Log "
+
+#: class-sg-cachepress-time-collector.php:39
+msgid "Main Loop"
+msgstr "Main Loop"
+
+#: class-sg-cachepress-time-collector.php:34
+msgid "Init stage"
+msgstr "Init stage"
+
+#: class-sg-cachepress-time-collector.php:29
+msgid "Theme load"
+msgstr "Theme load"
+
+#: class-sg-cachepress-time-collector.php:24
+msgid "Core and plugins load"
+msgstr "Core and plugins load"
+
+#: class-sg-cachepress-performance-tool.php:316
+msgid "Other"
+msgstr "Other"
+
+#: class-sg-cachepress-performance-tool.php:42
+#: class-sg-cachepress-performance-tool.php:43
+msgid "Performance Test"
+msgstr "Performance Test"
+
+#. translators: Count of sites.
+#: class-sg-cachepress-multisite.php:466
+msgid "SG Optimizer cache purged on %d sites."
+msgstr "SG Optimiser cache purged on %d sites."
+
+#. translators: Count of sites.
+#: class-sg-cachepress-multisite.php:458
+msgid "SG Optimizer settings updated on %d sites."
+msgstr "SG Optimiser settings updated on %d sites."
+
+#. translators: Site URL.
+#: class-sg-cachepress-multisite.php:443
+msgid "purged cache on %s"
+msgstr "purged cache on %s"
+
+#. translators: Number of sites affected.
+#: class-sg-cachepress-multisite.php:384
+msgid "purged cache on %d sites"
+msgstr "purged cache on %d sites"
+
+#. translators: Action ran and number of sites affected.
+#: class-sg-cachepress-multisite.php:379
+msgid "ran %1$s on %2$d sites"
+msgstr "ran %1$s on %2$d sites"
+
+#: class-sg-cachepress-multisite.php:299 class-sg-cachepress-multisite.php:308
+#: views/performance-tool.php:211 views/performance-tool.php:227
+#: views/performance-tool.php:243
+msgid "Disabled"
+msgstr "Disabled"
+
+#: class-sg-cachepress-multisite.php:297 class-sg-cachepress-multisite.php:306
+#: views/performance-tool.php:208 views/performance-tool.php:224
+#: views/performance-tool.php:240
+msgid "Enabled"
+msgstr "Enabled"
+
+#: class-sg-cachepress-multisite.php:295
+msgid "Enabled (AutoFlush)"
+msgstr "Enabled (AutoFlush)"
+
+#. translators: Site's URL.
+#: class-sg-cachepress-multisite.php:254
+msgid "disabled Force HTTPS on %s"
+msgstr "disabled Force HTTPS on %s"
+
+#. translators: Site's URL.
+#: class-sg-cachepress-multisite.php:248
+msgid "enabled Force HTTPS on %s"
+msgstr "enabled Force HTTPS on %s"
+
+#. translators: Name of option and site's URL.
+#: class-sg-cachepress-multisite.php:234
+msgid "disabled %1$s on %2$s"
+msgstr "disabled %1$s on %2$s"
+
+#. translators: Name of option and site's URL.
+#: class-sg-cachepress-multisite.php:226
+msgid "enabled %1$s on %2$s"
+msgstr "enabled %1$s on %2$s"
+
+#: class-sg-cachepress-multisite.php:195
+msgid "You do not have a certificate issued for this site."
+msgstr "You do not have a certificate issued for this site."
+
+#: class-sg-cachepress-multisite.php:161
+msgid "SG Optimizer Options"
+msgstr "SG Optimiser Options"
+
+#: class-sg-cachepress-multisite.php:123 class-sg-cachepress-multisite.php:124
+msgid "Multisite Log"
+msgstr "Multisite Log"
+
+#: class-sg-cachepress-multisite.php:52
+msgid "Disable AutoFlush Cache"
+msgstr "Disable AutoFlush Cache"
+
+#: class-sg-cachepress-multisite.php:51
+msgid "Enable AutoFlush Cache"
+msgstr "Enable AutoFlush Cache"
+
+#: class-sg-cachepress-multisite.php:50
+msgid "Disable Dynamic Cache"
+msgstr "Disable Dynamic Cache"
+
+#: class-sg-cachepress-multisite.php:49
+msgid "Enable Dynamic Cache"
+msgstr "Enable Dynamic Cache"
+
+#: class-sg-cachepress-multisite.php:44
+msgid "Enable Cache"
+msgstr "Enable Cache"
+
+#: class-sg-cachepress-multisite.php:43
+msgid "Disallow HTTPS Configuration"
+msgstr "Disallow HTTPS Configuration"
+
+#: class-sg-cachepress-multisite.php:42
+msgid "Disallow Cache Configuration"
+msgstr "Disallow Cache Configuration"
+
+#: views/php-check.php:88
+msgid "which is below the recommended <strong>PHP "
+msgstr "which is below the recommended <strong>PHP "
+
+#: views/php-check.php:86
+msgid "Your site is using "
+msgstr "Your site is using "
+
+#: views/php-check.php:29
+msgid "</strong> which is our recommended PHP version or higher."
+msgstr "</strong> which is our recommended PHP version or higher."
+
+#: views/php-check.php:21
+msgid "<strong>Notice:</strong> checking your site for PHP 7.1 compatibility is a time consuming process that depends on the number of active plugins you have on your site. Please, don’t close your browser until the check is completed."
+msgstr "<strong>Notice:</strong> checking your site for PHP 7.1 compatibility is a time-consuming process that depends on the number of active plugins you have on your site. Please, don’t close your browser until the check is completed."
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:234
+msgid "If you can't update to PHP 7.1 right away, we recommend that you <a style=\"cursor: pointer;\" onclick=\"upgradeTo('5.6');\">switch to PHP 5.6</a> which is the safest and fastest version of the 5 branch."
+msgstr "If you can't update to PHP 7.1 right away, we recommend that you <a style=\"cursor: pointer;\" onclick=\"upgradeTo('5.6');\">switch to PHP 5.6</a> which is the safest and fastest version of the 5 branch."
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:233
+msgid "If you have fixed the reported errors, you may <a style=\"cursor: pointer;\"  onclick=\"runAction();\">try to check the PHP 7.1 compatibility</a> of your Wordpress site again. "
+msgstr "If you have fixed the reported errors, you may <a style=\"cursor: pointer;\"  onclick=\"runAction();\">try to check the PHP 7.1 compatibility</a> of your WordPress site again. "
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:226
+msgid "Updating PHP Version"
+msgstr "Updating PHP Version"
+
+#: views/ssl.php:47
+msgid "<strong>Warning:</strong> your .htaccess is not writable! Make sure it has its permissions set to 644!"
+msgstr "<strong>Warning:</strong> your .htaccess is not writable! Make sure it has its permissions set to 644!"
+
+#: views/ssl.php:59
+msgid "Once you switch your site to go through HTTPS, please check all third-party services that you're using on your site like Google Analytics, social networks sharing icons, etc."
+msgstr "Once you switch your site to go through HTTPS, please check all third-party services that you're using on your site like Google Analytics, social networks sharing icons, etc."
+
+#. Description of the plugin/theme
+msgid "This plugin will link your WordPress application with all the performance optimizations provided by SiteGround"
+msgstr "This plugin will link your WordPress application with all the performance optimisations provided by SiteGround"
+
+#: views/ssl.php:57
+msgid "You may have to login again if you decide to disable the force HTTPS functionality!"
+msgstr "You may have to login again if you decide to disable the force HTTPS functionality!"
+
+#: views/ssl.php:57 views/ssl.php:59
+msgid "Important:"
+msgstr "Important:"
+
+#: views/ssl.php:53
+msgid "<strong>Warning:</strong> It seems you’ve been using another plugin or manually configured your WordPress application to work over HTTPS. Please, disable all SSL forcing plugins and remove all .htaccess rules regarding SSL before you enable the option in order to avoid potential issues."
+msgstr "<strong>Warning:</strong> It seems you’ve been using another plugin or manually configured your WordPress application to work over HTTPS. Please, disable all SSL forcing plugins and remove all .htaccess rules regarding SSL before you enable the option in order to avoid potential issues."
+
+#: views/ssl.php:10
+msgid ""
+"<p>Clicking on the <strong>Force HTTPS</strong> toggle will do the following:</p>\n"
+"            <ul class=\"ssl-ul\">\n"
+"            \t<li>It will redirect all your traffic through HTTPS. Thus, your site will always load through a secure connection and you will avoid duplicate content.</li>\n"
+"            \t<li>It will also make the connection to any resource your site includes secure. This way the visitors will not see mixed content warning in the browser. <strong>Note:</strong> If your site includes a resource from an external location that cannot be reached via HTTPS this resource will no longer be loaded on your site.</li>\n"
+"            \t<li>Once your site is loaded through HTTPS it will also automatically take advantage of the HTTP/2 protocol too.</li>\n"
+"            </ul>"
+msgstr ""
+"<p>Clicking on the <strong>Force HTTPS</strong> toggle will do the following:</p>\n"
+"            <ul class=\"ssl-ul\">\n"
+"            \t<li>It will redirect all your traffic through HTTPS. Thus, your site will always load through a secure connection and you will avoid duplicate content.</li>\n"
+"            \t<li>It will also make the connection to any resource your site includes secure. This way the visitors will not see mixed content warning in the browser. <strong>Note:</strong> If your site includes a resource from an external location that cannot be reached via HTTPS this resource will no longer be loaded on your site.</li>\n"
+"            \t<li>Once your site is loaded through HTTPS it will also automatically take advantage of the HTTP/2 protocol too.</li>\n"
+"            </ul>"
+
+#: class-sg-cachepress-multisite.php:38 class-sg-cachepress-multisite.php:184
+#: views/ssl.php:9 views/ssl.php:30
+msgid "Force HTTPS"
+msgstr "Force HTTPS"
+
+#: views/php-check.php:156
+msgid " - recommended"
+msgstr " - recommended"
+
+#: views/php-check.php:154
+msgid " - previous version"
+msgstr " - previous version"
+
+#: views/php-check.php:146
+msgid "Switch to"
+msgstr "Switch to"
+
+#: views/php-check.php:138
+msgid "Manual PHP Version Change"
+msgstr "Manual PHP Version Change"
+
+#: views/php-check.php:123
+msgid "See Errors"
+msgstr "See Errors"
+
+#: views/php-check.php:119
+msgid "Unknown"
+msgstr "Unknown"
+
+#: views/php-check.php:106
+msgid "Clean up"
+msgstr "Clean up"
+
+#: views/php-check.php:64
+msgid "Scan all plugins and themes"
+msgstr "Scan all plugins and themes"
+
+#: views/php-check.php:60
+msgid "Only scan active plugins and themes"
+msgstr "Only scan active plugins and themes"
+
+#: views/php-check.php:54
+msgid "Only Active"
+msgstr "Only Active"
+
+#: views/caching.php:63
+msgid "Dynamic Cache Status Checker"
+msgstr "Dynamic Cache Status Checker"
+
+#: views/caching.php:36
+msgid "Provide a list of your website URLs you would like to exclude from the cache. You can add part of the URLs that you want to exclude."
+msgstr "Provide a list of your website URLs you would like to exclude from the cache. You can add part of the URLs that you want to exclude."
+
+#: views/caching.php:20
+msgid "Automatically flush the Dynamic cache"
+msgstr "Automatically flush the Dynamic cache"
+
+#: php-compatibility-checker/src/sg-wpephpcompat.php:291
+msgid " compatible."
+msgstr " compatible."
+
+#: php-compatibility-checker/src/sg-wpephpcompat.php:275
+msgid "The plugin/theme was skipped as it was too large to scan before the server killed the process."
+msgstr "The plugin/theme was skipped as it was too large to scan before the server killed the process."
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:232
+msgid "which is our recommended PHP version or higher."
+msgstr "which is our recommended PHP version or higher."
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:231
+msgid "Site is compatible and running on"
+msgstr "Site is compatible and running on"
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:230
+msgid "Upgrade to"
+msgstr "Upgrade to"
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:229
+msgid "Checks the PHP version your WordPress site is running and whether you're on the fastest possible PHP version."
+msgstr "Checks the PHP version your WordPress site is running and whether you're on the fastest possible PHP version."
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:228
+msgid "Your WordPress site is"
+msgstr "Your WordPress site is"
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:221
+msgid "Click upgrade button to ugprade your PHP version."
+msgstr "Click upgrade button to upgrade your PHP version."
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:219
+msgid "The following plugins/themes are not compatible with PHP "
+msgstr "The following plugins/themes are not compatible with PHP "
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:218
+#: views/php-check.php:119
+msgid "compatible"
+msgstr "compatible"
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:217
+#: php-compatibility-checker/src/sg-wpephpcompat.php:268
+msgid "Name"
+msgstr "Name"
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:177
+msgid "Job"
+msgstr "Job"
+
+#: php-compatibility-checker/sg-wpengine-phpcompat.php:176
+msgid "Jobs"
+msgstr "Jobs"
+
+#: class-sg-cachepress-phpversion-checker.php:112
+msgid " You website doesn't run on the recommended by SiteGround PHP version. "
+msgstr " You website doesn't run on the recommended by SiteGround PHP version. "
+
+#: class-sg-cachepress-admin.php:540 class-sg-cachepress-admin.php:541
+#: views/php-check.php:18 views/php-check.php:41 views/sg-cache.php:31
+msgid "PHP Config"
+msgstr "PHP Config"
+
+#: class-sg-cachepress-admin.php:528 class-sg-cachepress-admin.php:529
+#: views/sg-cache.php:13
+msgid "SuperCacher Config"
+msgstr "SuperCacher Config"
+
+#: class-sg-cachepress-admin.php:516 class-sg-cachepress-admin.php:517
+#: views/sg-cache.php:23
+msgid "HTTPS Config"
+msgstr "HTTPS Config"
+
+#. #-#-#-#-#  sg-cachepress-code.pot (SG Optimizer 4.0.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: class-sg-cachepress-admin.php:498 class-sg-cachepress-admin.php:499
+#: class-sg-cachepress-multisite.php:111 class-sg-cachepress-multisite.php:112
+msgid "SG Optimizer"
+msgstr "SG Optimiser"
+
+#: class-sg-cachepress-admin.php:463
+msgid "SSL toggle failed"
+msgstr "SSL toggle failed"
+
+#: class-sg-cachepress-admin.php:462
+msgid "Change PHP Version"
+msgstr "Change PHP Version"
+
+#: class-sg-cachepress-admin.php:461
+msgid "Checking, please wait..."
+msgstr "Checking, please wait..."
+
+#: class-sg-cachepress-admin.php:460
+msgid "Check PHP Version"
+msgstr "Check PHP Version"
+
+#: views/caching.php:75
+msgid "Check if this URL is dynamic or cached. Leave empty for your index or <strong>/example/</strong> for another page."
+msgstr "Check if this URL is dynamic or cached. Leave empty for your index or <strong>/example/</strong> for another page."
+
+#: views/caching.php:72
+msgid "Status:"
+msgstr "Status:"
+
+#: views/caching.php:56
+msgid "Store in the server's memory frequently executed queries to the database for a faster access on a later use."
+msgstr "Store frequently executed queries to the database in the server's memory for a faster access on a later use."
+
+#: views/caching.php:52
+msgid "Enable Memcached"
+msgstr "Enable Memcached"
+
+#: views/caching.php:47
+msgid "Memcached Settings"
+msgstr "Memcached Settings"
+
+#: views/caching.php:35
+msgid "Exclude URLs From Dynamic Caching"
+msgstr "Exclude URLs From Dynamic Caching"
+
+#: views/caching.php:30
+msgid "Purge all the data cached by the Dynamic cache."
+msgstr "Purge all the data cached by the Dynamic cache."
+
+#: class-sg-cachepress-multisite.php:53 class-sg-cachepress-multisite.php:411
+#: views/caching.php:25
+msgid "Purge Cache"
+msgstr "Purge Cache"
+
+#: class-sg-cachepress-multisite.php:45 views/caching.php:18
+#: views/network-settings.php:44
+msgid "AutoFlush Cache"
+msgstr "AutoFlush Cache"
+
+#: views/caching.php:13
+msgid "Enable the Dynamic caching system"
+msgstr "Enable the Dynamic caching system"
+
+#: class-sg-cachepress-multisite.php:37 views/caching.php:11
+#: views/network-settings.php:40 views/performance-tool.php:209
+#: views/performance-tool.php:212
+msgid "Dynamic Cache"
+msgstr "Dynamic Cache"
+
+#: views/caching.php:7
+msgid "Dynamic Cache Settings"
+msgstr "Dynamic Cache Settings"
+
+#: views/caching.php:5
+msgid "The SuperCacher is a system that allows you to use the SiteGround dynamic cache and Memcached to optimize the performance of your WordPress. In order to take advantage of the system you should have the SuperCacher enabled at your web host plus the required cache options turned on below. For more information on the different caching options refer to the <a href=\"http://www.siteground.com/tutorials/supercacher/\" target=\"_blank\">SuperCacher Tutorial</a>!"
+msgstr "The SuperCacher is a system that allows you to use the SiteGround dynamic cache and Memcached to optimise the performance of your WordPress. In order to take advantage of the system you should have the SuperCacher enabled at your web host plus the required cache options turned on below. For more information on the different caching options refer to the <a href=\"http://www.siteground.com/tutorials/supercacher/\" target=\"_blank\">SuperCacher Tutorial</a>!"
+
+#: views/caching.php:4
+msgid "SuperCacher for WordPress by SiteGround"
+msgstr "SuperCacher for WordPress by SiteGround"
+
+#: class-sg-cachepress-admin.php:457
+msgid "CAN'T GET HEADERS"
+msgstr "CAN'T GET HEADERS"
+
+#: class-sg-cachepress-admin.php:456
+msgid "DYNAMIC"
+msgstr "DYNAMIC"
+
+#: class-sg-cachepress-admin.php:455
+msgid "CACHED"
+msgstr "CACHED"
+
+#: class-sg-cachepress-admin.php:454
+msgid "Testing..."
+msgstr "Testing..."
+
+#: class-sg-cachepress-admin.php:288
+msgid "Purge SG Cache"
+msgstr "Purge SG Cache"
+
+#. Author of the plugin/theme
+msgid "SiteGround"
+msgstr "SiteGround"
+
+#: class-sg-cachepress-admin.php:458 class-sg-cachepress-admin.php:459
+#: views/caching.php:68
+msgid "Test URL"
+msgstr "Test URL"
+
+#: class-sg-cachepress-admin.php:452
+msgid "Successfully Purged"
+msgstr "Successfully Purged"
+
+#: class-sg-cachepress-admin.php:451 views/caching.php:40
+msgid "Update the Exclude List"
+msgstr "Update the Exclude List"
+
+#: class-sg-cachepress-admin.php:450
+msgid "Updating, please wait..."
+msgstr "Updating, please wait..."
+
+#: class-sg-cachepress-admin.php:449
+msgid "Purging, please wait..."
+msgstr "Purging, please wait..."
+
+#: class-sg-cachepress-admin.php:448 views/caching.php:27
+msgid "Purge the Cache"
+msgstr "Purge the Cache"

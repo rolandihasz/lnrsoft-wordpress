@@ -1,0 +1,36 @@
+# Translation of Plugins - Cloudflare - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Cloudflare - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-01 14:30:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Cloudflare - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: cloudflare.php src/WordPress/Hooks.php:85
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: src/WordPress/Hooks.php:85
+msgid "Cloudflare Configuration"
+msgstr "Cloudflare Configuration"
+
+#. Description of the plugin
+#: cloudflare.php
+msgid "Cloudflare speeds up and protects your WordPress site."
+msgstr "Cloudflare speeds up and protects your WordPress site."
+
+#. Author of the plugin
+#: cloudflare.php
+msgid "Cloudflare, Inc."
+msgstr "Cloudflare, Inc."
+
+#. Plugin URI of the plugin
+#: cloudflare.php
+msgid "https://blog.cloudflare.com/new-wordpress-plugin/"
+msgstr "https://blog.cloudflare.com/new-wordpress-plugin/"

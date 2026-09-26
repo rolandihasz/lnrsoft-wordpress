@@ -1,0 +1,246 @@
+/*
+Name: Inlellij Idea Copy
+Description: Classic extended. 
+Version: 1.1
+Author: kelegorm
+*/
+.crayon-theme-inlellij-idea-copy {
+	border-width: 1px !important;
+	border-color: #e4e4e4 !important;
+	border-style: solid !important;
+	text-shadow: none !important;
+	background: #ececec !important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.crayon-theme-inlellij-idea-copy-inline {
+	border-width: 1px !important;
+	border-color: #e4e4e4 !important;
+	background: #fafafa !important;
+	border-style: solid !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-table .crayon-nums {
+	background: #3d3d3d !important;
+	color: #3d3d3d !important;
+	border-right-width: 1px !important;
+	border-right-style: solid !important;
+	border-right-color: #202020 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-code::selection {
+	background: #BBEEDA !important;
+	color: #269B6C !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-code *::selection {
+	background: #BBEEDA !important;
+	color: #269B6C !important;
+}
+.crayon-theme-inlellij-idea-copy *::selection {
+	background: transparent !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-striped-line {
+	background: #ffffff !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-striped-num {
+	background: #3d3d3d !important;
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-line {
+	background: #4169e1 !important;
+	border-width: 1px !important;
+	border-color: #9AE7DF !important;
+	border-style: dotted !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-num {
+	color: #3d3d3d !important;
+	background: #3d3d3d !important;
+	border-width: 0px !important;
+	border-color: #202020 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-line.crayon-striped-line {
+	background: #B7EEE9 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-num.crayon-striped-num {
+	background: #3d3d3d !important;
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-line.crayon-top {
+	border-top-style: dotted !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-num.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-line.crayon-bottom {
+	border-bottom-style: dotted !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-marked-num.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-info {
+	background: #E8E8E8 !important;
+	border-bottom-width: 1px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: #888888 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-toolbar {
+	background: #ffffff !important;
+	border-bottom-width: 1px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: #c0c0c0 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-toolbar .crayon-tools {
+	float: right !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-title {
+}
+.crayon-theme-inlellij-idea-copy .crayon-language {
+}
+.crayon-theme-inlellij-idea-copy .crayon-button {
+	background-color: transparent !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-button:hover {
+	background-color: #f2f2f2 !important;
+	color: #666;
+}
+.crayon-theme-inlellij-idea-copy .crayon-button.crayon-pressed:hover {
+	background-color: #F2F2F2 !important;
+	color: #666;
+}
+.crayon-theme-inlellij-idea-copy .crayon-button.crayon-pressed {
+	background-color: #BBB !important;
+	color: #FFF;
+}
+.crayon-theme-inlellij-idea-copy .crayon-button.crayon-pressed:active {
+	background-color: #BBB !important;
+	color: #FFF;
+}
+.crayon-theme-inlellij-idea-copy .crayon-button:active {
+	background-color: #BBB !important;
+	color: #FFF;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .c {
+	color: #a9a9a9 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .p {
+	color: #b85c00 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .s {
+	color: #008000 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .k {
+	color: #00008b !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .st {
+	color: #00008b !important;
+	font-weight: bold !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .r {
+	color: #00008b !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .t {
+	color: #000000 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .m {
+	color: #00008b !important;
+	font-weight: bold !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .ta {
+	color: #FF0000 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .i {
+	color: #9932cc !important;
+	font-weight: bold !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .v {
+	color: #9932cc !important;
+	font-weight: bold !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .e {
+	color: #8f8615 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .cn {
+	color: #9932cc !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .o {
+	color: #000000 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .h {
+	color: #006fe0 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .sy {
+	color: #333 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .n {
+	color: #666 !important;
+	font-style: italic !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .f {
+	color: #999 !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-table {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden!important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-s {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-c {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-p {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-ta {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-k {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-st {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-r {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-t {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-m {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-i {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-e {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-v {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-cn {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-o {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-sy {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-n {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-f {
+	color: #3d3d3d !important;
+}
+.crayon-theme-inlellij-idea-copy .crayon-pre .crayon-h {
+	color: #3d3d3d !important;
+}

@@ -1,0 +1,28 @@
+# BEGIN Headers Security Advanced & HSTS WP
+# Managed automatically by Headers Security Advanced & HSTS WP v5.3.5.
+# Do not edit between these markers; changes are overwritten. Adjust values from
+# the plugin settings. The version above is a comment only - the BEGIN/END lines
+# never change, so upgrades replace this block in place instead of stacking.
+<IfModule mod_headers.c>
+	Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+	Header set Permissions-Policy "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+	Header set X-Frame-Options "SAMEORIGIN"
+	Header set X-Content-Type-Options "nosniff"
+	Header set Referrer-Policy "strict-origin-when-cross-origin"
+	Header set X-Permitted-Cross-Domain-Policies "none"
+	Header set Cross-Origin-Opener-Policy "unsafe-none"
+	Header set Cross-Origin-Resource-Policy "cross-origin"
+	Header set Access-Control-Allow-Methods "GET,POST"
+	Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>
+# END Headers Security Advanced & HSTS WP
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress
+
+
+
