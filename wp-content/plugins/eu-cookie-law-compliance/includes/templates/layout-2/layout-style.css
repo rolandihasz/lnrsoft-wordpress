@@ -1,0 +1,144 @@
+
+.tplis-cl-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.tplis-cl-cookies h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12pt;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+.tplis-cl-cookies p {
+    font-size: 8pt;
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.tplis-cl-cookies a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.tplis-cl-cookies-text {
+    max-width: 56%;
+    float: left;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.tplis-cl-cookies-buttons {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.tplis-cl-button-image {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 10px 10px 8px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.tplis-cl-button-image:hover {
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.tplis-cl-button-image img {
+    vertical-align: middle;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.tplis-cl-refuse img {
+    left: 75%;
+}
+
+.tplis-cl-button-image p {
+    font-weight: 400;
+    padding: 5px 20px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.tplis-cl-button-accept {
+    display: inline-block;
+}
+
+.tplis-cl-button-refuse {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1240px) {
+
+    .tplis-cl-cookies-text {
+        padding-top: 0;
+        max-width: 50%;
+    }
+
+    .tplis-cl-cookies-text {
+        padding-left: 15px;
+    }
+
+    .tplis-cl-button-image {
+        padding: 40px 10px 10px 8px;
+    }
+
+    .tplis-cl-button-image p {
+        margin: 0;
+        padding: 15px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .tplis-cl-button-accept, .tplis-cl-button-refuse{
+        width: 100%;
+    }
+
+    .tplis-cl-cookies-text {
+        padding-top: 0;
+        max-width: 90%;
+    }
+
+    .tplis-cl-cookies-buttons {
+        position: relative;
+        width: 100%;
+    }
+
+    .tplis-cl-button-image {
+        padding: 20px 10px 10px 8px;
+    }
+
+    .tplis-cl-button-image img {
+        top: 25%;
+    }
+
+    .tplis-cl-button-image p {
+        margin: 0;
+        padding: 5px 0 5px 0px;
+    }
+}

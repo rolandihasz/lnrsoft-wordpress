@@ -1,0 +1,124 @@
+.tplis-cl-cookies {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tplis-cl-cookies-text {
+    display: flex;
+    width: 100%;
+}
+
+.tplis-cl-cookies-head {
+}
+
+.tplis-cl-cookies h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12pt;
+}
+
+.tplis-cl-cookies p {
+    font-size: 8pt;
+    padding-bottom: 20px;
+    line-height: 150%;
+}
+
+.tplis-cl-cookies a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.tplis-cl-cookies-head h4 {
+    font-weight: 700;
+    padding: 20px 30px 20px 15px;
+    border-right: 1px solid;
+}
+
+.tplis-cl-cookies-content-text {
+    margin: 0 20px 0 35px;
+    padding: 0;
+    font-weight: 400;
+    max-width: 678px;
+    display: flex;
+    align-items: center;
+}
+
+.tplis-cl-cookies .tplis-cl-cookies-content-text * {
+    margin: 0;
+    padding: 0;
+}
+
+.tplis-cl-cookies-buttons {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 500px;
+}
+
+.tplis-cl-is-btn-refuse .tplis-cl-cookies-buttons {
+    width: 100%;
+}
+
+.tplis-cl-button {
+    padding: 30px 10px 10px 8px;
+    font-weight: 400;
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 20px 0 20px;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    font-size: 8pt;
+    align-self: center;
+}
+
+.tplis-cl-button:hover {
+    -ms-transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+@media only screen and (max-width: 998px) {
+    .tplis-cl-cookies {
+        flex-direction: column;
+    }
+
+    .tplis-cl-cookies-buttons {
+        max-width: none;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .tplis-cl-button {
+        width: 100%;
+        padding: 8px 15px;
+        margin: 0;
+    }
+
+    .tplis-cl-cookies-buttons {
+        width: 100%;
+    }
+
+    .tplis-cl-is-btn-refuse .tplis-cl-button.tplis-cl-button-accept {
+        margin-right: 10px;
+    }
+
+    .tplis-cl-is-btn-refuse .tplis-cl-button.tplis-cl-button-refuse {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .tplis-cl-cookies-head {
+        display: none;
+    }
+
+    .tplis-cl-cookies-content-text {
+        margin: 0;
+    }
+}

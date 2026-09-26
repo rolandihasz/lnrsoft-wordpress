@@ -1,0 +1,2592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Headers Security Advanced & HSTS WP\n"
+"POT-Creation-Date: 2026-03-16 11:29+0100\n"
+"PO-Revision-Date: 2026-03-16 12:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: headers-security-advanced-hsts-wp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: headers-security-advanced-hsts-wp.php:71
+#: headers-security-advanced-hsts-wp.php:72
+#: headers-security-advanced-hsts-wp.php:697
+msgid "Headers Security Advanced & HSTS WP"
+msgstr "Заголовки, Безпека, Розширені налаштування та HSTS, WordPress"
+
+#: headers-security-advanced-hsts-wp.php:92
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостатньо прав для доступу до цієї сторінки."
+
+#: headers-security-advanced-hsts-wp.php:96
+#, php-format
+msgid ""
+"%1$sYour website is finally safe! 🚀%2$s Implement enhanced security "
+"headers, HSTS preload for optimum website protection."
+msgstr ""
+"%1$sВаш веб-сайт нарешті у безпеці! 🚀%2$s Впровадьте розширені заголовки "
+"безпеки та попереднє завантаження HSTS для оптимального захисту веб-сайту."
+
+#: headers-security-advanced-hsts-wp.php:107
+msgid "The security of your website is our priority! 🛸"
+msgstr "Безпека вашого веб-сайту — наш пріоритет! 🛸"
+
+#: headers-security-advanced-hsts-wp.php:113
+#, php-format
+msgid ""
+"%1$sHeaders Security Advanced & HSTS WP%2$s adds 10+ security headers to "
+"protect your WordPress site from phishing, data theft, clickjacking, XSS, "
+"and protocol downgrade attacks. Easy to configure, compatible with all "
+"servers and caching plugins."
+msgstr ""
+"%1$sПлагін «Headers Security Advanced & HSTS»%2$s додає понад 10 захисних "
+"заголовків для захисту вашого сайту WordPress від фішингу, крадіжки даних, "
+"клікджекінгу, XSS та атак з пониженням версії протоколу. Простий у "
+"налаштуванні, сумісний з усіма серверами та плагінами кешування."
+
+#: headers-security-advanced-hsts-wp.php:118
+msgid "Security Headers"
+msgstr "Заголовки безпеки"
+
+#: headers-security-advanced-hsts-wp.php:123
+msgid "Active Sites"
+msgstr "Активні сайти"
+
+#: headers-security-advanced-hsts-wp.php:128
+msgid "Top Grade"
+msgstr "Найвищий рівень"
+
+#: headers-security-advanced-hsts-wp.php:143
+msgid ""
+"I create projects available to everyone for free and I like to create simple "
+"but functional projects. Every feature this plugin offers today will remain "
+"completely free, forever. That is a promise I intend to keep."
+msgstr ""
+"Я створюю проекти, доступні всім безкоштовно, і мені подобається розробляти "
+"прості, але функціональні проекти. Усі функції, які цей плагін пропонує "
+"сьогодні, залишатимуться повністю безкоштовними назавжди. Це обіцянка, яку я "
+"маю намір дотримати."
+
+#: headers-security-advanced-hsts-wp.php:147
+#, php-format
+msgid ""
+"Maintaining a plugin trusted by 100,000+ sites takes constant work: security "
+"patches, WordPress updates, new browser standards, support. To fund this "
+"effort, I built %1$sShield%2$s — a set of brand-new advanced tools for "
+"professionals who need more. Nothing existing moves behind a paywall. Your "
+"support through Shield directly funds free updates for everyone."
+msgstr ""
+"Підтримка плагіна, якому довіряють понад 100 000 сайтів, вимагає постійної "
+"роботи: виправлення безпеки, оновлення WordPress, підтримка нових стандартів "
+"браузерів, технічна підтримка. Щоб фінансувати цю діяльність, я створив "
+"%1$sShield%2$s — набір абсолютно нових просунутих інструментів для "
+"професіоналів, яким потрібно більше. Жодна з існуючих функцій не переходить "
+"за платний доступ. Ваша підтримка через Shield безпосередньо фінансує "
+"безкоштовні оновлення для всіх."
+
+#: headers-security-advanced-hsts-wp.php:152
+#: headers-security-advanced-hsts-wp.php:723
+msgid "Buy me a coffee"
+msgstr "Пригости мене кавою"
+
+#: headers-security-advanced-hsts-wp.php:153
+#: headers-security-advanced-hsts-wp.php:726
+msgid "Donate via PayPal"
+msgstr "Зробити пожертву через PayPal"
+
+#: headers-security-advanced-hsts-wp.php:160
+#, php-format
+msgid ""
+"%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?"
+"%2$s Don't worry, I've got it covered!"
+msgstr ""
+"%1$sПотрібна допомога з плагіном Headers Security Advanced & HSTS для "
+"WordPress?%2$s Не хвилюйтеся, я вам допоможу!"
+
+#: headers-security-advanced-hsts-wp.php:167
+#, php-format
+msgid ""
+"%1$sHelp me decide what the next features of this plugin will be!%2$s Take "
+"part in a nerdy survey!"
+msgstr ""
+"%1$sДопоможіть мені вирішити, якими будуть наступні функції цього плагіна!"
+"%2$s Візьміть участь в опитуванні для фанатів технологій!"
+
+#: headers-security-advanced-hsts-wp.php:182
+msgid "Quick selection:"
+msgstr "Швидкий вибір:"
+
+#: headers-security-advanced-hsts-wp.php:184
+msgid "Strict Transport Security (HSTS)"
+msgstr "Протокол HSTS (Strict Transport Security)"
+
+#: headers-security-advanced-hsts-wp.php:185
+msgid "Content Security Policy (CSP)"
+msgstr "Політика безпеки вмісту (CSP)"
+
+#: headers-security-advanced-hsts-wp.php:186
+msgid "Permissions Policy"
+msgstr "Політика щодо дозволів"
+
+#: headers-security-advanced-hsts-wp.php:195
+msgid "Max-Age: "
+msgstr "Максимальний вік: "
+
+#: headers-security-advanced-hsts-wp.php:202
+msgid ""
+"The Max-Age parameter specifies the period of time (in seconds) for which "
+"the browser should store the HSTS information. During this time period, the "
+"browser will always use HTTPS to communicate with the website, even if the "
+"visitor has entered \"http\" or an HTTP link in the address bar. This helps "
+"protect the website and its visitors from man-in-the-middle (MITM) attacks "
+"and other security threats."
+msgstr ""
+"Параметр Max-Age визначає період часу (у секундах), протягом якого браузер "
+"повинен зберігати інформацію HSTS. Протягом цього періоду браузер завжди "
+"використовуватиме протокол HTTPS для зв’язку з веб-сайтом, навіть якщо "
+"відвідувач ввів «http» або посилання HTTP в адресному рядку. Це допомагає "
+"захистити веб-сайт та його відвідувачів від атак типу «людина посередині» "
+"(MITM) та інших загроз безпеці."
+
+#: headers-security-advanced-hsts-wp.php:213
+msgid ""
+"It is advisable to set \"max-age\" to a high value, such as a full year "
+"(31536000 seconds). This ensures that browsers continue to store security "
+"information for a long period of time, which helps protect users from man-in-"
+"the-middle attacks. However, it is important to keep in mind that setting "
+"the value too high could cause problems if you need to change your site's "
+"SSL configuration in the future. Therefore, it is important to carefully "
+"consider your usage and security needs before setting the value."
+msgstr ""
+"Рекомендується встановити для параметра «max-age» велике значення, "
+"наприклад, цілий рік (31536000 секунд). Це гарантує, що браузери будуть "
+"зберігати інформацію про безпеку протягом тривалого часу, що допомагає "
+"захистити користувачів від атак типу «людина посередині». Однак важливо "
+"пам’ятати, що занадто велике значення може спричинити проблеми, якщо в "
+"майбутньому знадобиться змінити конфігурацію SSL вашого сайту. Тому перед "
+"тим, як встановлювати це значення, важливо ретельно зважити ваші потреби у "
+"використанні та безпеці."
+
+#: headers-security-advanced-hsts-wp.php:223
+msgid "Include Subdomains: "
+msgstr "Включити піддомени: "
+
+#: headers-security-advanced-hsts-wp.php:231
+msgid ""
+"The \"includeSubDomains\" flag specifies that the effect of the header "
+"should also be applied to subdomains of the domain. When this directive is "
+"present, all requests to any subdomains of your domain are automatically "
+"redirected to the HTTPS protocol, providing enhanced security for the "
+"website and the users who visit it."
+msgstr ""
+"Прапорець «includeSubDomains» вказує, що дія цього заголовка має "
+"поширюватися також на піддомени домену. Якщо ця директива вказана, усі "
+"запити до будь-яких піддоменів вашого домену автоматично перенаправляються "
+"на протокол HTTPS, що забезпечує підвищений рівень безпеки веб-сайту та його "
+"відвідувачів."
+
+#: headers-security-advanced-hsts-wp.php:242
+msgid ""
+"We recommend enabling the \"includeSubDomains\" option in the HSTS header to "
+"ensure that all subsections of your site (subdomains) are only loaded via "
+"HTTPS. However, before enabling this flag, it is important to ensure that "
+"all subdomains, resources and web services working under your domain are "
+"available via HTTPS and that there are no compatibility issues with any "
+"external services used by your site."
+msgstr ""
+"Ми рекомендуємо увімкнути параметр «includeSubDomains» у заголовку HSTS, щоб "
+"усі підрозділи вашого сайту (піддомени) завантажувалися виключно через "
+"HTTPS. Однак перед увімкненням цього параметра важливо переконатися, що всі "
+"піддомени, ресурси та веб-сервіси, які працюють під вашим доменом, доступні "
+"через HTTPS, а також що немає проблем із сумісністю з будь-якими зовнішніми "
+"сервісами, які використовує ваш сайт."
+
+#: headers-security-advanced-hsts-wp.php:253
+msgid "Preload: "
+msgstr "Попереднє завантаження: "
+
+#: headers-security-advanced-hsts-wp.php:262
+#, php-format
+msgid ""
+"The \"preload\" flag allows the website to be included in the %1$sHSTS "
+"preload list%2$s, which instructs browsers to always use HTTPS connection "
+"for the site and its subdomains, without ever making insecure HTTP requests."
+msgstr ""
+"Прапорець «preload» дозволяє включити веб-сайт до %1$sсписку попереднього "
+"завантаження HSTS%2$s, що дає браузерам вказівку завжди використовувати "
+"HTTPS-з'єднання для цього сайту та його піддоменів, не надсилаючи жодних "
+"незахищених HTTP-запитів."
+
+#: headers-security-advanced-hsts-wp.php:277
+#, php-format
+msgid ""
+"Enabling preload further helps prevent any potential man-in-the-middle "
+"attacks, thus improving connection security as far as it concerns HSTS. "
+"Please note that even if this flag is enabled, your website still needs to "
+"be manually submitted to the list. Please also note that inclusion in the "
+"preload list has permanent consequences and is not easy to undo, so you "
+"should only enable this flag and submit your website after making sure that "
+"all of the resources and services within your domain (and its subdomains, if "
+"includeSubDomains is also enabled) are indeed accessible and functional via "
+"HTTPS. %1$sLearn more%2$s."
+msgstr ""
+"Увімкнення попереднього завантаження додатково допомагає запобігти можливим "
+"атакам типу «людина посередині», тим самим підвищуючи безпеку з’єднання в "
+"контексті HSTS. Зверніть увагу, що навіть якщо цей прапорець увімкнено, ваш "
+"веб-сайт все одно потрібно вручну додати до списку. Також зверніть увагу, що "
+"включення до списку попереднього завантаження має постійні наслідки і його "
+"нелегко скасувати, тому вам слід увімкнути цей прапорець і додати свій веб-"
+"сайт лише після того, як переконаєтеся, що всі ресурси та служби у вашому "
+"домені (та його піддоменах, якщо також увімкнено includeSubDomains) дійсно "
+"доступні та функціонують через HTTPS. %1$sДізнатися більше%2$s."
+
+#: headers-security-advanced-hsts-wp.php:292
+msgid "CSP Header Contents"
+msgstr "Зміст заголовка CSP"
+
+#: headers-security-advanced-hsts-wp.php:299
+msgid ""
+"HTTP Content-Security-Policy header controls website resources, reducing XSS "
+"risk by specifying allowed server origins and script endpoints."
+msgstr ""
+"Заголовок HTTP Content-Security-Policy контролює ресурси веб-сайту, знижуючи "
+"ризик XSS шляхом визначення дозволених джерел серверів та кінцевих точок "
+"скриптів."
+
+#: headers-security-advanced-hsts-wp.php:316
+msgid "CSP Report URI"
+msgstr "URI звіту CSP"
+
+#: headers-security-advanced-hsts-wp.php:320
+msgid ""
+"Enter your custom URL (Sentry, URIports, Datadog, and Report URI) for CSP "
+"violation reports."
+msgstr ""
+"Введіть власний URL-адресу (Sentry, URIports, Datadog та Report URI) для "
+"звітів про порушення CSP."
+
+#: headers-security-advanced-hsts-wp.php:332
+msgid "Permissions Policy Contents"
+msgstr "Зміст політики щодо дозволів"
+
+#: headers-security-advanced-hsts-wp.php:339
+msgid ""
+"The HTTP Permissions-Policy header provides a mechanism to allow and deny "
+"the use of browser features in a document or within any <iframe> elements in "
+"the document."
+msgstr ""
+"Заголовок HTTP Permissions-Policy забезпечує механізм, що дозволяє дозволяти "
+"або забороняти використання функцій браузера в документі або в будь-яких "
+"елементах <iframe> у цьому документі."
+
+#: headers-security-advanced-hsts-wp.php:361
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: headers-security-advanced-hsts-wp.php:368
+msgid ""
+"The X-Frame-Options HTTP response header can be used to indicate whether or "
+"not a browser should be allowed to render a page in a <frame>, <iframe>, "
+"<embed> or <object>. Sites can use this to avoid click-jacking attacks, by "
+"ensuring that their content is not embedded into other sites."
+msgstr ""
+"Заголовок HTTP-відповіді X-Frame-Options можна використовувати для вказівки, "
+"чи слід браузеру дозволяти відображати сторінку у форматі <frame>, <iframe>, "
+"<embed> або <object>. Веб-сайти можуть використовувати цю функцію для "
+"запобігання атакам типу «клік-джекінг», гарантуючи, що їхній контент не буде "
+"вбудовано в інші сайти."
+
+#: headers-security-advanced-hsts-wp.php:389
+msgid "Resolve duplicate site headers (beta):"
+msgstr "Вирішення проблеми з дублюванням заголовків сайтів (бета-версія):"
+
+#: headers-security-advanced-hsts-wp.php:393
+msgid "Disable (Strict-Transport-Security)."
+msgstr "Вимкнути (Strict-Transport-Security)."
+
+#: headers-security-advanced-hsts-wp.php:398
+msgid "Disable (Permissions-Policy)."
+msgstr "Вимкнути (Політика дозволів)."
+
+#: headers-security-advanced-hsts-wp.php:403
+msgid "Disable (X-Content-Type-Options)."
+msgstr "Вимкнути (X-Content-Type-Options)."
+
+#: headers-security-advanced-hsts-wp.php:408
+msgid "Disable (X-Frame-Options)."
+msgstr "Вимкнути (X-Frame-Options)."
+
+#: headers-security-advanced-hsts-wp.php:706
+msgid "Congratulations, you are safe!"
+msgstr "Вітаємо, ви в безпеці!"
+
+#: headers-security-advanced-hsts-wp.php:712
+#, php-format
+msgid ""
+"%1$sThe Headers Security Advanced & HSTS WP%2$s project implements HTTP "
+"response headers that your site can use to increase the security of your "
+"website. The plug-in will automatically set up all Best Practices (you don’t "
+"have to think about anything). You will also be able to change the headers "
+"simply in the plugin settings."
+msgstr ""
+"%1$sПроект «Headers Security Advanced & HSTS WP%2$s» реалізує заголовки HTTP-"
+"відповідей, які ваш сайт може використовувати для підвищення рівня безпеки. "
+"Плагін автоматично налаштує всі рекомендовані практики (вам не доведеться ні "
+"про що турбуватися). Ви також зможете легко змінювати налаштування "
+"заголовків у налаштуваннях плагіна."
+
+#: headers-security-advanced-hsts-wp.php:735
+#, php-format
+msgid "Security is a right, not a privilege. Plugin version %s."
+msgstr "Безпека — це право, а не привілей. Версія плагіна %s."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:40
+msgid "Your site is not using HTTPS"
+msgstr "Ваш сайт не використовує протокол HTTPS"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:41
+msgid ""
+"HSTS requires HTTPS. Enable SSL certificate first, then configure HSTS. Most "
+"hosting providers offer free SSL via Let's Encrypt."
+msgstr ""
+"HSTS вимагає використання HTTPS. Спочатку активуйте SSL-сертифікат, а потім "
+"налаштуйте HSTS. Більшість хостинг-провайдерів пропонують безкоштовні SSL-"
+"сертифікати через Let's Encrypt."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:42
+msgid "Contact your hosting provider to enable SSL/HTTPS."
+msgstr "Зверніться до свого хостинг-провайдера, щоб увімкнути SSL/HTTPS."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:51
+msgid "HSTS max-age too short"
+msgstr "Занадто короткий термін дії HSTS"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:53
+#, php-format
+msgid ""
+"Your max-age is %1$s seconds (%2$s days). For HSTS preload list, it must be "
+"at least 31536000 (1 year). A longer max-age means browsers will remember to "
+"always use HTTPS for your site."
+msgstr ""
+"Ваше значення max-age становить %1$s секунд (%2$s день). Для списку "
+"попереднього завантаження HSTS воно має бути не менше 31536000 (1 рік). "
+"Більше значення max-age означає, що браузери запам'ятають, що для вашого "
+"сайту завжди слід використовувати HTTPS."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:57
+msgid "Go to Settings → Max-Age and set it to 63072000 (2 years, recommended)."
+msgstr ""
+"Перейдіть до «Налаштування» → «Max-Age» і встановіть значення 63072000 (2 "
+"роки, рекомендовано)."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:66
+msgid "Ready for HSTS Preload"
+msgstr "Готово до попереднього завантаження HSTS"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:67
+msgid ""
+"Your site meets the requirements for the HSTS Preload list. This means "
+"browsers will ALWAYS use HTTPS for your site, even on the first visit. It's "
+"the highest level of HTTPS protection."
+msgstr ""
+"Ваш сайт відповідає вимогам списку HSTS Preload. Це означає, що браузери "
+"ЗАВЖДИ використовуватимуть протокол HTTPS для вашого сайту, навіть під час "
+"першого відвідування. Це найвищий рівень захисту HTTPS."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:68
+msgid "Enable Preload in settings, then submit your site at hstspreload.org."
+msgstr ""
+"Увімкніть функцію попереднього завантаження в налаштуваннях, а потім додайте "
+"свій сайт на hstspreload.org."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:80
+msgid "Content Security Policy is using default (basic) settings"
+msgstr "Політика безпеки вмісту використовує стандартні (базові) налаштування"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:81
+msgid ""
+"The default CSP only enforces HTTPS upgrades. A custom CSP tells browsers "
+"exactly which resources are allowed to load on your site, blocking "
+"everything else. This is the most powerful protection against XSS attacks."
+msgstr ""
+"Стандартна політика CSP забезпечує лише перехід на HTTPS. Налаштована "
+"політика CSP вказує браузерам, які саме ресурси можна завантажувати на "
+"вашому сайті, блокуючи все інше. Це найефективніший захист від атак типу XSS."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:82
+msgid ""
+"Configure a custom CSP in Settings → CSP Header Contents. Start with report-"
+"only mode to test before enforcing."
+msgstr ""
+"Налаштуйте власний CSP у розділі «Налаштування» → «Вміст заголовка CSP». Для "
+"тестування спочатку увімкніть режим «Тільки звіт», а потім перейдіть до "
+"повного застосування."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:91
+msgid "CSP allows inline scripts (unsafe-inline)"
+msgstr "CSP дозволяє використання вбудованих скриптів (unsafe-inline)"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:92
+msgid ""
+"This is common for WordPress sites but weakens CSP protection. Many plugins "
+"inject inline scripts, making it hard to avoid. For maximum security, "
+"consider using nonce-based CSP in the future."
+msgstr ""
+"Це типова ситуація для сайтів на WordPress, але вона послаблює захист CSP. "
+"Багато плагінів вставляють вбудовані скрипти, що ускладнює уникнення цього. "
+"Для забезпечення максимальної безпеки рекомендуємо в майбутньому розглянути "
+"можливість використання CSP на основі nonce."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:93
+msgid ""
+"This is acceptable for most WordPress sites. Focus on other headers first."
+msgstr ""
+"Це підходить для більшості сайтів на WordPress. Спочатку зосередьтеся на "
+"інших заголовках."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:102
+msgid "CSP uses wildcard (*)"
+msgstr "CSP використовує символ-замінник (*)"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:103
+msgid ""
+"A wildcard allows resources from any domain, which reduces the effectiveness "
+"of CSP. Try to specify exact domains instead."
+msgstr ""
+"Використання символу-замінника дозволяє використовувати ресурси з будь-якого "
+"домену, що знижує ефективність CSP. Натомість спробуйте вказати конкретні "
+"домени."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:104
+msgid ""
+"Replace * with specific domains (e.g., *.googleapis.com, *.cloudflare.com)."
+msgstr ""
+"Замініть * на конкретні домени (наприклад, *.googleapis.com, "
+"*.cloudflare.com)."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:115
+msgid "CSP violation reporting not configured"
+msgstr "Повідомлення про порушення CSP не налаштовано"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:116
+msgid ""
+"Without CSP reporting, you won't know when your policy blocks something "
+"unexpected. With Shield, you can use the built-in CSP analytics endpoint or "
+"connect Sentry/Datadog."
+msgstr ""
+"Без звітів CSP ви не дізнаєтеся, коли ваша політика блокує щось несподіване. "
+"З Shield ви можете скористатися вбудованим кінцевим пунктом аналітики CSP "
+"або підключити Sentry/Datadog."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:117
+msgid ""
+"Configure the CSP Report URI in settings or use the built-in Shield "
+"analytics endpoint."
+msgstr ""
+"Налаштуйте URI звіту CSP у налаштуваннях або скористайтеся вбудованою точкою "
+"кінцевого доступу Shield Analytics."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:133
+msgid "Camera/Microphone permissions too open"
+msgstr "Дозволи на використання камери та мікрофона надано надто широко"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:134
+msgid ""
+"Your Permissions Policy allows any site to access camera and microphone. "
+"Unless your site needs these features, restrict them to prevent unauthorized "
+"access."
+msgstr ""
+"Ваша політика дозволів дозволяє будь-якому веб-сайту отримувати доступ до "
+"камери та мікрофона. Якщо ваш веб-сайт не потребує цих функцій, обмежте їх, "
+"щоб запобігти несанкціонованому доступу."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:135
+msgid ""
+"Set camera=() and microphone=() in Permissions Policy to disable them "
+"completely."
+msgstr ""
+"У налаштуваннях політики дозволів встановіть для параметрів camera=() та "
+"microphone=() значення (), щоб повністю їх вимкнути."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:149
+msgid "X-Frame-Options ALLOW-FROM is set without a URL"
+msgstr "Параметр X-Frame-Options ALLOW-FROM встановлено без URL-адреси"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:150
+msgid ""
+"ALLOW-FROM requires a specific URL. Without it, the header is invalid and "
+"your site is vulnerable to clickjacking attacks."
+msgstr ""
+"Для параметра ALLOW-FROM потрібно вказати конкретний URL-адресу. Без нього "
+"цей заголовок вважається недійсним, і ваш сайт стає вразливим до атак типу "
+"«клікджекінг»."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:151
+msgid "Either add a specific URL or switch to DENY/SAMEORIGIN."
+msgstr ""
+"Додайте конкретну URL-адресу або перейдіть до параметра DENY/SAMEORIGIN."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:159
+msgid "ALLOW-FROM is deprecated"
+msgstr "ALLOW-FROM є застарілим"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:160
+msgid ""
+"The ALLOW-FROM directive is not supported by modern browsers (Chrome, "
+"Firefox). Use CSP frame-ancestors directive instead for the same effect with "
+"better browser support."
+msgstr ""
+"Директива ALLOW-FROM не підтримується сучасними браузерами (Chrome, "
+"Firefox). Для досягнення того самого ефекту з кращою підтримкою браузерів "
+"скористайтеся замість неї директивою CSP frame-ancestors."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:161
+msgid ""
+"Switch to DENY or SAMEORIGIN and use CSP frame-ancestors for fine-grained "
+"control."
+msgstr ""
+"Перейдіть на значення DENY або SAMEORIGIN і використовуйте предків кадру CSP "
+"для детального контролю."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:177
+msgid "Some headers are disabled to avoid duplicates"
+msgstr "Деякі заголовки вимкнено, щоб уникнути дублювання"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:178
+msgid ""
+"You've disabled some headers, likely because your hosting server already "
+"sets them. This is correct and prevents duplicate header issues. Make sure "
+"the server-level headers are properly configured."
+msgstr ""
+"Ви вимкнули деякі заголовки, ймовірно, тому що ваш хостинг-сервер уже їх "
+"встановлює. Це правильно і дозволяє уникнути проблем із дублюванням "
+"заголовків. Переконайтеся, що заголовки на рівні сервера налаштовані "
+"належним чином."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:179
+msgid ""
+"Verify your server headers using the External Scan link in the dashboard."
+msgstr ""
+"Перевірте заголовки вашого сервера за допомогою посилання «Зовнішнє "
+"сканування» на панелі керування."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:189
+msgid "🎉 Excellent! Your security headers are well configured."
+msgstr "🎉 Чудово! Ваші заголовки безпеки налаштовані правильно."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:190
+msgid ""
+"All major security headers are active and properly configured. Keep an eye "
+"on the weekly scan reports for any changes."
+msgstr ""
+"Усі основні заголовки безпеки активні та налаштовані належним чином. "
+"Слідкуйте за щотижневими звітами про сканування на предмет будь-яких змін."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:191
+msgid "No action needed. Your site is well protected."
+msgstr "Ніяких дій не потрібно. Ваш сайт надійно захищений."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:212
+#: pro/includes/class-hsts-pro-csp-analytics.php:188
+#: pro/includes/class-hsts-pro-dashboard.php:160
+#: pro/includes/class-hsts-pro-license.php:249
+#: pro/includes/class-hsts-pro-license.php:303
+#: pro/includes/class-hsts-pro-scanner.php:271
+#: pro/includes/class-hsts-pro-webhooks.php:267
+#: pro/includes/class-hsts-pro-webhooks.php:413
+msgid "Insufficient permissions."
+msgstr "Недостатні права доступу."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:234
+msgid "🚨 Critical"
+msgstr "🚨 Критичний"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:235
+msgid "⚠️ High"
+msgstr "⚠️ Високий"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:236
+msgid "💡 Medium"
+msgstr "💡 Середній"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:237
+msgid "ℹ️ Low"
+msgstr "ℹ️ Низький"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:238
+msgid "📋 Info"
+msgstr "📋 Інформація"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:239
+msgid "✅ All Good"
+msgstr "✅ Все гаразд"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:244 pro/loader.php:287
+msgid "Security Advisor"
+msgstr "Радник з питань безпеки"
+
+#. translators: %1$d old score, %2$d new score
+#: pro/includes/class-hsts-pro-alerts.php:47
+#, php-format
+msgid "📉 Security score dropped from %1$d to %2$d."
+msgstr "📉 Рівень безпеки знизився з %1$d до %2$d."
+
+#. translators: %s is header name
+#: pro/includes/class-hsts-pro-alerts.php:63
+#, php-format
+msgid "❌ Header %s was removed or is no longer present."
+msgstr "❌ Заголовок %s було видалено або його більше немає."
+
+#: pro/includes/class-hsts-pro-dashboard.php:172
+msgid "You do not have sufficient permissions."
+msgstr "У вас немає необхідних прав доступу."
+
+#: pro/includes/class-hsts-pro-dashboard.php:186
+msgid "Security Headers Dashboard"
+msgstr "Панель управління заголовками безпеки"
+
+#: pro/includes/class-hsts-pro-dashboard.php:208
+msgid "🎉 Excellent! Your site is well protected."
+msgstr "🎉 Чудово! Ваш сайт надійно захищений."
+
+#: pro/includes/class-hsts-pro-dashboard.php:210
+msgid "⚠️ Good, but there's room for improvement."
+msgstr "⚠️ Непогано, але є над чим попрацювати."
+
+#: pro/includes/class-hsts-pro-dashboard.php:212
+msgid ""
+"🚨 Your site needs attention. Several headers are missing or misconfigured."
+msgstr ""
+"🚨 Ваш сайт потребує уваги. Деякі заголовки відсутні або налаштовані "
+"неправильно."
+
+#: pro/includes/class-hsts-pro-dashboard.php:219
+#, php-format
+msgid ""
+"Your security headers are protecting against %1$s out of %2$s threat "
+"categories. Each header blocks a specific type of attack."
+msgstr ""
+"Ваші заголовки безпеки забезпечують захист від %1$s із %2$s категорій "
+"загроз. Кожен заголовок блокує певний тип атаки."
+
+#: pro/includes/class-hsts-pro-dashboard.php:229
+#, php-format
+msgid "Last scan: %s"
+msgstr "Останнє сканування: %s"
+
+#: pro/includes/class-hsts-pro-dashboard.php:230
+msgid "ago"
+msgstr "тому"
+
+#: pro/includes/class-hsts-pro-dashboard.php:242
+msgid "🛡️ Header Status"
+msgstr "🛡️ Стан заголовка"
+
+#: pro/includes/class-hsts-pro-dashboard.php:248
+#: pro/includes/class-hsts-pro-report.php:192
+msgid "Header"
+msgstr "Заголовок"
+
+#: pro/includes/class-hsts-pro-dashboard.php:249
+msgid "Status"
+msgstr "Статус"
+
+#: pro/includes/class-hsts-pro-dashboard.php:250
+msgid "What it protects"
+msgstr "Що це захищає"
+
+#: pro/includes/class-hsts-pro-dashboard.php:257
+msgid "Secure"
+msgstr "Шифрування"
+
+#: pro/includes/class-hsts-pro-dashboard.php:259
+msgid "Needs work"
+msgstr "Потребує доопрацювання"
+
+#: pro/includes/class-hsts-pro-dashboard.php:260 pro/loader.php:349
+msgid "Missing"
+msgstr "Відсутній"
+
+#: pro/includes/class-hsts-pro-dashboard.php:284
+msgid "Configure Headers"
+msgstr "Налаштувати заголовки"
+
+#: pro/includes/class-hsts-pro-dashboard.php:285
+msgid "Customize HSTS, CSP, and other security headers."
+msgstr "Налаштуйте HSTS, CSP та інші заголовки безпеки."
+
+#: pro/includes/class-hsts-pro-dashboard.php:289
+msgid "External Scan"
+msgstr "Зовнішнє сканування"
+
+#: pro/includes/class-hsts-pro-dashboard.php:290
+msgid "Verify your headers on SecurityHeaders.com"
+msgstr "Перевірте свої заголовки на сайті SecurityHeaders.com"
+
+#: pro/includes/class-hsts-pro-dashboard.php:305
+msgid "Forces encrypted (HTTPS) connection. Blocks eavesdropping attacks."
+msgstr ""
+"Забезпечує зашифроване (HTTPS) з'єднання. Запобігає атакам з перехоплення "
+"даних."
+
+#: pro/includes/class-hsts-pro-dashboard.php:306
+msgid "Controls what resources can load. Blocks code injection and XSS."
+msgstr ""
+"Контролює, які ресурси можуть завантажуватися. Блокує вставку коду та XSS."
+
+#: pro/includes/class-hsts-pro-dashboard.php:307
+msgid ""
+"Prevents browser from guessing file types. Blocks MIME-sniffing attacks."
+msgstr ""
+"Запобігає спробам браузера вгадати типи файлів. Блокує атаки з використанням "
+"MIME-sniffing."
+
+#: pro/includes/class-hsts-pro-dashboard.php:308
+msgid "Prevents your site from being embedded in frames. Blocks clickjacking."
+msgstr "Запобігає вбудовуванню вашого сайту у фрейми. Блокує клікджекінг."
+
+#: pro/includes/class-hsts-pro-dashboard.php:309
+msgid "Controls what info is sent when users click links. Protects privacy."
+msgstr ""
+"Контролює, яка інформація надсилається, коли користувачі натискають на "
+"посилання. Захищає конфіденційність."
+
+#: pro/includes/class-hsts-pro-dashboard.php:310
+msgid ""
+"Controls browser features (camera, mic, location). Blocks unauthorized "
+"access."
+msgstr ""
+"Керує функціями браузера (камера, мікрофон, місцезнаходження). Блокує "
+"несанкціонований доступ."
+
+#: pro/includes/class-hsts-pro-dashboard.php:311
+msgid "Isolates your site from pop-ups. Blocks cross-origin attacks."
+msgstr "Захищає ваш сайт від спливаючих вікон. Блокує міждоменні атаки."
+
+#: pro/includes/class-hsts-pro-dashboard.php:312
+msgid "Controls how resources are loaded cross-origin. Adds isolation."
+msgstr "Регулює завантаження ресурсів з інших доменів. Забезпечує ізоляцію."
+
+#: pro/includes/class-hsts-pro-dashboard.php:313
+msgid "Controls who can load your resources. Blocks data theft."
+msgstr ""
+"Контролює, хто може завантажувати ваші ресурси. Запобігає викраденню даних."
+
+#: pro/includes/class-hsts-pro-dashboard.php:314
+msgid "Blocks Flash/PDF from loading cross-domain data."
+msgstr "Забороняє Flash/PDF завантажувати дані з інших доменів."
+
+#: pro/includes/class-hsts-pro-dashboard.php:317
+msgid "Security header active."
+msgstr "Заголовок безпеки активний."
+
+#: pro/includes/class-hsts-pro-license.php:256
+msgid "Invalid license key format."
+msgstr "Неправильний формат ліцензійного ключа."
+
+#: pro/includes/class-hsts-pro-license.php:289
+msgid "License activated! Shield features are now available. Reloading..."
+msgstr ""
+"Ліцензія активовано! Функції Shield тепер доступні. Завантаження триває..."
+
+#: pro/includes/class-hsts-pro-license.php:320
+msgid "License deactivated. Free features remain active."
+msgstr "Ліцензія деактивована. Безкоштовні функції залишаються активними."
+
+#: pro/includes/class-hsts-pro-license.php:394
+msgid "Could not reach license server. Please try again."
+msgstr "Не вдалося підключитися до сервера ліцензій. Спробуйте ще раз."
+
+#: pro/includes/class-hsts-pro-license.php:402
+msgid "Invalid response from license server."
+msgstr "Неправильна відповідь від сервера ліцензій."
+
+#: pro/includes/class-hsts-pro-license.php:430
+msgid "License key not found. Please check and try again."
+msgstr "Ліцензійний ключ не знайдено. Перевірте його та спробуйте ще раз."
+
+#: pro/includes/class-hsts-pro-license.php:433
+msgid "This license has been disabled. Contact support."
+msgstr "Ця ліцензія була деактивована. Зверніться до служби підтримки."
+
+#: pro/includes/class-hsts-pro-license.php:436
+msgid "This license has expired. Please renew."
+msgstr "Термін дії цієї ліцензії закінчився. Будь ласка, поновіть її."
+
+#: pro/includes/class-hsts-pro-license.php:439
+msgid ""
+"Maximum activations reached. Deactivate on another site first, or contact "
+"support."
+msgstr ""
+"Досягнуто максимальної кількості активацій. Спочатку деактивуйте обліковий "
+"запис на іншому сайті або зверніться до служби підтримки."
+
+#: pro/includes/class-hsts-pro-license.php:444
+msgid "License validation failed. Please check your key."
+msgstr "Помилка під час перевірки ліцензії. Перевірте свій ключ."
+
+#: pro/includes/class-hsts-pro-report.php:162
+msgid "points added by the plugin"
+msgstr "бали, додані плагіном"
+
+#: pro/includes/class-hsts-pro-report.php:169
+#: pro/includes/class-hsts-pro-report.php:193
+msgid "Without Plugin"
+msgstr "Без плагіна"
+
+#: pro/includes/class-hsts-pro-report.php:174
+#, php-format
+msgid "%d of 10 headers from server"
+msgstr "%d із 10 заголовків із сервера"
+
+#: pro/includes/class-hsts-pro-report.php:178
+#: pro/includes/class-hsts-pro-report.php:194
+msgid "With Plugin"
+msgstr "За допомогою плагіна"
+
+#: pro/includes/class-hsts-pro-report.php:183
+#, php-format
+msgid "%d of 10 headers active"
+msgstr "%d із 10 заголовків активні"
+
+#: pro/includes/class-hsts-pro-report.php:188 pro/loader.php:324
+msgid "Header Status"
+msgstr "Статус заголовка"
+
+#: pro/includes/class-hsts-pro-report.php:204
+msgid "Issues Found"
+msgstr "Виявлені проблеми"
+
+#: pro/includes/class-hsts-pro-report.php:217
+msgid "Verify independently:"
+msgstr "Перевірте самостійно:"
+
+#. translators: %s is the error message
+#: pro/includes/class-hsts-pro-scanner.php:54
+#, php-format
+msgid "Could not reach site: %s"
+msgstr "Не вдалося підключитися до сайту: %s"
+
+#: pro/includes/class-hsts-pro-scanner.php:133
+msgid "HSTS header is missing. Your site is vulnerable to downgrade attacks."
+msgstr "Відсутній заголовок HSTS. Ваш сайт вразливий до атак типу «даунгрейд»."
+
+#: pro/includes/class-hsts-pro-scanner.php:143
+msgid ""
+"Increase max-age to at least 31536000 (1 year) for HSTS preload eligibility."
+msgstr ""
+"Збільшити значення max-age щонайменше до 31536000 (1 рік) для відповідності "
+"вимогам попереднього завантаження HSTS."
+
+#: pro/includes/class-hsts-pro-scanner.php:151
+msgid "Consider adding preload directive for HSTS preload list submission."
+msgstr ""
+"Варто розглянути можливість додавання директиви попереднього завантаження "
+"для подання списку попереднього завантаження HSTS."
+
+#: pro/includes/class-hsts-pro-scanner.php:165
+msgid "CSP header is missing. Your site is vulnerable to XSS attacks."
+msgstr "Відсутній заголовок CSP. Ваш сайт вразливий до атак типу XSS."
+
+#: pro/includes/class-hsts-pro-scanner.php:173
+msgid ""
+"CSP allows unsafe-inline scripts. Consider using nonce-based or hash-based "
+"CSP for stronger protection."
+msgstr ""
+"CSP дозволяє використання небезпечних вбудованих скриптів. Для посилення "
+"захисту рекомендується використовувати CSP на основі одноразових кодів або "
+"хеш-функцій."
+
+#: pro/includes/class-hsts-pro-scanner.php:180
+msgid ""
+"CSP allows unsafe-eval. This permits dynamic code execution, which is a "
+"security risk."
+msgstr ""
+"CSP дозволяє використання unsafe-eval. Це дає змогу виконувати код "
+"динамічно, що становить загрозу безпеці."
+
+#. translators: %s is header name
+#: pro/includes/class-hsts-pro-scanner.php:195
+#, php-format
+msgid "Header %s is not present in the response."
+msgstr "Заголовок %s відсутній у відповіді."
+
+#. translators: %s is header name
+#: pro/includes/class-hsts-pro-scanner.php:228
+#, php-format
+msgid ""
+"Duplicate header detected: %s. This can cause browser conflicts. Use the "
+"plugin's \"Resolve duplicate headers\" option."
+msgstr ""
+"Виявлено дублікат заголовка: %s. Це може спричинити конфлікти в роботі "
+"браузера. Скористайтеся опцією плагіна «Вирішити проблему дублікатів "
+"заголовків»."
+
+#: pro/includes/class-hsts-pro-webhooks.php:86
+#, php-format
+msgid "Security score dropped from %1$d to %2$d"
+msgstr "Рівень безпеки знизився з %1$d до %2$d"
+
+#: pro/includes/class-hsts-pro-webhooks.php:102
+#, php-format
+msgid "Header removed: %s"
+msgstr "Заголовок видалено: %s"
+
+#: pro/includes/class-hsts-pro-webhooks.php:122
+#, php-format
+msgid "Weekly scan completed. Score: %1$d/100 (Grade: %2$s)"
+msgstr "Тижнева перевірка завершена. Результат: %1$d/100 (Оцінка: %2$s)"
+
+#: pro/includes/class-hsts-pro-webhooks.php:280
+msgid "No webhook URL provided."
+msgstr "URL-адреса вебхука не вказана."
+
+#: pro/includes/class-hsts-pro-webhooks.php:283
+msgid ""
+"This is a test notification from Headers Security Advanced & HSTS WP Shield."
+msgstr ""
+"Це тестове повідомлення від Headers Security Advanced та HSTS WP Shield."
+
+#: pro/includes/class-hsts-pro-webhooks.php:303
+msgid "Test notification sent!"
+msgstr "Повідомлення про тестування надіслано!"
+
+#: pro/includes/class-hsts-pro-webhooks.php:339
+msgid "Custom Webhook (JSON POST)"
+msgstr "Налаштований веб-хук (JSON POST)"
+
+#: pro/includes/class-hsts-pro-webhooks.php:348
+msgid "Webhook Notifications"
+msgstr "Сповіщення через веб-хуки"
+
+#: pro/includes/class-hsts-pro-webhooks.php:360
+msgid "How to set up"
+msgstr "Як налаштувати"
+
+#: pro/includes/class-hsts-pro-webhooks.php:372 pro/loader.php:804
+msgid "Test"
+msgstr "Тест"
+
+#: pro/includes/class-hsts-pro-webhooks.php:381
+msgid "Send notifications when:"
+msgstr "Надсилати сповіщення, коли:"
+
+#: pro/includes/class-hsts-pro-webhooks.php:385 pro/loader.php:812
+msgid "Security score drops"
+msgstr "Рівень безпеки знижується"
+
+#: pro/includes/class-hsts-pro-webhooks.php:386 pro/loader.php:812
+msgid "A header is removed"
+msgstr "Заголовок видалено"
+
+#: pro/includes/class-hsts-pro-webhooks.php:387 pro/loader.php:812
+msgid "Critical issues found"
+msgstr "Виявлені критичні проблеми"
+
+#: pro/includes/class-hsts-pro-webhooks.php:388
+msgid "Every scan (including clean reports)"
+msgstr "Кожне сканування (включно зі звітами про відсутність проблем)"
+
+#: pro/includes/class-hsts-pro-webhooks.php:447
+msgid "Notification settings saved."
+msgstr "Налаштування сповіщень збережено."
+
+#: pro/loader.php:85
+msgid "Invalid export file."
+msgstr "Файл експорту недійсний."
+
+#: pro/loader.php:109
+#, php-format
+msgid "Imported %d settings successfully. Reloading..."
+msgstr "Налаштування %d успішно імпортовано. Перезавантаження..."
+
+#: pro/loader.php:155
+msgid "Unlock Shield"
+msgstr "Розблокувати щит"
+
+#: pro/loader.php:157
+msgid "Or enter your license key in the License tab."
+msgstr "Або введіть свій ліцензійний ключ на вкладці «Ліцензія»."
+
+#: pro/loader.php:190
+msgid "Settings"
+msgstr "Налаштування"
+
+#: pro/loader.php:191
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: pro/loader.php:193 pro/loader.php:777 pro/loader.php:779
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: pro/loader.php:194
+msgid "Export / Import"
+msgstr "Експорт / Імпорт"
+
+#: pro/loader.php:195
+msgid "License"
+msgstr "Ліцензія"
+
+#: pro/loader.php:196
+msgid "Free vs Shield"
+msgstr "«Фрі» проти «Шілд»"
+
+#: pro/loader.php:197
+msgid "FAQ"
+msgstr "FAQ"
+
+#: pro/loader.php:235
+msgid ""
+"Security score (A-F), AI-powered recommendations, header status for all 10 "
+"security headers, automated scanning, and scan history."
+msgstr ""
+"Оцінка безпеки (A–F), рекомендації на основі штучного інтелекту, стан усіх "
+"10 заголовків безпеки, автоматичне сканування та історія сканувань."
+
+#: pro/loader.php:260
+msgid "No scan yet"
+msgstr "Сканування ще не виконано"
+
+#: pro/loader.php:264
+#, php-format
+msgid "%d/%d bonus headers"
+msgstr "%d/%d додаткові заголовки"
+
+#: pro/loader.php:268
+msgid "Verify on SecurityHeaders.com"
+msgstr "Перевірити на сайті SecurityHeaders.com"
+
+#: pro/loader.php:272
+#, php-format
+msgid "Last scan: %s ago"
+msgstr "Останнє сканування: %s тому"
+
+#: pro/loader.php:275
+msgid "Run Scan"
+msgstr "Запустити сканування"
+
+#: pro/loader.php:279
+msgid "Download Report"
+msgstr "Завантажити звіт"
+
+#: pro/loader.php:325
+msgid "Grade based on 6 scored headers — aligned with SecurityHeaders.com"
+msgstr ""
+"Оцінка на основі 6 оцінених заголовків — відповідно до SecurityHeaders.com"
+
+#: pro/loader.php:329
+msgid "Forces HTTPS. Blocks eavesdropping."
+msgstr "Примусово використовує протокол HTTPS. Запобігає прослуховуванню."
+
+#: pro/loader.php:330
+msgid "Controls allowed resources. Blocks XSS."
+msgstr "Контролює дозволені ресурси. Блокує XSS."
+
+#: pro/loader.php:331
+msgid "Prevents MIME-sniffing attacks."
+msgstr "Запобігає атакам типу «MIME-sniffing»."
+
+#: pro/loader.php:332
+msgid "Blocks clickjacking via iframes."
+msgstr "Запобігає клікджекінгу через iframe."
+
+#: pro/loader.php:333
+msgid "Controls referrer info. Protects privacy."
+msgstr "Контролює інформацію про джерело переходу. Захищає конфіденційність."
+
+#: pro/loader.php:334
+msgid "Controls camera, mic, location access."
+msgstr "Керує доступом до камери, мікрофона та місцезнаходження."
+
+#: pro/loader.php:337
+msgid "Isolates from cross-origin pop-ups."
+msgstr "Ізолює спливаючі вікна з інших доменів."
+
+#: pro/loader.php:338
+msgid "Controls cross-origin resource loading."
+msgstr "Керує завантаженням ресурсів з інших доменів."
+
+#: pro/loader.php:339
+msgid "Controls who can load your resources."
+msgstr "Визначає, хто може завантажувати ваші ресурси."
+
+#: pro/loader.php:340
+msgid "Blocks Flash/PDF cross-domain data."
+msgstr "Блокує передачу даних між доменами у форматі Flash/PDF."
+
+#: pro/loader.php:349 pro/loader.php:368 pro/loader.php:873
+msgid "Active"
+msgstr "Активний"
+
+#: pro/loader.php:360
+msgid "BONUS HEADERS"
+msgstr "ДОДАТКОВІ ЗАГОЛОВКИ"
+
+#: pro/loader.php:361
+msgid "Extra protection — not scored by SecurityHeaders.com"
+msgstr "Додатковий захист — не оцінено сайтом SecurityHeaders.com"
+
+#: pro/loader.php:368
+msgid "Not set"
+msgstr "Не вказано"
+
+#: pro/loader.php:384
+msgid "Score Trend"
+msgstr "Динаміка результатів"
+
+#: pro/loader.php:385
+msgid ""
+"Tracks your security score over time. Each dot represents a scan. Hover to "
+"see details. Drops indicate a header was removed or misconfigured."
+msgstr ""
+"Відстежує ваш рівень безпеки з плином часу. Кожна крапка відповідає одному "
+"скануванню. Наведіть курсор, щоб переглянути деталі. Крапки, що зникають, "
+"вказують на те, що заголовок було видалено або налаштовано неправильно."
+
+#: pro/loader.php:393
+msgid "Week"
+msgstr "Тиждень"
+
+#: pro/loader.php:393
+msgid "Month"
+msgstr "Місяць"
+
+#: pro/loader.php:393
+msgid "Year"
+msgstr "Рік"
+
+#: pro/loader.php:398
+msgid "A / A+"
+msgstr "А / А+"
+
+#: pro/loader.php:399
+msgid "B / C"
+msgstr "B / C"
+
+#: pro/loader.php:400
+msgid "D / F"
+msgstr "D / F"
+
+#: pro/loader.php:401
+#, php-format
+msgid "%d scans"
+msgstr "%d сканів"
+
+#: pro/loader.php:408
+#, php-format
+msgid "Scan History (%d)"
+msgstr "Історія сканування (%d)"
+
+#: pro/loader.php:411
+msgid "Grade"
+msgstr "Клас"
+
+#: pro/loader.php:412
+msgid "Score"
+msgstr "Оцінка"
+
+#: pro/loader.php:413
+msgid "Date"
+msgstr "Дата"
+
+#: pro/loader.php:414
+msgid "Issues"
+msgstr "Випуски"
+
+#: pro/loader.php:575
+msgid ""
+"CSP configuration guide with recommended tools, best practices, and real-"
+"time violation analytics to monitor what browsers are blocking on your site."
+msgstr ""
+"Посібник з налаштування CSP, що містить перелік рекомендованих інструментів, "
+"найкращі практики та аналітику порушень у режимі реального часу для "
+"відстеження того, що саме блокують браузери на вашому сайті."
+
+#: pro/loader.php:580
+msgid "CSP Guide"
+msgstr "Посібник з CSP"
+
+#: pro/loader.php:583
+msgid "CSP Analytics"
+msgstr "CSP Analytics"
+
+#: pro/loader.php:589
+msgid "Content Security Policy — The Right Way"
+msgstr "Політика безпеки вмісту — правильний підхід"
+
+#: pro/loader.php:591
+msgid ""
+"CSP is the most powerful protection against XSS attacks, but every site is "
+"different. Page builders, third-party plugins, analytics, ads, and "
+"JavaScript-loaded resources all need to be included. No automated tool can "
+"guarantee a complete CSP — the safest approach is: start with Report-Only, "
+"monitor real violations, then build your policy from real data."
+msgstr ""
+"CSP — це найефективніший засіб захисту від XSS-атак, але кожен сайт має свої "
+"особливості. Необхідно враховувати всі елементи: конструктори сторінок, "
+"сторонні плагіни, аналітичні інструменти, рекламу та ресурси, що "
+"завантажуються за допомогою JavaScript. Жоден автоматизований інструмент не "
+"може гарантувати створення повної політики CSP — найбезпечніший підхід "
+"полягає в тому, щоб почати з режиму «Report-Only», відстежувати реальні "
+"порушення, а потім формувати політику на основі реальних даних."
+
+#: pro/loader.php:596
+msgid "Recommended Tools"
+msgstr "Рекомендовані інструменти"
+
+#: pro/loader.php:599
+msgid "Csper.io"
+msgstr "Csper.io"
+
+#: pro/loader.php:601
+msgid ""
+"Browser extension. Monitors real resources loaded in your browser. The most "
+"accurate way to build a CSP. Free Chrome/Firefox extension."
+msgstr ""
+"Розширення для браузера. Відстежує фактичні ресурси, що завантажуються у "
+"вашому браузері. Найточніший спосіб створення CSP. Безкоштовне розширення "
+"для Chrome/Firefox."
+
+#: pro/loader.php:604
+msgid "Google CSP Evaluator"
+msgstr "Оцінювач Google CSP"
+
+#: pro/loader.php:606
+msgid ""
+"Paste your CSP to check for bypasses, unsafe directives, and missing "
+"protections. Free by Google."
+msgstr ""
+"Вставте свій CSP, щоб перевірити наявність обходів, небезпечних директив та "
+"відсутніх засобів захисту. Безкоштовно від Google."
+
+#: pro/loader.php:609
+msgid "Report URI"
+msgstr "Посилання на звіт"
+
+#: pro/loader.php:611
+msgid ""
+"Professional CSP violation monitoring with dashboard and alerts. Free tier "
+"available. Paste the URL in Settings → CSP Report URI."
+msgstr ""
+"Професійний моніторинг порушень CSP з інформаційною панеллю та сповіщеннями. "
+"Доступний безкоштовний тарифний план. Вставте URL-адресу в розділі "
+"«Налаштування» → «URI звіту CSP»."
+
+#: pro/loader.php:614
+msgid "URIports"
+msgstr "URIports"
+
+#: pro/loader.php:616
+msgid ""
+"Modern CSP/security reporting. 10,000 reports/month free. Excellent for high-"
+"traffic sites."
+msgstr ""
+"Сучасна звітність щодо CSP та безпеки. 10 000 звітів на місяць безкоштовно. "
+"Ідеально підходить для сайтів із великим трафіком."
+
+#: pro/loader.php:623
+msgid "Safe Workflow (Step by Step)"
+msgstr "Безпечний робочий процес (покрокова інструкція)"
+
+#: pro/loader.php:625
+msgid ""
+"Install the Csper.io browser extension (free) and browse your site. It "
+"records every resource loaded."
+msgstr ""
+"Встановіть розширення для браузера Csper.io (безкоштовне) і переглядайте "
+"свій сайт. Воно фіксує кожен завантажений ресурс."
+
+#: pro/loader.php:626
+msgid "Export the generated CSP from Csper.io."
+msgstr "Експортуйте CSP-файл, створений на Csper.io."
+
+#: pro/loader.php:627
+msgid "Validate it on Google CSP Evaluator — fix any warnings."
+msgstr ""
+"Перевірте його за допомогою Google CSP Evaluator — усуньте всі попередження."
+
+#: pro/loader.php:628
+msgid ""
+"Paste the CSP into Settings → CSP Header Contents with \"Content-Security-"
+"Policy-Report-Only\" first (enable in your server config or use a Report URI "
+"service)."
+msgstr ""
+"Вставте CSP у розділ «Налаштування» → «Вміст заголовка CSP», попередньо "
+"вказавши «Content-Security-Policy-Report-Only» (увімкніть цю опцію у "
+"конфігурації сервера або скористайтеся службою Report URI)."
+
+#: pro/loader.php:629
+msgid "Monitor CSP Analytics (tab above) for 7+ days — add missing domains."
+msgstr ""
+"Протягом 7 днів і більше стежте за даними CSP Analytics (вкладка вище) — "
+"додавайте доменів, яких не вистачає."
+
+#: pro/loader.php:630
+msgid ""
+"When zero violations: switch to enforced mode in Settings → CSP Header "
+"Contents."
+msgstr ""
+"Якщо порушень немає: увімкніть примусовий режим у розділі «Налаштування» → "
+"«Вміст заголовка CSP»."
+
+#: pro/loader.php:636
+msgid "Common CSP Directives for WordPress"
+msgstr "Загальні директиви CSP для WordPress"
+
+#: pro/loader.php:637
+msgid "Copy and adapt these for your site. Each line is a separate service."
+msgstr ""
+"Скопіюйте ці рядки та адаптуйте їх для свого сайту. Кожен рядок відповідає "
+"окремій послузі."
+
+#: pro/loader.php:639
+msgid "# Minimum safe CSP for WordPress"
+msgstr "# Мінімальний безпечний CSP для WordPress"
+
+#: pro/loader.php:653
+msgid "# Add for Google Fonts"
+msgstr "# Додати для Google Fonts"
+
+#: pro/loader.php:657
+msgid "# Add for Google Analytics / GTM"
+msgstr "# Додати для Google Analytics / GTM"
+
+#: pro/loader.php:662
+msgid "# Add for YouTube embeds"
+msgstr "# Додати для вбудованих відео з YouTube"
+
+#: pro/loader.php:665
+msgid "# Add for Stripe (WooCommerce)"
+msgstr "# Додати для Stripe (WooCommerce)"
+
+#: pro/loader.php:669
+msgid "# Add for Elementor"
+msgstr "# Додати для Elementor"
+
+#: pro/loader.php:670
+msgid "// required for Elementor editor"
+msgstr "// необхідний для редактора Elementor"
+
+#: pro/loader.php:672
+msgid "# Add for Facebook Pixel"
+msgstr "# Додати для Facebook Pixel"
+
+#: pro/loader.php:680
+msgid "CSP FAQ"
+msgstr "Часті запитання щодо CSP"
+
+#: pro/loader.php:683 pro/loader.php:993
+msgid "What is CSP?"
+msgstr "Що таке CSP?"
+
+#: pro/loader.php:683
+msgid ""
+"Content Security Policy is an HTTP header that tells browsers which "
+"resources (scripts, styles, images, fonts, frames) are allowed to load on "
+"your page. Anything not listed is blocked. It is the most effective "
+"protection against XSS (Cross-Site Scripting) attacks."
+msgstr ""
+"Політика безпеки вмісту (Content Security Policy) — це заголовок HTTP, який "
+"вказує браузерам, які ресурси (скрипти, стилі, зображення, шрифти, фрейми) "
+"дозволено завантажувати на вашу сторінку. Усе, що не вказано в цьому списку, "
+"блокується. Це найефективніший засіб захисту від атак типу XSS (міжсайтовий "
+"скриптинг)."
+
+#: pro/loader.php:684
+msgid "Will CSP break my site?"
+msgstr "Чи може CSP зіпсувати роботу мого сайту?"
+
+#: pro/loader.php:684
+msgid ""
+"Only if you enforce a policy that is too restrictive. That is why you should "
+"always start with Report-Only mode: it logs violations without blocking "
+"anything. Monitor for 7+ days, fix the policy, then enforce."
+msgstr ""
+"Лише у тому випадку, якщо ви застосовуєте занадто жорсткі налаштування. Саме "
+"тому завжди слід починати з режиму «Тільки звіт»: він реєструє порушення, не "
+"блокуючи доступ. Простежте за ситуацією протягом 7 днів або більше, "
+"скоригуйте налаштування, а потім застосуйте їх."
+
+#: pro/loader.php:685
+msgid "Why does WordPress need unsafe-inline?"
+msgstr "Чому WordPress потребує плагіна unsafe-inline?"
+
+#: pro/loader.php:685
+msgid ""
+"WordPress core, most themes, and most plugins output inline scripts and "
+"styles directly in the HTML. Without unsafe-inline, these would be blocked. "
+"The ideal solution is nonce-based CSP, but most WordPress plugins do not "
+"support it yet."
+msgstr ""
+"Ядро WordPress, більшість тем та плагінів виводять вбудовані скрипти та "
+"стилі безпосередньо в HTML-коді. Без параметра unsafe-inline вони були б "
+"заблоковані. Ідеальним рішенням є CSP на основі nonce, але більшість "
+"плагінів WordPress поки що його не підтримують."
+
+#: pro/loader.php:686
+msgid "Why does Elementor need unsafe-eval?"
+msgstr "Чому Elementor потребує unsafe-eval?"
+
+#: pro/loader.php:686
+msgid ""
+"Elementor and some page builders use JavaScript eval() to process templates "
+"and widgets dynamically. Without unsafe-eval, the editor and some frontend "
+"features break. This is a known limitation of these builders."
+msgstr ""
+"Elementor та деякі конструктори сторінок використовують функцію eval() у "
+"JavaScript для динамічної обробки шаблонів і віджетів. Без плагіна unsafe-"
+"eval редактор та деякі функції інтерфейсу перестають працювати. Це відоме "
+"обмеження цих конструкторів."
+
+#: pro/loader.php:687 pro/loader.php:997
+msgid "What is Report-Only mode?"
+msgstr "Що таке режим «Тільки для перегляду»?"
+
+#: pro/loader.php:687
+msgid ""
+"Your server sends the CSP with the header Content-Security-Policy-Report-"
+"Only instead of Content-Security-Policy. The browser checks the policy but "
+"does NOT block anything — it only sends violation reports. Perfect for "
+"testing before going live."
+msgstr ""
+"Ваш сервер надсилає CSP із заголовком Content-Security-Policy-Report-Only "
+"замість Content-Security-Policy. Браузер перевіряє політику, але НІЧОГО не "
+"блокує — він лише надсилає звіти про порушення. Ідеально підходить для "
+"тестування перед запуском у виробництво."
+
+#: pro/loader.php:688
+msgid "How do I find which domains to add?"
+msgstr "Як дізнатися, які домени додати?"
+
+#: pro/loader.php:688
+msgid ""
+"Three ways: 1) Use the Csper.io browser extension while browsing your site. "
+"2) Check the CSP Analytics tab for violations reported by real visitors. 3) "
+"Open Chrome DevTools → Console tab and look for CSP violation errors."
+msgstr ""
+"Три способи: 1) Використовуйте розширення для браузера Csper.io під час "
+"перегляду вашого сайту. 2) Перегляньте вкладку «CSP Analytics», щоб "
+"перевірити порушення, про які повідомили реальні відвідувачі. 3) Відкрийте "
+"Chrome DevTools → вкладку «Консоль» і знайдіть помилки, пов’язані з "
+"порушеннями CSP."
+
+#: pro/loader.php:689
+msgid "What is a CSP Report URI?"
+msgstr "Що таке URI звіту CSP?"
+
+#: pro/loader.php:689
+msgid ""
+"A URL where the browser sends JSON violation reports. You can use external "
+"services (Report URI, URIports, Sentry) or the built-in Shield CSP Analytics "
+"endpoint. Configure it in Settings → CSP Report URI."
+msgstr ""
+"URL-адреса, на яку браузер надсилає звіти про порушення JSON. Ви можете "
+"використовувати зовнішні сервіси (Report URI, URIports, Sentry) або "
+"вбудовану кінцеву точку Shield CSP Analytics. Налаштуйте її в меню "
+"«Налаштування» → «URI звіту CSP»."
+
+#: pro/loader.php:690
+msgid "Can I use Shield CSP Analytics and an external service together?"
+msgstr ""
+"Чи можна одночасно використовувати Shield CSP Analytics та зовнішній сервіс?"
+
+#: pro/loader.php:690
+msgid ""
+"The browser sends reports to the URL configured in the CSP header. You can "
+"only have one report-uri per policy. For basic monitoring, Shield Analytics "
+"is enough. For high-traffic professional sites, use URIports or Report URI."
+msgstr ""
+"Браузер надсилає звіти на URL-адресу, вказану в заголовку CSP. Для кожної "
+"політики можна вказати лише один Report-URI. Для базового моніторингу "
+"достатньо Shield Analytics. Для професійних сайтів із великим трафіком "
+"використовуйте URIports або Report URI."
+
+#: pro/loader.php:704
+msgid ""
+"Monitors Content Security Policy violations reported by browsers. Shows "
+"which resources are being blocked and where."
+msgstr ""
+"Відстежує порушення політики безпеки вмісту, про які повідомляють браузери. "
+"Показує, які ресурси блокуються та де саме."
+
+#: pro/loader.php:722
+msgid "Total violations"
+msgstr "Загальна кількість порушень"
+
+#: pro/loader.php:723
+msgid "Last 24h"
+msgstr "За останні 24 години"
+
+#: pro/loader.php:724
+msgid "Last 7 days"
+msgstr "Останні 7 днів"
+
+#: pro/loader.php:728
+msgid "Top blocked domains"
+msgstr "Найпопулярніші заблоковані домени"
+
+#: pro/loader.php:740
+msgid "Top violated directives"
+msgstr "Найчастіше порушувані директиви"
+
+#: pro/loader.php:752
+msgid "No CSP violations recorded yet."
+msgstr "Поки що порушень CSP зафіксовано не було."
+
+#: pro/loader.php:753
+msgid ""
+"Configure a Report URI in Settings → CSP Report URI, or follow the CSP Guide "
+"to get started."
+msgstr ""
+"Налаштуйте URI звіту в розділі «Налаштування» → «URI звіту CSP» або "
+"скористайтеся посібником з CSP, щоб розпочати роботу."
+
+#: pro/loader.php:777
+msgid ""
+"Email alerts and webhook notifications to Slack, Discord, Microsoft Teams, "
+"or any custom endpoint. Get alerted when your security score drops, a header "
+"is removed, or critical issues are found."
+msgstr ""
+"Повідомлення електронною поштою та через веб-хуки у Slack, Discord, "
+"Microsoft Teams або будь-яку іншу вказану вами адресу. Отримуйте сповіщення, "
+"коли знижується ваш показник безпеки, видаляється заголовок або виявляються "
+"критичні проблеми."
+
+#: pro/loader.php:780
+msgid "Get alerted when something changes. Configure once, then forget."
+msgstr ""
+"Отримуйте сповіщення про зміни. Налаштуйте один раз — і більше не турбуйтеся."
+
+#: pro/loader.php:783
+msgid "Email Alerts"
+msgstr "Сповіщення електронною поштою"
+
+#: pro/loader.php:786
+msgid "Receives alerts on score drops, header changes, critical issues."
+msgstr ""
+"Отримує сповіщення про зниження оцінок, зміни заголовків та критичні "
+"проблеми."
+
+#: pro/loader.php:794
+msgid "Custom Webhook (JSON)"
+msgstr "Налаштований веб-хук (JSON)"
+
+#: pro/loader.php:800
+msgid "Setup guide"
+msgstr "Посібник з налаштування"
+
+#: pro/loader.php:810
+msgid "Notify when:"
+msgstr "Повідомляти, коли:"
+
+#: pro/loader.php:812
+msgid "Every scan (including clean)"
+msgstr "Кожне сканування (включно з очищенням)"
+
+#: pro/loader.php:821
+msgid "Save Notification Settings"
+msgstr "Зберегти налаштування сповіщень"
+
+#: pro/loader.php:823
+msgid "Saved!"
+msgstr "Збережено!"
+
+#: pro/loader.php:833
+msgid "Export / Import Settings"
+msgstr "Експорт / Імпорт налаштувань"
+
+#: pro/loader.php:835
+msgid ""
+"Export your security header configuration and import it on other sites. "
+"Ideal for agencies and freelancers managing multiple WordPress installations."
+msgstr ""
+"Експортуйте налаштування заголовка безпеки та імпортуйте їх на інші сайти. "
+"Ідеально підходить для агентств та фрілансерів, які керують декількома "
+"інсталяціями WordPress."
+
+#: pro/loader.php:841
+msgid "Export"
+msgstr "Експорт"
+
+#: pro/loader.php:842
+msgid ""
+"Download a JSON file with all your security header settings. Does not "
+"include license key."
+msgstr ""
+"Завантажте файл JSON із усіма налаштуваннями заголовків безпеки. Ліцензійний "
+"ключ не включено."
+
+#: pro/loader.php:843
+msgid "Export Settings"
+msgstr "Налаштування експорту"
+
+#: pro/loader.php:847
+msgid "Import"
+msgstr "Імпорт"
+
+#: pro/loader.php:848
+msgid ""
+"Upload a previously exported JSON file. This will overwrite your current "
+"settings."
+msgstr ""
+"Завантажте раніше експортований файл JSON. Це призведе до заміни ваших "
+"поточних налаштувань."
+
+#: pro/loader.php:850
+msgid "Import Settings"
+msgstr "Налаштування імпорту"
+
+#: pro/loader.php:857
+msgid "Exported settings include:"
+msgstr "Експортовані налаштування включають:"
+
+#: pro/loader.php:859
+msgid ""
+"HSTS (max-age, includeSubDomains, preload), CSP Header Contents, CSP Report "
+"URI, Permissions Policy, X-Frame-Options, all header enable/disable toggles, "
+"and webhook/notification URLs. License key and scan history are NOT exported."
+msgstr ""
+"HSTS (max-age, includeSubDomains, preload), вміст заголовка CSP, URI звіту "
+"CSP, політика дозволів, X-Frame-Options, усі перемикачі увімкнення/вимкнення "
+"заголовків, а також URL-адреси веб-хуків та сповіщень. Ліцензійний ключ та "
+"історія сканування НЕ експортуються."
+
+#: pro/loader.php:872
+msgid "License key"
+msgstr "Ліцензійний ключ"
+
+#: pro/loader.php:874
+msgid "Expires"
+msgstr "Завершується"
+
+#: pro/loader.php:876
+msgid "Deactivate License"
+msgstr "Деактивувати ліцензію"
+
+#: pro/loader.php:878
+msgid ""
+"Enter your license key to unlock Shield features. The free version will "
+"always remain fully functional."
+msgstr ""
+"Введіть ліцензійний ключ, щоб розблокувати функції Shield. Безкоштовна "
+"версія завжди залишатиметься повністю функціональною."
+
+#: pro/loader.php:880
+msgid "HSTP-XXXX-XXXX-XXXX-XXXX"
+msgstr "HSTP-XXXX-XXXX-XXXX-XXXX"
+
+#: pro/loader.php:881
+msgid "Activate"
+msgstr "Активувати"
+
+#: pro/loader.php:884
+#, php-format
+msgid "Don't have a license? %1$sGet Shield%2$s"
+msgstr "Не маєте ліцензії? %1$sОтримати Shield%2$s"
+
+#: pro/loader.php:894
+msgid "Free forever. Shield for those who want more."
+msgstr "Безкоштовно назавжди. Shield — для тих, хто хоче більше."
+
+#: pro/loader.php:896
+msgid ""
+"Every feature this plugin has offered since day one remains completely free "
+"— no limits, no paywalls, no \"lite\" restrictions. That will never change. "
+"Shield is a separate set of brand-new advanced tools (Security Advisor, "
+"automated scanning, real-time alerts) built for professionals who want "
+"deeper monitoring."
+msgstr ""
+"Усі функції, які цей плагін пропонував з самого початку, залишаються "
+"повністю безкоштовними — без обмежень, без платного доступу та без обмежень "
+"«lite»-версії. Це ніколи не зміниться. Shield — це окремий набір новітніх "
+"розширених інструментів (Security Advisor, автоматичне сканування, "
+"сповіщення в режимі реального часу), створений для професіоналів, які "
+"потребують більш глибокого моніторингу."
+
+#: pro/loader.php:897
+msgid ""
+"Revenue from Shield goes directly into maintaining and improving the free "
+"plugin for everyone."
+msgstr ""
+"Доходи від Shield йдуть безпосередньо на підтримку та вдосконалення "
+"безкоштовного плагіна для всіх користувачів."
+
+#: pro/loader.php:903
+msgid "Free"
+msgstr "Безкоштовно"
+
+#: pro/loader.php:903
+msgid "Forever"
+msgstr "Назавжди"
+
+#: pro/loader.php:905
+msgid "Free forever"
+msgstr "Вільні назавжди"
+
+#: pro/loader.php:907
+msgid "10+ security headers"
+msgstr "10+ заголовків безпеки"
+
+#: pro/loader.php:908
+msgid "HSTS Preload"
+msgstr "Попереднє завантаження HSTS"
+
+#: pro/loader.php:909
+msgid "CSP / Permissions Policy"
+msgstr "CSP / Політика дозволів"
+
+#: pro/loader.php:910
+msgid "X-Frame / X-Content-Type"
+msgstr "X-Frame / X-Content-Type"
+
+#: pro/loader.php:911
+msgid "Duplicate header resolver"
+msgstr "Механізм вирішення дублікатів заголовків"
+
+#: pro/loader.php:912
+msgid ".htaccess support"
+msgstr "Підтримка файлів .htaccess"
+
+#: pro/loader.php:913
+msgid "Community support"
+msgstr "Підтримка громади"
+
+#: pro/loader.php:919
+msgid "1 site"
+msgstr "1 сайт"
+
+#: pro/loader.php:921
+msgid "per year"
+msgstr "в рік"
+
+#: pro/loader.php:921 pro/loader.php:939
+msgid "month"
+msgstr "місяць"
+
+#: pro/loader.php:923
+msgid "All Free features, plus:"
+msgstr "Усі безкоштовні функції, а також:"
+
+#: pro/loader.php:924
+msgid "Security Dashboard & Advisor"
+msgstr "Панель управління безпекою та порадник"
+
+#: pro/loader.php:925
+msgid "Score Trend chart (week/month/year)"
+msgstr "Графік динаміки результатів (тиждень/місяць/рік)"
+
+#: pro/loader.php:926
+msgid "PDF Security Report (before/after)"
+msgstr "Звіт про безпеку PDF-файлів (до/після)"
+
+#: pro/loader.php:927
+msgid "CSP Guide & Analytics"
+msgstr "Посібник та аналітика CSP"
+
+#: pro/loader.php:928
+msgid "Email & webhook alerts"
+msgstr "Сповіщення електронною поштою та через веб-хуки"
+
+#: pro/loader.php:929
+msgid "Export / Import settings"
+msgstr "Експорт / Імпорт налаштувань"
+
+#: pro/loader.php:930
+msgid "Weekly automated scans"
+msgstr "Щотижневі автоматичні перевірки"
+
+#: pro/loader.php:932
+msgid "Get Shield"
+msgstr "Отримати Shield"
+
+#: pro/loader.php:936
+msgid "BEST VALUE"
+msgstr "НАЙКРАЩЕ Співвідношення ціни та якості"
+
+#: pro/loader.php:939
+msgid "per year, unlimited sites"
+msgstr "на рік, необмежена кількість сайтів"
+
+#: pro/loader.php:941
+msgid "Everything in Shield"
+msgstr "Все в Shield"
+
+#: pro/loader.php:942
+msgid "Unlimited site activations"
+msgstr "Необмежена кількість активацій сайтів"
+
+#: pro/loader.php:943
+msgid "Ideal for agencies"
+msgstr "Ідеально підходить для агентств"
+
+#: pro/loader.php:944
+msgid "Ideal for freelancers"
+msgstr "Ідеально підходить для фрілансерів"
+
+#: pro/loader.php:945
+msgid "Priority support"
+msgstr "Пріоритетна підтримка"
+
+#: pro/loader.php:946
+msgid "$29/site? With 4+ sites you save"
+msgstr "29 доларів за сайт? При замовленні 4 і більше сайтів ви заощаджуєте"
+
+#: pro/loader.php:948
+msgid "Get Unlimited"
+msgstr "Отримайте необмежений доступ"
+
+#: pro/loader.php:953
+#, php-format
+msgid "by %1$sAndrea Ferro%2$s"
+msgstr "автор: %1$sАндреа Ферро%2$s"
+
+#: pro/loader.php:955
+msgid "Review"
+msgstr "Відгук"
+
+#: pro/loader.php:956
+msgid "Support"
+msgstr "Підтримка"
+
+#: pro/loader.php:965
+msgid "Frequently Asked Questions"
+msgstr "Запитання"
+
+#: pro/loader.php:966
+msgid ""
+"Everything you need to know about security headers, this plugin, and Pro."
+msgstr ""
+"Все, що потрібно знати про заголовки безпеки, цей плагін та версію Pro."
+
+#: pro/loader.php:968
+msgid "Search FAQ..."
+msgstr "Пошук у розділі «Часті запитання»..."
+
+#: pro/loader.php:969
+msgid "No results found."
+msgstr "Нічого не знайдено."
+
+#: pro/loader.php:972
+msgid "All"
+msgstr "Все"
+
+#: pro/loader.php:972
+msgid "General"
+msgstr "Загальні"
+
+#: pro/loader.php:972
+msgid "Headers"
+msgstr "Заголовки"
+
+#: pro/loader.php:972
+msgid "Troubleshooting"
+msgstr "Вирішення проблем"
+
+#: pro/loader.php:981
+msgid "What does this plugin do?"
+msgstr "Що робить цей плагін?"
+
+#: pro/loader.php:981
+msgid ""
+"Adds HTTP security headers to your WordPress site: HSTS, CSP, Permissions "
+"Policy, X-Frame-Options, and more. These headers tell browsers how to "
+"protect visitors from attacks like XSS, clickjacking, and protocol "
+"downgrades."
+msgstr ""
+"Додає на ваш сайт WordPress захисні заголовки HTTP: HSTS, CSP, Permissions "
+"Policy, X-Frame-Options та інші. Ці заголовки вказують браузерам, як "
+"захищати відвідувачів від таких атак, як XSS, клікджекінг та пониження "
+"версії протоколу."
+
+#: pro/loader.php:982
+msgid "Will this plugin slow down my site?"
+msgstr "Чи сповільнить цей плагін роботу мого сайту?"
+
+#: pro/loader.php:982
+msgid ""
+"No. Headers add less than 1KB to each response. The plugin uses WordPress "
+"native hooks and Apache .htaccess. Zero database queries at page load for "
+"visitors."
+msgstr ""
+"Ні. Заголовки додають менше 1 КБ до кожного відповіді. Плагін використовує "
+"вбудовані хуки WordPress та файл .htaccess Apache. Під час завантаження "
+"сторінки для відвідувачів не виконується жодного запиту до бази даних."
+
+#: pro/loader.php:983
+msgid "Is the free version really free forever?"
+msgstr "Чи справді безкоштовна версія залишається безкоштовною назавжди?"
+
+#: pro/loader.php:983
+msgid ""
+"Yes. Every security header, every configuration option, every protection "
+"this plugin offers today will remain completely free. No features will ever "
+"be moved behind a paywall. Shield is a separate set of brand-new tools "
+"(Security Advisor, CSP generator, monitoring) built on top. Revenue from "
+"Shield funds free updates for all users."
+msgstr ""
+"Так. Усі заголовки безпеки, усі параметри налаштування та всі засоби "
+"захисту, які цей плагін пропонує сьогодні, залишаться повністю "
+"безкоштовними. Жодна функція ніколи не стане платною. Shield — це окремий "
+"набір абсолютно нових інструментів (Security Advisor, генератор CSP, "
+"моніторинг), створений на базі цього плагіна. Доходи від Shield йдуть на "
+"фінансування безкоштовних оновлень для всіх користувачів."
+
+#: pro/loader.php:984
+msgid "Why did you introduce Shield if the plugin was always free?"
+msgstr "Навіщо ви запустили Shield, якщо плагін і так завжди був безкоштовним?"
+
+#: pro/loader.php:984
+msgid ""
+"Maintaining a plugin used by 100,000+ sites is a serious responsibility. "
+"Security updates, WordPress compatibility, support requests, and new browser "
+"standards all require constant work. For years, \"Buy me a coffee\" "
+"donations covered a fraction of that effort. Shield lets professionals who "
+"need advanced features (security analysis, automated scanning, real-time "
+"alerts) pay a fair price, and that revenue funds continued free development "
+"for everyone. The free plugin gets better because Shield exists, not worse."
+msgstr ""
+"Підтримка плагіна, яким користуються понад 100 000 сайтів, — це серйозна "
+"відповідальність. Оновлення безпеки, сумісність із WordPress, запити на "
+"підтримку та нові стандарти браузерів вимагають постійної роботи. Протягом "
+"багатьох років пожертви за програмою «Купи мені каву» покривали лише частину "
+"цих витрат. Shield дозволяє професіоналам, яким потрібні розширені функції "
+"(аналіз безпеки, автоматичне сканування, сповіщення в режимі реального "
+"часу), платити справедливу ціну, а отримані кошти фінансують подальшу "
+"безкоштовну розробку для всіх. Завдяки Shield безкоштовний плагін стає "
+"кращим, а не гіршим."
+
+#: pro/loader.php:985
+msgid "Does it work with Nginx / LiteSpeed / IIS?"
+msgstr "Чи працює це з Nginx / LiteSpeed / IIS?"
+
+#: pro/loader.php:985
+msgid ""
+"Yes. The PHP wp_headers filter works on any server. The .htaccess method is "
+"Apache-only but the PHP method handles Nginx, LiteSpeed, and IIS "
+"automatically."
+msgstr ""
+"Так. Фільтр PHP wp_headers працює на будь-якому сервері. Метод із "
+"використанням файлу .htaccess доступний лише для Apache, тоді як метод PHP "
+"автоматично підтримує Nginx, LiteSpeed та IIS."
+
+#: pro/loader.php:986
+msgid "Is it compatible with caching plugins?"
+msgstr "Чи сумісний він із плагінами кешування?"
+
+#: pro/loader.php:986
+msgid ""
+"Yes. Works with WP Super Cache, W3 Total Cache, LiteSpeed Cache, WP Rocket. "
+"For Varnish or Cloudflare full-page cache, the .htaccess method sets headers "
+"at server level."
+msgstr ""
+"Так. Сумісний із WP Super Cache, W3 Total Cache, LiteSpeed Cache та WP "
+"Rocket. Для повносторінкового кешування за допомогою Varnish або Cloudflare "
+"метод .htaccess налаштовує заголовки на рівні сервера."
+
+#: pro/loader.php:987
+msgid "Will it conflict with other security plugins?"
+msgstr "Чи не виникне конфлікту з іншими плагінами безпеки?"
+
+#: pro/loader.php:987
+msgid ""
+"Rarely. If another plugin sets the same headers, use the \"Resolve duplicate "
+"headers\" checkboxes in Settings to let one source handle each header."
+msgstr ""
+"Рідко. Якщо інший плагін встановлює ті самі заголовки, скористайтеся "
+"прапорцями «Вирішити проблему дублювання заголовків» у налаштуваннях, щоб "
+"кожен заголовок оброблявся лише одним джерелом."
+
+#: pro/loader.php:988
+msgid "Which WordPress versions are supported?"
+msgstr "Які версії WordPress підтримуються?"
+
+#: pro/loader.php:988
+msgid ""
+"WordPress 4.7 and above. Uses only WordPress core APIs with no external "
+"dependencies."
+msgstr ""
+"WordPress 4.7 і вище. Використовує лише основні API WordPress без зовнішніх "
+"залежностей."
+
+#: pro/loader.php:989
+msgid "What is HSTS and why do I need it?"
+msgstr "Що таке HSTS і навіщо це потрібно?"
+
+#: pro/loader.php:989
+msgid ""
+"HSTS forces browsers to always use HTTPS. Without it, attackers can "
+"intercept the first HTTP request before redirect. With HSTS, browsers never "
+"try plain HTTP."
+msgstr ""
+"HSTS змушує браузери завжди використовувати HTTPS. Без нього зловмисники "
+"можуть перехопити перший HTTP-запит до перенаправлення. З HSTS браузери "
+"ніколи не намагаються використовувати звичайний HTTP."
+
+#: pro/loader.php:990
+msgid "What max-age should I use?"
+msgstr "Яке значення параметра max-age слід використовувати?"
+
+#: pro/loader.php:990
+msgid ""
+"Minimum for preload: 31536000 (1 year). Recommended: 63072000 (2 years). "
+"Start with 86400 (1 day) to test, then increase."
+msgstr ""
+"Мінімальне значення для попереднього завантаження: 31536000 (1 рік). "
+"Рекомендоване значення: 63072000 (2 роки). Для тестування почніть із "
+"значення 86400 (1 день), а потім збільшуйте його."
+
+#: pro/loader.php:991
+msgid "Should I enable HSTS Preload?"
+msgstr "Чи варто ввімкнути попереднє завантаження HSTS?"
+
+#: pro/loader.php:991
+msgid ""
+"Only if your entire domain (including all subdomains) works over HTTPS. "
+"Preload is hardcoded in browsers and difficult to undo. Removal takes "
+"months. Test thoroughly first."
+msgstr ""
+"Тільки якщо весь ваш домен (включно з усіма піддоменами) працює через HTTPS. "
+"Функція попереднього завантаження жорстко вбудована в браузери, і її важко "
+"скасувати. На її видалення можуть піти місяці. Спочатку ретельно все "
+"протестуйте."
+
+#: pro/loader.php:992
+msgid "HSTS broke my site. How to fix?"
+msgstr "HSTS зіпсував роботу мого сайту. Як це виправити?"
+
+#: pro/loader.php:992
+msgid ""
+"Disable HSTS in plugin settings. Clear browser HSTS cache: Chrome chrome://"
+"net-internals/#hsts, search domain, click Delete. If on preload list, submit "
+"removal at hstspreload.org."
+msgstr ""
+"Вимкніть HSTS у налаштуваннях плагіна. Очистіть кеш HSTS у браузері: у "
+"Chrome — chrome://net-internals/#hsts, знайдіть домен, натисніть «Видалити». "
+"Якщо сайт є у списку попереднього завантаження, подайте заявку на його "
+"видалення на сайті hstspreload.org."
+
+#: pro/loader.php:993
+msgid ""
+"Content Security Policy tells browsers exactly which resources can load on "
+"your pages and from which domains. Everything not allowed is blocked. The "
+"strongest protection against XSS attacks."
+msgstr ""
+"Політика безпеки вмісту (Content Security Policy) вказує браузерам, які саме "
+"ресурси та з яких доменів можна завантажувати на ваші сторінки. Усе, що не "
+"дозволено, блокується. Найпотужніший захист від XSS-атак."
+
+#: pro/loader.php:994
+msgid "Why is CSP hard to configure?"
+msgstr "Чому CSP так складно налаштовувати?"
+
+#: pro/loader.php:994
+msgid ""
+"WordPress sites load resources from many sources: theme, plugins, Google "
+"Fonts, analytics, CDNs. CSP must list every legitimate source. Miss one and "
+"something breaks. Follow the CSP Guide in Shield for tools and step-by-step "
+"instructions."
+msgstr ""
+"Сайти WordPress завантажують ресурси з багатьох джерел: теми, плагіни, "
+"Google Fonts, аналітичні сервіси, CDN. У CSP необхідно вказати всі легітимні "
+"джерела. Якщо пропустити хоча б одне, щось перестане працювати. "
+"Скористайтеся посібником із CSP у Shield, де ви знайдете інструменти та "
+"покрокові інструкції."
+
+#: pro/loader.php:995
+msgid "What does unsafe-inline mean?"
+msgstr "Що означає «unsafe-inline»?"
+
+#: pro/loader.php:995
+msgid ""
+"Allows inline scripts/styles in HTML. Most WordPress themes need it. Having "
+"CSP with unsafe-inline is still much better than no CSP. For maximum "
+"security, use nonce-based CSP."
+msgstr ""
+"Дозволяє вбудовувати скрипти та стилі безпосередньо в HTML. Це потрібно для "
+"більшості тем WordPress. Налаштування CSP із параметром «unsafe-inline» все "
+"одно набагато краще, ніж повна відсутність CSP. Для максимальної безпеки "
+"використовуйте CSP на основі nonce."
+
+#: pro/loader.php:996
+msgid "CSP is blocking something. How to fix?"
+msgstr "CSP щось блокує. Як це виправити?"
+
+#: pro/loader.php:996
+msgid ""
+"Open browser Dev Tools (F12), check Console for CSP violations. They show "
+"exactly which resource was blocked. Add that domain to the correct directive "
+"in your CSP."
+msgstr ""
+"Відкрийте інструменти розробника в браузері (F12) і перевірте консоль на "
+"наявність порушень CSP. Там буде вказано, який саме ресурс було заблоковано. "
+"Додайте цей домен до відповідної директиви у вашому CSP."
+
+#: pro/loader.php:997
+msgid ""
+"Sends CSP as Report-Only header. Browser evaluates the policy but blocks "
+"nothing — only reports violations. Perfect for testing a new CSP safely "
+"before enforcing."
+msgstr ""
+"Надсилає CSP як заголовок «Report-Only». Браузер аналізує політику, але "
+"нічого не блокує — лише повідомляє про порушення. Ідеально підходить для "
+"безпечного тестування нової політики CSP перед її впровадженням."
+
+#: pro/loader.php:998
+msgid "What is X-Frame-Options?"
+msgstr "Що таке X-Frame-Options?"
+
+#: pro/loader.php:998
+msgid ""
+"Controls iframe embedding. DENY blocks all framing, SAMEORIGIN allows only "
+"your domain. Prevents clickjacking attacks. ALLOW-FROM is deprecated — use "
+"CSP frame-ancestors instead."
+msgstr ""
+"Керує вбудовуванням iframe. DENY блокує будь-яке вбудовування, SAMEORIGIN "
+"дозволяє вбудовування лише з вашого домену. Запобігає атакам типу "
+"«clickjacking». ALLOW-FROM є застарілим — замість нього використовуйте CSP "
+"frame-ancestors."
+
+#: pro/loader.php:999
+msgid "What is Permissions-Policy?"
+msgstr "Що таке політика доступу?"
+
+#: pro/loader.php:999
+msgid ""
+"Controls browser APIs: camera, microphone, geolocation, payment, USB. "
+"Setting them to () disables access, preventing malicious scripts from using "
+"sensitive features."
+msgstr ""
+"Керує API-інтерфейсами браузера: камера, мікрофон, геолокація, оплата, USB. "
+"Встановлення для них значення () блокує доступ, запобігаючи використанню "
+"конфіденційних функцій зловмисними скриптами."
+
+#: pro/loader.php:1000
+msgid "What is X-Content-Type-Options?"
+msgstr "Що таке X-Content-Type-Options?"
+
+#: pro/loader.php:1000
+msgid ""
+"The nosniff value prevents browsers from guessing file types. Stops MIME-"
+"confusion attacks where text files get executed as scripts. No reason not to "
+"enable it."
+msgstr ""
+"Параметр nosniff не дозволяє браузерам визначати типи файлів. Це запобігає "
+"атакам типу «MIME-confusion», під час яких текстові файли виконуються як "
+"скрипти. Немає жодних причин не вмикати цю опцію."
+
+#: pro/loader.php:1001
+msgid "What is Referrer-Policy?"
+msgstr "Що таке Referrer-Policy?"
+
+#: pro/loader.php:1001
+msgid ""
+"Controls what URL info is sent when users click links. Recommended: strict-"
+"origin-when-cross-origin. Protects privacy by not leaking URL paths to "
+"external sites."
+msgstr ""
+"Контролює, яка інформація про URL надсилається, коли користувачі натискають "
+"на посилання. Рекомендовано: strict-origin-when-cross-origin. Захищає "
+"конфіденційність, запобігаючи витоку шляхів до URL-адрес зовнішніх сайтів."
+
+#: pro/loader.php:1002
+msgid "What are COOP, COEP, CORP?"
+msgstr "Що таке COOP, COEP, CORP?"
+
+#: pro/loader.php:1002
+msgid ""
+"Cross-Origin isolation headers. COOP isolates from pop-ups, COEP requires "
+"explicit cross-origin permission, CORP controls who loads your resources. "
+"Together they block Spectre-type attacks."
+msgstr ""
+"Заголовки ізоляції міждоменного доступу. COOP ізолює від спливаючих вікон, "
+"COEP вимагає явного дозволу на міждоменний доступ, а CORP контролює, хто "
+"завантажує ваші ресурси. Разом вони блокують атаки типу Spectre."
+
+#: pro/loader.php:1003
+msgid "Duplicate header warnings — how to fix?"
+msgstr "Попередження про дублювання заголовків — як це виправити?"
+
+#: pro/loader.php:1003
+msgid ""
+"Happens when both server and plugin set the same header. Use \"Resolve "
+"duplicate headers\" checkboxes in Settings. Verify with SecurityHeaders.com "
+"or curl -I."
+msgstr ""
+"Це трапляється, коли і сервер, і плагін встановлюють однаковий заголовок. "
+"Встановіть прапорці «Вирішити проблему дублювання заголовків» у "
+"налаштуваннях. Перевірте за допомогою SecurityHeaders.com або команди `curl "
+"-I`."
+
+#: pro/loader.php:1004
+msgid "Site broke after changing settings"
+msgstr "Сайт перестав працювати після зміни налаштувань"
+
+#: pro/loader.php:1004
+msgid ""
+"Disable headers one at a time using Settings checkboxes. Usually CSP is the "
+"cause. You can also deactivate the plugin as emergency fix — all headers "
+"removed, no data lost."
+msgstr ""
+"Вимкніть заголовки по одному за допомогою прапорців у налаштуваннях. "
+"Зазвичай причиною є CSP. Ви також можете тимчасово вимкнути плагін як "
+"екстрене рішення — усі заголовки будуть видалені, дані не втратяться."
+
+#: pro/loader.php:1005
+msgid "Headers not showing up"
+msgstr "Заголовки не відображаються"
+
+#: pro/loader.php:1005
+msgid ""
+"Check: (1) Plugin activated? (2) Verify with SecurityHeaders.com. (3) CDN "
+"stripping headers? Check CDN settings. (4) Full-page cache? Clear it. (5) "
+"Managed hosting overriding?"
+msgstr ""
+"Перевірте: (1) Чи активовано плагін? (2) Перевірте на сайті "
+"SecurityHeaders.com. (3) Чи CDN видаляє заголовки? Перевірте налаштування "
+"CDN. (4) Чи ввімкнено кешування всієї сторінки? Очистіть кеш. (5) Чи не "
+"перекриваються налаштування на хостингу?"
+
+#: pro/loader.php:1006
+msgid "How to check my headers?"
+msgstr "Як перевірити заголовки?"
+
+#: pro/loader.php:1006
+msgid ""
+"Three ways: SecurityHeaders.com (paste URL), browser Dev Tools (F12 > "
+"Network > first request > Response Headers), or command line: curl -I "
+"https://yoursite.com"
+msgstr ""
+"Три способи: SecurityHeaders.com (вставте URL-адресу), інструменти "
+"розробника браузера (F12 > Мережа > перший запит > Заголовки відповіді) або "
+"командний рядок: curl -I https://yoursite.com"
+
+#: pro/loader.php:1007
+msgid "SecurityHeaders.com shows bad grade"
+msgstr "SecurityHeaders.com показує низьку оцінку"
+
+#: pro/loader.php:1007
+msgid ""
+"Usually means CSP not configured or using only default. Configure all "
+"headers in Settings. The Shield Security Advisor shows exactly what to fix "
+"for each grade improvement."
+msgstr ""
+"Зазвичай це означає, що CSP не налаштовано або використовуються лише "
+"налаштування за замовчуванням. Налаштуйте всі заголовки в розділі "
+"«Налаштування». Shield Security Advisor показує, що саме потрібно виправити "
+"для підвищення кожної оцінки."
+
+#: pro/loader.php:1008
+msgid "WooCommerce / page builder stopped working"
+msgstr "WooCommerce / конструктор сторінок перестав працювати"
+
+#: pro/loader.php:1008
+msgid ""
+"CSP blocking needed resources. Check Dev Tools Console. Common: Stripe "
+"(js.stripe.com), PayPal (www.paypal.com), Google Maps, YouTube. Check the "
+"CSP Guide in Shield for common WordPress directives and recommended tools."
+msgstr ""
+"CSP блокує необхідні ресурси. Перевірте консоль Dev Tools. Типові приклади: "
+"Stripe (js.stripe.com), PayPal (www.paypal.com), Google Maps, YouTube. "
+"Ознайомтеся з посібником з CSP у Shield, щоб дізнатися про типові директиви "
+"WordPress та рекомендовані інструменти."
+
+#: pro/loader.php:1009
+msgid "wp-admin or REST API issues"
+msgstr "Проблеми з wp-admin або REST API"
+
+#: pro/loader.php:1009
+msgid ""
+"Likely X-Frame-Options DENY (admin uses iframes) or CSP blocking inline "
+"scripts. Set X-Frame to SAMEORIGIN, ensure CSP has unsafe-inline for script-"
+"src and style-src."
+msgstr ""
+"Ймовірно, це пов’язано з налаштуванням X-Frame-Options на DENY "
+"(адміністратор використовує iframe) або з блокуванням вбудованих скриптів за "
+"допомогою CSP. Встановіть для X-Frame-Options значення SAMEORIGIN та "
+"переконайтеся, що в налаштуваннях CSP для параметрів script-src і style-src "
+"вказано unsafe-inline."
+
+#: pro/loader.php:1010
+msgid "What does Security Advisor do?"
+msgstr "Чим займається Security Advisor?"
+
+#: pro/loader.php:1010
+msgid ""
+"Analyzes your configuration, generates personalized recommendations in plain "
+"language. Runs 100% locally — no external data, no API costs, no privacy "
+"concerns. Shows what to fix, why, how, and the score impact."
+msgstr ""
+"Аналізує вашу конфігурацію та формулює індивідуальні рекомендації простою "
+"мовою. Працює повністю автономно — без зовнішніх даних, без витрат на API та "
+"без проблем із конфіденційністю. Показує, що потрібно виправити, чому, як це "
+"зробити та як це вплине на рейтинг."
+
+#: pro/loader.php:1011
+msgid "How do I build a CSP with Shield?"
+msgstr "Як створити CSP за допомогою Shield?"
+
+#: pro/loader.php:1011
+msgid ""
+"Shield provides a CSP Guide with recommended tools (Csper.io browser "
+"extension, Google CSP Evaluator), ready-to-use code snippets for WordPress, "
+"and CSP Analytics that collects real violation data from your visitors. "
+"Follow the safe workflow: generate with Csper.io, validate, test in Report-"
+"Only, monitor, then enforce."
+msgstr ""
+"Shield пропонує посібник із CSP, що містить рекомендовані інструменти "
+"(розширення для браузера Csper.io, Google CSP Evaluator), готові до "
+"використання фрагменти коду для WordPress, а також CSP Analytics, який "
+"збирає реальні дані про порушення від ваших відвідувачів. Дотримуйтесь "
+"безпечного алгоритму дій: створіть політику за допомогою Csper.io, перевірте "
+"її, протестуйте в режимі «Report-Only», відстежуйте, а потім застосуйте."
+
+#: pro/loader.php:1012
+msgid "What happens when Shield license expires?"
+msgstr "Що відбувається, коли термін дії ліцензії Shield закінчується?"
+
+#: pro/loader.php:1012
+msgid ""
+"Site stays protected. Reverts to free. All headers keep working. You lose "
+"Shield features (dashboard, advisor, alerts, analytics). Your CSP stays "
+"active. Nothing breaks."
+msgstr ""
+"Сайт залишається захищеним. Переходить на безкоштовну версію. Усі заголовки "
+"продовжують працювати. Ви втрачаєте функції Shield (панель управління, "
+"порадник, сповіщення, аналітика). Ваш CSP залишається активним. Нічого не "
+"виходить з ладу."
+
+#: pro/loader.php:1013
+msgid "Multiple sites?"
+msgstr "Кілька сайтів?"
+
+#: pro/loader.php:1013
+msgid ""
+"Shield ($29/year) covers 1 site. Shield Unlimited ($99/year) covers "
+"unlimited sites with the same license key. Perfect for agencies and "
+"freelancers."
+msgstr ""
+"Пакет «Shield» (29 доларів на рік) діє для 1 веб-сайту. Пакет «Shield "
+"Unlimited» (99 доларів на рік) діє для необмеженої кількості веб-сайтів за "
+"одним ліцензійним ключем. Ідеально підходить для агентств та фрілансерів."
+
+#: pro/loader.php:1014
+msgid "How do webhook notifications work?"
+msgstr "Як працюють сповіщення через веб-хуки?"
+
+#: pro/loader.php:1014
+msgid ""
+"Send scan results to Slack, Discord, Teams, or custom URL (JSON). Triggered "
+"when score drops, headers change, or critical issues found. Each has a Test "
+"button. Custom webhook sends full scan data for automation."
+msgstr ""
+"Надсилайте результати сканування до Slack, Discord, Teams або на вказану URL-"
+"адресу (у форматі JSON). Повідомлення надсилаються у разі зниження рейтингу, "
+"зміни заголовків або виявлення критичних проблем. Кожна опція має кнопку "
+"«Перевірити». Налаштований веб-хук надсилає повні дані сканування для "
+"автоматизації."
+
+#: pro/loader.php:1015
+msgid "How does Export/Import work?"
+msgstr "Як працює функція «Експорт/Імпорт»?"
+
+#: pro/loader.php:1015
+msgid ""
+"Export downloads a JSON file with all header settings (HSTS, CSP, "
+"Permissions Policy, toggles, webhook URLs). Import uploads the file to "
+"another site. License key is never exported. Ideal for agencies deploying "
+"the same security configuration across multiple client sites."
+msgstr ""
+"Функція «Експорт» завантажує файл JSON із усіма налаштуваннями заголовків "
+"(HSTS, CSP, політика дозволів, перемикачі, URL-адреси веб-хуків). Функція "
+"«Імпорт» завантажує цей файл на інший сайт. Ліцензійний ключ ніколи не "
+"експортується. Ідеально підходить для агентств, які застосовують однакову "
+"конфігурацію безпеки на декількох сайтах клієнтів."
+
+#: pro/loader.php:1016
+msgid "How is the security score calculated?"
+msgstr "Як розраховується показник безпеки?"
+
+#: pro/loader.php:1016
+msgid ""
+"The grade is based on the 6 headers scored by SecurityHeaders.com: CSP, "
+"HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, and "
+"Permissions-Policy. All 6 present without warnings = A+. All 6 with CSP "
+"warning = A. Missing 1 = B, missing 2 = C, missing 3-4 = D, missing 5+ = F. "
+"Four additional bonus headers (COOP, COEP, CORP, X-Permitted) are shown "
+"separately. This ensures our grade matches what you see on "
+"SecurityHeaders.com."
+msgstr ""
+"Оцінка базується на 6 заголовках, які враховує SecurityHeaders.com: CSP, "
+"HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy та "
+"Permissions-Policy. Всі 6 присутні без попереджень = A+. Всі 6 з "
+"попередженням CSP = A. Відсутній 1 = B, відсутні 2 = C, відсутні 3-4 = D, "
+"відсутні 5+ = F. Чотири додаткові бонусні заголовки (COOP, COEP, CORP, X-"
+"Permitted) відображаються окремо. Це гарантує, що наша оцінка відповідає "
+"тому, що ви бачите на SecurityHeaders.com."
+
+#: pro/loader.php:1017
+msgid "When do email alerts trigger?"
+msgstr "Коли надсилаються сповіщення електронною поштою?"
+
+#: pro/loader.php:1017
+msgid ""
+"Email is sent when a weekly scan or manual scan detects: score dropped "
+"compared to previous scan, a header was removed that was previously present, "
+"or critical security issues. No email is sent when everything is fine."
+msgstr ""
+"Електронний лист надсилається, коли під час щотижневої або ручної перевірки "
+"виявляється: зниження балу порівняно з попередньою перевіркою, видалення "
+"заголовка, який раніше був присутній, або критичні проблеми безпеки. Якщо "
+"все гаразд, електронний лист не надсилається."
+
+#: pro/loader.php:1018
+msgid "Can I change the scan frequency?"
+msgstr "Чи можна змінити частоту сканування?"
+
+#: pro/loader.php:1018
+msgid ""
+"Automated scans run weekly via WordPress cron. You can run a manual scan "
+"anytime from the Dashboard. The scan checks your own site headers via HTTP "
+"request — zero external API calls."
+msgstr ""
+"Автоматичне сканування виконується щотижня за допомогою cron-задачі "
+"WordPress. Ви можете запустити ручне сканування в будь-який час з панелі "
+"управління. Під час сканування перевіряються заголовки вашого сайту за "
+"допомогою HTTP-запитів — без жодних зовнішніх викликів API."
+
+#: pro/loader.php:1019
+msgid "Does Shield send data to external servers?"
+msgstr "Чи надсилає Shield дані на зовнішні сервери?"
+
+#: pro/loader.php:1019
+msgid ""
+"Only the license key is validated with Lemon Squeezy (once every 24h). All "
+"scans, analysis, and recommendations run 100% locally on your server. No "
+"header data, no site data, no visitor data ever leaves your WordPress."
+msgstr ""
+"Lemon Squeezy перевіряє лише ліцензійний ключ (раз на 24 години). Усі "
+"перевірки, аналізи та рекомендації виконуються повністю на вашому сервері. "
+"Жодні дані заголовків, даних сайту чи відвідувачів ніколи не залишають вашу "
+"систему WordPress."
+
+#: pro/loader.php:1020
+msgid "Does Shield work with Cloudflare?"
+msgstr "Чи сумісний Shield із Cloudflare?"
+
+#: pro/loader.php:1020
+msgid ""
+"Yes. Cloudflare passes through headers set by WordPress. If you also set "
+"headers in Cloudflare dashboard, you may get duplicates — use the Resolve "
+"duplicate headers option in Settings to fix this."
+msgstr ""
+"Так. Cloudflare пропускає заголовки, встановлені WordPress. Якщо ви також "
+"налаштовуєте заголовки в панелі управління Cloudflare, можуть виникнути "
+"дублікати — щоб це виправити, скористайтеся опцією «Вирішити проблему "
+"дублювання заголовків» у розділі «Налаштування»."
+
+#: pro/loader.php:1021
+msgid "What does the Score Trend chart show?"
+msgstr "Що показує графік динаміки балів?"
+
+#: pro/loader.php:1021
+msgid ""
+"A visual timeline of your security score over time. Each dot is a scan. "
+"Filter by week, month, or year. Useful to spot when a hosting change, plugin "
+"update, or configuration error affected your security."
+msgstr ""
+"Візуальна хронологія динаміки вашого показника безпеки. Кожна крапка "
+"відповідає одному скануванню. Можна фільтрувати за тижнем, місяцем або "
+"роком. Це допоможе визначити, коли зміна хостингу, оновлення плагіна або "
+"помилка в налаштуваннях вплинули на рівень вашої безпеки."
+
+#: pro/loader.php:1022
+msgid "Payment methods?"
+msgstr "Які способи оплати?"
+
+#: pro/loader.php:1022
+msgid ""
+"Lemon Squeezy: credit/debit cards, PayPal, Apple Pay. We never see payment "
+"data. EU VAT handled automatically. Invoices in your Lemon Squeezy account."
+msgstr ""
+"Lemon Squeezy: кредитні/дебетові картки, PayPal, Apple Pay. Ми ніколи не "
+"бачимо платіжних даних. ПДВ у ЄС обчислюється автоматично. Рахунки-фактури "
+"доступні у вашому обліковому записі Lemon Squeezy."
+
+#: pro/loader.php:1023
+msgid "Refund policy?"
+msgstr "Політика повернення коштів?"
+
+#: pro/loader.php:1023
+msgid "14-day full refund, no questions asked. Contact support."
+msgstr ""
+"14-денне право на повне повернення коштів без зайвих питань. Зверніться до "
+"служби підтримки."
+
+#: pro/loader.php:1024
+msgid "What happens if I delete the plugin?"
+msgstr "Що станеться, якщо я видалю цей плагін?"
+
+#: pro/loader.php:1024
+msgid ""
+"Your license is automatically deactivated on Lemon Squeezy, freeing the "
+"activation slot. You can reuse the same key on another site. All plugin "
+"settings and scan history are removed from the database."
+msgstr ""
+"Ваша ліцензія на Lemon Squeezy автоматично деактивується, звільняючи місце "
+"для активації. Ви можете повторно використати цей самий ключ на іншому "
+"сайті. Усі налаштування плагіна та історія сканування видаляються з бази "
+"даних."
+
+#: pro/loader.php:1038
+#, php-format
+msgid "Need more help? %1$sSupport forum%2$s or %3$sOpenHeaders.org%4$s"
+msgstr ""
+"Потрібна додаткова допомога? %1$sФорум підтримки%2$s або "
+"%3$sOpenHeaders.org%4$s"
+
+#. Plugin URI of the plugin/theme
+msgid "https://openheaders.org"
+msgstr "https://openheaders.org"
+
+#. Description of the plugin/theme
+msgid ""
+"Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin "
+"uses advanced security rules that provide huge levels of protection and it "
+"is important that your site uses it. This step is important to submit your "
+"website and/or domain to an approved HSTS list. Google officially compiles "
+"this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. "
+"You can forward your site to the official HSTS preload directory. Cross Site "
+"Request Forgery (CSRF) is a common attack with the installation of Headers "
+"Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress "
+"site."
+msgstr ""
+"Headers Security Advanced & HSTS WP — простий, легкий і швидкий. Цей плагін "
+"використовує розширені правила безпеки, що забезпечують високий рівень "
+"захисту, і дуже важливо, щоб ваш сайт ним користувався. Цей крок є важливим "
+"для додавання вашого веб-сайту та/або домену до затвердженого списку HSTS. "
+"Цей список офіційно складає Google, і його використовують Chrome, Firefox, "
+"Opera, Safari, IE11 та Edge. Ви можете додати свій сайт до офіційного "
+"каталогу попереднього завантаження HSTS. Cross Site Request Forgery (CSRF) — "
+"це поширений вид атаки, і встановлення Headers Security Advanced & HSTS WP "
+"допоможе вам зменшити ризик CSRF на вашому сайті WordPress."
+
+#. Author of the plugin/theme
+msgid "🐙 Andrea Ferro"
+msgstr "🐙 Andrea Ferro"
+
+#. Author URI of the plugin/theme
+msgid "https://www.linkedin.com/in/andrea-ferro-55046186/"
+msgstr "https://www.linkedin.com/in/andrea-ferro-55046186/"

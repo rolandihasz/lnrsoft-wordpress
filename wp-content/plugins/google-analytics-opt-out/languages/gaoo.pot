@@ -1,0 +1,185 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Analytics Opt-Out\n"
+"POT-Creation-Date: 2019-02-18 11:03+0000\n"
+"PO-Revision-Date: 2013-11-12 09:04+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: blocks/opt-out.js:10
+msgid "Analytics Opt Out"
+msgstr ""
+
+#: blocks/opt-out.js:64 blocks/opt-out.js:79
+msgid "Click here to opt out"
+msgstr ""
+
+#: blocks/opt-out.js:69
+msgid "Enter a link text"
+msgstr ""
+
+#: google-analytics-opt-out.php:53
+#, php-format
+msgid ""
+"You are using PHP in version %s. This version is outdated and cannot be used "
+"with the Google Analytics Opt-Out plugin. Please update to the latest PHP "
+"version in order to use this plugin. You can ask your provider on how to do "
+"this."
+msgstr ""
+
+#: inc/admin.php:12
+msgid ""
+"To use the Google Analytics Opt-Out Plugin please enter an UA-Code on the "
+"settings page."
+msgstr ""
+
+#: inc/admin.php:32
+msgid "Settings"
+msgstr ""
+
+#: inc/admin.php:33
+msgid "More by WP-Buddy"
+msgstr ""
+
+#: inc/frontend.php:20
+msgid "Google Analytics Opt-Out Information"
+msgstr ""
+
+#: inc/frontend.php:20
+msgid "Close"
+msgstr ""
+
+#: inc/frontend.php:22
+msgid "Close this and do not ask me again"
+msgstr ""
+
+#: inc/frontend.php:39
+msgid ""
+"This website is using Google Analytics. Please click here if you want to opt-"
+"out."
+msgstr ""
+
+#: inc/frontend.php:43
+msgid "Click here to opt-out."
+msgstr ""
+
+#: inc/functions.php:113 inc/settings.php:231
+msgid ""
+"Thanks. We have set a cookie so that Google Analytics data collection will "
+"be disabled on your next visit."
+msgstr ""
+
+#: inc/settings.php:11 inc/settings.php:14
+msgid "Analytics Opt-Out"
+msgstr ""
+
+#: inc/settings.php:14 inc/settings.php:71
+msgid "Opt-Out Settings"
+msgstr ""
+
+#: inc/settings.php:35
+#, php-format
+msgid ""
+"This plugin provides an Opt-Out functionality for Google Analytics "
+"(Universal Tracking aka analytics.js and Global Site Tag aka gtag.js). You "
+"can show a banner to your users and/or you can use the following shortcode "
+"in any of your posts: %s. It integrates a link that allows a user to opt-out "
+"off Google Analytics. You can read more about the <a href=\"https://wp-buddy."
+"com/documentation/plugins/google-analytics-opt/faq/#what-are-the-shortcodes-"
+"that-i-can-use\" target=\"_blank\">shortcodes here</a>."
+msgstr ""
+
+#: inc/settings.php:73
+msgid "Use Monster Insights Settings"
+msgstr ""
+
+#: inc/settings.php:76
+msgid "UA- or GA-Code"
+msgstr ""
+
+#: inc/settings.php:79
+msgid "Show Editor button (Classic Editor)"
+msgstr ""
+
+#: inc/settings.php:82
+msgid "Opt-Out Successful"
+msgstr ""
+
+#: inc/settings.php:85
+msgid "Use Banner"
+msgstr ""
+
+#: inc/settings.php:88
+msgid "Opt-Out Banner-Text"
+msgstr ""
+
+#: inc/settings.php:91
+msgid "Integrate Shortcode"
+msgstr ""
+
+#: inc/settings.php:94
+msgid "Hide banner after closing"
+msgstr ""
+
+#: inc/settings.php:97
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/settings.php:130
+msgid "Monster Insights Plugin has been detected."
+msgstr ""
+
+#: inc/settings.php:132
+msgid ""
+"Monster Insights Plugin has NOT been detected. Please enter your UA- or GA-"
+"code manually and then check the sourcode of your website. Make sure that "
+"Analytics code appears AFTER the opt-out code (which starts with <code>/* "
+"Google Analytics Opt-Out</code>)."
+msgstr ""
+
+#: inc/settings.php:186
+msgid ""
+"Some users reported problems with the editor button. So you can deactivate "
+"it here. Read more about the <a target=\"_blank\" href=\"https://wp-buddy."
+"com/documentation/plugins/google-analytics-opt/faq/#what-are-the-shortcodes-"
+"that-i-can-use\">shortcodes</a> that can be used instead."
+msgstr ""
+
+#: inc/settings.php:206
+msgid "Please integrate the shortcode so that the user can opt-out."
+msgstr ""
+
+#: inc/settings.php:220
+msgid "If the shortcode was not detected, it will be added automatically."
+msgstr ""
+
+#: inc/settings.php:244
+msgid ""
+"This will hide the opt-out box after the user has clicked the close-button. "
+"Otherwise a little info-button will be fixed to the bottom-right."
+msgstr ""
+
+#: inc/shortcodes.php:54
+msgid "Click here to opt out."
+msgstr ""
+
+#: inc/shortcodes.php:60
+msgid "No UA-Code has been entered. Please ask the admin to solve this issue!"
+msgstr ""
+
+#: inc/shortcodes.php:81
+msgid "OK"
+msgstr ""

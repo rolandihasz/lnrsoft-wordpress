@@ -1,0 +1,2604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Headers Security Advanced & HSTS WP\n"
+"POT-Creation-Date: 2026-03-16 11:30+0100\n"
+"PO-Revision-Date: 2026-03-16 12:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: headers-security-advanced-hsts-wp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: headers-security-advanced-hsts-wp.php:71
+#: headers-security-advanced-hsts-wp.php:72
+#: headers-security-advanced-hsts-wp.php:697
+msgid "Headers Security Advanced & HSTS WP"
+msgstr "Başlıklar, Güvenlik, Gelişmiş ve HSTS Eklentisi"
+
+#: headers-security-advanced-hsts-wp.php:92
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bu sayfaya erişmek için yeterli izniniz yok."
+
+#: headers-security-advanced-hsts-wp.php:96
+#, php-format
+msgid ""
+"%1$sYour website is finally safe! 🚀%2$s Implement enhanced security "
+"headers, HSTS preload for optimum website protection."
+msgstr ""
+"%1$sWeb siteniz artık güvende! 🚀%2$s Web sitenizi en iyi şekilde korumak "
+"için gelişmiş güvenlik başlıklarını ve HSTS ön yüklemesini uygulayın."
+
+#: headers-security-advanced-hsts-wp.php:107
+msgid "The security of your website is our priority! 🛸"
+msgstr "Web sitenizin güvenliği bizim önceliğimizdir! 🛸"
+
+#: headers-security-advanced-hsts-wp.php:113
+#, php-format
+msgid ""
+"%1$sHeaders Security Advanced & HSTS WP%2$s adds 10+ security headers to "
+"protect your WordPress site from phishing, data theft, clickjacking, XSS, "
+"and protocol downgrade attacks. Easy to configure, compatible with all "
+"servers and caching plugins."
+msgstr ""
+"%1$sHeaders Security Advanced & HSTS WP%2$s, WordPress sitenizi kimlik avı, "
+"veri hırsızlığı, tıklama ele geçirme, XSS ve protokol düşürme saldırılarına "
+"karşı korumak için 10'dan fazla güvenlik başlığı ekler. Kurulumu kolaydır, "
+"tüm sunucular ve önbellekleme eklentileriyle uyumludur."
+
+#: headers-security-advanced-hsts-wp.php:118
+msgid "Security Headers"
+msgstr "Güvenlik Başlıkları"
+
+#: headers-security-advanced-hsts-wp.php:123
+msgid "Active Sites"
+msgstr "Aktif Siteler"
+
+#: headers-security-advanced-hsts-wp.php:128
+msgid "Top Grade"
+msgstr "En Üst Sınıf"
+
+#: headers-security-advanced-hsts-wp.php:143
+msgid ""
+"I create projects available to everyone for free and I like to create simple "
+"but functional projects. Every feature this plugin offers today will remain "
+"completely free, forever. That is a promise I intend to keep."
+msgstr ""
+"Herkesin ücretsiz olarak yararlanabileceği projeler geliştiriyorum ve basit "
+"ama işlevsel projeler yaratmayı seviyorum. Bu eklentinin bugün sunduğu tüm "
+"özellikler, sonsuza kadar tamamen ücretsiz kalacak. Bu, tutmayı kararlı "
+"olduğum bir söz."
+
+#: headers-security-advanced-hsts-wp.php:147
+#, php-format
+msgid ""
+"Maintaining a plugin trusted by 100,000+ sites takes constant work: security "
+"patches, WordPress updates, new browser standards, support. To fund this "
+"effort, I built %1$sShield%2$s — a set of brand-new advanced tools for "
+"professionals who need more. Nothing existing moves behind a paywall. Your "
+"support through Shield directly funds free updates for everyone."
+msgstr ""
+"100.000'den fazla sitenin güvendiği bir eklentiyi sürdürmek sürekli bir emek "
+"gerektirir: güvenlik yamaları, WordPress güncellemeleri, yeni tarayıcı "
+"standartları, destek. Bu çabayı finanse etmek için, daha fazlasına ihtiyaç "
+"duyan profesyoneller için yepyeni bir dizi gelişmiş araç olan "
+"%1$sShield%2$s'i geliştirdim. Mevcut hiçbir şey ücretli bir erişim duvarının "
+"arkasına alınmadı. Shield aracılığıyla vereceğiniz destek, herkes için "
+"ücretsiz güncellemeleri doğrudan finanse ediyor."
+
+#: headers-security-advanced-hsts-wp.php:152
+#: headers-security-advanced-hsts-wp.php:723
+msgid "Buy me a coffee"
+msgstr "Bana bir kahve ısmarla"
+
+#: headers-security-advanced-hsts-wp.php:153
+#: headers-security-advanced-hsts-wp.php:726
+msgid "Donate via PayPal"
+msgstr "PayPal üzerinden bağış yapın"
+
+#: headers-security-advanced-hsts-wp.php:160
+#, php-format
+msgid ""
+"%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?"
+"%2$s Don't worry, I've got it covered!"
+msgstr ""
+"%1$s Headers Security Advanced & HSTS WP eklentisiyle ilgili yardıma mı "
+"ihtiyacınız var?%2$s Merak etmeyin, ben hallederim!"
+
+#: headers-security-advanced-hsts-wp.php:167
+#, php-format
+msgid ""
+"%1$sHelp me decide what the next features of this plugin will be!%2$s Take "
+"part in a nerdy survey!"
+msgstr ""
+"%1$sBu eklentinin gelecekteki özelliklerinin ne olacağına karar vermeme "
+"yardım edin!%2$s Bu meraklı anketimize katılın!"
+
+#: headers-security-advanced-hsts-wp.php:182
+msgid "Quick selection:"
+msgstr "Hızlı seçim:"
+
+#: headers-security-advanced-hsts-wp.php:184
+msgid "Strict Transport Security (HSTS)"
+msgstr "Sıkı Ulaşım Güvenliği (HSTS)"
+
+#: headers-security-advanced-hsts-wp.php:185
+msgid "Content Security Policy (CSP)"
+msgstr "İçerik güvenliği ilkesi (CSP)"
+
+#: headers-security-advanced-hsts-wp.php:186
+msgid "Permissions Policy"
+msgstr "İzin Politikası"
+
+#: headers-security-advanced-hsts-wp.php:195
+msgid "Max-Age: "
+msgstr "En üst yaş: "
+
+#: headers-security-advanced-hsts-wp.php:202
+msgid ""
+"The Max-Age parameter specifies the period of time (in seconds) for which "
+"the browser should store the HSTS information. During this time period, the "
+"browser will always use HTTPS to communicate with the website, even if the "
+"visitor has entered \"http\" or an HTTP link in the address bar. This helps "
+"protect the website and its visitors from man-in-the-middle (MITM) attacks "
+"and other security threats."
+msgstr ""
+"Max-Age parametresi, tarayıcının HSTS bilgilerini saklaması gereken süreyi "
+"(saniye cinsinden) belirtir. Bu süre boyunca, ziyaretçi adres çubuğuna "
+"\"http\" yazmış veya bir HTTP bağlantısı girmiş olsa bile, tarayıcı web "
+"sitesi ile iletişim kurarken her zaman HTTPS kullanır. Bu, web sitesini ve "
+"ziyaretçilerini ortadaki adam (MITM) saldırıları ve diğer güvenlik "
+"tehditlerinden korumaya yardımcı olur."
+
+#: headers-security-advanced-hsts-wp.php:213
+msgid ""
+"It is advisable to set \"max-age\" to a high value, such as a full year "
+"(31536000 seconds). This ensures that browsers continue to store security "
+"information for a long period of time, which helps protect users from man-in-"
+"the-middle attacks. However, it is important to keep in mind that setting "
+"the value too high could cause problems if you need to change your site's "
+"SSL configuration in the future. Therefore, it is important to carefully "
+"consider your usage and security needs before setting the value."
+msgstr ""
+"\"max-age\" değerini bir yıl (31536000 saniye) gibi yüksek bir değere "
+"ayarlamanız tavsiye edilir. Bu, tarayıcıların güvenlik bilgilerini uzun bir "
+"süre boyunca saklamasını sağlar ve böylece kullanıcıları ortadaki adam "
+"saldırılarına karşı korumaya yardımcı olur. Ancak, gelecekte sitenizin SSL "
+"yapılandırmasını değiştirmeniz gerektiğinde, bu değeri çok yüksek "
+"ayarlamanın sorunlara yol açabileceğini unutmamanız önemlidir. Bu nedenle, "
+"değeri ayarlamadan önce kullanım ve güvenlik ihtiyaçlarınızı dikkatlice "
+"değerlendirmeniz önemlidir."
+
+#: headers-security-advanced-hsts-wp.php:223
+msgid "Include Subdomains: "
+msgstr "Alt alan adlarını dahil et: "
+
+#: headers-security-advanced-hsts-wp.php:231
+msgid ""
+"The \"includeSubDomains\" flag specifies that the effect of the header "
+"should also be applied to subdomains of the domain. When this directive is "
+"present, all requests to any subdomains of your domain are automatically "
+"redirected to the HTTPS protocol, providing enhanced security for the "
+"website and the users who visit it."
+msgstr ""
+"\"includeSubDomains\" bayrağı, başlığın etkisinin alan adının alt alan "
+"adlarına da uygulanması gerektiğini belirtir. Bu yönerge mevcut olduğunda, "
+"alan adınızın tüm alt alan adlarına gelen istekler otomatik olarak HTTPS "
+"protokolüne yönlendirilir; bu da web sitesi ve siteyi ziyaret eden "
+"kullanıcılar için daha yüksek güvenlik sağlar."
+
+#: headers-security-advanced-hsts-wp.php:242
+msgid ""
+"We recommend enabling the \"includeSubDomains\" option in the HSTS header to "
+"ensure that all subsections of your site (subdomains) are only loaded via "
+"HTTPS. However, before enabling this flag, it is important to ensure that "
+"all subdomains, resources and web services working under your domain are "
+"available via HTTPS and that there are no compatibility issues with any "
+"external services used by your site."
+msgstr ""
+"Sitenizin tüm alt bölümlerinin (alt etki alanlarının) yalnızca HTTPS "
+"üzerinden yüklenmesini sağlamak için HSTS başlığındaki \"includeSubDomains\" "
+"seçeneğini etkinleştirmenizi öneririz. Ancak, bu seçeneği etkinleştirmeden "
+"önce, etki alanınız altında çalışan tüm alt etki alanlarının, kaynakların ve "
+"web hizmetlerinin HTTPS üzerinden erişilebilir olduğundan ve siteniz "
+"tarafından kullanılan harici hizmetlerle herhangi bir uyumluluk sorunu "
+"bulunmadığından emin olmanız önemlidir."
+
+#: headers-security-advanced-hsts-wp.php:253
+msgid "Preload: "
+msgstr "Ön yükleme: "
+
+#: headers-security-advanced-hsts-wp.php:262
+#, php-format
+msgid ""
+"The \"preload\" flag allows the website to be included in the %1$sHSTS "
+"preload list%2$s, which instructs browsers to always use HTTPS connection "
+"for the site and its subdomains, without ever making insecure HTTP requests."
+msgstr ""
+"\"preload\" bayrağı, web sitesinin %1$sHSTS ön yükleme listesine%2$s "
+"eklenmesini sağlar; bu liste, tarayıcılara site ve alt alan adları için "
+"hiçbir zaman güvenli olmayan HTTP istekleri yapmadan her zaman HTTPS "
+"bağlantısı kullanmalarını bildirir."
+
+#: headers-security-advanced-hsts-wp.php:277
+#, php-format
+msgid ""
+"Enabling preload further helps prevent any potential man-in-the-middle "
+"attacks, thus improving connection security as far as it concerns HSTS. "
+"Please note that even if this flag is enabled, your website still needs to "
+"be manually submitted to the list. Please also note that inclusion in the "
+"preload list has permanent consequences and is not easy to undo, so you "
+"should only enable this flag and submit your website after making sure that "
+"all of the resources and services within your domain (and its subdomains, if "
+"includeSubDomains is also enabled) are indeed accessible and functional via "
+"HTTPS. %1$sLearn more%2$s."
+msgstr ""
+"Ön yükleme özelliğini etkinleştirmek, olası ortadaki adam saldırılarını "
+"önlemeye yardımcı olur ve böylece HSTS açısından bağlantı güvenliğini "
+"artırır. Bu bayrağın etkinleştirilse bile, web sitenizin yine de listeye "
+"manuel olarak eklenmesi gerektiğini lütfen unutmayın. Ayrıca, ön yükleme "
+"listesine eklenmenin kalıcı sonuçları olduğunu ve geri alınmasının kolay "
+"olmadığını lütfen unutmayın; bu nedenle, bu bayrağı yalnızca etki "
+"alanınızdaki (ve includeSubDomains da etkinleştirilmişse alt etki "
+"alanlarındaki) tüm kaynakların ve hizmetlerin HTTPS üzerinden gerçekten "
+"erişilebilir ve işlevsel olduğundan emin olduktan sonra etkinleştirmeli ve "
+"web sitenizi göndermelisiniz. %1$sDaha fazla bilgi edinin%2$s."
+
+#: headers-security-advanced-hsts-wp.php:292
+msgid "CSP Header Contents"
+msgstr "CSP Başlığı İçeriği"
+
+#: headers-security-advanced-hsts-wp.php:299
+msgid ""
+"HTTP Content-Security-Policy header controls website resources, reducing XSS "
+"risk by specifying allowed server origins and script endpoints."
+msgstr ""
+"HTTP Content-Security-Policy başlığı, web sitesi kaynaklarını denetleyerek "
+"izin verilen sunucu kaynaklarını ve komut dosyası uç noktalarını "
+"belirleyerek XSS riskini azaltır."
+
+#: headers-security-advanced-hsts-wp.php:316
+msgid "CSP Report URI"
+msgstr "CSP Raporu URI'si"
+
+#: headers-security-advanced-hsts-wp.php:320
+msgid ""
+"Enter your custom URL (Sentry, URIports, Datadog, and Report URI) for CSP "
+"violation reports."
+msgstr ""
+"CSP ihlali raporları için özel URL'nizi (Sentry, URIports, Datadog ve Rapor "
+"URI'si) girin."
+
+#: headers-security-advanced-hsts-wp.php:332
+msgid "Permissions Policy Contents"
+msgstr "İzin Politikası İçindekiler"
+
+#: headers-security-advanced-hsts-wp.php:339
+msgid ""
+"The HTTP Permissions-Policy header provides a mechanism to allow and deny "
+"the use of browser features in a document or within any <iframe> elements in "
+"the document."
+msgstr ""
+"HTTP Permissions-Policy başlığı, bir belgede veya belgedeki herhangi bir "
+"<iframe> öğesi içinde tarayıcı özelliklerinin kullanımına izin vermek ya da "
+"bunu engellemek için bir mekanizma sağlar."
+
+#: headers-security-advanced-hsts-wp.php:361
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: headers-security-advanced-hsts-wp.php:368
+msgid ""
+"The X-Frame-Options HTTP response header can be used to indicate whether or "
+"not a browser should be allowed to render a page in a <frame>, <iframe>, "
+"<embed> or <object>. Sites can use this to avoid click-jacking attacks, by "
+"ensuring that their content is not embedded into other sites."
+msgstr ""
+"X-Frame-Options HTTP yanıt başlığı, bir tarayıcının bir sayfayı <frame>, "
+"<iframe>, <embed> veya <object> biçiminde görüntülemesine izin verilip "
+"verilmeyeceğini belirtmek için kullanılabilir. Siteler, içeriklerinin başka "
+"sitelere gömülmemesini sağlayarak bu özelliği tıklama hırsızlığı "
+"saldırılarını önlemek amacıyla kullanabilir."
+
+#: headers-security-advanced-hsts-wp.php:389
+msgid "Resolve duplicate site headers (beta):"
+msgstr "Yinelenen site başlıklarını düzelt (beta):"
+
+#: headers-security-advanced-hsts-wp.php:393
+msgid "Disable (Strict-Transport-Security)."
+msgstr "Devre dışı bırak (Strict-Transport-Security)."
+
+#: headers-security-advanced-hsts-wp.php:398
+msgid "Disable (Permissions-Policy)."
+msgstr "Devre dışı bırak (İzin Politikası)."
+
+#: headers-security-advanced-hsts-wp.php:403
+msgid "Disable (X-Content-Type-Options)."
+msgstr "Devre dışı bırak (X-Content-Type-Options)."
+
+#: headers-security-advanced-hsts-wp.php:408
+msgid "Disable (X-Frame-Options)."
+msgstr "Devre dışı bırak (X-Frame-Options)."
+
+#: headers-security-advanced-hsts-wp.php:706
+msgid "Congratulations, you are safe!"
+msgstr "Tebrikler, güvendesin!"
+
+#: headers-security-advanced-hsts-wp.php:712
+#, php-format
+msgid ""
+"%1$sThe Headers Security Advanced & HSTS WP%2$s project implements HTTP "
+"response headers that your site can use to increase the security of your "
+"website. The plug-in will automatically set up all Best Practices (you don’t "
+"have to think about anything). You will also be able to change the headers "
+"simply in the plugin settings."
+msgstr ""
+"%1$sHeaders Security Advanced & HSTS WP%2$s projesi, web sitenizin "
+"güvenliğini artırmak için kullanabileceğiniz HTTP yanıt başlıklarını "
+"uygular. Eklenti, tüm en iyi uygulamaları otomatik olarak yapılandırır "
+"(hiçbir şey düşünmenize gerek kalmaz). Ayrıca, eklenti ayarlarından bu "
+"başlıkları kolayca değiştirebilirsiniz."
+
+#: headers-security-advanced-hsts-wp.php:735
+#, php-format
+msgid "Security is a right, not a privilege. Plugin version %s."
+msgstr "Güvenlik bir ayrıcalık değil, bir haktır. Eklenti sürümü %s."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:40
+msgid "Your site is not using HTTPS"
+msgstr "Siteniz HTTPS kullanmıyor"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:41
+msgid ""
+"HSTS requires HTTPS. Enable SSL certificate first, then configure HSTS. Most "
+"hosting providers offer free SSL via Let's Encrypt."
+msgstr ""
+"HSTS, HTTPS gerektirir. Önce SSL sertifikasını etkinleştirin, ardından "
+"HSTS'yi yapılandırın. Çoğu barındırma sağlayıcısı, Let's Encrypt "
+"aracılığıyla ücretsiz SSL sunmaktadır."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:42
+msgid "Contact your hosting provider to enable SSL/HTTPS."
+msgstr ""
+"SSL/HTTPS'yi etkinleştirmek için barındırma sağlayıcınızla iletişime geçin."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:51
+msgid "HSTS max-age too short"
+msgstr "HSTS max-age süresi çok kısa"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:53
+#, php-format
+msgid ""
+"Your max-age is %1$s seconds (%2$s days). For HSTS preload list, it must be "
+"at least 31536000 (1 year). A longer max-age means browsers will remember to "
+"always use HTTPS for your site."
+msgstr ""
+"max-age değeriniz %1$s saniye (%2$s gün) olarak ayarlanmış. HSTS ön yükleme "
+"listesi için bu değer en az 31536000 (1 yıl) olmalıdır. Daha uzun bir max-"
+"age değeri, tarayıcıların siteniz için her zaman HTTPS kullanmayı "
+"hatırlayacağı anlamına gelir."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:57
+msgid "Go to Settings → Max-Age and set it to 63072000 (2 years, recommended)."
+msgstr ""
+"Ayarlar → Max-Age bölümüne gidin ve değeri 63072000 olarak ayarlayın (2 yıl, "
+"önerilen ayar)."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:66
+msgid "Ready for HSTS Preload"
+msgstr "HSTS Ön Yüklemesi için Hazır"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:67
+msgid ""
+"Your site meets the requirements for the HSTS Preload list. This means "
+"browsers will ALWAYS use HTTPS for your site, even on the first visit. It's "
+"the highest level of HTTPS protection."
+msgstr ""
+"Siteniz HSTS Ön Yükleme listesi için gerekli şartları karşılıyor. Bu, "
+"tarayıcıların sitenize ilk ziyaretlerinde bile HER ZAMAN HTTPS kullanacağı "
+"anlamına geliyor. Bu, HTTPS korumasının en üst düzeyidir."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:68
+msgid "Enable Preload in settings, then submit your site at hstspreload.org."
+msgstr ""
+"Ayarlar bölümünden \"Ön Yükleme\" seçeneğini etkinleştirin, ardından "
+"sitenizi hstspreload.org adresine gönderin."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:80
+msgid "Content Security Policy is using default (basic) settings"
+msgstr "İçerik Güvenlik Politikası varsayılan (temel) ayarları kullanıyor"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:81
+msgid ""
+"The default CSP only enforces HTTPS upgrades. A custom CSP tells browsers "
+"exactly which resources are allowed to load on your site, blocking "
+"everything else. This is the most powerful protection against XSS attacks."
+msgstr ""
+"Varsayılan CSP yalnızca HTTPS'ye geçişi zorunlu kılar. Özel bir CSP ise "
+"tarayıcılara sitenizde hangi kaynakların yüklenmesine izin verildiğini tam "
+"olarak belirtir ve geri kalan her şeyi engeller. Bu, XSS saldırılarına karşı "
+"en etkili koruma yöntemidir."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:82
+msgid ""
+"Configure a custom CSP in Settings → CSP Header Contents. Start with report-"
+"only mode to test before enforcing."
+msgstr ""
+"Ayarlar → CSP Başlık İçeriği bölümünden özel bir CSP yapılandırın. "
+"Uygulamaya geçmeden önce test etmek için önce sadece raporlama moduyla "
+"başlayın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:91
+msgid "CSP allows inline scripts (unsafe-inline)"
+msgstr "CSP, satır içi komut dosyalarına izin verir (unsafe-inline)"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:92
+msgid ""
+"This is common for WordPress sites but weakens CSP protection. Many plugins "
+"inject inline scripts, making it hard to avoid. For maximum security, "
+"consider using nonce-based CSP in the future."
+msgstr ""
+"Bu durum WordPress sitelerinde sıkça görülür, ancak CSP korumasını "
+"zayıflatır. Birçok eklenti satır içi komut dosyaları eklediğinden, bunu "
+"önlemek zordur. Maksimum güvenlik için, gelecekte nonce tabanlı CSP "
+"kullanmayı düşünün."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:93
+msgid ""
+"This is acceptable for most WordPress sites. Focus on other headers first."
+msgstr ""
+"Bu, çoğu WordPress sitesi için yeterlidir. Öncelikle diğer başlıklara "
+"odaklanın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:102
+msgid "CSP uses wildcard (*)"
+msgstr "CSP, joker karakteri (*) kullanır"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:103
+msgid ""
+"A wildcard allows resources from any domain, which reduces the effectiveness "
+"of CSP. Try to specify exact domains instead."
+msgstr ""
+"Joker karakter, herhangi bir etki alanından gelen kaynaklara izin verir ve "
+"bu da CSP'nin etkinliğini azaltır. Bunun yerine tam etki alanlarını "
+"belirtmeye çalışın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:104
+msgid ""
+"Replace * with specific domains (e.g., *.googleapis.com, *.cloudflare.com)."
+msgstr ""
+"* işaretini belirli alan adlarıyla değiştirin (ör. *.googleapis.com, "
+"*.cloudflare.com)."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:115
+msgid "CSP violation reporting not configured"
+msgstr "CSP ihlali raporlaması yapılandırılmamış"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:116
+msgid ""
+"Without CSP reporting, you won't know when your policy blocks something "
+"unexpected. With Shield, you can use the built-in CSP analytics endpoint or "
+"connect Sentry/Datadog."
+msgstr ""
+"CSP raporlaması olmadan, politikanızın ne zaman beklenmedik bir durumu "
+"engellediğini bilemezsiniz. Shield ile yerleşik CSP analiz uç noktasını "
+"kullanabilir veya Sentry/Datadog'a bağlanabilirsiniz."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:117
+msgid ""
+"Configure the CSP Report URI in settings or use the built-in Shield "
+"analytics endpoint."
+msgstr ""
+"Ayarlar bölümünden CSP Rapor URI'sini yapılandırın veya yerleşik Shield "
+"analitik uç noktasını kullanın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:133
+msgid "Camera/Microphone permissions too open"
+msgstr "Kamera/mikrofon izinleri çok geniş"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:134
+msgid ""
+"Your Permissions Policy allows any site to access camera and microphone. "
+"Unless your site needs these features, restrict them to prevent unauthorized "
+"access."
+msgstr ""
+"İzin Politikası, herhangi bir sitenin kameraya ve mikrofona erişmesine izin "
+"vermektedir. Sitenizin bu özelliklere ihtiyacı yoksa, yetkisiz erişimi "
+"önlemek için bu erişimi kısıtlayın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:135
+msgid ""
+"Set camera=() and microphone=() in Permissions Policy to disable them "
+"completely."
+msgstr ""
+"İzin Politikası'nda camera=() ve microphone=() değerlerini ayarlayarak "
+"bunları tamamen devre dışı bırakın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:149
+msgid "X-Frame-Options ALLOW-FROM is set without a URL"
+msgstr "X-Frame-Options ALLOW-FROM, URL belirtilmeden ayarlanmış"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:150
+msgid ""
+"ALLOW-FROM requires a specific URL. Without it, the header is invalid and "
+"your site is vulnerable to clickjacking attacks."
+msgstr ""
+"ALLOW-FROM başlığı için belirli bir URL gereklidir. Bu URL olmadan başlık "
+"geçersiz olur ve siteniz tıklama hırsızlığı saldırılarına karşı savunmasız "
+"kalır."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:151
+msgid "Either add a specific URL or switch to DENY/SAMEORIGIN."
+msgstr "Ya belirli bir URL ekleyin ya da DENY/SAMEORIGIN seçeneğine geçin."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:159
+msgid "ALLOW-FROM is deprecated"
+msgstr "ALLOW-FROM artık kullanılmamaktadır"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:160
+msgid ""
+"The ALLOW-FROM directive is not supported by modern browsers (Chrome, "
+"Firefox). Use CSP frame-ancestors directive instead for the same effect with "
+"better browser support."
+msgstr ""
+"ALLOW-FROM yönergesi, güncel tarayıcılar (Chrome, Firefox) tarafından "
+"desteklenmemektedir. Daha iyi tarayıcı desteği ile aynı sonucu elde etmek "
+"için bunun yerine CSP frame-ancestors yönergesini kullanın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:161
+msgid ""
+"Switch to DENY or SAMEORIGIN and use CSP frame-ancestors for fine-grained "
+"control."
+msgstr ""
+"DENY veya SAMEORIGIN seçeneğine geçin ve daha ayrıntılı kontrol için CSP "
+"çerçeve atalarını kullanın."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:177
+msgid "Some headers are disabled to avoid duplicates"
+msgstr "Yinelemeleri önlemek için bazı başlıklar devre dışı bırakılmıştır"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:178
+msgid ""
+"You've disabled some headers, likely because your hosting server already "
+"sets them. This is correct and prevents duplicate header issues. Make sure "
+"the server-level headers are properly configured."
+msgstr ""
+"Bazı başlıkları devre dışı bırakmışsınız; muhtemelen barındırma sunucunuz "
+"bunları zaten ayarladığı içindir. Bu doğru bir işlemdir ve başlıkların "
+"çakışması sorunlarını önler. Sunucu düzeyindeki başlıkların doğru şekilde "
+"yapılandırıldığından emin olun."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:179
+msgid ""
+"Verify your server headers using the External Scan link in the dashboard."
+msgstr ""
+"Kontrol panelindeki \"Dış Tarama\" bağlantısını kullanarak sunucu "
+"başlıklarınızı kontrol edin."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:189
+msgid "🎉 Excellent! Your security headers are well configured."
+msgstr "🎉 Harika! Güvenlik başlıklarınız doğru şekilde yapılandırılmış."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:190
+msgid ""
+"All major security headers are active and properly configured. Keep an eye "
+"on the weekly scan reports for any changes."
+msgstr ""
+"Tüm önemli güvenlik başlıkları etkin ve doğru şekilde yapılandırılmıştır. "
+"Herhangi bir değişiklik olup olmadığını görmek için haftalık tarama "
+"raporlarını takip edin."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:191
+msgid "No action needed. Your site is well protected."
+msgstr ""
+"Herhangi bir işlem yapmanıza gerek yok. Siteniz güvenli bir şekilde "
+"korunuyor."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:212
+#: pro/includes/class-hsts-pro-csp-analytics.php:188
+#: pro/includes/class-hsts-pro-dashboard.php:160
+#: pro/includes/class-hsts-pro-license.php:249
+#: pro/includes/class-hsts-pro-license.php:303
+#: pro/includes/class-hsts-pro-scanner.php:271
+#: pro/includes/class-hsts-pro-webhooks.php:267
+#: pro/includes/class-hsts-pro-webhooks.php:413
+msgid "Insufficient permissions."
+msgstr "Yetersiz izinler."
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:234
+msgid "🚨 Critical"
+msgstr "🚨 Acil"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:235
+msgid "⚠️ High"
+msgstr "⚠️ Yüksek"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:236
+msgid "💡 Medium"
+msgstr "💡 Orta"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:237
+msgid "ℹ️ Low"
+msgstr "ℹ️ Düşük"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:238
+msgid "📋 Info"
+msgstr "🟓 Bilgi"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:239
+msgid "✅ All Good"
+msgstr "✅ Her şey yolunda"
+
+#: pro/includes/class-hsts-pro-ai-advisor.php:244 pro/loader.php:287
+msgid "Security Advisor"
+msgstr "Güvenlik Danışmanı"
+
+#. translators: %1$d old score, %2$d new score
+#: pro/includes/class-hsts-pro-alerts.php:47
+#, php-format
+msgid "📉 Security score dropped from %1$d to %2$d."
+msgstr "🟓 Güvenlik puanı %1$d'dan %2$d'e düştü."
+
+#. translators: %s is header name
+#: pro/includes/class-hsts-pro-alerts.php:63
+#, php-format
+msgid "❌ Header %s was removed or is no longer present."
+msgstr "❌ Başlık %s kaldırıldı veya artık mevcut değil."
+
+#: pro/includes/class-hsts-pro-dashboard.php:172
+msgid "You do not have sufficient permissions."
+msgstr "Yeterli izinleriniz yok."
+
+#: pro/includes/class-hsts-pro-dashboard.php:186
+msgid "Security Headers Dashboard"
+msgstr "Güvenlik Başlıkları Panosu"
+
+#: pro/includes/class-hsts-pro-dashboard.php:208
+msgid "🎉 Excellent! Your site is well protected."
+msgstr "🎉 Harika! Siteniz iyi korunuyor."
+
+#: pro/includes/class-hsts-pro-dashboard.php:210
+msgid "⚠️ Good, but there's room for improvement."
+msgstr "⚠️ Fena değil, ama daha iyi olabilir."
+
+#: pro/includes/class-hsts-pro-dashboard.php:212
+msgid ""
+"🚨 Your site needs attention. Several headers are missing or misconfigured."
+msgstr ""
+"🚨 Sitenize dikkat etmeniz gerekiyor. Bazı başlıklar eksik veya yanlış "
+"yapılandırılmış."
+
+#: pro/includes/class-hsts-pro-dashboard.php:219
+#, php-format
+msgid ""
+"Your security headers are protecting against %1$s out of %2$s threat "
+"categories. Each header blocks a specific type of attack."
+msgstr ""
+"Güvenlik başlıklarınız, %2$s tehdit kategorisinden %1$s tanesine karşı "
+"koruma sağlıyor. Her başlık, belirli bir saldırı türünü engelliyor."
+
+#: pro/includes/class-hsts-pro-dashboard.php:229
+#, php-format
+msgid "Last scan: %s"
+msgstr "Son tarama: %s"
+
+#: pro/includes/class-hsts-pro-dashboard.php:230
+msgid "ago"
+msgstr "önce"
+
+#: pro/includes/class-hsts-pro-dashboard.php:242
+msgid "🛡️ Header Status"
+msgstr "🛡️ Başlık Durumu"
+
+#: pro/includes/class-hsts-pro-dashboard.php:248
+#: pro/includes/class-hsts-pro-report.php:192
+msgid "Header"
+msgstr "Başlık"
+
+#: pro/includes/class-hsts-pro-dashboard.php:249
+msgid "Status"
+msgstr "Durum"
+
+#: pro/includes/class-hsts-pro-dashboard.php:250
+msgid "What it protects"
+msgstr "Neyi korur?"
+
+#: pro/includes/class-hsts-pro-dashboard.php:257
+msgid "Secure"
+msgstr "Güvenli"
+
+#: pro/includes/class-hsts-pro-dashboard.php:259
+msgid "Needs work"
+msgstr "Çalışılması gerekiyor"
+
+#: pro/includes/class-hsts-pro-dashboard.php:260 pro/loader.php:349
+msgid "Missing"
+msgstr "Eksik"
+
+#: pro/includes/class-hsts-pro-dashboard.php:284
+msgid "Configure Headers"
+msgstr "Başlıkları Yapılandır"
+
+#: pro/includes/class-hsts-pro-dashboard.php:285
+msgid "Customize HSTS, CSP, and other security headers."
+msgstr "HSTS, CSP ve diğer güvenlik başlıklarını özelleştirin."
+
+#: pro/includes/class-hsts-pro-dashboard.php:289
+msgid "External Scan"
+msgstr "Dış Tarama"
+
+#: pro/includes/class-hsts-pro-dashboard.php:290
+msgid "Verify your headers on SecurityHeaders.com"
+msgstr "SecurityHeaders.com'da başlıklarınızı kontrol edin"
+
+#: pro/includes/class-hsts-pro-dashboard.php:305
+msgid "Forces encrypted (HTTPS) connection. Blocks eavesdropping attacks."
+msgstr ""
+"Şifreli (HTTPS) bağlantı kurulmasını zorunlu kılar. Dinleme saldırılarını "
+"engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:306
+msgid "Controls what resources can load. Blocks code injection and XSS."
+msgstr ""
+"Hangi kaynakların yüklenebileceğini kontrol eder. Kod enjeksiyonunu ve "
+"XSS'yi engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:307
+msgid ""
+"Prevents browser from guessing file types. Blocks MIME-sniffing attacks."
+msgstr ""
+"Tarayıcının dosya türlerini tahmin etmesini engeller. MIME-sniffing "
+"saldırılarını engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:308
+msgid "Prevents your site from being embedded in frames. Blocks clickjacking."
+msgstr ""
+"Sitenizin çerçevelere yerleştirilmesini engeller. Tıklama hırsızlığını "
+"engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:309
+msgid "Controls what info is sent when users click links. Protects privacy."
+msgstr ""
+"Kullanıcılar bağlantılara tıkladığında hangi bilgilerin gönderileceğini "
+"belirler. Gizliliği korur."
+
+#: pro/includes/class-hsts-pro-dashboard.php:310
+msgid ""
+"Controls browser features (camera, mic, location). Blocks unauthorized "
+"access."
+msgstr ""
+"Tarayıcının özelliklerini (kamera, mikrofon, konum) kontrol eder. Yetkisiz "
+"erişimi engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:311
+msgid "Isolates your site from pop-ups. Blocks cross-origin attacks."
+msgstr ""
+"Sitenizi pop-up pencerelerden korur. Kaynaklar arası saldırıları engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:312
+msgid "Controls how resources are loaded cross-origin. Adds isolation."
+msgstr ""
+"Kaynakların farklı kaynaklardan nasıl yükleneceğini kontrol eder. İzolasyon "
+"sağlar."
+
+#: pro/includes/class-hsts-pro-dashboard.php:313
+msgid "Controls who can load your resources. Blocks data theft."
+msgstr ""
+"Kaynaklarınızı kimlerin yükleyebileceğini kontrol eder. Veri hırsızlığını "
+"engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:314
+msgid "Blocks Flash/PDF from loading cross-domain data."
+msgstr "Flash/PDF'nin etki alanları arası verileri yüklemesini engeller."
+
+#: pro/includes/class-hsts-pro-dashboard.php:317
+msgid "Security header active."
+msgstr "Güvenlik başlığı etkin."
+
+#: pro/includes/class-hsts-pro-license.php:256
+msgid "Invalid license key format."
+msgstr "Lisans anahtarı biçimi geçersiz."
+
+#: pro/includes/class-hsts-pro-license.php:289
+msgid "License activated! Shield features are now available. Reloading..."
+msgstr ""
+"Lisans etkinleştirildi! Shield özellikleri artık kullanılabilir. Yeniden "
+"yükleniyor..."
+
+#: pro/includes/class-hsts-pro-license.php:320
+msgid "License deactivated. Free features remain active."
+msgstr "Lisans devre dışı bırakıldı. Ücretsiz özellikler aktif kalır."
+
+#: pro/includes/class-hsts-pro-license.php:394
+msgid "Could not reach license server. Please try again."
+msgstr "Lisans sunucusuna bağlanılamadı. Lütfen tekrar deneyin."
+
+#: pro/includes/class-hsts-pro-license.php:402
+msgid "Invalid response from license server."
+msgstr "Lisans sunucusundan geçersiz yanıt alındı."
+
+#: pro/includes/class-hsts-pro-license.php:430
+msgid "License key not found. Please check and try again."
+msgstr "Lisans anahtarı bulunamadı. Lütfen kontrol edip tekrar deneyin."
+
+#: pro/includes/class-hsts-pro-license.php:433
+msgid "This license has been disabled. Contact support."
+msgstr "Bu lisans devre dışı bırakılmıştır. Destek ekibiyle iletişime geçin."
+
+#: pro/includes/class-hsts-pro-license.php:436
+msgid "This license has expired. Please renew."
+msgstr "Bu lisansın süresi dolmuştur. Lütfen yenileyin."
+
+#: pro/includes/class-hsts-pro-license.php:439
+msgid ""
+"Maximum activations reached. Deactivate on another site first, or contact "
+"support."
+msgstr ""
+"Maksimum etkinleştirme sınırına ulaşıldı. Önce başka bir sitedeki "
+"etkinleştirmeyi kaldırın veya destek ekibiyle iletişime geçin."
+
+#: pro/includes/class-hsts-pro-license.php:444
+msgid "License validation failed. Please check your key."
+msgstr "Lisans doğrulama başarısız oldu. Lütfen anahtarınızı kontrol edin."
+
+#: pro/includes/class-hsts-pro-report.php:162
+msgid "points added by the plugin"
+msgstr "eklenti tarafından eklenen puanlar"
+
+#: pro/includes/class-hsts-pro-report.php:169
+#: pro/includes/class-hsts-pro-report.php:193
+msgid "Without Plugin"
+msgstr "Eklenti olmadan"
+
+#: pro/includes/class-hsts-pro-report.php:174
+#, php-format
+msgid "%d of 10 headers from server"
+msgstr "Sunucudan gelen 10 başlıktan %d"
+
+#: pro/includes/class-hsts-pro-report.php:178
+#: pro/includes/class-hsts-pro-report.php:194
+msgid "With Plugin"
+msgstr "Eklenti ile"
+
+#: pro/includes/class-hsts-pro-report.php:183
+#, php-format
+msgid "%d of 10 headers active"
+msgstr "10 başlıktan %d'ı etkin"
+
+#: pro/includes/class-hsts-pro-report.php:188 pro/loader.php:324
+msgid "Header Status"
+msgstr "Başlık Durumu"
+
+#: pro/includes/class-hsts-pro-report.php:204
+msgid "Issues Found"
+msgstr "Bulunan Sorunlar"
+
+#: pro/includes/class-hsts-pro-report.php:217
+msgid "Verify independently:"
+msgstr "Bağımsız olarak doğrulayın:"
+
+#. translators: %s is the error message
+#: pro/includes/class-hsts-pro-scanner.php:54
+#, php-format
+msgid "Could not reach site: %s"
+msgstr "Siteye ulaşılamadı: %s"
+
+#: pro/includes/class-hsts-pro-scanner.php:133
+msgid "HSTS header is missing. Your site is vulnerable to downgrade attacks."
+msgstr ""
+"HSTS başlığı eksik. Siteniz sürüm düşürme saldırılarına karşı savunmasızdır."
+
+#: pro/includes/class-hsts-pro-scanner.php:143
+msgid ""
+"Increase max-age to at least 31536000 (1 year) for HSTS preload eligibility."
+msgstr ""
+"HSTS ön yükleme şartlarını karşılamak için max-age değerini en az 31536000'e "
+"(1 yıl) yükseltin."
+
+#: pro/includes/class-hsts-pro-scanner.php:151
+msgid "Consider adding preload directive for HSTS preload list submission."
+msgstr ""
+"HSTS ön yükleme listesine gönderim için bir ön yükleme yönergesi eklemeyi "
+"düşünün."
+
+#: pro/includes/class-hsts-pro-scanner.php:165
+msgid "CSP header is missing. Your site is vulnerable to XSS attacks."
+msgstr "CSP başlığı eksik. Siteniz XSS saldırılarına karşı savunmasızdır."
+
+#: pro/includes/class-hsts-pro-scanner.php:173
+msgid ""
+"CSP allows unsafe-inline scripts. Consider using nonce-based or hash-based "
+"CSP for stronger protection."
+msgstr ""
+"CSP, güvenli olmayan satır içi komut dosyalarına izin verir. Daha güçlü "
+"koruma için nonce tabanlı veya hash tabanlı CSP kullanmayı düşünün."
+
+#: pro/includes/class-hsts-pro-scanner.php:180
+msgid ""
+"CSP allows unsafe-eval. This permits dynamic code execution, which is a "
+"security risk."
+msgstr ""
+"CSP, unsafe-eval özelliğini desteklemektedir. Bu, dinamik kod yürütülmesine "
+"olanak tanır ve bu da bir güvenlik riski oluşturur."
+
+#. translators: %s is header name
+#: pro/includes/class-hsts-pro-scanner.php:195
+#, php-format
+msgid "Header %s is not present in the response."
+msgstr "Yanıtta %s numaralı başlık bulunmuyor."
+
+#. translators: %s is header name
+#: pro/includes/class-hsts-pro-scanner.php:228
+#, php-format
+msgid ""
+"Duplicate header detected: %s. This can cause browser conflicts. Use the "
+"plugin's \"Resolve duplicate headers\" option."
+msgstr ""
+"Yinelenen başlık tespit edildi: %s. Bu durum tarayıcı çakışmalarına neden "
+"olabilir. Eklentinin \"Yinelenen başlıkları düzelt\" seçeneğini kullanın."
+
+#: pro/includes/class-hsts-pro-webhooks.php:86
+#, php-format
+msgid "Security score dropped from %1$d to %2$d"
+msgstr "Güvenlik puanı %1$d'dan %2$d'e düştü"
+
+#: pro/includes/class-hsts-pro-webhooks.php:102
+#, php-format
+msgid "Header removed: %s"
+msgstr "Başlık kaldırıldı: %s"
+
+#: pro/includes/class-hsts-pro-webhooks.php:122
+#, php-format
+msgid "Weekly scan completed. Score: %1$d/100 (Grade: %2$s)"
+msgstr "Haftalık tarama tamamlandı. Puan: %1$d/100 (Derece: %2$s)"
+
+#: pro/includes/class-hsts-pro-webhooks.php:280
+msgid "No webhook URL provided."
+msgstr "Webhook URL'si belirtilmemiştir."
+
+#: pro/includes/class-hsts-pro-webhooks.php:283
+msgid ""
+"This is a test notification from Headers Security Advanced & HSTS WP Shield."
+msgstr ""
+"Bu, Headers Security Advanced ve HSTS WP Shield'dan gelen bir test bildirimi."
+
+#: pro/includes/class-hsts-pro-webhooks.php:303
+msgid "Test notification sent!"
+msgstr "Test bildirimi gönderildi!"
+
+#: pro/includes/class-hsts-pro-webhooks.php:339
+msgid "Custom Webhook (JSON POST)"
+msgstr "Özel Webhook (JSON POST)"
+
+#: pro/includes/class-hsts-pro-webhooks.php:348
+msgid "Webhook Notifications"
+msgstr "Webhook Bildirimleri"
+
+#: pro/includes/class-hsts-pro-webhooks.php:360
+msgid "How to set up"
+msgstr "Nasıl kurulur"
+
+#: pro/includes/class-hsts-pro-webhooks.php:372 pro/loader.php:804
+msgid "Test"
+msgstr "Test"
+
+#: pro/includes/class-hsts-pro-webhooks.php:381
+msgid "Send notifications when:"
+msgstr "Aşağıdaki durumlarda bildirim gönder:"
+
+#: pro/includes/class-hsts-pro-webhooks.php:385 pro/loader.php:812
+msgid "Security score drops"
+msgstr "Güvenlik puanı düştü"
+
+#: pro/includes/class-hsts-pro-webhooks.php:386 pro/loader.php:812
+msgid "A header is removed"
+msgstr "Bir başlık kaldırılır"
+
+#: pro/includes/class-hsts-pro-webhooks.php:387 pro/loader.php:812
+msgid "Critical issues found"
+msgstr "Tespit edilen kritik sorunlar"
+
+#: pro/includes/class-hsts-pro-webhooks.php:388
+msgid "Every scan (including clean reports)"
+msgstr "Her tarama (sorunsuz raporlar dahil)"
+
+#: pro/includes/class-hsts-pro-webhooks.php:447
+msgid "Notification settings saved."
+msgstr "Bildirim ayarları kaydedildi."
+
+#: pro/loader.php:85
+msgid "Invalid export file."
+msgstr "Dışa aktarım dosyası geçersiz."
+
+#: pro/loader.php:109
+#, php-format
+msgid "Imported %d settings successfully. Reloading..."
+msgstr "%d ayar başarıyla içe aktarıldı. Yeniden yükleniyor..."
+
+#: pro/loader.php:155
+msgid "Unlock Shield"
+msgstr "Kalkanın Kilidini Aç"
+
+#: pro/loader.php:157
+msgid "Or enter your license key in the License tab."
+msgstr "Ya da Lisans sekmesine lisans anahtarınızı girin."
+
+#: pro/loader.php:190
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: pro/loader.php:191
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+#: pro/loader.php:193 pro/loader.php:777 pro/loader.php:779
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: pro/loader.php:194
+msgid "Export / Import"
+msgstr "Dışa/İçe aktar"
+
+#: pro/loader.php:195
+msgid "License"
+msgstr "Lisans"
+
+#: pro/loader.php:196
+msgid "Free vs Shield"
+msgstr "Free ve Shield"
+
+#: pro/loader.php:197
+msgid "FAQ"
+msgstr "SSS"
+
+#: pro/loader.php:235
+msgid ""
+"Security score (A-F), AI-powered recommendations, header status for all 10 "
+"security headers, automated scanning, and scan history."
+msgstr ""
+"Güvenlik puanı (A-F), yapay zeka destekli öneriler, 10 güvenlik başlığının "
+"tümü için durum bilgisi, otomatik tarama ve tarama geçmişi."
+
+#: pro/loader.php:260
+msgid "No scan yet"
+msgstr "Henüz tarama yapılmadı"
+
+#: pro/loader.php:264
+#, php-format
+msgid "%d/%d bonus headers"
+msgstr "%d/%d ek başlık"
+
+#: pro/loader.php:268
+msgid "Verify on SecurityHeaders.com"
+msgstr "SecurityHeaders.com'da kontrol edin"
+
+#: pro/loader.php:272
+#, php-format
+msgid "Last scan: %s ago"
+msgstr "Son tarama: %s önce"
+
+#: pro/loader.php:275
+msgid "Run Scan"
+msgstr "Taramayı Başlat"
+
+#: pro/loader.php:279
+msgid "Download Report"
+msgstr "Raporu İndir"
+
+#: pro/loader.php:325
+msgid "Grade based on 6 scored headers — aligned with SecurityHeaders.com"
+msgstr ""
+"6 adet puanlanmış başlığa dayalı derecelendirme — SecurityHeaders.com ile "
+"uyumlu"
+
+#: pro/loader.php:329
+msgid "Forces HTTPS. Blocks eavesdropping."
+msgstr "HTTPS kullanımını zorunlu kılar. Dinlemeyi engeller."
+
+#: pro/loader.php:330
+msgid "Controls allowed resources. Blocks XSS."
+msgstr "Kaynak erişimini denetler. XSS saldırılarını engeller."
+
+#: pro/loader.php:331
+msgid "Prevents MIME-sniffing attacks."
+msgstr "MIME-sniffing saldırılarını önler."
+
+#: pro/loader.php:332
+msgid "Blocks clickjacking via iframes."
+msgstr "İframe'ler aracılığıyla yapılan tıklama hırsızlığını engeller."
+
+#: pro/loader.php:333
+msgid "Controls referrer info. Protects privacy."
+msgstr "Yönlendiren bilgilerini kontrol eder. Gizliliği korur."
+
+#: pro/loader.php:334
+msgid "Controls camera, mic, location access."
+msgstr "Kamera, mikrofon ve konum erişimini kontrol eder."
+
+#: pro/loader.php:337
+msgid "Isolates from cross-origin pop-ups."
+msgstr "Farklı kaynaklardan gelen açılır pencereleri engeller."
+
+#: pro/loader.php:338
+msgid "Controls cross-origin resource loading."
+msgstr "Kaynakların farklı kaynaklardan yüklenmesini denetler."
+
+#: pro/loader.php:339
+msgid "Controls who can load your resources."
+msgstr "Kaynaklarınızı kimlerin yükleyebileceğini belirler."
+
+#: pro/loader.php:340
+msgid "Blocks Flash/PDF cross-domain data."
+msgstr "Flash/PDF'nin etki alanları arası veri alışverişini engeller."
+
+#: pro/loader.php:349 pro/loader.php:368 pro/loader.php:873
+msgid "Active"
+msgstr "Aktif"
+
+#: pro/loader.php:360
+msgid "BONUS HEADERS"
+msgstr "EK BAŞLIKLAR"
+
+#: pro/loader.php:361
+msgid "Extra protection — not scored by SecurityHeaders.com"
+msgstr "Ekstra koruma — SecurityHeaders.com tarafından puanlanmamıştır"
+
+#: pro/loader.php:368
+msgid "Not set"
+msgstr "Ayarlanmadı"
+
+#: pro/loader.php:384
+msgid "Score Trend"
+msgstr "Skor Eğilimi"
+
+#: pro/loader.php:385
+msgid ""
+"Tracks your security score over time. Each dot represents a scan. Hover to "
+"see details. Drops indicate a header was removed or misconfigured."
+msgstr ""
+"Güvenlik puanınızı zaman içinde takip eder. Her nokta bir taramayı temsil "
+"eder. Ayrıntıları görmek için fareyi üzerine getirin. Düşüşler, bir başlığın "
+"kaldırıldığını veya yanlış yapılandırıldığını gösterir."
+
+#: pro/loader.php:393
+msgid "Week"
+msgstr "Hafta"
+
+#: pro/loader.php:393
+msgid "Month"
+msgstr "Ay"
+
+#: pro/loader.php:393
+msgid "Year"
+msgstr "Yıl"
+
+#: pro/loader.php:398
+msgid "A / A+"
+msgstr "A / A+"
+
+#: pro/loader.php:399
+msgid "B / C"
+msgstr "B / C"
+
+#: pro/loader.php:400
+msgid "D / F"
+msgstr "D / F"
+
+#: pro/loader.php:401
+#, php-format
+msgid "%d scans"
+msgstr "%d tarama"
+
+#: pro/loader.php:408
+#, php-format
+msgid "Scan History (%d)"
+msgstr "Tarama Geçmişi (%d)"
+
+#: pro/loader.php:411
+msgid "Grade"
+msgstr "Sınıf"
+
+#: pro/loader.php:412
+msgid "Score"
+msgstr "Skor"
+
+#: pro/loader.php:413
+msgid "Date"
+msgstr "Tarih"
+
+#: pro/loader.php:414
+msgid "Issues"
+msgstr "Sorunlar"
+
+#: pro/loader.php:575
+msgid ""
+"CSP configuration guide with recommended tools, best practices, and real-"
+"time violation analytics to monitor what browsers are blocking on your site."
+msgstr ""
+"Sitenizde hangi tarayıcıların hangi içerikleri engellediğini izlemek için "
+"önerilen araçlar, en iyi uygulamalar ve gerçek zamanlı ihlal analizlerini "
+"içeren CSP yapılandırma kılavuzu."
+
+#: pro/loader.php:580
+msgid "CSP Guide"
+msgstr "CSP Kılavuzu"
+
+#: pro/loader.php:583
+msgid "CSP Analytics"
+msgstr "CSP Analitiği"
+
+#: pro/loader.php:589
+msgid "Content Security Policy — The Right Way"
+msgstr "İçerik Güvenlik Politikası — Doğru Yöntem"
+
+#: pro/loader.php:591
+msgid ""
+"CSP is the most powerful protection against XSS attacks, but every site is "
+"different. Page builders, third-party plugins, analytics, ads, and "
+"JavaScript-loaded resources all need to be included. No automated tool can "
+"guarantee a complete CSP — the safest approach is: start with Report-Only, "
+"monitor real violations, then build your policy from real data."
+msgstr ""
+"CSP, XSS saldırılarına karşı en etkili koruma yöntemidir, ancak her site "
+"birbirinden farklıdır. Sayfa oluşturucular, üçüncü taraf eklentiler, analiz "
+"araçları, reklamlar ve JavaScript ile yüklenen kaynakların tümü dikkate "
+"alınmalıdır. Hiçbir otomatik araç eksiksiz bir CSP'yi garanti edemez; en "
+"güvenli yaklaşım şudur: Önce \"Yalnızca Raporla\" seçeneğiyle başlayın, "
+"gerçek ihlalleri izleyin, ardından gerçek verilerden yola çıkarak ilkenizi "
+"oluşturun."
+
+#: pro/loader.php:596
+msgid "Recommended Tools"
+msgstr "Önerilen Araçlar"
+
+#: pro/loader.php:599
+msgid "Csper.io"
+msgstr "Csper.io"
+
+#: pro/loader.php:601
+msgid ""
+"Browser extension. Monitors real resources loaded in your browser. The most "
+"accurate way to build a CSP. Free Chrome/Firefox extension."
+msgstr ""
+"Tarayıcı uzantısı. Tarayıcınıza yüklenen gerçek kaynakları izler. CSP "
+"oluşturmanın en doğru yolu. Ücretsiz Chrome/Firefox uzantısı."
+
+#: pro/loader.php:604
+msgid "Google CSP Evaluator"
+msgstr "Google CSP Değerlendiricisi"
+
+#: pro/loader.php:606
+msgid ""
+"Paste your CSP to check for bypasses, unsafe directives, and missing "
+"protections. Free by Google."
+msgstr ""
+"CSP'nizi yapıştırarak baypaslar, güvenli olmayan yönergeler ve eksik "
+"korumalar olup olmadığını kontrol edin. Google tarafından ücretsiz olarak "
+"sunulmaktadır."
+
+#: pro/loader.php:609
+msgid "Report URI"
+msgstr "Rapor URI'si"
+
+#: pro/loader.php:611
+msgid ""
+"Professional CSP violation monitoring with dashboard and alerts. Free tier "
+"available. Paste the URL in Settings → CSP Report URI."
+msgstr ""
+"Kontrol paneli ve uyarılar içeren profesyonel CSP ihlali izleme hizmeti. "
+"Ücretsiz kullanım seçeneği mevcuttur. URL'yi Ayarlar → CSP Rapor URI'sına "
+"yapıştırın."
+
+#: pro/loader.php:614
+msgid "URIports"
+msgstr "URIports"
+
+#: pro/loader.php:616
+msgid ""
+"Modern CSP/security reporting. 10,000 reports/month free. Excellent for high-"
+"traffic sites."
+msgstr ""
+"Modern CSP/güvenlik raporlaması. Ayda 10.000 rapor ücretsiz. Yoğun trafiğe "
+"sahip siteler için ideal."
+
+#: pro/loader.php:623
+msgid "Safe Workflow (Step by Step)"
+msgstr "Güvenli İş Akışı (Adım Adım)"
+
+#: pro/loader.php:625
+msgid ""
+"Install the Csper.io browser extension (free) and browse your site. It "
+"records every resource loaded."
+msgstr ""
+"Csper.io tarayıcı uzantısını (ücretsiz) yükleyin ve sitenizde gezin. "
+"Yüklenen her kaynağı kaydeder."
+
+#: pro/loader.php:626
+msgid "Export the generated CSP from Csper.io."
+msgstr "Csper.io'dan oluşturulan CSP dosyasını dışa aktarın."
+
+#: pro/loader.php:627
+msgid "Validate it on Google CSP Evaluator — fix any warnings."
+msgstr ""
+"Bunu Google CSP Değerlendiricisi'nde doğrulayın — tüm uyarıları giderin."
+
+#: pro/loader.php:628
+msgid ""
+"Paste the CSP into Settings → CSP Header Contents with \"Content-Security-"
+"Policy-Report-Only\" first (enable in your server config or use a Report URI "
+"service)."
+msgstr ""
+"CSP'yi önce \"Content-Security-Policy-Report-Only\" ile birlikte Ayarlar → "
+"CSP Başlığı İçeriği bölümüne yapıştırın (sunucu yapılandırmanızda bunu "
+"etkinleştirin veya bir Rapor URI hizmeti kullanın)."
+
+#: pro/loader.php:629
+msgid "Monitor CSP Analytics (tab above) for 7+ days — add missing domains."
+msgstr ""
+"CSP Analytics'i (yukarıdaki sekme) 7 gün veya daha uzun süre izleyin — eksik "
+"alan adlarını ekleyin."
+
+#: pro/loader.php:630
+msgid ""
+"When zero violations: switch to enforced mode in Settings → CSP Header "
+"Contents."
+msgstr ""
+"Hiçbir ihlal olmadığında: Ayarlar → CSP Başlığı İçeriği bölümünden zorunlu "
+"moduna geçin."
+
+#: pro/loader.php:636
+msgid "Common CSP Directives for WordPress"
+msgstr "WordPress için Yaygın CSP Yönergeleri"
+
+#: pro/loader.php:637
+msgid "Copy and adapt these for your site. Each line is a separate service."
+msgstr ""
+"Bunları kopyalayıp sitenize uyarlayın. Her satır ayrı bir hizmeti ifade eder."
+
+#: pro/loader.php:639
+msgid "# Minimum safe CSP for WordPress"
+msgstr "# WordPress için minimum güvenli CSP"
+
+#: pro/loader.php:653
+msgid "# Add for Google Fonts"
+msgstr "# Google Fonts için ekle"
+
+#: pro/loader.php:657
+msgid "# Add for Google Analytics / GTM"
+msgstr "# Google Analytics / GTM için ekle"
+
+#: pro/loader.php:662
+msgid "# Add for YouTube embeds"
+msgstr "# YouTube videolarını eklemek için"
+
+#: pro/loader.php:665
+msgid "# Add for Stripe (WooCommerce)"
+msgstr "# Stripe için ekle (WooCommerce)"
+
+#: pro/loader.php:669
+msgid "# Add for Elementor"
+msgstr "# Elementor için ekle"
+
+#: pro/loader.php:670
+msgid "// required for Elementor editor"
+msgstr "// Elementor düzenleyicisi için gereklidir"
+
+#: pro/loader.php:672
+msgid "# Add for Facebook Pixel"
+msgstr "# Facebook Pikseli için ekle"
+
+#: pro/loader.php:680
+msgid "CSP FAQ"
+msgstr "CSP SSS"
+
+#: pro/loader.php:683 pro/loader.php:993
+msgid "What is CSP?"
+msgstr "CSP nedir?"
+
+#: pro/loader.php:683
+msgid ""
+"Content Security Policy is an HTTP header that tells browsers which "
+"resources (scripts, styles, images, fonts, frames) are allowed to load on "
+"your page. Anything not listed is blocked. It is the most effective "
+"protection against XSS (Cross-Site Scripting) attacks."
+msgstr ""
+"İçerik Güvenlik Politikası (Content Security Policy), tarayıcılara sayfanıza "
+"hangi kaynakların (komut dosyaları, stil dosyaları, resimler, yazı tipleri, "
+"çerçeveler) yüklenebileceğini belirten bir HTTP başlığıdır. Listede yer "
+"almayan her şey engellenir. Bu, XSS (Çapraz Site Komut Dosyası) "
+"saldırılarına karşı en etkili koruma yöntemidir."
+
+#: pro/loader.php:684
+msgid "Will CSP break my site?"
+msgstr "CSP sitemizi bozacak mı?"
+
+#: pro/loader.php:684
+msgid ""
+"Only if you enforce a policy that is too restrictive. That is why you should "
+"always start with Report-Only mode: it logs violations without blocking "
+"anything. Monitor for 7+ days, fix the policy, then enforce."
+msgstr ""
+"Ancak çok kısıtlayıcı bir politika uyguladığınızda böyle olur. Bu nedenle "
+"her zaman “Yalnızca Raporla” moduyla başlamalısınız: bu mod, hiçbir şeyi "
+"engellemeden ihlalleri günlüğe kaydeder. 7 gün veya daha uzun süre izleme "
+"yapın, politikayı düzeltin, ardından uygulamaya geçin."
+
+#: pro/loader.php:685
+msgid "Why does WordPress need unsafe-inline?"
+msgstr "WordPress neden unsafe-inline'a ihtiyaç duyar?"
+
+#: pro/loader.php:685
+msgid ""
+"WordPress core, most themes, and most plugins output inline scripts and "
+"styles directly in the HTML. Without unsafe-inline, these would be blocked. "
+"The ideal solution is nonce-based CSP, but most WordPress plugins do not "
+"support it yet."
+msgstr ""
+"WordPress çekirdeği, çoğu tema ve çoğu eklenti, satır içi komut dosyalarını "
+"ve stilleri doğrudan HTML'ye yazdırır. unsafe-inline olmadan bunlar "
+"engellenir. İdeal çözüm, nonce tabanlı CSP'dir, ancak çoğu WordPress "
+"eklentisi bunu henüz desteklemiyor."
+
+#: pro/loader.php:686
+msgid "Why does Elementor need unsafe-eval?"
+msgstr "Elementor neden unsafe-eval'e ihtiyaç duyar?"
+
+#: pro/loader.php:686
+msgid ""
+"Elementor and some page builders use JavaScript eval() to process templates "
+"and widgets dynamically. Without unsafe-eval, the editor and some frontend "
+"features break. This is a known limitation of these builders."
+msgstr ""
+"Elementor ve bazı sayfa oluşturucular, şablonları ve widget'ları dinamik "
+"olarak işlemek için JavaScript'in eval() işlevini kullanır. unsafe-eval "
+"olmadan, düzenleyici ve bazı ön uç özellikleri çalışmaz. Bu, söz konusu "
+"oluşturucuların bilinen bir sınırlamasıdır."
+
+#: pro/loader.php:687 pro/loader.php:997
+msgid "What is Report-Only mode?"
+msgstr "Yalnızca Raporlama modu nedir?"
+
+#: pro/loader.php:687
+msgid ""
+"Your server sends the CSP with the header Content-Security-Policy-Report-"
+"Only instead of Content-Security-Policy. The browser checks the policy but "
+"does NOT block anything — it only sends violation reports. Perfect for "
+"testing before going live."
+msgstr ""
+"Sunucunuz, CSP'yi Content-Security-Policy başlığı yerine Content-Security-"
+"Policy-Report-Only başlığıyla gönderir. Tarayıcı, ilkeyi kontrol eder ancak "
+"hiçbir şeyi engellemez — yalnızca ihlal raporları gönderir. Canlıya geçmeden "
+"önce test yapmak için idealdir."
+
+#: pro/loader.php:688
+msgid "How do I find which domains to add?"
+msgstr "Hangi alan adlarını ekleyeceğimi nasıl bulabilirim?"
+
+#: pro/loader.php:688
+msgid ""
+"Three ways: 1) Use the Csper.io browser extension while browsing your site. "
+"2) Check the CSP Analytics tab for violations reported by real visitors. 3) "
+"Open Chrome DevTools → Console tab and look for CSP violation errors."
+msgstr ""
+"Üç yol: 1) Sitenizi gezerken Csper.io tarayıcı uzantısını kullanın. 2) "
+"Gerçek ziyaretçiler tarafından bildirilen ihlalleri görmek için CSP "
+"Analytics sekmesine bakın. 3) Chrome DevTools → Konsol sekmesini açın ve CSP "
+"ihlali hatalarını kontrol edin."
+
+#: pro/loader.php:689
+msgid "What is a CSP Report URI?"
+msgstr "CSP Raporu URI'si nedir?"
+
+#: pro/loader.php:689
+msgid ""
+"A URL where the browser sends JSON violation reports. You can use external "
+"services (Report URI, URIports, Sentry) or the built-in Shield CSP Analytics "
+"endpoint. Configure it in Settings → CSP Report URI."
+msgstr ""
+"Tarayıcının JSON ihlal raporlarını gönderdiği bir URL. Harici hizmetleri "
+"(Rapor URI'si, URIports, Sentry) veya yerleşik Shield CSP Analytics uç "
+"noktasını kullanabilirsiniz. Ayarlar → CSP Rapor URI'si bölümünden "
+"yapılandırın."
+
+#: pro/loader.php:690
+msgid "Can I use Shield CSP Analytics and an external service together?"
+msgstr ""
+"Shield CSP Analytics ile harici bir hizmeti birlikte kullanabilir miyim?"
+
+#: pro/loader.php:690
+msgid ""
+"The browser sends reports to the URL configured in the CSP header. You can "
+"only have one report-uri per policy. For basic monitoring, Shield Analytics "
+"is enough. For high-traffic professional sites, use URIports or Report URI."
+msgstr ""
+"Tarayıcı, CSP başlığında yapılandırılan URL'ye raporlar gönderir. Her "
+"politika için yalnızca bir adet report-uri belirleyebilirsiniz. Temel izleme "
+"için Shield Analytics yeterlidir. Yoğun trafiğe sahip profesyonel siteler "
+"için URIports veya Report URI'yi kullanın."
+
+#: pro/loader.php:704
+msgid ""
+"Monitors Content Security Policy violations reported by browsers. Shows "
+"which resources are being blocked and where."
+msgstr ""
+"Tarayıcılar tarafından bildirilen İçerik Güvenlik Politikası ihlallerini "
+"izler. Hangi kaynakların nerede engellendiğini gösterir."
+
+#: pro/loader.php:722
+msgid "Total violations"
+msgstr "Toplam ihlal sayısı"
+
+#: pro/loader.php:723
+msgid "Last 24h"
+msgstr "Son 24s"
+
+#: pro/loader.php:724
+msgid "Last 7 days"
+msgstr "Son 7 gün"
+
+#: pro/loader.php:728
+msgid "Top blocked domains"
+msgstr "En çok engellenen alan adları"
+
+#: pro/loader.php:740
+msgid "Top violated directives"
+msgstr "En çok ihlal edilen yönergeler"
+
+#: pro/loader.php:752
+msgid "No CSP violations recorded yet."
+msgstr "Henüz herhangi bir CSP ihlali kaydedilmedi."
+
+#: pro/loader.php:753
+msgid ""
+"Configure a Report URI in Settings → CSP Report URI, or follow the CSP Guide "
+"to get started."
+msgstr ""
+"Ayarlar → CSP Rapor URI'si bölümünden bir Rapor URI'si yapılandırın veya "
+"başlamak için CSP Kılavuzu'nu izleyin."
+
+#: pro/loader.php:777
+msgid ""
+"Email alerts and webhook notifications to Slack, Discord, Microsoft Teams, "
+"or any custom endpoint. Get alerted when your security score drops, a header "
+"is removed, or critical issues are found."
+msgstr ""
+"Slack, Discord, Microsoft Teams veya herhangi bir özel uç noktaya e-posta "
+"uyarıları ve webhook bildirimleri gönderin. Güvenlik puanınız düştüğünde, "
+"bir başlık kaldırıldığında veya kritik sorunlar tespit edildiğinde uyarı "
+"alın."
+
+#: pro/loader.php:780
+msgid "Get alerted when something changes. Configure once, then forget."
+msgstr ""
+"Bir değişiklik olduğunda bildirim alın. Bir kez ayarlayın, gerisini unutun."
+
+#: pro/loader.php:783
+msgid "Email Alerts"
+msgstr "Bildirim Almak İstediğiniz Kategorileri Seçin"
+
+#: pro/loader.php:786
+msgid "Receives alerts on score drops, header changes, critical issues."
+msgstr ""
+"Puan düşüşleri, başlık değişiklikleri ve kritik sorunlar hakkında uyarılar "
+"alır."
+
+#: pro/loader.php:794
+msgid "Custom Webhook (JSON)"
+msgstr "Özel Webhook (JSON)"
+
+#: pro/loader.php:800
+msgid "Setup guide"
+msgstr "Kurulum kılavuzu"
+
+#: pro/loader.php:810
+msgid "Notify when:"
+msgstr "Şu durumlarda bildirim gönder:"
+
+#: pro/loader.php:812
+msgid "Every scan (including clean)"
+msgstr "Her tarama (temizleme dahil)"
+
+#: pro/loader.php:821
+msgid "Save Notification Settings"
+msgstr "Bildirim Ayarlarını Kaydet"
+
+#: pro/loader.php:823
+msgid "Saved!"
+msgstr "Kaydedildi!"
+
+#: pro/loader.php:833
+msgid "Export / Import Settings"
+msgstr "Ayarları dışarı / içeri aktar"
+
+#: pro/loader.php:835
+msgid ""
+"Export your security header configuration and import it on other sites. "
+"Ideal for agencies and freelancers managing multiple WordPress installations."
+msgstr ""
+"Güvenlik başlığı yapılandırmanızı dışa aktarın ve diğer sitelere içe "
+"aktarın. Birden fazla WordPress kurulumunu yöneten ajanslar ve serbest "
+"çalışanlar için idealdir."
+
+#: pro/loader.php:841
+msgid "Export"
+msgstr "Dışa Aktar"
+
+#: pro/loader.php:842
+msgid ""
+"Download a JSON file with all your security header settings. Does not "
+"include license key."
+msgstr ""
+"Tüm güvenlik başlığı ayarlarınızı içeren bir JSON dosyasını indirin. Lisans "
+"anahtarı dahil değildir."
+
+#: pro/loader.php:843
+msgid "Export Settings"
+msgstr "Dışa Aktarma Ayarları"
+
+#: pro/loader.php:847
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: pro/loader.php:848
+msgid ""
+"Upload a previously exported JSON file. This will overwrite your current "
+"settings."
+msgstr ""
+"Daha önce dışa aktarılmış bir JSON dosyasını yükleyin. Bu işlem, mevcut "
+"ayarlarınızın üzerine yazacaktır."
+
+#: pro/loader.php:850
+msgid "Import Settings"
+msgstr "Ayarları İçe Aktar"
+
+#: pro/loader.php:857
+msgid "Exported settings include:"
+msgstr "Dışa aktarılan ayarlar şunlardır:"
+
+#: pro/loader.php:859
+msgid ""
+"HSTS (max-age, includeSubDomains, preload), CSP Header Contents, CSP Report "
+"URI, Permissions Policy, X-Frame-Options, all header enable/disable toggles, "
+"and webhook/notification URLs. License key and scan history are NOT exported."
+msgstr ""
+"HSTS (max-age, includeSubDomains, preload), CSP Başlık İçeriği, CSP Rapor "
+"URI'si, İzin Politikası, X-Frame-Options, tüm başlık etkinleştirme/devre "
+"dışı bırakma seçenekleri ve webhook/bildirim URL'leri. Lisans anahtarı ve "
+"tarama geçmişi dışa aktarılmaz."
+
+#: pro/loader.php:872
+msgid "License key"
+msgstr "Lisans anahtarı"
+
+#: pro/loader.php:874
+msgid "Expires"
+msgstr "Süre sonu"
+
+#: pro/loader.php:876
+msgid "Deactivate License"
+msgstr "Lisansı Devre Dışı Bırak"
+
+#: pro/loader.php:878
+msgid ""
+"Enter your license key to unlock Shield features. The free version will "
+"always remain fully functional."
+msgstr ""
+"Shield özelliklerinin kilidini açmak için lisans anahtarınızı girin. "
+"Ücretsiz sürüm her zaman tam olarak kullanılabilir durumda kalacaktır."
+
+#: pro/loader.php:880
+msgid "HSTP-XXXX-XXXX-XXXX-XXXX"
+msgstr "HSTP-XXXX-XXXX-XXXX-XXXX"
+
+#: pro/loader.php:881
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: pro/loader.php:884
+#, php-format
+msgid "Don't have a license? %1$sGet Shield%2$s"
+msgstr "Ehliyetiniz yok mu? %1$sShield'i edinin%2$s"
+
+#: pro/loader.php:894
+msgid "Free forever. Shield for those who want more."
+msgstr "Sonsuza kadar ücretsiz. Daha fazlasını isteyenler için Shield."
+
+#: pro/loader.php:896
+msgid ""
+"Every feature this plugin has offered since day one remains completely free "
+"— no limits, no paywalls, no \"lite\" restrictions. That will never change. "
+"Shield is a separate set of brand-new advanced tools (Security Advisor, "
+"automated scanning, real-time alerts) built for professionals who want "
+"deeper monitoring."
+msgstr ""
+"Bu eklentinin ilk günden beri sunduğu tüm özellikler tamamen ücretsiz olmaya "
+"devam ediyor — sınır yok, ödeme duvarı yok, \"lite\" sürüm kısıtlamaları "
+"yok. Bu durum asla değişmeyecek. Shield, daha kapsamlı izleme isteyen "
+"profesyoneller için geliştirilmiş, yepyeni ve gelişmiş araçlardan (Güvenlik "
+"Danışmanı, otomatik tarama, gerçek zamanlı uyarılar) oluşan ayrı bir "
+"pakettir."
+
+#: pro/loader.php:897
+msgid ""
+"Revenue from Shield goes directly into maintaining and improving the free "
+"plugin for everyone."
+msgstr ""
+"Shield'den elde edilen gelir, herkes için ücretsiz eklentinin bakım ve "
+"geliştirilmesine doğrudan aktarılmaktadır."
+
+#: pro/loader.php:903
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: pro/loader.php:903
+msgid "Forever"
+msgstr "Sonsuza dek"
+
+#: pro/loader.php:905
+msgid "Free forever"
+msgstr "Sonsuza kadar ücretsiz"
+
+#: pro/loader.php:907
+msgid "10+ security headers"
+msgstr "10'dan fazla güvenlik başlığı"
+
+#: pro/loader.php:908
+msgid "HSTS Preload"
+msgstr "HSTS Ön Yükleme"
+
+#: pro/loader.php:909
+msgid "CSP / Permissions Policy"
+msgstr "CSP / İzin Politikası"
+
+#: pro/loader.php:910
+msgid "X-Frame / X-Content-Type"
+msgstr "X-Frame / X-Content-Type"
+
+#: pro/loader.php:911
+msgid "Duplicate header resolver"
+msgstr "Yinelenen başlık çözümleyicisi"
+
+#: pro/loader.php:912
+msgid ".htaccess support"
+msgstr ".htaccess desteği"
+
+#: pro/loader.php:913
+msgid "Community support"
+msgstr "Topluluk desteği"
+
+#: pro/loader.php:919
+msgid "1 site"
+msgstr "1 site"
+
+#: pro/loader.php:921
+msgid "per year"
+msgstr "yıl başına"
+
+#: pro/loader.php:921 pro/loader.php:939
+msgid "month"
+msgstr "ay"
+
+#: pro/loader.php:923
+msgid "All Free features, plus:"
+msgstr "Tüm ücretsiz özelliklerin yanı sıra:"
+
+#: pro/loader.php:924
+msgid "Security Dashboard & Advisor"
+msgstr "Güvenlik Panosu ve Danışmanı"
+
+#: pro/loader.php:925
+msgid "Score Trend chart (week/month/year)"
+msgstr "Puan eğilim grafiği (hafta/ay/yıl)"
+
+#: pro/loader.php:926
+msgid "PDF Security Report (before/after)"
+msgstr "PDF Güvenlik Raporu (öncesi/sonrası)"
+
+#: pro/loader.php:927
+msgid "CSP Guide & Analytics"
+msgstr "CSP Kılavuzu ve Analitik"
+
+#: pro/loader.php:928
+msgid "Email & webhook alerts"
+msgstr "E-posta ve webhook uyarıları"
+
+#: pro/loader.php:929
+msgid "Export / Import settings"
+msgstr "Ayarları dışa aktar / içe aktar"
+
+#: pro/loader.php:930
+msgid "Weekly automated scans"
+msgstr "Haftalık otomatik taramalar"
+
+#: pro/loader.php:932
+msgid "Get Shield"
+msgstr "Shield'i edinin"
+
+#: pro/loader.php:936
+msgid "BEST VALUE"
+msgstr "EN İYİ FİYAT"
+
+#: pro/loader.php:939
+msgid "per year, unlimited sites"
+msgstr "yılda, sınırsız site"
+
+#: pro/loader.php:941
+msgid "Everything in Shield"
+msgstr "Shield'deki her şey"
+
+#: pro/loader.php:942
+msgid "Unlimited site activations"
+msgstr "Sınırsız site etkinleştirme"
+
+#: pro/loader.php:943
+msgid "Ideal for agencies"
+msgstr "Ajanslar için ideal"
+
+#: pro/loader.php:944
+msgid "Ideal for freelancers"
+msgstr "Serbest çalışanlar için ideal"
+
+#: pro/loader.php:945
+msgid "Priority support"
+msgstr "Öncelikli destek"
+
+#: pro/loader.php:946
+msgid "$29/site? With 4+ sites you save"
+msgstr "Site başına 29 dolar mı? 4 veya daha fazla site ile tasarruf edersiniz"
+
+#: pro/loader.php:948
+msgid "Get Unlimited"
+msgstr "Sınırsız erişim elde edin"
+
+#: pro/loader.php:953
+#, php-format
+msgid "by %1$sAndrea Ferro%2$s"
+msgstr "Yazan: %1$sAndrea Ferro%2$s"
+
+#: pro/loader.php:955
+msgid "Review"
+msgstr "İnceleme"
+
+#: pro/loader.php:956
+msgid "Support"
+msgstr "Destek"
+
+#: pro/loader.php:965
+msgid "Frequently Asked Questions"
+msgstr "Sıkça Sorulan Sorular"
+
+#: pro/loader.php:966
+msgid ""
+"Everything you need to know about security headers, this plugin, and Pro."
+msgstr ""
+"Güvenlik başlıkları, bu eklenti ve Pro sürümü hakkında bilmeniz gereken her "
+"şey."
+
+#: pro/loader.php:968
+msgid "Search FAQ..."
+msgstr "Sıkça Sorulan Soruları Ara..."
+
+#: pro/loader.php:969
+msgid "No results found."
+msgstr "Sonuç bulunamadı."
+
+#: pro/loader.php:972
+msgid "All"
+msgstr "Tümü"
+
+#: pro/loader.php:972
+msgid "General"
+msgstr "Genel"
+
+#: pro/loader.php:972
+msgid "Headers"
+msgstr "Başlıklar"
+
+#: pro/loader.php:972
+msgid "Troubleshooting"
+msgstr "Sorun giderme"
+
+#: pro/loader.php:981
+msgid "What does this plugin do?"
+msgstr "Bu eklenti ne işe yarar?"
+
+#: pro/loader.php:981
+msgid ""
+"Adds HTTP security headers to your WordPress site: HSTS, CSP, Permissions "
+"Policy, X-Frame-Options, and more. These headers tell browsers how to "
+"protect visitors from attacks like XSS, clickjacking, and protocol "
+"downgrades."
+msgstr ""
+"WordPress sitenize HTTP güvenlik başlıkları ekler: HSTS, CSP, İzin "
+"Politikası, X-Frame-Options ve daha fazlası. Bu başlıklar, tarayıcılara "
+"ziyaretçileri XSS, tıklama hırsızlığı ve protokol sürüm düşürme gibi "
+"saldırılardan nasıl koruyacaklarını bildirir."
+
+#: pro/loader.php:982
+msgid "Will this plugin slow down my site?"
+msgstr "Bu eklenti sitemin hızını düşürecek mi?"
+
+#: pro/loader.php:982
+msgid ""
+"No. Headers add less than 1KB to each response. The plugin uses WordPress "
+"native hooks and Apache .htaccess. Zero database queries at page load for "
+"visitors."
+msgstr ""
+"Hayır. Başlıklar her yanıtta 1 KB'den az bir yük getirir. Eklenti, "
+"WordPress'in kendi kancalarını ve Apache .htaccess dosyasını kullanır. "
+"Ziyaretçiler için sayfa yüklendiğinde veri tabanı sorgusu yapılmaz."
+
+#: pro/loader.php:983
+msgid "Is the free version really free forever?"
+msgstr "Ücretsiz sürüm gerçekten sonsuza kadar ücretsiz mi?"
+
+#: pro/loader.php:983
+msgid ""
+"Yes. Every security header, every configuration option, every protection "
+"this plugin offers today will remain completely free. No features will ever "
+"be moved behind a paywall. Shield is a separate set of brand-new tools "
+"(Security Advisor, CSP generator, monitoring) built on top. Revenue from "
+"Shield funds free updates for all users."
+msgstr ""
+"Evet. Bu eklentinin şu anda sunduğu her güvenlik başlığı, her yapılandırma "
+"seçeneği ve her koruma özelliği tamamen ücretsiz kalmaya devam edecek. "
+"Hiçbir özellik ücretli hale getirilmeyecek. Shield ise bunun üzerine inşa "
+"edilmiş, yepyeni bir araçlar setidir (Güvenlik Danışmanı, CSP oluşturucu, "
+"izleme). Shield'dan elde edilen gelir, tüm kullanıcılar için ücretsiz "
+"güncellemeleri finanse etmektedir."
+
+#: pro/loader.php:984
+msgid "Why did you introduce Shield if the plugin was always free?"
+msgstr ""
+"Eklenti zaten her zaman ücretsiz miydi, o halde neden Shield'ı piyasaya "
+"sürdünüz?"
+
+#: pro/loader.php:984
+msgid ""
+"Maintaining a plugin used by 100,000+ sites is a serious responsibility. "
+"Security updates, WordPress compatibility, support requests, and new browser "
+"standards all require constant work. For years, \"Buy me a coffee\" "
+"donations covered a fraction of that effort. Shield lets professionals who "
+"need advanced features (security analysis, automated scanning, real-time "
+"alerts) pay a fair price, and that revenue funds continued free development "
+"for everyone. The free plugin gets better because Shield exists, not worse."
+msgstr ""
+"100.000'den fazla site tarafından kullanılan bir eklentiyi sürdürmek ciddi "
+"bir sorumluluktur. Güvenlik güncellemeleri, WordPress uyumluluğu, destek "
+"talepleri ve yeni tarayıcı standartları, sürekli bir çalışma gerektirir. "
+"Yıllardır, \"Bana bir kahve ısmarla\" bağışları bu çabanın sadece bir "
+"kısmını karşılayabiliyordu. Shield, gelişmiş özelliklere (güvenlik analizi, "
+"otomatik tarama, gerçek zamanlı uyarılar) ihtiyaç duyan profesyonellerin "
+"makul bir ücret ödemesini sağlar ve bu gelir, herkes için ücretsiz "
+"geliştirme çalışmalarının devam etmesini finanse eder. Shield sayesinde "
+"ücretsiz eklenti daha iyi hale gelir, daha kötüye gitmez."
+
+#: pro/loader.php:985
+msgid "Does it work with Nginx / LiteSpeed / IIS?"
+msgstr "Nginx / LiteSpeed / IIS ile çalışıyor mu?"
+
+#: pro/loader.php:985
+msgid ""
+"Yes. The PHP wp_headers filter works on any server. The .htaccess method is "
+"Apache-only but the PHP method handles Nginx, LiteSpeed, and IIS "
+"automatically."
+msgstr ""
+"Evet. PHP'deki wp_headers filtresi her türlü sunucuda çalışır. .htaccess "
+"yöntemi yalnızca Apache ile uyumludur, ancak PHP yöntemi Nginx, LiteSpeed ve "
+"IIS ile otomatik olarak çalışır."
+
+#: pro/loader.php:986
+msgid "Is it compatible with caching plugins?"
+msgstr "Önbellekleme eklentileriyle uyumlu mu?"
+
+#: pro/loader.php:986
+msgid ""
+"Yes. Works with WP Super Cache, W3 Total Cache, LiteSpeed Cache, WP Rocket. "
+"For Varnish or Cloudflare full-page cache, the .htaccess method sets headers "
+"at server level."
+msgstr ""
+"Evet. WP Super Cache, W3 Total Cache, LiteSpeed Cache ve WP Rocket ile "
+"uyumludur. Varnish veya Cloudflare tam sayfa önbelleği için, .htaccess "
+"yöntemi başlıkları sunucu düzeyinde ayarlar."
+
+#: pro/loader.php:987
+msgid "Will it conflict with other security plugins?"
+msgstr "Diğer güvenlik eklentileriyle çakışır mı?"
+
+#: pro/loader.php:987
+msgid ""
+"Rarely. If another plugin sets the same headers, use the \"Resolve duplicate "
+"headers\" checkboxes in Settings to let one source handle each header."
+msgstr ""
+"Nadiren. Başka bir eklenti aynı başlıkları ayarlıyorsa, her bir başlığı tek "
+"bir kaynağın yönetmesini sağlamak için Ayarlar'daki \"Yinelenen başlıkları "
+"çöz\" onay kutularını kullanın."
+
+#: pro/loader.php:988
+msgid "Which WordPress versions are supported?"
+msgstr "Hangi WordPress sürümleri destekleniyor?"
+
+#: pro/loader.php:988
+msgid ""
+"WordPress 4.7 and above. Uses only WordPress core APIs with no external "
+"dependencies."
+msgstr ""
+"WordPress 4.7 ve üzeri sürümler. Harici bağımlılıklar olmadan yalnızca "
+"WordPress çekirdek API'lerini kullanır."
+
+#: pro/loader.php:989
+msgid "What is HSTS and why do I need it?"
+msgstr "HSTS nedir ve neden buna ihtiyacım var?"
+
+#: pro/loader.php:989
+msgid ""
+"HSTS forces browsers to always use HTTPS. Without it, attackers can "
+"intercept the first HTTP request before redirect. With HSTS, browsers never "
+"try plain HTTP."
+msgstr ""
+"HSTS, tarayıcıları her zaman HTTPS kullanmaya zorlar. Bu özellik olmadan, "
+"saldırganlar yönlendirme işleminden önce ilk HTTP isteğini ele geçirebilir. "
+"HSTS sayesinde tarayıcılar hiçbir zaman düz HTTP kullanmaya çalışmaz."
+
+#: pro/loader.php:990
+msgid "What max-age should I use?"
+msgstr "Hangi max-age değerini kullanmalıyım?"
+
+#: pro/loader.php:990
+msgid ""
+"Minimum for preload: 31536000 (1 year). Recommended: 63072000 (2 years). "
+"Start with 86400 (1 day) to test, then increase."
+msgstr ""
+"Ön yükleme için minimum değer: 31536000 (1 yıl). Önerilen değer: 63072000 (2 "
+"yıl). Test amacıyla 86400 (1 gün) ile başlayın, ardından değeri artırın."
+
+#: pro/loader.php:991
+msgid "Should I enable HSTS Preload?"
+msgstr "HSTS Ön Yükleme özelliğini etkinleştirmeli miyim?"
+
+#: pro/loader.php:991
+msgid ""
+"Only if your entire domain (including all subdomains) works over HTTPS. "
+"Preload is hardcoded in browsers and difficult to undo. Removal takes "
+"months. Test thoroughly first."
+msgstr ""
+"Ancak, tüm alan adınız (tüm alt alan adları dahil) HTTPS üzerinden "
+"çalışıyorsa. Ön yükleme, tarayıcılarda sabit olarak kodlanmıştır ve geri "
+"alınması zordur. Kaldırılması aylar sürer. Önce iyice test edin."
+
+#: pro/loader.php:992
+msgid "HSTS broke my site. How to fix?"
+msgstr "HSTS sitemi bozdu. Nasıl düzeltebilirim?"
+
+#: pro/loader.php:992
+msgid ""
+"Disable HSTS in plugin settings. Clear browser HSTS cache: Chrome chrome://"
+"net-internals/#hsts, search domain, click Delete. If on preload list, submit "
+"removal at hstspreload.org."
+msgstr ""
+"Eklenti ayarlarından HSTS'yi devre dışı bırakın. Tarayıcının HSTS "
+"önbelleğini temizleyin: Chrome'da chrome://net-internals/#hsts adresine "
+"gidin, etki alanını arayın ve Sil'e tıklayın. Ön yükleme listesindeyse, "
+"hstspreload.org adresinden kaldırma talebinde bulunun."
+
+#: pro/loader.php:993
+msgid ""
+"Content Security Policy tells browsers exactly which resources can load on "
+"your pages and from which domains. Everything not allowed is blocked. The "
+"strongest protection against XSS attacks."
+msgstr ""
+"İçerik Güvenlik Politikası, tarayıcılara sayfalarınızda hangi kaynakların "
+"hangi alan adlarından yüklenebileceğini tam olarak belirtir. İzin verilmeyen "
+"her şey engellenir. XSS saldırılarına karşı en güçlü koruma."
+
+#: pro/loader.php:994
+msgid "Why is CSP hard to configure?"
+msgstr "CSP'nin yapılandırılması neden zor?"
+
+#: pro/loader.php:994
+msgid ""
+"WordPress sites load resources from many sources: theme, plugins, Google "
+"Fonts, analytics, CDNs. CSP must list every legitimate source. Miss one and "
+"something breaks. Follow the CSP Guide in Shield for tools and step-by-step "
+"instructions."
+msgstr ""
+"WordPress siteleri, kaynaklarını birçok kaynaktan yükler: tema, eklentiler, "
+"Google Fonts, analiz araçları, CDN’ler. CSP’de tüm geçerli kaynaklar "
+"listelenmelidir. Bir tanesini bile atlarsanız, sistemde bir sorun ortaya "
+"çıkar. Araçlar ve adım adım talimatlar için Shield’daki CSP Kılavuzu’nu "
+"takip edin."
+
+#: pro/loader.php:995
+msgid "What does unsafe-inline mean?"
+msgstr "\"unsafe-inline\" ne anlama geliyor?"
+
+#: pro/loader.php:995
+msgid ""
+"Allows inline scripts/styles in HTML. Most WordPress themes need it. Having "
+"CSP with unsafe-inline is still much better than no CSP. For maximum "
+"security, use nonce-based CSP."
+msgstr ""
+"HTML'de satır içi komut dosyalarına ve stil dosyalarına izin verir. Çoğu "
+"WordPress teması buna ihtiyaç duyar. CSP'yi \"unsafe-inline\" ayarıyla "
+"kullanmak, hiç CSP kullanmamaktan yine de çok daha iyidir. Maksimum güvenlik "
+"için, nonce tabanlı CSP kullanın."
+
+#: pro/loader.php:996
+msgid "CSP is blocking something. How to fix?"
+msgstr "CSP bir şeyi engelliyor. Nasıl düzeltilir?"
+
+#: pro/loader.php:996
+msgid ""
+"Open browser Dev Tools (F12), check Console for CSP violations. They show "
+"exactly which resource was blocked. Add that domain to the correct directive "
+"in your CSP."
+msgstr ""
+"Tarayıcının Geliştirici Araçları'nı (F12) açın ve Konsol'da CSP ihlallerini "
+"kontrol edin. Bu ihlaller, hangi kaynağın engellendiğini tam olarak "
+"gösterir. Bu etki alanını CSP'nizdeki uygun yönergeye ekleyin."
+
+#: pro/loader.php:997
+msgid ""
+"Sends CSP as Report-Only header. Browser evaluates the policy but blocks "
+"nothing — only reports violations. Perfect for testing a new CSP safely "
+"before enforcing."
+msgstr ""
+"CSP'yi \"Report-Only\" başlığı olarak gönderir. Tarayıcı, ilkeyi "
+"değerlendirir ancak hiçbir şeyi engellemez; yalnızca ihlalleri bildirir. "
+"Yeni bir CSP'yi uygulamaya koymadan önce güvenli bir şekilde test etmek için "
+"idealdir."
+
+#: pro/loader.php:998
+msgid "What is X-Frame-Options?"
+msgstr "X-Frame-Options nedir?"
+
+#: pro/loader.php:998
+msgid ""
+"Controls iframe embedding. DENY blocks all framing, SAMEORIGIN allows only "
+"your domain. Prevents clickjacking attacks. ALLOW-FROM is deprecated — use "
+"CSP frame-ancestors instead."
+msgstr ""
+"İframe gömülmesini denetler. DENY tüm çerçevelemeyi engeller, SAMEORIGIN "
+"yalnızca kendi etki alanınızı izin verir. Tıklama hırsızlığı saldırılarını "
+"önler. ALLOW-FROM artık kullanılmamaktadır — bunun yerine CSP frame-"
+"ancestors özelliğini kullanın."
+
+#: pro/loader.php:999
+msgid "What is Permissions-Policy?"
+msgstr "İzin Politikası nedir?"
+
+#: pro/loader.php:999
+msgid ""
+"Controls browser APIs: camera, microphone, geolocation, payment, USB. "
+"Setting them to () disables access, preventing malicious scripts from using "
+"sensitive features."
+msgstr ""
+"Tarayıcı API'lerini kontrol eder: kamera, mikrofon, konum belirleme, ödeme, "
+"USB. Bunları () olarak ayarlamak erişimi devre dışı bırakır ve kötü niyetli "
+"komut dosyalarının hassas özellikleri kullanmasını engeller."
+
+#: pro/loader.php:1000
+msgid "What is X-Content-Type-Options?"
+msgstr "X-Content-Type-Options nedir?"
+
+#: pro/loader.php:1000
+msgid ""
+"The nosniff value prevents browsers from guessing file types. Stops MIME-"
+"confusion attacks where text files get executed as scripts. No reason not to "
+"enable it."
+msgstr ""
+"nosniff ayarı, tarayıcıların dosya türlerini tahmin etmesini engeller. Metin "
+"dosyalarının komut dosyası olarak çalıştırıldığı MIME karışıklığı "
+"saldırılarını önler. Bunu etkinleştirmemek için hiçbir neden yok."
+
+#: pro/loader.php:1001
+msgid "What is Referrer-Policy?"
+msgstr "Referrer-Policy nedir?"
+
+#: pro/loader.php:1001
+msgid ""
+"Controls what URL info is sent when users click links. Recommended: strict-"
+"origin-when-cross-origin. Protects privacy by not leaking URL paths to "
+"external sites."
+msgstr ""
+"Kullanıcılar bağlantılara tıkladığında hangi URL bilgilerinin "
+"gönderileceğini kontrol eder. Önerilen ayar: strict-origin-when-cross-"
+"origin. URL yollarının harici sitelere sızmasını önleyerek gizliliği korur."
+
+#: pro/loader.php:1002
+msgid "What are COOP, COEP, CORP?"
+msgstr "COOP, COEP ve CORP nedir?"
+
+#: pro/loader.php:1002
+msgid ""
+"Cross-Origin isolation headers. COOP isolates from pop-ups, COEP requires "
+"explicit cross-origin permission, CORP controls who loads your resources. "
+"Together they block Spectre-type attacks."
+msgstr ""
+"Kaynaklar arası yalıtım başlıkları. COOP, açılır pencerelerden gelen içeriği "
+"yalıtır; COEP, kaynaklar arası erişim için açık izin gerektirir; CORP ise "
+"kaynaklarınızı kimin yüklediğini kontrol eder. Bu başlıklar bir araya "
+"gelerek Spectre türü saldırıları engeller."
+
+#: pro/loader.php:1003
+msgid "Duplicate header warnings — how to fix?"
+msgstr "Yinelenen başlık uyarıları — nasıl düzeltilir?"
+
+#: pro/loader.php:1003
+msgid ""
+"Happens when both server and plugin set the same header. Use \"Resolve "
+"duplicate headers\" checkboxes in Settings. Verify with SecurityHeaders.com "
+"or curl -I."
+msgstr ""
+"Hem sunucu hem de eklenti aynı başlığı ayarladığında bu durum ortaya çıkar. "
+"Ayarlar'daki \"Yinelenen başlıkları çöz\" onay kutularını kullanın. "
+"SecurityHeaders.com veya curl -I komutuyla kontrol edin."
+
+#: pro/loader.php:1004
+msgid "Site broke after changing settings"
+msgstr "Ayarları değiştirdikten sonra site çalışmaz hale geldi"
+
+#: pro/loader.php:1004
+msgid ""
+"Disable headers one at a time using Settings checkboxes. Usually CSP is the "
+"cause. You can also deactivate the plugin as emergency fix — all headers "
+"removed, no data lost."
+msgstr ""
+"Ayarlar bölümündeki onay kutularını kullanarak başlıkları tek tek devre dışı "
+"bırakın. Genellikle sorunun kaynağı CSP'dir. Acil bir çözüm olarak eklentiyi "
+"devre dışı bırakabilirsiniz — tüm başlıklar kaldırılır, veri kaybı yaşanmaz."
+
+#: pro/loader.php:1005
+msgid "Headers not showing up"
+msgstr "Başlıklar görünmüyor"
+
+#: pro/loader.php:1005
+msgid ""
+"Check: (1) Plugin activated? (2) Verify with SecurityHeaders.com. (3) CDN "
+"stripping headers? Check CDN settings. (4) Full-page cache? Clear it. (5) "
+"Managed hosting overriding?"
+msgstr ""
+"Kontrol edin: (1) Eklenti etkin mi? (2) SecurityHeaders.com ile kontrol "
+"edin. (3) CDN başlıkları siliniyor mu? CDN ayarlarını kontrol edin. (4) Tam "
+"sayfa önbelleği mi var? Temizleyin. (5) Yönetilen barındırma ayarları "
+"geçersiz mi kılıyor?"
+
+#: pro/loader.php:1006
+msgid "How to check my headers?"
+msgstr "Başlıklarımı nasıl kontrol edebilirim?"
+
+#: pro/loader.php:1006
+msgid ""
+"Three ways: SecurityHeaders.com (paste URL), browser Dev Tools (F12 > "
+"Network > first request > Response Headers), or command line: curl -I "
+"https://yoursite.com"
+msgstr ""
+"Üç yol: SecurityHeaders.com (URL'yi yapıştırın), tarayıcının Geliştirici "
+"Araçları (F12 > Ağ > ilk istek > Yanıt Başlıkları) veya komut satırı: curl "
+"-I https://yoursite.com"
+
+#: pro/loader.php:1007
+msgid "SecurityHeaders.com shows bad grade"
+msgstr "SecurityHeaders.com düşük not gösteriyor"
+
+#: pro/loader.php:1007
+msgid ""
+"Usually means CSP not configured or using only default. Configure all "
+"headers in Settings. The Shield Security Advisor shows exactly what to fix "
+"for each grade improvement."
+msgstr ""
+"Bu genellikle CSP'nin yapılandırılmamış olduğu veya yalnızca varsayılan "
+"ayarların kullanıldığı anlamına gelir. Tüm başlıkları Ayarlar bölümünden "
+"yapılandırın. Shield Security Advisor, her bir not iyileştirme için tam "
+"olarak nelerin düzeltilmesi gerektiğini gösterir."
+
+#: pro/loader.php:1008
+msgid "WooCommerce / page builder stopped working"
+msgstr "WooCommerce / Sayfa Oluşturucu çalışmıyor"
+
+#: pro/loader.php:1008
+msgid ""
+"CSP blocking needed resources. Check Dev Tools Console. Common: Stripe "
+"(js.stripe.com), PayPal (www.paypal.com), Google Maps, YouTube. Check the "
+"CSP Guide in Shield for common WordPress directives and recommended tools."
+msgstr ""
+"CSP, gerekli kaynakları engelliyor. Geliştirici Araçları Konsolunu kontrol "
+"edin. Sık karşılaşılan örnekler: Stripe (js.stripe.com), PayPal "
+"(www.paypal.com), Google Haritalar, YouTube. Yaygın WordPress yönergeleri ve "
+"önerilen araçlar için Shield'daki CSP Kılavuzuna bakın."
+
+#: pro/loader.php:1009
+msgid "wp-admin or REST API issues"
+msgstr "wp-admin veya REST API sorunları"
+
+#: pro/loader.php:1009
+msgid ""
+"Likely X-Frame-Options DENY (admin uses iframes) or CSP blocking inline "
+"scripts. Set X-Frame to SAMEORIGIN, ensure CSP has unsafe-inline for script-"
+"src and style-src."
+msgstr ""
+"Muhtemelen X-Frame-Options DENY ayarı (yönetici iframe kullanıyorsa) veya "
+"CSP'nin satır içi komut dosyalarını engelliyor olabilir. X-Frame değerini "
+"SAMEORIGIN olarak ayarlayın ve CSP'de script-src ile style-src için unsafe-"
+"inline seçeneğinin etkinleştirildiğinden emin olun."
+
+#: pro/loader.php:1010
+msgid "What does Security Advisor do?"
+msgstr "Güvenlik Danışmanı ne işe yarar?"
+
+#: pro/loader.php:1010
+msgid ""
+"Analyzes your configuration, generates personalized recommendations in plain "
+"language. Runs 100% locally — no external data, no API costs, no privacy "
+"concerns. Shows what to fix, why, how, and the score impact."
+msgstr ""
+"Yapılandırmanızı analiz eder ve anlaşılır bir dille kişiselleştirilmiş "
+"öneriler sunar. Tamamen bağımsız çalışır — harici veri gerektirmez, API "
+"maliyeti yoktur ve gizlilik endişesi yaratmaz. Neleri düzeltmeniz "
+"gerektiğini, nedenini, nasıl yapılacağını ve puan üzerindeki etkisini "
+"gösterir."
+
+#: pro/loader.php:1011
+msgid "How do I build a CSP with Shield?"
+msgstr "Shield ile bir CSP'yi nasıl oluşturabilirim?"
+
+#: pro/loader.php:1011
+msgid ""
+"Shield provides a CSP Guide with recommended tools (Csper.io browser "
+"extension, Google CSP Evaluator), ready-to-use code snippets for WordPress, "
+"and CSP Analytics that collects real violation data from your visitors. "
+"Follow the safe workflow: generate with Csper.io, validate, test in Report-"
+"Only, monitor, then enforce."
+msgstr ""
+"Shield, önerilen araçlar (Csper.io tarayıcı uzantısı, Google CSP Evaluator), "
+"WordPress için kullanıma hazır kod parçacıkları ve ziyaretçilerinizden "
+"gerçek ihlal verilerini toplayan CSP Analytics içeren bir CSP Kılavuzu "
+"sunar. Güvenli iş akışını izleyin: Csper.io ile oluşturun, doğrulayın, "
+"\"Yalnızca Rapor\" modunda test edin, izleyin ve ardından uygulayın."
+
+#: pro/loader.php:1012
+msgid "What happens when Shield license expires?"
+msgstr "Shield lisansının süresi dolduğunda ne olur?"
+
+#: pro/loader.php:1012
+msgid ""
+"Site stays protected. Reverts to free. All headers keep working. You lose "
+"Shield features (dashboard, advisor, alerts, analytics). Your CSP stays "
+"active. Nothing breaks."
+msgstr ""
+"Site korunmaya devam eder. Ücretsiz sürüme geri döner. Tüm başlıklar "
+"çalışmaya devam eder. Shield özelliklerini (kontrol paneli, danışman, "
+"uyarılar, analizler) kaybedersiniz. CSP'niz aktif kalır. Hiçbir şey bozulmaz."
+
+#: pro/loader.php:1013
+msgid "Multiple sites?"
+msgstr "Birden fazla site mi?"
+
+#: pro/loader.php:1013
+msgid ""
+"Shield ($29/year) covers 1 site. Shield Unlimited ($99/year) covers "
+"unlimited sites with the same license key. Perfect for agencies and "
+"freelancers."
+msgstr ""
+"Shield (yıllık 29 $) 1 siteyi kapsar. Shield Unlimited (yıllık 99 $) aynı "
+"lisans anahtarıyla sınırsız sayıda siteyi kapsar. Ajanslar ve serbest "
+"çalışanlar için idealdir."
+
+#: pro/loader.php:1014
+msgid "How do webhook notifications work?"
+msgstr "Webhook bildirimleri nasıl çalışır?"
+
+#: pro/loader.php:1014
+msgid ""
+"Send scan results to Slack, Discord, Teams, or custom URL (JSON). Triggered "
+"when score drops, headers change, or critical issues found. Each has a Test "
+"button. Custom webhook sends full scan data for automation."
+msgstr ""
+"Tarama sonuçlarını Slack, Discord, Teams veya özel bir URL'ye (JSON) "
+"gönderin. Puan düştüğünde, başlıklar değiştiğinde veya kritik sorunlar "
+"tespit edildiğinde tetiklenir. Her birinde bir \"Test\" düğmesi bulunur. "
+"Özel webhook, otomasyon için tam tarama verilerini gönderir."
+
+#: pro/loader.php:1015
+msgid "How does Export/Import work?"
+msgstr "İhracat/İthalat nasıl işliyor?"
+
+#: pro/loader.php:1015
+msgid ""
+"Export downloads a JSON file with all header settings (HSTS, CSP, "
+"Permissions Policy, toggles, webhook URLs). Import uploads the file to "
+"another site. License key is never exported. Ideal for agencies deploying "
+"the same security configuration across multiple client sites."
+msgstr ""
+"Dışa aktarma işlemi, tüm başlık ayarlarını (HSTS, CSP, İzin Politikası, "
+"anahtarlar, webhook URL'leri) içeren bir JSON dosyasını indirir. İçeri "
+"aktarma işlemi ise bu dosyayı başka bir siteye yükler. Lisans anahtarı "
+"hiçbir zaman dışa aktarılmaz. Bu özellik, birden fazla müşteri sitesinde "
+"aynı güvenlik yapılandırmasını uygulayan ajanslar için idealdir."
+
+#: pro/loader.php:1016
+msgid "How is the security score calculated?"
+msgstr "Güvenlik puanı nasıl hesaplanır?"
+
+#: pro/loader.php:1016
+msgid ""
+"The grade is based on the 6 headers scored by SecurityHeaders.com: CSP, "
+"HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, and "
+"Permissions-Policy. All 6 present without warnings = A+. All 6 with CSP "
+"warning = A. Missing 1 = B, missing 2 = C, missing 3-4 = D, missing 5+ = F. "
+"Four additional bonus headers (COOP, COEP, CORP, X-Permitted) are shown "
+"separately. This ensures our grade matches what you see on "
+"SecurityHeaders.com."
+msgstr ""
+"Not, SecurityHeaders.com tarafından değerlendirilen 6 başlığa göre "
+"belirlenir: CSP, HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-"
+"Policy ve Permissions-Policy. 6 başlığın tümü uyarı olmadan mevcut = A+. 6 "
+"başlığın tümü CSP uyarısı ile mevcut = A. 1 eksik = B, 2 eksik = C, 3-4 "
+"eksik = D, 5+ eksik = F. Dört ek bonus başlık (COOP, COEP, CORP, X-"
+"Permitted) ayrı olarak gösterilir. Bu, notumuzun SecurityHeaders.com'da "
+"gördüğünüzle eşleşmesini sağlar."
+
+#: pro/loader.php:1017
+msgid "When do email alerts trigger?"
+msgstr "E-posta uyarıları ne zaman tetiklenir?"
+
+#: pro/loader.php:1017
+msgid ""
+"Email is sent when a weekly scan or manual scan detects: score dropped "
+"compared to previous scan, a header was removed that was previously present, "
+"or critical security issues. No email is sent when everything is fine."
+msgstr ""
+"Haftalık tarama veya manuel tarama sırasında aşağıdakiler tespit edildiğinde "
+"e-posta gönderilir: önceki taramaya kıyasla puan düşüşü, daha önce mevcut "
+"olan bir başlığın kaldırılması veya kritik güvenlik sorunları. Her şey "
+"yolunda olduğunda e-posta gönderilmez."
+
+#: pro/loader.php:1018
+msgid "Can I change the scan frequency?"
+msgstr "Tarama sıklığını değiştirebilir miyim?"
+
+#: pro/loader.php:1018
+msgid ""
+"Automated scans run weekly via WordPress cron. You can run a manual scan "
+"anytime from the Dashboard. The scan checks your own site headers via HTTP "
+"request — zero external API calls."
+msgstr ""
+"Otomatik taramalar, WordPress cron aracılığıyla haftalık olarak "
+"gerçekleştirilir. Kontrol panelinden istediğiniz zaman manuel bir tarama "
+"başlatabilirsiniz. Tarama, HTTP isteği yoluyla kendi sitenizin başlıklarını "
+"kontrol eder — harici API çağrısı yapılmaz."
+
+#: pro/loader.php:1019
+msgid "Does Shield send data to external servers?"
+msgstr "Shield, harici sunuculara veri gönderiyor mu?"
+
+#: pro/loader.php:1019
+msgid ""
+"Only the license key is validated with Lemon Squeezy (once every 24h). All "
+"scans, analysis, and recommendations run 100% locally on your server. No "
+"header data, no site data, no visitor data ever leaves your WordPress."
+msgstr ""
+"Lemon Squeezy ile yalnızca lisans anahtarı doğrulanır (24 saatte bir). Tüm "
+"taramalar, analizler ve öneriler %100 sunucunuzda gerçekleştirilir. Hiçbir "
+"başlık bilgisi, site bilgisi veya ziyaretçi bilgisi WordPress'inizden "
+"dışarıya çıkmaz."
+
+#: pro/loader.php:1020
+msgid "Does Shield work with Cloudflare?"
+msgstr "Shield, Cloudflare ile uyumlu mu?"
+
+#: pro/loader.php:1020
+msgid ""
+"Yes. Cloudflare passes through headers set by WordPress. If you also set "
+"headers in Cloudflare dashboard, you may get duplicates — use the Resolve "
+"duplicate headers option in Settings to fix this."
+msgstr ""
+"Evet. Cloudflare, WordPress tarafından ayarlanan başlıkları olduğu gibi "
+"iletir. Cloudflare kontrol panelinde de başlık ayarlamışsanız, başlıkların "
+"çakışması sorunu yaşayabilirsiniz — bunu düzeltmek için Ayarlar bölümündeki "
+"\"Çakışan başlıkları çöz\" seçeneğini kullanın."
+
+#: pro/loader.php:1021
+msgid "What does the Score Trend chart show?"
+msgstr "Puan Eğilimi grafiği neyi gösterir?"
+
+#: pro/loader.php:1021
+msgid ""
+"A visual timeline of your security score over time. Each dot is a scan. "
+"Filter by week, month, or year. Useful to spot when a hosting change, plugin "
+"update, or configuration error affected your security."
+msgstr ""
+"Güvenlik puanınızın zaman içindeki seyrini gösteren görsel bir zaman "
+"çizelgesi. Her nokta bir taramayı temsil eder. Hafta, ay veya yıla göre "
+"filtreleyin. Barındırma hizmetindeki bir değişiklik, eklenti güncellemesi "
+"veya yapılandırma hatasının güvenliğinizi ne zaman etkilediğini tespit etmek "
+"için kullanışlıdır."
+
+#: pro/loader.php:1022
+msgid "Payment methods?"
+msgstr "Ödeme yöntemleri?"
+
+#: pro/loader.php:1022
+msgid ""
+"Lemon Squeezy: credit/debit cards, PayPal, Apple Pay. We never see payment "
+"data. EU VAT handled automatically. Invoices in your Lemon Squeezy account."
+msgstr ""
+"Lemon Squeezy: Kredi/banka kartları, PayPal, Apple Pay. Ödeme bilgilerini "
+"hiçbir zaman görmüyoruz. AB KDV'si otomatik olarak hesaplanıyor. "
+"Faturalarınız Lemon Squeezy hesabınızda yer alıyor."
+
+#: pro/loader.php:1023
+msgid "Refund policy?"
+msgstr "İade politikası nedir?"
+
+#: pro/loader.php:1023
+msgid "14-day full refund, no questions asked. Contact support."
+msgstr ""
+"14 gün içinde hiçbir soru sorulmaksızın tam para iadesi. Destek ekibiyle "
+"iletişime geçin."
+
+#: pro/loader.php:1024
+msgid "What happens if I delete the plugin?"
+msgstr "Eklentiyi silersem ne olur?"
+
+#: pro/loader.php:1024
+msgid ""
+"Your license is automatically deactivated on Lemon Squeezy, freeing the "
+"activation slot. You can reuse the same key on another site. All plugin "
+"settings and scan history are removed from the database."
+msgstr ""
+"Lemon Squeezy'de lisansınız otomatik olarak devre dışı bırakılır ve "
+"aktivasyon yeri boşalır. Aynı anahtarı başka bir sitede yeniden "
+"kullanabilirsiniz. Tüm eklenti ayarları ve tarama geçmişi veritabanından "
+"silinir."
+
+#: pro/loader.php:1038
+#, php-format
+msgid "Need more help? %1$sSupport forum%2$s or %3$sOpenHeaders.org%4$s"
+msgstr ""
+"Daha fazla yardıma mı ihtiyacınız var? %1$sDestek forumu%2$s veya "
+"%3$sOpenHeaders.org%4$s"
+
+#. Plugin URI of the plugin/theme
+msgid "https://openheaders.org"
+msgstr "https://openheaders.org"
+
+#. Description of the plugin/theme
+msgid ""
+"Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin "
+"uses advanced security rules that provide huge levels of protection and it "
+"is important that your site uses it. This step is important to submit your "
+"website and/or domain to an approved HSTS list. Google officially compiles "
+"this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. "
+"You can forward your site to the official HSTS preload directory. Cross Site "
+"Request Forgery (CSRF) is a common attack with the installation of Headers "
+"Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress "
+"site."
+msgstr ""
+"Headers Security Advanced & HSTS WP - Basit, Hafif ve Hızlı. Eklenti, yüksek "
+"düzeyde koruma sağlayan gelişmiş güvenlik kuralları kullanır ve sitenizin "
+"bunu kullanması önemlidir. Bu adım, web sitenizi ve/veya alan adınızı onaylı "
+"bir HSTS listesine eklemek için önemlidir. Bu liste Google tarafından resmi "
+"olarak derlenir ve Chrome, Firefox, Opera, Safari, IE11 ve Edge tarafından "
+"kullanılır. Sitenizi resmi HSTS ön yükleme dizinine yönlendirebilirsiniz. "
+"Siteler Arası İstek Sahteciliği (CSRF), yaygın bir saldırı türüdür; Headers "
+"Security Advanced & HSTS WP eklentisini yüklemek, WordPress sitenizde CSRF "
+"saldırılarını önlemenize yardımcı olacaktır."
+
+#. Author of the plugin/theme
+msgid "🐙 Andrea Ferro"
+msgstr "🐙 Andrea Ferro"
+
+#. Author URI of the plugin/theme
+msgid "https://www.linkedin.com/in/andrea-ferro-55046186/"
+msgstr "https://www.linkedin.com/in/andrea-ferro-55046186/"

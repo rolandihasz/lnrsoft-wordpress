@@ -1,0 +1,126 @@
+
+.tplis-cl-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.tplis-cl-cookies h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12pt;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.tplis-cl-cookies p {
+    font-size: 8pt;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 150%;
+}
+
+.tplis-cl-cookies a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.tplis-cl-cookies-text, .tplis-cl-cookies-buttons {
+    text-align: center;
+}
+
+.tplis-cl-button-image {
+    padding: 10px;
+    padding-top: 13px;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.tplis-cl-button-image:hover {
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.tplis-cl-button-image img {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.tplis-cl-button-image p {
+    display: inline;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    vertical-align: text-top;
+}
+
+.tplis-cl-button-accept {
+    display: inline-block;
+    /*  if active only "accept button"  */
+    width: 100%;
+}
+
+.tplis-cl-button-refuse {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+
+/*  if active "accept button" and "refuse button" */
+.tplis-cl-is-btn-refuse .tplis-cl-button-accept {
+    width:50%;
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .tplis-cl-row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .tplis-cl-is-btn-refuse .tplis-cl-button-accept {
+        width:100%
+    }
+
+    .tplis-cl-button-accept, .tplis-cl-button-refuse{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .tplis-cl-button-image {
+        padding: 0px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .tplis-cl-button-image p {
+        display: inline;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .tplis-cl-button-accept svg {
+        float: left;
+    }
+
+    .tplis-cl-button-refuse svg {
+        float: left;
+    }
+
+
+}

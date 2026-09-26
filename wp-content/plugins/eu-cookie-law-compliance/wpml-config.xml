@@ -1,0 +1,10 @@
+<wpml-config>
+	<admin-texts>
+        <key name="tplis_cl_settings">
+            <key name="title" />
+            <key name="message" />
+            <key name="button_accept_text" />
+            <key name="button_refuse_text" />
+    	</key>
+	</admin-texts>
+</wpml-config>
